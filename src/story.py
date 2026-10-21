@@ -7,7 +7,7 @@ from google.genai import types
 from pydantic import BaseModel, Field
 
 from . import models, series
-from .common import CFG, STATE_DIR, env, log
+from .common import CFG, STATE_DIR, env, gh_annotate, log
 
 
 class Character(BaseModel):
@@ -190,6 +190,7 @@ def write_story(idea: str = "", episode: dict | None = None) -> dict:
             problems = _validate(story, episode)
             if problems and attempt < 3:
                 log.warning("Story rejected: %s", problems)
+                gh_annotate("warning", f"story attempt {attempt + 1} rejected", str(problems)[:1000])
                 last_err = problems
                 continue
             data = story.model_dump()
@@ -206,6 +207,7 @@ def write_story(idea: str = "", episode: dict | None = None) -> dict:
             if str(e) == models.FREE_TIER_HELP:
                 raise
             log.warning("Story generation error: %s", e)
+            gh_annotate("warning", f"story attempt {attempt + 1}", f"{type(e).__name__}: {str(e)[:1500]}")
             last_err = e
             time.sleep(15 * (attempt + 1))
     raise RuntimeError(f"Could not write a story: {str(last_err)[:500]}")

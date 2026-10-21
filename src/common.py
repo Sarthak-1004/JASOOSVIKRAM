@@ -103,6 +103,14 @@ def publish_times(date: str) -> dict:
     return out
 
 
+def gh_annotate(level: str, title: str, msg: str) -> None:
+    """Show a message on the GitHub Actions run page (readable via the API without logs)."""
+    if not os.environ.get("GITHUB_ACTIONS"):
+        return
+    esc = msg[-3500:].replace("%", "%25").replace("\r", "%0D").replace("\n", "%0A")
+    print(f"::{level} title={title}::{esc}", flush=True)
+
+
 def ffmpeg(*args: str) -> None:
     cmd = ["ffmpeg", "-y", "-hide_banner", "-loglevel", "error", *args]
     r = subprocess.run(cmd, capture_output=True, text=True)

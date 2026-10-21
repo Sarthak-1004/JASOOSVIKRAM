@@ -7,7 +7,7 @@ and move to the next candidate whenever Google says a model is unavailable.
 import re
 import threading
 
-from .common import CFG, log
+from .common import CFG, gh_annotate, log
 
 SKIP = ("tts", "embedding", "live", "audio", "computer-use", "robotics", "imagen", "veo",
         "lyria", "aqa", "learnlm", "gemma", "thinking-exp")
@@ -103,6 +103,7 @@ def run(kind: str, client, fn):
                     _queues[kind].pop(0)
                     log.warning("Model %s unavailable (%s); trying %s", model, str(e)[:200],
                                 _queues[kind][0] if _queues[kind] else "nothing")
+                    gh_annotate("notice", f"{kind} model {model} skipped", str(e)[:600])
 
 
 def chosen() -> dict:

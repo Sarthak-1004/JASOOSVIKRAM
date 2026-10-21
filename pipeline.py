@@ -18,7 +18,7 @@ import time
 import traceback
 
 from src import images, models, providers, render, series, telegram as tg, tts
-from src.common import CFG, ITEMS, STATE_DIR, git_pull, load_state, log, now, publish_times, resolve_date, \
+from src.common import CFG, ITEMS, STATE_DIR, gh_annotate, git_pull, load_state, log, now, publish_times, resolve_date, \
     save_state, work_dir
 from src.story import add_history, all_shots, write_story
 
@@ -453,6 +453,7 @@ def main() -> None:
             stage_produce(date, force=True)
     except Exception as e:
         log.error(traceback.format_exc())
+        gh_annotate("error", f"{a.stage} failed", f"{e}\n\n{traceback.format_exc()[-2500:]}")
         notify(f"❌ {a.stage} failed for {date}: {str(e)[:900]}")
         raise
     log.info("Done in %.1f min", (time.time() - t0) / 60)

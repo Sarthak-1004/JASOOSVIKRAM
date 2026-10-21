@@ -21,7 +21,7 @@ from google.genai import types
 from PIL import Image
 
 from . import models
-from .common import CFG, env, log
+from .common import CFG, env, gh_annotate, log
 
 SIZES = {"16:9": (1024, 576), "9:16": (576, 1024), "1:1": (1024, 1024)}
 _dead: dict[str, str] = {}
@@ -69,6 +69,7 @@ def _kill(name: str, why: str) -> None:
         if name not in _dead:
             _dead[name] = why[:160]
             log.warning("Image provider %s switched off: %s", name, why[:300])
+            gh_annotate("warning", f"image provider {name} off", why[:1000])
 
 
 def generate(prompt: str, refs: list[bytes], aspect: str) -> bytes | None:
