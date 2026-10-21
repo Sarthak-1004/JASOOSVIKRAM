@@ -33,12 +33,11 @@ def _chunks(text: str) -> list[str]:
 
 def _speak(text: str) -> bytes:
     v = CFG["voice"]
-    body = {
-        "text": text, "target_language_code": "hi-IN", "speaker": v["speaker"],
-        "model": v["model"], "pace": v["pace"], "pitch": v["pitch"],
-        "loudness": v["loudness"], "speech_sample_rate": v["sample_rate"],
-        "enable_preprocessing": True,
-    }
+    # only the fields bulbul:v3 accepts; older pitch/loudness options were removed
+    body = {"text": text, "target_language_code": "hi-IN", "speaker": v["speaker"],
+            "model": v["model"], "pace": v["pace"]}
+    if v.get("temperature") is not None:
+        body["temperature"] = v["temperature"]
     last = ""
     for attempt in range(5):
         r = requests.post(URL, json=body, timeout=120,

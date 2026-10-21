@@ -61,12 +61,11 @@ images:
 
 voice:
   provider: sarvam
-  model: bulbul:v2
-  speaker: anushka                    # female voices: anushka, manisha, vidya, arya
-  pace: 1.0
-  pitch: 0
-  loudness: 1.0
-  sample_rate: 22050
+  model: bulbul:v3                    # v2 was retired by Sarvam in Oct 2026
+  # bulbul:v3 female voices: priya, ishita (top quality), roopa, pooja, ritu, kavya, neha,
+  # shreya, simran, tanya, shruti, suhani, kavitha, rupali. Run "0 Check setup" to hear one.
+  speaker: priya
+  pace: 1.0                           # 0.5-2.0; raise to ~1.08 if episodes run long
   scene_gap: 0.35                     # seconds of silence between scenes
 
 video:
