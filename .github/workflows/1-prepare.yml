@@ -8,6 +8,10 @@ on:
       date:
         description: "Publish date: today / tomorrow / YYYY-MM-DD"
         default: "tomorrow"
+      force:
+        description: "Redo even if this date was already done"
+        type: boolean
+        default: false
 permissions:
   contents: write
   actions: read
@@ -38,4 +42,4 @@ jobs:
           sudo apt-get update -qq
           sudo apt-get install -y -qq ffmpeg fonts-noto-core >/dev/null
           pip install -q -r requirements.txt
-      - run: python pipeline.py prepare --date "${{ inputs.date || 'tomorrow' }}"
+      - run: python pipeline.py prepare --date "${{ inputs.date || 'tomorrow' }}" ${{ inputs.force && '--force' || '' }}

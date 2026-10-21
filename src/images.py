@@ -1,4 +1,4 @@
-"""Image generation with Gemini 2.5 Flash Image (Nano Banana): batch + sync fallback."""
+"""Image generation with Gemini "Nano Banana" image models: batch + sync fallback."""
 import base64
 import io
 import json
@@ -10,7 +10,7 @@ from google import genai
 from google.genai import types
 from PIL import Image, ImageEnhance, ImageFilter
 
-from . import series
+from . import models, series
 from .common import CFG, STATE_DIR, env, log
 from .story import all_shots
 
@@ -89,6 +89,14 @@ def _save(data: bytes, out: Path) -> None:
     Image.open(io.BytesIO(data)).convert("RGB").save(out, "JPEG", quality=92)
 
 
+def _generate(contents, aspect: str):
+    return models.run("image", client(), lambda m: client().models.generate_content(
+        model=m, contents=contents,
+        config=types.GenerateContentConfig(
+            response_modalities=["TEXT", "IMAGE"],
+            image_config=types.ImageConfig(aspect_ratio=aspect))))
+
+
 def _image_from_response(resp) -> bytes | None:
     for cand in resp.candidates or []:
         for part in (cand.content.parts if cand.content else []) or []:
@@ -110,11 +118,7 @@ def make_characters(story: dict, wd: Path) -> None:
                   f"right, plain light grey background. {c['look']}")
         for attempt in range(3):
             try:
-                resp = client().models.generate_content(
-                    model=CFG["images"]["model"], contents=prompt,
-                    config=types.GenerateContentConfig(
-                        response_modalities=["TEXT", "IMAGE"],
-                        image_config=types.ImageConfig(aspect_ratio="16:9")))
+                resp = _generate(prompt, "16:9")
                 data = _image_from_response(resp)
                 if data:
                     Image.open(io.BytesIO(data)).convert("RGB").save(out, "JPEG", quality=90)
@@ -147,12 +151,7 @@ def make_thumbnail_art(story: dict, wd: Path) -> None:
                            or c["name"] in story["thumbnail_prompt"]]}
     for attempt in range(3):
         try:
-            resp = client().models.generate_content(
-                model=CFG["images"]["model"],
-                contents=[_text(story, shot, "16:9"), *_ref_parts_bytes(story, shot, wd)],
-                config=types.GenerateContentConfig(
-                    response_modalities=["TEXT", "IMAGE"],
-                    image_config=types.ImageConfig(aspect_ratio="16:9")))
+            resp = _generate([_text(story, shot, "16:9"), *_ref_parts_bytes(story, shot, wd)], "16:9")
             data = _image_from_response(resp)
             if data:
                 _save(data, out)
@@ -168,13 +167,8 @@ def generate_one(story: dict, wd: Path, k: str) -> bool:
     shot, aspect = _shot_by_key(story, k)
     for attempt in range(4):
         try:
-            resp = client().models.generate_content(
-                model=CFG["images"]["model"],
-                contents=[_text(story, shot, aspect, soften=attempt >= 2),
-                          *_ref_parts_bytes(story, shot, wd)],
-                config=types.GenerateContentConfig(
-                    response_modalities=["TEXT", "IMAGE"],
-                    image_config=types.ImageConfig(aspect_ratio=aspect)))
+            resp = _generate([_text(story, shot, aspect, soften=attempt >= 2),
+                              *_ref_parts_bytes(story, shot, wd)], aspect)
             data = _image_from_response(resp)
             if data:
                 _save(data, img_path(wd, k))
@@ -220,8 +214,8 @@ def submit_batch(story: dict, state: dict, wd: Path, keys: list[str]) -> None:
     jsonl.write_text("\n".join(lines), encoding="utf-8")
     up = client().files.upload(file=str(jsonl),
                                config={"mime_type": "jsonl", "display_name": f"imgs-{state['date']}"})
-    job = client().batches.create(model=CFG["images"]["model"], src=up.name,
-                                  config={"display_name": f"thriller-{state['date']}"})
+    job = models.run("image", client(), lambda m: client().batches.create(
+        model=m, src=up.name, config={"display_name": f"thriller-{state['date']}"}))
     state["batch"] = {"name": job.name, "keys": keys}
     log.info("Batch submitted: %s (%d images)", job.name, len(keys))
 

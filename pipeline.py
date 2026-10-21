@@ -17,7 +17,7 @@ import sys
 import time
 import traceback
 
-from src import images, render, series, telegram as tg, tts
+from src import images, models, render, series, telegram as tg, tts
 from src.common import CFG, ITEMS, STATE_DIR, git_pull, load_state, log, now, publish_times, resolve_date, \
     save_state, work_dir
 from src.story import add_history, all_shots, write_story
@@ -34,9 +34,12 @@ def notify(text: str, buttons=None) -> None:
 
 # ================================================================ prepare
 
-def stage_prepare(date: str, use_batch: bool, idea: str = "") -> dict:
+def stage_prepare(date: str, use_batch: bool, idea: str = "", force: bool = False) -> dict:
     state = load_state(date)
     wd = work_dir(date)
+    if not force and state.get("story") and state.get("status") != "new":
+        log.info("%s already prepared (status %s); skipping. Use --force to redo.", date, state["status"])
+        return state
     _prune_refs(date)
     episode = None
     if series.enabled():
@@ -66,6 +69,20 @@ def stage_prepare(date: str, use_batch: bool, idea: str = "") -> dict:
             notify(f"⚠️ Image batch could not be submitted ({e}). Images will be made at 15:00 "
                    "with the standard API (full price) instead.")
     save_state(state, msg=f"story for {date}")
+    used = models.chosen()
+    ep = f"Ep {story['episode']} " if story.get("episode") else ""
+    warn = ""
+    if "pro" in (used.get("image") or ""):
+        warn = ("\n⚠️ Only an expensive 'pro' image model worked with this key. Check its price "
+                "before the next run, or change images.models in config.yaml.")
+    notify(f"📝 {ep}story ready for {date}: {story['title']}\n"
+           f"Models: text {used.get('text')}, images {used.get('image')}{warn}\n"
+           f"Images are being made; the videos come here for review after the 15:00 run.")
+    if not NO_TG:
+        for c in story["characters"]:
+            p = images.char_path(wd, c["id"])
+            if p.exists():
+                tg.send_photo(p, f"Character sheet: {c['name']} ({c['id']})")
     return state
 
 
@@ -108,10 +125,13 @@ def render_all(state: dict, wd, items_to_render=ITEMS) -> None:
     render.thumbnail(story, wd)
 
 
-def stage_produce(date: str) -> dict:
+def stage_produce(date: str, force: bool = False) -> dict:
     state = load_state(date)
     if "story" not in state:
         raise SystemExit(f"No story for {date}; run prepare first")
+    if not force and state.get("status") in ("review", "published"):
+        log.info("%s already produced (status %s); skipping. Use --force to redo.", date, state["status"])
+        return state
     wd = work_dir(date)
     story = state["story"]
     images.make_characters(story, wd)  # no-op if they exist; regenerates on a fresh runner
@@ -302,7 +322,7 @@ def handle(cmd: str, args: list[str], rest: str, state: dict, wd, allow_heavy: b
         shutil.rmtree(wd, ignore_errors=True)
         wd.mkdir(parents=True)
         shutil.rmtree(images.chars_dir(wd), ignore_errors=True)
-        new = stage_prepare(state["date"], use_batch=False, idea=rest.partition(" ")[2])
+        new = stage_prepare(state["date"], use_batch=False, idea=rest.partition(" ")[2], force=True)
         state.clear()
         state.update(new)
         images.ensure_images(state["story"], state, wd,
@@ -411,6 +431,7 @@ def main() -> None:
     p.add_argument("--date", default="tomorrow")
     p.add_argument("--idea", default="")
     p.add_argument("--no-telegram", action="store_true")
+    p.add_argument("--force", action="store_true", help="redo a stage that already ran for this date")
     a = p.parse_args()
     NO_TG = a.no_telegram or not os.environ.get("TELEGRAM_BOT_TOKEN")
     date = resolve_date(a.date)
@@ -418,16 +439,16 @@ def main() -> None:
     t0 = time.time()
     try:
         if a.stage == "prepare":
-            stage_prepare(date, CFG["images"]["use_batch"], a.idea)
+            stage_prepare(date, CFG["images"]["use_batch"], a.idea, force=a.force)
         elif a.stage == "produce":
-            stage_produce(date)
+            stage_produce(date, force=a.force)
         elif a.stage == "listen":
             stage_listen(date)
         elif a.stage == "publish":
             stage_publish(date)
         elif a.stage == "local":
-            stage_prepare(date, use_batch=False, idea=a.idea)
-            stage_produce(date)
+            stage_prepare(date, use_batch=False, idea=a.idea, force=True)
+            stage_produce(date, force=True)
     except Exception as e:
         log.error(traceback.format_exc())
         notify(f"❌ {a.stage} failed for {date}: {e}")

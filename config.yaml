@@ -23,8 +23,10 @@ series:
   enabled: true
 
 story:
-  text_model: gemini-2.5-pro          # falls back to fallback_model on error
-  fallback_model: gemini-2.5-flash
+  # Tried in order; the bot skips any model your API key can't use and, if none of
+  # these work, picks the newest suitable model your key can see.
+  text_models: [gemini-3.1-pro-preview, gemini-3.8-flash, gemini-3.6-flash, gemini-3.5-flash,
+                gemini-3-pro-preview, gemini-3-flash-preview, gemini-2.5-pro, gemini-2.5-flash]
   target_words: 720                   # ~5 min of Hindi narration
   scenes: 22
   images_per_scene: 4                 # 22 x 4 = 88 images
@@ -34,7 +36,9 @@ story:
   theme_hint: ""
 
 images:
-  model: gemini-2.5-flash-image       # "Nano Banana"
+  # "Nano Banana" image models, cheapest suitable first. Same auto-fallback as text_models.
+  models: [gemini-nano-banana-2.1, gemini-3.1-flash-lite-image, gemini-3.1-flash-image-preview,
+           gemini-2.5-flash-image, gemini-3-pro-image-preview]
   use_batch: true                     # 50% cheaper, generated the day before
   vertical_for_shorts: true           # extra 9:16 images for Shorts scenes
   sync_workers: 6                     # parallel requests when not using batch

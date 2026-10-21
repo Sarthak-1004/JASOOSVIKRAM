@@ -5,7 +5,7 @@ from google import genai
 from google.genai import types
 from pydantic import BaseModel, Field
 
-from . import series
+from . import models, series
 from .common import CFG, STATE_DIR, env, log
 
 
@@ -142,22 +142,18 @@ def _validate(story: Story, episode: dict | None = None) -> list[str]:
 
 def write_story(idea: str = "", episode: dict | None = None) -> dict:
     client = genai.Client(api_key=env("GEMINI_API_KEY"))
-    models = [CFG["story"]["text_model"], CFG["story"]["fallback_model"]]
+    contents = _prompt(_history(), idea, episode)
+    config = types.GenerateContentConfig(system_instruction=SYSTEM, response_mime_type="application/json",
+                                         response_schema=Story, temperature=1.0)
+
+    def call(model: str):
+        log.info("Writing story with %s", model)
+        return client.models.generate_content(model=model, contents=contents, config=config)
+
     last_err = None
     for attempt in range(4):
-        model = models[min(attempt // 2, 1)]
         try:
-            log.info("Writing story with %s (attempt %d)", model, attempt + 1)
-            resp = client.models.generate_content(
-                model=model,
-                contents=_prompt(_history(), idea, episode),
-                config=types.GenerateContentConfig(
-                    system_instruction=SYSTEM,
-                    response_mime_type="application/json",
-                    response_schema=Story,
-                    temperature=1.0,
-                ),
-            )
+            resp = models.run("text", client, call)
             story = resp.parsed if isinstance(resp.parsed, Story) else Story.model_validate_json(resp.text)
             problems = _validate(story, episode)
             if problems and attempt < 3:
