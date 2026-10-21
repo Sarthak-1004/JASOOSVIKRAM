@@ -1,0 +1,471 @@
+{
+  "date": "2026-10-23",
+  "status": "story_ready",
+  "items": {},
+  "story": {
+    "title": "आधी रात की सीटी | जासूस विक्रम Ep 1",
+    "description": "बनारस की एक पुरानी हवेली में आधी रात को एक रहस्यमयी सीटी और मौत। क्या ये किसी प्रेत का साया था या कोई खतरनाक साज़िश? जानिए जासूस विक्रम की इस रोंगटे खड़े कर देने वाली कहानी में। \n#JasoosVikram #HindiMystery #SuspenseStory #DesiThriller #AudioStory\n\nआर्थर कॉनन डॉयल की कहानी \"The Adventure of the Speckled Band\" से प्रेरित (public domain). सभी पात्र काल्पनिक हैं।",
+    "tags": [
+      "JasoosVikram",
+      "HindiThriller",
+      "SuspenseStory",
+      "AudioStory",
+      "MysteryHorror",
+      "BanarasStories",
+      "DetectiveVikram"
+    ],
+    "logline": "A detective investigates an impossible locked-room murder in a 1920s Banaras haveli where a deadly creature strikes to a chilling whistle.",
+    "thumbnail_text": "आधी रात की सीटी",
+    "thumbnail_shot": 20,
+    "thumbnail_prompt": "Close-up of Meera's terrified face lit by a single candle in a dark haveli room, a snake silhouette coiled on a bell-rope behind her in deep red accent colour.",
+    "characters": [
+      {
+        "id": "vikram",
+        "name": "जासूस विक्रम",
+        "look": "Lean Indian man in his mid-30s, sharp intelligent eyes, neatly trimmed black moustache, short side-parted hair, dark navy bandhgala coat over a white kurta, grey wool shawl over one shoulder, black cane with a brass handle, often carries an oil lantern."
+      },
+      {
+        "id": "savitri",
+        "name": "डॉक्टर सावित्री",
+        "look": "Indian woman in her late 27s, intelligent kind face, hair in a low bun, small round spectacles, cotton sari with a dark border, brown leather doctor's bag, small notebook."
+      },
+      {
+        "id": "meera",
+        "name": "मीरा",
+        "look": "Terrified young woman in early 20s, pale face, simple white-and-red cotton sari, frightened wide eyes."
+      },
+      {
+        "id": "kamla",
+        "name": "कमला",
+        "look": "Identical twin to Meera, pale face, simple white cotton nightclothes, long open tangled hair."
+      },
+      {
+        "id": "raghuvendra",
+        "name": "ठाकुर रघुवेंद्र सिंह",
+        "look": "Huge violent Indian man in his 50s, thick grey moustache, dark angarkha, stern menacing expression."
+      }
+    ],
+    "scenes": [
+      {
+        "narration": "आधी रात थी। बनारस की उस पुरानी हवेली में अचानक एक चीख गूँजी। कमला का दरवाज़ा अंदर से बंद था। वो लड़खड़ाती हुई बाहर निकली, ज़मीन पर गिर पड़ी, और आख़िरी साँस में बस इतना बोली... \"वो पट्टी... चितकबरी पट्टी!\"",
+        "shots": [
+          {
+            "prompt": "Dark old Indian haveli corridor at midnight, heavy wooden door closed shut, dim yellow lantern light, wide angle shot.",
+            "characters": []
+          },
+          {
+            "prompt": "A young woman falling on the cold stone floor in a dimly lit hallway, panic-stricken expression, low angle shot.",
+            "characters": [
+              "kamla"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "न कोई ज़ख़्म था, न ज़हर का निशान। कमरा अंदर से बंद, खिड़कियों पर लोहे की सलाखें। लोग कहते थे, हवेली पर किसी प्रेत का साया है। पर अगर ये प्रेत नहीं था... तो कमला को मारा किसने?",
+        "shots": [
+          {
+            "prompt": "Close-up of old iron window bars on a dark stone wall, moonlit shadows, eerie atmosphere.",
+            "characters": []
+          },
+          {
+            "prompt": "Medium shot of a dark empty room inside the haveli, cobwebs, dusty antique furniture, mysterious gloom.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "मैं सावित्री हूँ। ये कहानी है जासूस विक्रम की, और उस रात की, जिसे मैं आज तक नहीं भूल पाई। दो साल बाद, एक धुंध भरी सुबह, विक्रम के दरवाज़े पर एक लड़की खड़ी थी। चेहरा सफ़ेद, हाथ काँपते हुए।",
+        "shots": [
+          {
+            "prompt": "A young woman standing outside a weathered wooden door in a foggy Banaras morning, holding a shawl tightly, soft misty daylight.",
+            "characters": [
+              "meera"
+            ]
+          },
+          {
+            "prompt": "Doctor Savitri holding a small notebook and pen, looking concerned near a wooden staircase, indoor morning light.",
+            "characters": [
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "उसने कहा, \"मेरा नाम मीरा है। कमला मेरी जुड़वाँ बहन थी।\" विक्रम की नज़र उसकी कलाई के नीले निशानों पर ठहर गई। उन्होंने धीरे से पूछा, \"ये निशान तुम्हारे सौतेले पिता ने दिए हैं?\" मीरा ने नज़रें झुका लीं।",
+        "shots": [
+          {
+            "prompt": "Close-up of a young woman's wrist showing dark bruises, detailed texture, indoor lighting.",
+            "characters": [
+              "meera"
+            ]
+          },
+          {
+            "prompt": "Detective Vikram observing intently with sharp intelligent eyes, wearing a dark bandhgala and wool shawl over his shoulder.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "फिर मीरा ने वो बात कही, जिससे मेरी रीढ़ में सिहरन दौड़ गई। \"अगले महीने मेरी शादी है। मुझे कमला के कमरे में सुलाया जा रहा है। और कल रात... मैंने वही सीटी सुनी। ठीक वैसी, जैसी कमला ने मरने से पहले सुनी थी।\"",
+        "shots": [
+          {
+            "prompt": "Meera sitting on an old wooden chair, looking terrified, shadows falling across her face, medium close-up shot.",
+            "characters": [
+              "meera"
+            ]
+          },
+          {
+            "prompt": "Savitri listening with a shocked expression, holding her leather doctor's bag, indoor daylight.",
+            "characters": [
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Vikram standing calmly by a tall window, holding his black cane with a brass handle, thoughtful look.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "मीरा के सौतेले पिता थे ठाकुर रघुवेंद्र सिंह। बर्मा से लौटा एक गुस्सैल आदमी, जिससे पूरा मोहल्ला डरता था। नौकर एक-एक करके हवेली छोड़कर भाग गए थे।",
+        "shots": [
+          {
+            "prompt": "A stern middle-aged Indian man with a thick grey moustache wearing a dark angarkha, glaring forward, harsh side lighting.",
+            "characters": [
+              "raghuvendra"
+            ]
+          },
+          {
+            "prompt": "Wide shot of a crumbling old Indian haveli exterior surrounded by overgrown trees and a rusty iron gate, overcast sky.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "हवेली के अहाते में रात को एक चीता खुला घूमता था। बर्मा से लाए अजीब जानवर पिंजरों में बंद रहते थे। और ठाकुर के कमरे से, आधी रात को, ऐसी आवाज़ आती थी, जैसे कोई लोहे का दरवाज़ा धीरे से बंद कर रहा हो।",
+        "shots": [
+          {
+            "prompt": "A large iron cage in a dark courtyard, heavy shadows, mysterious and tense atmosphere, night setting.",
+            "characters": []
+          },
+          {
+            "prompt": "Heavy wooden door slowly closing in a dark corridor, warm single oil lamp casting long shadows, low angle shot.",
+            "characters": []
+          },
+          {
+            "prompt": "Silhouette of a large panther pacing behind iron bars in a dimly lit courtyard, night lighting.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "दोनों बहनों की माँ बहुत दौलत छोड़ गई थीं, पर सारी दौलत ठाकुर के हाथ में थी। वसीयत में एक शर्त थी... जिस दिन बेटी की शादी होगी, उसका हिस्सा उसे मिल जाएगा। ये सुनते ही विक्रम की आँखें सिकुड़ गईं।",
+        "shots": [
+          {
+            "prompt": "An old yellowed parchment paper on a wooden desk with a heavy brass inkpot and quill, soft indoor light.",
+            "characters": []
+          },
+          {
+            "prompt": "Close-up of Vikram narrowing his eyes in deep concentration, sharp focus, indoor lighting.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "कमला की भी शादी तय हुई थी। शादी से ठीक दो हफ़्ते पहले, वो मर गई। मरने से एक रात पहले उसने मीरा से पूछा था, \"क्या तुझे भी रात में सीटी सुनाई देती है? और उसके बाद... धातु की एक खनक?\"",
+        "shots": [
+          {
+            "prompt": "Kamla standing by a window at night, looking pale and scared, moonlight reflecting on her face, close-up shot.",
+            "characters": [
+              "kamla"
+            ]
+          },
+          {
+            "prompt": "Meera listening with tearful eyes, sitting on an old wooden bed inside the haveli room, soft warm lamp light.",
+            "characters": [
+              "meera"
+            ]
+          },
+          {
+            "prompt": "Kamla standing by a window at night, looking pale and scared, moonlight reflecting on her face, close-up shot. Different camera angle and framing from the previous shot.",
+            "characters": [
+              "kamla"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "मीरा के जाते ही दरवाज़ा धड़ाम से खुला। ठाकुर रघुवेंद्र खुद आ गया था। उसने विक्रम को धमकाया, और लोहे की छड़ मोड़कर फ़र्श पर फेंक दी। उसके जाते ही विक्रम ने छड़ उठाई, और मुस्कराते हुए उसे वापस सीधा कर दिया।",
+        "shots": [
+          {
+            "prompt": "Thakur Raghuvendra standing aggressively in a doorway, broad shoulders, menacing glare, interior daylight.",
+            "characters": [
+              "raghuvendra"
+            ]
+          },
+          {
+            "prompt": "Vikram calmly bending a thick iron rod back into a straight shape with effortless composure, close-up on hands.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "उसी दोपहर हम हवेली पहुँचे। ठाकुर शहर गया था। विक्रम ने कमला के कमरे को ऐसे देखा, जैसे दीवारें उनसे बातें कर रही हों। फिर उनकी नज़र बिस्तर के ऊपर लटकी घंटी की रस्सी पर ठहर गई।",
+        "shots": [
+          {
+            "prompt": "Exterior of the old crumbling haveli under bright afternoon sun, dusty stone courtyard, wide shot.",
+            "characters": []
+          },
+          {
+            "prompt": "Vikram examining a rope hanging above an old wooden bed, searching for clues, indoor daylight.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "उन्होंने रस्सी खींची। कोई घंटी नहीं बजी। रस्सी किसी घंटी से जुड़ी ही नहीं थी! वो छत के पास, एक छोटे से रोशनदान के कुंडे से बँधी थी। मैंने पूछा, \"ऐसी रस्सी कोई क्यों लगाएगा?\" विक्रम चुप रहे।",
+        "shots": [
+          {
+            "prompt": "Close-up of a white cotton rope tied securely to a small iron hook near a ceiling ventilator, detailed shot.",
+            "characters": []
+          },
+          {
+            "prompt": "Savitri looking up with a puzzled expression, pointing towards the ceiling rope, indoor light.",
+            "characters": [
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "और वो रोशनदान बाहर हवा में नहीं खुलता था। वो खुलता था सीधे ठाकुर के कमरे में। फिर विक्रम ने बिस्तर को हिलाने की कोशिश की। वो हिला ही नहीं। बिस्तर फ़र्श में लोहे की कीलों से जड़ा हुआ था।",
+        "shots": [
+          {
+            "prompt": "Close-up of a small wall ventilator opening into a dark adjacent room, dusty stone edges.",
+            "characters": []
+          },
+          {
+            "prompt": "Vikram kneeling down, inspecting large iron nails fixing the heavy wooden bed legs to the stone floor, close-up shot.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "ठाकुर के कमरे में एक भारी लोहे की तिजोरी थी। उस पर रखी थी दूध की एक तश्तरी। और कुर्सी पर पड़ा था चमड़े का एक पट्टा, जिसका सिरा फंदे की तरह बँधा था। विक्रम का चेहरा पत्थर हो गया।",
+        "shots": [
+          {
+            "prompt": "A heavy iron safe in a dark room with a small white saucer of milk placed on top, indoor shadow lighting.",
+            "characters": []
+          },
+          {
+            "prompt": "A leather strap tied in a loop resting on an old wooden chair, dramatic side lighting, close-up shot.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "रुकिए। एक नकली रस्सी। एक रोशनदान, जो बगल के कमरे में खुलता है। ज़मीन में जड़ा बिस्तर। और दूध की तश्तरी। क्या आपने वो सुराग पकड़ा, जो विक्रम पकड़ चुके थे? सोचिए... जवाब इसी कमरे में है।",
+        "shots": [
+          {
+            "prompt": "Vikram standing thoughtfully in the center of the mysterious room, holding his oil lantern, serious expression, medium shot.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Savitri writing down clues hurriedly in her small notebook by the light of a kerosene lamp, close-up shot.",
+            "characters": [
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "उस रात हमने मीरा को दूसरे कमरे में भेज दिया, और हम दोनों कमला के कमरे में अँधेरे में बैठ गए। न दीया, न लालटेन। विक्रम ने फुसफुसाकर कहा, \"सोना मत, सावित्री। हमारी जान इसी पर टिकी है।\"",
+        "shots": [
+          {
+            "prompt": "Pitch dark room with faint moonlight cutting through the window bars, silhouette of Vikram sitting alert on a chair, wide shot.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Savitri sitting quietly in the dark, gripping her doctor's bag tightly, tense expression, close-up shot.",
+            "characters": [
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "घड़ी ने बारह बजाए। फिर एक। फिर दो। बाहर अहाते में चीते के घूमने की आहट थी। अचानक रोशनदान से एक पल को रोशनी चमकी, और जलते तेल की गंध आई। बगल के कमरे में कोई जाग रहा था।",
+        "shots": [
+          {
+            "prompt": "An antique wall clock ticking in the dark, hands pointing past midnight, close-up shot with eerie green-blue tone.",
+            "characters": []
+          },
+          {
+            "prompt": "A faint warm beam of light cutting through the small wall ventilator from the adjacent room, close-up detail.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "और तभी... वो सीटी। धीमी, लंबी, ठंडी सीटी। अगले ही पल विक्रम उछले, माचिस जलाई, और अपनी छड़ी से रस्सी पर ताबड़तोड़ वार करने लगे। \"देखा तुमने, सावित्री? देखा?\"",
+        "shots": [
+          {
+            "prompt": "Vikram suddenly striking fiercely at the hanging rope with his brass-handled cane, matchstick flare casting bright light, action shot.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Savitri flinching in surprise and shock as light flares in the dark room, wide angle shot.",
+            "characters": [
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "मैंने कुछ नहीं देखा। बस किसी चीज़ के सरकने की हल्की सी आवाज़ सुनी। फिर बगल के कमरे से एक ऐसी भयानक चीख उठी, जो आज भी मेरे सपनों में गूँजती है। और फिर... सन्नाटा।",
+        "shots": [
+          {
+            "prompt": "Close-up of Savitri's face listening in absolute terror to a scream coming through the wall, dramatic lighting.",
+            "characters": [
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "A dark hallway lit by a single flickering oil lamp on a wall bracket, eerie stillness, medium shot.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "हम लालटेन लेकर ठाकुर के कमरे में घुसे। तिजोरी का दरवाज़ा खुला था। ठाकुर कुर्सी पर बेजान बैठा था, आँखें छत पर टिकी हुईं। और उसके माथे के चारों ओर लिपटी थी एक पीली, चितकबरी पट्टी... जो धीरे-धीरे हिलने लगी।",
+        "shots": [
+          {
+            "prompt": "Vikram holding an oil lantern high, illuminating a dark study room, dramatic shadows, wide angle shot.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Thakur Raghuvendra sitting lifelessly on a chair, head tilted back, a patterned venomous snake coiled around his forehead, close-up shot.",
+            "characters": [
+              "raghuvendra"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "\"ये पट्टी नहीं, सावित्री। बर्मा का सबसे ज़हरीला साँप है,\" विक्रम बोले। \"ठाकुर इसे रोशनदान से रस्सी के सहारे बिस्तर तक भेजता, और सीटी बजाकर वापस बुला लेता। बेटियों की शादी होती, तो दौलत हाथ से जाती। आज मेरी छड़ी की मार से साँप पलटा... और अपने ही मालिक पर टूट पड़ा। सच हमेशा छोटी चीज़ों में छिपा होता है।\"",
+        "shots": [
+          {
+            "prompt": "Vikram pointing his cane towards the wall ventilator calmly, explaining the mystery, serious expression, medium shot.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Close-up of the venomous snake slithering down from the chair in the dim lantern light, tense atmosphere.",
+            "characters": []
+          },
+          {
+            "prompt": "Savitri looking down at the floor in disbelief, holding her notebook, indoor lighting.",
+            "characters": [
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Vikram standing tall with his wool shawl and cane, looking directly ahead with quiet confidence, portrait shot.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "जाते-जाते विक्रम की नज़र मेज़ पर पड़ी। काले कमल की मुहर वाला एक लिफ़ाफ़ा। अंदर बैंगनी स्याही में लिखा था... \"पहली चाल तुम्हारी, विक्रम... अगली मेरी।\" कागज़ से केवड़े की हल्की ख़ुशबू आ रही थी। कौन है ये काला कमल? अपना शक कमेंट में लिखिए।",
+        "shots": [
+          {
+            "prompt": "Close-up of an envelope on a dark wooden desk sealed with a distinct black wax flower mark, violet ink writing visible.",
+            "characters": []
+          },
+          {
+            "prompt": "Vikram staring intently at the mysterious letter by the light of a flickering candle, thoughtful expression.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Savitri looking over Vikram's shoulder at the letter with a worried expression, dim atmospheric lighting.",
+            "characters": [
+              "savitri"
+            ]
+          }
+        ]
+      }
+    ],
+    "clips": [
+      {
+        "start_scene": 1,
+        "end_scene": 3,
+        "hook_text": "मरते वक़्त आख़िरी शब्द",
+        "title": "बंद कमरे में मौत... आख़िरी शब्द 'चितकबरी पट्टी' | जासूस विक्रम",
+        "end_question": "चितकबरी पट्टी का मतलब क्या था?"
+      },
+      {
+        "start_scene": 12,
+        "end_scene": 15,
+        "hook_text": "4 अजीब सुराग",
+        "title": "नकली रस्सी, जड़ा हुआ बिस्तर, दूध की तश्तरी... आप पहचान पाए? | जासूस विक्रम",
+        "end_question": "क्या आप पहचान पाए?"
+      },
+      {
+        "start_scene": 16,
+        "end_scene": 18,
+        "hook_text": "अँधेरे में वो सीटी",
+        "title": "आधी रात, घुप अँधेरा... और फिर वो सीटी | जासूस विक्रम",
+        "end_question": "आगे क्या हुआ?"
+      },
+      {
+        "start_scene": 10,
+        "end_scene": 13,
+        "hook_text": "लोहे की छड़ और रहस्यमयी रस्सी",
+        "title": "जासूस विक्रम ने खोली हवेली की चालाक चाल",
+        "end_question": "रस्सी क्यों बंधी थी?"
+      },
+      {
+        "start_scene": 4,
+        "end_scene": 7,
+        "hook_text": "वही सीटी, वही खौफ",
+        "title": "मीरा की जान खतरे में | जासूस विक्रम",
+        "end_question": "क्या मीरा बचेगी?"
+      }
+    ],
+    "episode": 1,
+    "episode_title": "आधी रात की सीटी"
+  },
+  "active_clips": [
+    0,
+    1,
+    2
+  ],
+  "next_clip": 3,
+  "batch": null
+}
