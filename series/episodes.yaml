@@ -1,0 +1,925 @@
+# ==================================================================
+# SEASON 1 - जासूस विक्रम - 30 episodes, one per day, in order.
+#
+# Fields (only "source" is required):
+#   title / setting / characters / beats  -> what Gemini must write
+#   black_lotus  -> this episode's clue in the season mystery (see bible.yaml secret_arc)
+#   shorts       -> the 3 Shorts moments (Gemini picks the scene ranges)
+#   clips        -> exact scene ranges for the Shorts (only used with a fixed script)
+#   thumbnail    -> text + image prompt for the thumbnail
+#   script       -> a fully written narration, one entry per scene; Gemini then only draws it
+#
+# Every story is adapted from a public-domain Arthur Conan Doyle story.
+# ==================================================================
+
+# ------------------------------------------------------------------ EP 1
+- n: 1
+  source: The Adventure of the Speckled Band
+  title: "आधी रात की सीटी"
+  setting: Banaras, 1921 and 1923. A crumbling haveli on the edge of the city, a cheetah loose in the compound at night.
+  characters:
+    - "Meera: terrified young woman (early 20s), pale, simple white-and-red cotton sari; her wedding is near"
+    - "Kamla: Meera's identical twin sister, died two years ago (same face as Meera, nightclothes, long open hair)"
+    - "Thakur Raghuvendra Singh: their huge, violent stepfather, 50s, thick grey moustache, dark angarkha, back from Burma"
+  black_lotus: "The final letter is sealed with a black lotus, written in violet ink, and smells faintly of kewra."
+  beats:
+    - "HOOK: midnight scream; Kamla stumbles out of her locked room and dies whispering 'वो पट्टी... चितकबरी पट्टी!'"
+    - "Two years later Meera comes to Vikram: her wedding is near, and last night she heard the same whistle."
+    - "Backstory: the cruel Thakur, the animals, the inheritance condition, Kamla's death two weeks before her wedding."
+    - "The Thakur threatens Vikram and bends an iron poker; Vikram straightens it."
+    - "Clues: dummy bell-rope, vent into the Thakur's room, bed bolted to the floor, iron safe, saucer of milk, a leather leash tied in a loop."
+    - "Night watch in darkness; the whistle; Vikram strikes the rope; a scream from the next room."
+    - "Reveal: the snake; the motive; Vikram's signature line. The black lotus letter. A question to viewers."
+  clips:
+    - {start_scene: 1, end_scene: 3, hook_text: "मरते वक़्त आख़िरी शब्द", title: "बंद कमरे में मौत... आख़िरी शब्द 'चितकबरी पट्टी'", end_question: "चितकबरी पट्टी का मतलब क्या था?"}
+    - {start_scene: 12, end_scene: 15, hook_text: "4 अजीब सुराग", title: "नकली रस्सी, जड़ा हुआ बिस्तर, दूध की तश्तरी... आप पहचान पाए?", end_question: "क्या आप पहचान पाए?"}
+    - {start_scene: 16, end_scene: 18, hook_text: "अँधेरे में वो सीटी", title: "आधी रात, घुप अँधेरा... और फिर वो सीटी", end_question: "आगे क्या हुआ?"}
+  thumbnail:
+    text: "आधी रात की सीटी"
+    prompt: >-
+      Close-up of Meera's terrified face lit by a single candle in a dark haveli room,
+      a snake silhouette coiled on a bell-rope behind her in deep red accent colour.
+  script:
+    - >-
+      आधी रात थी। बनारस की उस पुरानी हवेली में अचानक एक चीख गूँजी। कमला का दरवाज़ा अंदर से बंद था।
+      वो लड़खड़ाती हुई बाहर निकली, ज़मीन पर गिर पड़ी, और आख़िरी साँस में बस इतना बोली... "वो पट्टी... चितकबरी पट्टी!"
+    - >-
+      न कोई ज़ख़्म था, न ज़हर का निशान। कमरा अंदर से बंद, खिड़कियों पर लोहे की सलाखें।
+      लोग कहते थे, हवेली पर किसी प्रेत का साया है। पर अगर ये प्रेत नहीं था... तो कमला को मारा किसने?
+    - >-
+      मैं सावित्री हूँ। ये कहानी है जासूस विक्रम की, और उस रात की, जिसे मैं आज तक नहीं भूल पाई।
+      दो साल बाद, एक धुंध भरी सुबह, विक्रम के दरवाज़े पर एक लड़की खड़ी थी। चेहरा सफ़ेद, हाथ काँपते हुए।
+    - >-
+      उसने कहा, "मेरा नाम मीरा है। कमला मेरी जुड़वाँ बहन थी।" विक्रम की नज़र उसकी कलाई के नीले निशानों पर ठहर गई।
+      उन्होंने धीरे से पूछा, "ये निशान तुम्हारे सौतेले पिता ने दिए हैं?" मीरा ने नज़रें झुका लीं।
+    - >-
+      फिर मीरा ने वो बात कही, जिससे मेरी रीढ़ में सिहरन दौड़ गई। "अगले महीने मेरी शादी है।
+      मुझे कमला के कमरे में सुलाया जा रहा है। और कल रात... मैंने वही सीटी सुनी।
+      ठीक वैसी, जैसी कमला ने मरने से पहले सुनी थी।"
+    - >-
+      मीरा के सौतेले पिता थे ठाकुर रघुवेंद्र सिंह। बर्मा से लौटा एक गुस्सैल आदमी, जिससे पूरा मोहल्ला डरता था।
+      नौकर एक-एक करके हवेली छोड़कर भाग गए थे।
+    - >-
+      हवेली के अहाते में रात को एक चीता खुला घूमता था। बर्मा से लाए अजीब जानवर पिंजरों में बंद रहते थे।
+      और ठाकुर के कमरे से, आधी रात को, ऐसी आवाज़ आती थी, जैसे कोई लोहे का दरवाज़ा धीरे से बंद कर रहा हो।
+    - >-
+      दोनों बहनों की माँ बहुत दौलत छोड़ गई थीं, पर सारी दौलत ठाकुर के हाथ में थी। वसीयत में एक शर्त थी...
+      जिस दिन बेटी की शादी होगी, उसका हिस्सा उसे मिल जाएगा। ये सुनते ही विक्रम की आँखें सिकुड़ गईं।
+    - >-
+      कमला की भी शादी तय हुई थी। शादी से ठीक दो हफ़्ते पहले, वो मर गई। मरने से एक रात पहले उसने मीरा से पूछा था,
+      "क्या तुझे भी रात में सीटी सुनाई देती है? और उसके बाद... धातु की एक खनक?"
+    - >-
+      मीरा के जाते ही दरवाज़ा धड़ाम से खुला। ठाकुर रघुवेंद्र खुद आ गया था। उसने विक्रम को धमकाया,
+      और लोहे की छड़ मोड़कर फ़र्श पर फेंक दी। उसके जाते ही विक्रम ने छड़ उठाई, और मुस्कराते हुए उसे वापस सीधा कर दिया।
+    - >-
+      उसी दोपहर हम हवेली पहुँचे। ठाकुर शहर गया था। विक्रम ने कमला के कमरे को ऐसे देखा,
+      जैसे दीवारें उनसे बातें कर रही हों। फिर उनकी नज़र बिस्तर के ऊपर लटकी घंटी की रस्सी पर ठहर गई।
+    - >-
+      उन्होंने रस्सी खींची। कोई घंटी नहीं बजी। रस्सी किसी घंटी से जुड़ी ही नहीं थी! वो छत के पास,
+      एक छोटे से रोशनदान के कुंडे से बँधी थी। मैंने पूछा, "ऐसी रस्सी कोई क्यों लगाएगा?" विक्रम चुप रहे।
+    - >-
+      और वो रोशनदान बाहर हवा में नहीं खुलता था। वो खुलता था सीधे ठाकुर के कमरे में। फिर विक्रम ने बिस्तर को
+      हिलाने की कोशिश की। वो हिला ही नहीं। बिस्तर फ़र्श में लोहे की कीलों से जड़ा हुआ था।
+    - >-
+      ठाकुर के कमरे में एक भारी लोहे की तिजोरी थी। उस पर रखी थी दूध की एक तश्तरी।
+      और कुर्सी पर पड़ा था चमड़े का एक पट्टा, जिसका सिरा फंदे की तरह बँधा था। विक्रम का चेहरा पत्थर हो गया।
+    - >-
+      रुकिए। एक नकली रस्सी। एक रोशनदान, जो बगल के कमरे में खुलता है। ज़मीन में जड़ा बिस्तर। और दूध की तश्तरी।
+      क्या आपने वो सुराग पकड़ा, जो विक्रम पकड़ चुके थे? सोचिए... जवाब इसी कमरे में है।
+    - >-
+      उस रात हमने मीरा को दूसरे कमरे में भेज दिया, और हम दोनों कमला के कमरे में अँधेरे में बैठ गए।
+      न दीया, न लालटेन। विक्रम ने फुसफुसाकर कहा, "सोना मत, सावित्री। हमारी जान इसी पर टिकी है।"
+    - >-
+      घड़ी ने बारह बजाए। फिर एक। फिर दो। बाहर अहाते में चीते के घूमने की आहट थी।
+      अचानक रोशनदान से एक पल को रोशनी चमकी, और जलते तेल की गंध आई। बगल के कमरे में कोई जाग रहा था।
+    - >-
+      और तभी... वो सीटी। धीमी, लंबी, ठंडी सीटी। अगले ही पल विक्रम उछले, माचिस जलाई,
+      और अपनी छड़ी से रस्सी पर ताबड़तोड़ वार करने लगे। "देखा तुमने, सावित्री? देखा?"
+    - >-
+      मैंने कुछ नहीं देखा। बस किसी चीज़ के सरकने की हल्की सी आवाज़ सुनी। फिर बगल के कमरे से एक ऐसी भयानक चीख उठी,
+      जो आज भी मेरे सपनों में गूँजती है। और फिर... सन्नाटा।
+    - >-
+      हम लालटेन लेकर ठाकुर के कमरे में घुसे। तिजोरी का दरवाज़ा खुला था। ठाकुर कुर्सी पर बेजान बैठा था,
+      आँखें छत पर टिकी हुईं। और उसके माथे के चारों ओर लिपटी थी एक पीली, चितकबरी पट्टी... जो धीरे-धीरे हिलने लगी।
+    - >-
+      "ये पट्टी नहीं, सावित्री। बर्मा का सबसे ज़हरीला साँप है," विक्रम बोले। "ठाकुर इसे रोशनदान से रस्सी के सहारे
+      बिस्तर तक भेजता, और सीटी बजाकर वापस बुला लेता। बेटियों की शादी होती, तो दौलत हाथ से जाती।
+      आज मेरी छड़ी की मार से साँप पलटा... और अपने ही मालिक पर टूट पड़ा। सच हमेशा छोटी चीज़ों में छिपा होता है।"
+    - >-
+      जाते-जाते विक्रम की नज़र मेज़ पर पड़ी। काले कमल की मुहर वाला एक लिफ़ाफ़ा। अंदर बैंगनी स्याही में लिखा था...
+      "पहली चाल तुम्हारी, विक्रम... अगली मेरी।" कागज़ से केवड़े की हल्की ख़ुशबू आ रही थी।
+      कौन है ये काला कमल? अपना शक कमेंट में लिखिए।
+
+# ------------------------------------------------------------------ EP 2
+- n: 2
+  source: The Red-Headed League
+  title: "दीवार के अंदर कौन?"
+  setting: Banaras, Chowk bazaar, 1923. A small pawnshop wall-to-wall with the Kashi Imperial Bank.
+  characters:
+    - "Lala Ramdas: fat, cheerful pawnbroker, 50s, with a striking white streak in his black hair"
+    - "Jaidev: his eager young assistant who works for half pay and spends hours in the cellar 'developing photographs'"
+    - "A smooth-talking man who runs the 'सफ़ेद लट सभा' (Society of the White Streak)"
+  black_lotus: "Jaidev hisses 'काले कमल को ख़बर पहुँच जाएगी, विक्रम।' as he is taken away. Devendranath, the bank's owner, signs Vikram's reward cheque with his LEFT hand (just shown, never commented on)."
+  beats:
+    - "HOOK: midnight; behind the bank vault wall a faint 'ठक... ठक... ठक'. The night watchman swears it is the ghost of a robber buried in the wall."
+    - "Ramdas comes laughing and confused: for eight weeks the 'सफ़ेद लट सभा' paid him four rupees a day just to copy an old book by hand from 10 to 2. Only men with a white streak could apply. Today the office is locked with a note: 'सभा भंग'."
+    - "Vikram asks about the assistant: half pay, always in the cellar, the knees of his pyjama worn and muddy."
+    - "Vikram taps the pavement outside the shop with his cane, listening; checks what is behind the shop - the bank."
+    - "Introduce Rai Bahadur Devendranath, the bank's gentle owner, and Inspector Bhairav. They wait in the pitch-dark vault on Saturday night."
+    - "A floor stone lifts; a hand with a lantern; Jaidev climbs out of a tunnel. Bhairav grabs the wrong man first (comic), Vikram catches Jaidev."
+    - "Reveal: the society was a trick to keep Ramdas out of his shop four hours a day while they dug. Signature line. Black Lotus moment. Question to viewers."
+  shorts:
+    - "The knocking inside the vault wall at midnight. Ends on: 'दीवार के अंदर कौन था?'"
+    - "The strange job: paid only for having a white streak in your hair. Ends on: 'ये नौकरी असली थी या जाल?'"
+    - "The dark vault; a floor stone slowly starts to lift. Cut before anyone appears."
+  thumbnail:
+    text: "दीवार के अंदर कौन?"
+    prompt: >-
+      Frightened night watchman pressing his ear to a cracked bank vault wall, holding a lantern,
+      a glowing hand-shaped shadow behind the cracks, deep red accent.
+
+# ------------------------------------------------------------------ EP 3
+- n: 3
+  source: The Adventure of the Copper Beeches
+  title: "नीली साड़ी का राज़"
+  setting: A lonely bungalow called 'देवदार कोठी' on a foggy hill outside Shimla, 1923, pine forest all around.
+  characters:
+    - "Anjali: brave young governess, 22, long hair at first, then cut short"
+    - "Seth Kishorilal: plump, over-smiling employer who laughs too loudly"
+    - "Mrs Kishorilal: pale, silent second wife"
+    - "Tolu: drunk caretaker; Bagha: a huge half-starved mastiff released at night"
+    - "Alka: Seth's daughter from his first marriage (unseen until the end); her fiance waiting on the road"
+  black_lotus: "The Seth's ledger shows a large loan from 'पंकज सेवा सदन, बनारस'. Savitri thinks it is just the charity's kindness."
+  beats:
+    - "HOOK: through a keyhole in the 'empty' locked wing, Anjali sees a shadow pacing. The family says no one lives there. 'उस बंद कमरे में कोई था।'"
+    - "Flashback: before taking the job Anjali asked Vikram's advice - three times the normal pay, but she must cut her long hair, wear a particular blue sari, sit with her back to the window and laugh at the Seth's stories."
+    - "At the bungalow: using a mirror hidden in her handkerchief she sees a man watching from the road. In a locked drawer she finds a coil of long hair exactly like her own."
+    - "She telegraphs Vikram. Vikram and Savitri arrive in Shimla."
+    - "Deduction: Anjali is playing someone - Alka, the daughter, locked in the wing so her fiance believes she no longer cares. The Seth wants her inheritance."
+    - "Night rescue: the wing is empty, the skylight open - Alka has escaped with her fiance. The Seth chases them and releases Bagha; the starving dog turns on its own master (off-screen; he survives, crippled)."
+    - "Ending: Anjali safe, Alka married. Signature line. Black Lotus clue. Question."
+  shorts:
+    - "The keyhole and the pacing shadow. Ends on: 'उस बंद कमरे में कौन था?'"
+    - "The strange conditions: cut your hair, wear the blue sari, laugh, sit with your back to the window. Ends on: 'आख़िर क्यों?'"
+    - "The night rescue; the chain of the dog clinks loose. Cut."
+  thumbnail:
+    text: "नीली साड़ी का राज़"
+    prompt: >-
+      Young woman in a blue sari with freshly cut short hair peering through the keyhole of a locked
+      wooden door in a foggy hill bungalow, a tall shadow behind the door, deep red accent.
+
+# ------------------------------------------------------------------ EP 4
+- n: 4
+  source: The Adventure of the Engineer's Thumb
+  title: "अनजान कोठी का बुलावा"
+  setting: Mirzapur, 1923. A decaying kothi in the forest, reached by a closed carriage at midnight.
+  characters:
+    - "Sameer: young, poor, ambitious hydraulic engineer"
+    - "Colonel Pratap: very thin man with a hollow voice and cold eyes"
+    - "A frightened young woman in the kothi who tries to warn Sameer"
+  black_lotus: "In the ashes Vikram finds a counterfeit silver coin with a tiny lotus where the King's head should be. Inspector Bhairav pockets one coin 'as evidence' (red herring)."
+  beats:
+    - "HOOK: Sameer is locked inside a giant machine room as the iron ceiling slowly comes down; a woman's voice screams 'भागो!'"
+    - "Morning: Sameer reaches Savitri's clinic with his right hand bandaged - he has lost his thumb (only the bandage is shown). She brings him to Vikram."
+    - "His story: Colonel Pratap offered fifty rupees for one night repairing a 'multani mitti' press, in total secrecy. A closed carriage with frosted windows drove for an hour, but the horse was fresh - Vikram deduces they went in circles and the kothi is near the station."
+    - "Inside: the press leaks; Sameer notices a metal crust on the floor, not mud, and asks one question too many. The Colonel locks him in and starts the press."
+    - "He escapes through a gap in the wooden wall; the woman leads him to a window; as he hangs from the sill a cleaver swings (off-screen). He wakes in bushes near the station."
+    - "Vikram, Savitri and Bhairav go back: the kothi is burning from the lamp Sameer dropped; the gang has fled. The press was making counterfeit silver coins."
+    - "Signature line, Black Lotus coin, question to viewers."
+  shorts:
+    - "The iron ceiling coming down. Ends on: 'क्या समीर बच पाया?'"
+    - "The puzzle: an hour's drive but the horse was fresh. Ends on: 'कोठी असल में कितनी दूर थी?'"
+    - "Hanging from the window, the shadow of a raised cleaver. Cut."
+  thumbnail:
+    text: "मौत की मशीन"
+    prompt: >-
+      Young Indian engineer in a 1920s waistcoat pushing against a descending iron ceiling in a dark
+      machine room lit by one lantern, a woman's silhouette at a small door, deep red accent.
+
+# ------------------------------------------------------------------ EP 5
+- n: 5
+  source: The Five Orange Pips
+  title: "पाँच काली पंखुड़ियाँ"
+  setting: Banaras in a violent monsoon, 1923. Flooded ghats, the old Malhotra family house.
+  note: "In place of the original secret society, use the Black Lotus network. Vikram FAILS to save his client - the season's emotional turning point."
+  characters:
+    - "Arjun Malhotra: polite, frightened 19-year-old"
+    - "His late uncle Ishwar (got rich in Rangoon, paranoid) and late father Madan"
+  black_lotus: "This episode proves the Black Lotus is a whole network. At Arjun's cremation Devendranath consoles Vikram with a hand on his shoulder; Savitri notices the faint smell of kewra and thinks, 'बनारस में केवड़ा कौन नहीं लगाता।'"
+  beats:
+    - "HOOK: an envelope falls open and five dried black lotus petals spill out. The note: 'कागज़ लौटा दो।' Three days later the man who opened it is found drowned in a shallow garden pond."
+    - "Arjun at Vikram's door in a storm: his uncle got the petals and died in the pond; two years later his father got them and died in a 'quarry accident'. Yesterday Arjun got five petals himself."
+    - "One half-burnt page survives from the uncle's papers: dates and names with ticks - 'पंखुड़ियाँ भेजीं', 'चले गए'."
+    - "Vikram realises the uncle once worked for a smuggling network out of Rangoon and fled with its records - the Black Lotus's people."
+    - "Vikram tells Arjun to return the page at once and stay indoors. Arjun walks out into the rain. Inspector Bhairav promises an escort but is late."
+    - "Morning: Arjun 'slipped' from the ghat steps into the flooded Ganga (off-screen). For the first time Vikram is shaken: 'उन्होंने मेरे मुवक्किल को मारा... ये मेरी हार है।'"
+    - "Vikram traces the killers to the ship 'Swarnamala' and sends its captain five black petals of his own; the ship is lost in a cyclone. The Black Lotus clue. Question to viewers."
+  shorts:
+    - "Five black petals spill from an envelope. Ends on: 'अगली बारी किसकी?'"
+    - "Three envelopes, three deaths. Ends on: 'क्या ये श्राप है?'"
+    - "Arjun walks out into the storm. Ends on: 'क्या विक्रम उसे बचा पाएंगे?'"
+  thumbnail:
+    text: "पाँच काली पंखुड़ियाँ"
+    prompt: >-
+      Trembling hands holding an open envelope as five black lotus petals fall out, rain-streaked window,
+      a terrified young man's face half in shadow, a red wax seal, deep red accent.
+
+# ------------------------------------------------------------------ EP 6
+- n: 6
+  source: The Adventure of the Blue Carbuncle
+  title: "शापित नीलम"
+  setting: Banaras at Diwali, 1923. The grand Ganga View Hotel, a crowded poultry market in the old city.
+  characters:
+    - "Hariprasad: nervous hotel attendant (the real thief)"
+    - "Ramesh: a plumber wrongly arrested"
+    - "Bhola: a poor, once-rich scholar who loses his duck and his cap in a street scuffle"
+    - "Ganga Bai: a fierce duck-seller at the market"
+  black_lotus: "Hariprasad confesses that he learned which room held the jewel from 'एक बड़े आदमी, जिनसे केवड़े की ख़ुशबू आती थी' - he never saw his face."
+  beats:
+    - "HOOK: 'कहते हैं नीलम हर किसी को रास नहीं आता...' The Maharani's cursed blue sapphire is stolen from the hotel; Inspector Bhairav arrests a plumber."
+    - "Diwali night: in a scuffle Bhola drops a duck and his cap. A constable brings both to Vikram. Savitri's cook cuts open the duck - the stolen Neelam is inside!"
+    - "A fun deduction scene: from the cap alone Vikram describes its owner - once rich, now poor, a learned man, his wife has stopped loving him."
+    - "The trail: Bhola's duck came from a dhaba's festival club, the dhaba bought it from Ganga Bai, and Ganga Bai is furious that another man came asking about a 'duck with a black-striped tail'."
+    - "Hariprasad breaks down: he fed the stone to a duck in his sister's yard and took home the wrong duck."
+    - "Vikram lets him go: 'दिवाली है... माफ़ी का त्योहार।' The plumber is freed. The curse was only greed. Black Lotus clue. Question."
+  shorts:
+    - "The legend of the cursed Neelam. Ends on: 'क्या ये श्राप सच है?'"
+    - "The duck is cut open and a blue glow appears. Ends on: 'बत्तख के पेट में नीलम कैसे पहुँचा?'"
+    - "Ganga Bai: 'एक और आदमी भी पूछ रहा था...' Ends on: 'वो दूसरा आदमी कौन था?'"
+  thumbnail:
+    text: "शापित नीलम"
+    prompt: >-
+      A glowing blue sapphire in the open palm of a shocked woman doctor, a white duck beside her,
+      Diwali diyas glowing in a dark room, deep red accent.
+
+# ------------------------------------------------------------------ EP 7
+- n: 7
+  source: The Man with the Twisted Lip
+  title: "खिड़की में दिखा चेहरा"
+  setting: Banaras, 1923. A riverside warehouse with an opium den called 'स्वर्ग लोक' upstairs, near the burning ghats.
+  characters:
+    - "Sushila Saxena: practical, desperate wife"
+    - "Neeraj Saxena: respectable businessman who vanishes"
+    - "Lalu Baba: a hideous ash-smeared beggar with a scar and matted orange hair, famous at the ghat for his witty replies"
+    - "The den owner: a silent, sinister boatman"
+  black_lotus: "A tiny black lotus is painted on the den owner's wall. Inspector Bhairav was in that lane 'by chance' that afternoon (red herring)."
+  beats:
+    - "HOOK: in a strange lane Sushila looks up and sees her husband's face at the window of an opium den; he cries out and vanishes. She storms in - only a filthy beggar is upstairs. Later her husband's coat, weighted with coins, is pulled from the river."
+    - "Inspector Bhairav arrests Lalu Baba for murder."
+    - "A letter arrives in Neeraj's handwriting, posted after he vanished: 'मैं ठीक हूँ।'"
+    - "Vikram sits up all night on a pile of cushions, thinking. At dawn he jumps up: 'मैं सबसे बड़ा मूर्ख हूँ!'"
+    - "At the lock-up he scrubs the sleeping beggar's face with a wet sponge: the ash and the scar come off - it is Neeraj!"
+    - "Confession: a former reporter, he once disguised himself as a beggar for a story, found beggars earned more than he did, and secretly led a double life for years. Vikram keeps his secret if Lalu Baba disappears forever. Black Lotus clue. Question."
+  shorts:
+    - "A face screaming in the window. Ends on: 'वो वहाँ क्या कर रहा था?'"
+    - "A letter from a man everyone thinks is dead. Ends on: 'क्या वो ज़िंदा है?'"
+    - "Vikram raises a wet sponge over the beggar's face. Cut."
+  thumbnail:
+    text: "खिड़की में दिखा चेहरा"
+    prompt: >-
+      A woman in a sari looking up in horror at a dim upper window of an old riverside building
+      where a man's face screams, smoke and night fog, deep red accent.
+
+# ------------------------------------------------------------------ EP 8
+- n: 8
+  source: The Boscombe Valley Mystery
+  title: "झील की चुड़ैल"
+  setting: Rajputana, 1923. A misty lake ringed by dark kadam trees beside the village of Sonpur.
+  characters:
+    - "Thakur Jaswant Singh: rich, ill old landowner with a kind face and a limp in his right leg"
+    - "Mohan Rathore: his tenant farmer (the victim)"
+    - "Shekhar Rathore: Mohan's son, accused of murder"
+    - "Ratna: Jaswant's daughter, in love with Shekhar"
+  black_lotus: "Jaswant confesses that, years ago, his dacoit gang was secretly financed by 'शहर का एक सेठ, जिसके ख़त बैंगनी स्याही में आते थे' - the first mention of violet ink."
+  beats:
+    - "HOOK: a scream at the lake at dusk. Mohan Rathore lies dead by the water. Villagers swear they saw a white figure among the trees: 'झील की चुड़ैल ने उसे बुलाया था।'"
+    - "Shekhar is arrested - he quarrelled with his father at the lake minutes before. His statement: his father's dying words were '...बल', and a grey shawl lay on the grass, then vanished."
+    - "Ratna, sure of his innocence, brings Vikram and Savitri."
+    - "Vikram on his knees by the lake: the footprints of a man who limps on his right leg; the ash of a rare Burmese cheroot; the place where the shawl lay."
+    - "'...बल' was 'चंबल'. Mohan knew the killer's secret past as a Chambal dacoit."
+    - "Truth: Jaswant was the dacoit; Mohan blackmailed him for years and demanded that Ratna marry Shekhar to grab the estate. Jaswant, dying of illness, killed him in a rage."
+    - "Jaswant signs a confession; Vikram will use it only if Shekhar is convicted. Shekhar is freed. The 'chudail' was Ratna's white dupatta caught in the branches. Black Lotus clue. Question."
+  shorts:
+    - "The white figure among the trees. Ends on: 'क्या वो सच में चुड़ैल थी?'"
+    - "The dying word '...बल'. Ends on: 'आप बताइए, इसका मतलब क्या था?'"
+    - "The limping footprints by the water. Ends on: 'क़ातिल कौन है?'"
+  thumbnail:
+    text: "झील की चुड़ैल"
+    prompt: >-
+      A misty lake at dusk, a white veiled figure among dark trees reflected in the water, a terrified
+      young man in the foreground, deep red accent.
+
+# ------------------------------------------------------------------ EP 9
+- n: 9
+  source: Silver Blaze
+  title: "कुत्ता क्यों नहीं भौंका?"
+  setting: Lucknow, 1923. The Maharaja's racing stables the night before the Lucknow Cup, open grassland, mist.
+  characters:
+    - "Maharaja Vijayendra: owner of 'Badal', the champion white horse"
+    - "Gopal: the head trainer, found dead"
+    - "Lakhan: the stable boy, drugged"
+    - "A stranger, a smooth gambler who visited the stable"
+  black_lotus: "Devendranath is at the race and cheerfully loses a large bet. The bookmaker who funded Gopal's debts pays out from a purse embroidered with a small black flower; Savitri thinks it is just a design."
+  beats:
+    - "HOOK: the night before the Lucknow Cup the champion horse vanishes; at dawn the trainer lies dead on the grassland, a small surgeon's knife in his hand. 'और उस रात कुत्ता एक बार भी नहीं भौंका।'"
+    - "Inspector Bhairav arrests the stranger who visited the stable."
+    - "Vikram's clues: the stable boy's dinner was spicy mutton curry (which hides the taste of opium); a tailor's bill in the trainer's pocket for silk saris his wife never received; three sheep in the flock gone lame."
+    - "The famous exchange - Bhairav: 'कोई और बात?' Vikram: 'रात को कुत्ते का अजीब बर्ताव।' 'कुत्ते ने तो कुछ किया ही नहीं।' 'यही तो अजीब है।' The thief was someone the dog knew."
+    - "Vikram finds Badal hidden in a rival stable, his white face dyed brown. He says nothing and lets the race run; Badal wins."
+    - "Reveal: Gopal, in debt for a secret second household, led the horse out at night to nick its tendon so it would lose. He had practised on the sheep. The horse kicked him (off-screen). 'हत्यारा... घोड़ा था।' Black Lotus clue. Question."
+  shorts:
+    - "The empty stable at dawn. Ends on: 'घोड़ा कहाँ गया?'"
+    - "The dog that did nothing. Ends on: 'कुत्ता क्यों नहीं भौंका? कमेंट में बताइए।'"
+    - "The race starts and a brown horse surges ahead. Ends on: 'क्या ये वही घोड़ा है?'"
+  thumbnail:
+    text: "कुत्ता क्यों नहीं भौंका?"
+    prompt: >-
+      A silent black dog sitting calmly beside an empty moonlit stable stall with its door open,
+      a lantern on the ground, a white horse vanishing into the fog, deep red accent.
+
+# ------------------------------------------------------------------ EP 10
+- n: 10
+  source: The Musgrave Ritual
+  title: "तहखाने का मंत्र"
+  setting: Lucknow, 1923. The centuries-old Raizada haveli, with a deep stone cellar and the stump of an ancient banyan tree.
+  characters:
+    - "Kunwar Aditya Raizada: Vikram's old college friend, heir to the haveli"
+    - "Bholanath: the clever old munshi, dismissed for reading family papers at night"
+    - "Lajwanti: a maid who loved Bholanath; hysterical, then missing"
+  black_lotus: "Among the family papers is an offer to buy the haveli signed 'पं. से. स. ट्रस्ट' - the Pankaj Seva Sadan trust somehow knew about the treasure."
+  beats:
+    - "HOOK: the munshi vanishes; the maid laughs madly, then disappears too; a sack of rusted metal and pebbles is pulled from the lake. 'हवेली के तहखाने में एक मंत्र छिपा था... और एक लाश।'"
+    - "The family ritual every heir recites on coming of age: 'किसका था? जो चला गया। किसका होगा? जो आएगा। सूरज कहाँ था? बरगद के ऊपर। छाया कहाँ थी? बरगद के नीचे...' then steps north, east, south. Everyone thinks it is meaningless."
+    - "Vikram realises it is a treasure map. The banyan is gone; he measures the stump's height from old records and uses a rod's shadow to find where the tree's shadow fell - a satisfying maths moment."
+    - "The steps lead to a cellar flagstone. Vikram, Savitri, Aditya and Bhairav lift it: Bholanath dead inside (show only a hand and the lantern), an empty wooden chest."
+    - "Reveal: Bholanath solved the riddle and needed Lajwanti's help to lift the slab; whether by accident or revenge, she let the support log slip and fled with the treasure, throwing it in the lake."
+    - "The rusted metal is the ancient crown of the old kings of Awadh - priceless. Black Lotus clue. Question."
+  shorts:
+    - "The riddle itself. Ends on: 'क्या आप ये पहेली सुलझा सकते हैं? कमेंट करें।'"
+    - "How do you measure the shadow of a tree that no longer exists? Ends on: 'पेड़ नहीं, तो छाया कैसे?'"
+    - "Lifting the stone slab in lantern light. Cut."
+  thumbnail:
+    text: "तहखाने का मंत्र"
+    prompt: >-
+      A lantern-lit stone cellar, two men lifting a heavy stone slab, a frightened woman doctor
+      holding the lantern, a hand reaching out of the darkness below, deep red accent.
+
+# ------------------------------------------------------------------ EP 11
+- n: 11
+  source: The Reigate Squire
+  title: "मुट्ठी में फटा कागज़"
+  setting: Meerut, 1923. A zamindar's estate where Savitri has sent an exhausted Vikram to rest.
+  characters:
+    - "Zamindar Kailashnath Kapoor: elderly, sharp, smooth"
+    - "Vikas Kapoor: his dashing son"
+    - "Gulzar: the family's coachman (the victim)"
+  black_lotus: "The Kapoors' lawyer, who advised them to steal the neighbour's papers, is also the legal adviser of Pankaj Seva Sadan. Inspector Bhairav, visiting on duty, slips a paperweight from the burgled house into his pocket 'by mistake' (red herring)."
+  beats:
+    - "HOOK: a shot at midnight; the coachman lies dead in the courtyard, a torn corner of a note in his fist: '...पौने बारह बजे... पता चल जाएगा... शायद'."
+    - "Father and son say they saw a burglar run off. Days earlier a neighbour's house was burgled and odd things stolen: a ball of twine, a paperweight, an old almanac."
+    - "Vikram, supposedly resting, studies the scrap: two handwritings alternating word by word - one young, one old - written by two related people."
+    - "He fakes a sudden fit and knocks over a table of oranges to buy time; then deliberately makes a mistake in a statement so the father corrects it in his own hand."
+    - "He finds the rest of the note in the son's dressing gown; father and son attack him; Savitri and Bhairav burst in."
+    - "Reveal: they were stealing the neighbour's papers for a land lawsuit; the coachman saw and tried blackmail; they lured him and shot him. Black Lotus clue. Question."
+  shorts:
+    - "The scrap of paper in the dead man's fist. Ends on: 'बाक़ी कागज़ कहाँ है?'"
+    - "Two handwritings on one scrap. Ends on: 'क्या आप पहचान पाए?'"
+    - "Vikram suddenly collapses. Ends on: 'क्या विक्रम सच में बीमार हैं?'"
+  thumbnail:
+    text: "मुट्ठी में फटा कागज़"
+    prompt: >-
+      Close-up of a dead man's clenched fist on a stone courtyard floor holding a torn scrap of paper,
+      lantern light, a zamindar's tall shadow falling across it, deep red accent.
+
+# ------------------------------------------------------------------ EP 12
+- n: 12
+  source: The Crooked Man
+  title: "पर्दे पर अजीब पंजे"
+  setting: Meerut cantonment, a monsoon night in 1923. A colonel's bungalow.
+  note: "Set the old betrayal in the First World War Mesopotamia campaign, not in 1857."
+  characters:
+    - "Colonel Amarjeet Singh Bhullar: proud Indian officer of the British Indian Army"
+    - "Nandini Bhullar: his gentle wife, devoted to charity work"
+    - "Hemant Kale: 'the crooked man' - a bent, broken ex-soldier, now a street performer with a pet mongoose in a box"
+    - "Rosy D'Souza: a young friend who walked home with Nandini"
+  black_lotus: "Hemant says the stranger who paid his fare back to Meerut 'to meet an old friend' smelled of kewra and sent letters in violet ink. Someone arranged this meeting on purpose - the Black Lotus wanted the colonel's ammunition contracts."
+  beats:
+    - "HOOK: inside a locked room Nandini cries 'कायर! दगाबाज़!'; a terrible crash; servants break in through the window: the colonel is dead, his face frozen in horror, Nandini unconscious, the key missing - and small strange paw prints on the curtain."
+    - "Nandini is accused of murder; before fainting she cried a name: 'हेमंत'."
+    - "Vikram studies the prints: long body, tiny feet - a mongoose. And a man's footprints across the lawn."
+    - "Rosy reveals that on the walk home they met a hideously bent man under a street lamp, and he knew Nandini."
+    - "Vikram and Savitri find Hemant in a lodge, the box beside him rustling."
+    - "Hemant's story: thirty years ago in Mesopotamia he and Amarjeet both loved Nandini; Amarjeet betrayed him to the enemy to win her; captivity broke his body. When the colonel saw him that night he died of a heart attack from fear. No murder - fear killed him. Hemant goes free. Black Lotus clue. Question."
+  shorts:
+    - "The locked room and the paw prints. Ends on: 'ये पंजे किसके थे?'"
+    - "The cry 'दगाबाज़!' Ends on: 'किसने किसको धोखा दिया?'"
+    - "The box with something moving inside. Cut."
+  thumbnail:
+    text: "पर्दे पर अजीब पंजे"
+    prompt: >-
+      Small strange paw prints across a white curtain in a dark colonial bungalow room, a fallen lamp,
+      a man's frozen terrified face in shadow, deep red accent.
+
+# ------------------------------------------------------------------ EP 13
+- n: 13
+  source: The Greek Interpreter
+  title: "बँधी आँखों का सफ़र"
+  setting: Calcutta, 1923. A silent gentlemen's club on Park Street, and a lonely villa outside the city in Behala.
+  note: "Introduce Raghav, Vikram's elder brother."
+  characters:
+    - "Pandit Haridas Bose: a timid interpreter of Burmese and Tibetan"
+    - "Tenzing: a Tibetan trader held captive, starved, his face bandaged"
+    - "Dolma: Tenzing's sister"
+    - "Mr Lahiri: a smiling captor, and his giggling silent accomplice"
+  black_lotus: "Raghav reveals a secret government file: 'काला कमल - ऊँचे समाज का आदमी, जिसका चेहरा किसी ने नहीं देखा। वो कभी अपने हाथ से कुछ नहीं करता।' Weeks later the two captors are found dead on a boat - Dolma's revenge, or the Black Lotus cleaning up."
+  beats:
+    - "HOOK: an interpreter is driven at night in a carriage with papered windows to a strange house, where he must translate for a starved man with tape over his mouth. 'उसकी आँखें मदद माँग रही थीं...'"
+    - "Vikram and Savitri in Calcutta: Vikram introduces his brother Raghav at the silent club. A fun deduction duel by the window about a passer-by; Raghav wins."
+    - "Haridas's story: he slipped extra questions in Tibetan into the captors' questions. Answers: 'Tenzing. Three weeks without food.' They want him to sign away his property and his sister."
+    - "Raghav places a newspaper advertisement; a reply leads to the house. But Haridas has been kidnapped again."
+    - "A night race to the villa: a locked room filling with charcoal smoke; Haridas is saved, Tenzing cannot be (off-screen). The captors have fled with Dolma."
+    - "Black Lotus file. Question to viewers."
+  shorts:
+    - "The taped mouth and pleading eyes. Ends on: 'वो क्या कहना चाहता था?'"
+    - "Raghav vs Vikram deduction duel. Ends on: 'किसका अंदाज़ा सही था?'"
+    - "Smoke pouring under a locked door. Cut."
+  thumbnail:
+    text: "बँधी आँखों का सफ़र"
+    prompt: >-
+      A blindfolded frightened Indian interpreter in a dark carriage with paper-covered windows,
+      a gloved hand on his shoulder, gas lamp light, deep red accent.
+
+# ------------------------------------------------------------------ EP 14
+- n: 14
+  source: The Naval Treaty
+  title: "बीमार के कमरे में कौन?"
+  setting: Calcutta, 1923. The Imperial Secretariat offices and a riverside house in Barrackpore.
+  characters:
+    - "Prakash Mitra: a brilliant young clerk, nervous, Savitri's former patient"
+    - "Anima: his fiancee, devoted nurse"
+    - "Jogesh: Anima's charming brother, secretly deep in debt"
+    - "Sir Ramesh Chatterjee: Prakash's powerful uncle in government"
+  black_lotus: "Jogesh meant to sell the treaty to 'the lotus buyer'. The meeting address on a card is a back door of the Calcutta branch of Pankaj Seva Sadan hospital. Vikram pockets the card silently and for the first time looks troubled at the charity's name."
+  beats:
+    - "HOOK: a secret treaty vanishes from a locked government office in the ten minutes a clerk steps out to ask for tea, and the bell rings in an empty room. 'बंद दफ़्तर, ग़ायब दस्तावेज़... और ख़ाली कमरे में बजती घंटी।'"
+    - "Prakash collapses with brain fever for nine weeks in Barrackpore, Anima nursing him in what used to be Jogesh's room."
+    - "One moonlit night someone tries to open the sickroom window with a knife."
+    - "Vikram's quiet moment with a rose in the garden, speaking of hope; then he works out that the thief came through the side door and rang the bell himself."
+    - "Vikram sends everyone to Calcutta, tells Anima to stay in the room all day and lock it from outside at night, and hides in the bushes."
+    - "Two o'clock at night: Jogesh creeps in and lifts a floorboard - the treaty! A struggle (no blood); Jogesh escapes, Vikram recovers the treaty."
+    - "Breakfast: Vikram serves the treaty to Prakash under a silver dish cover. Black Lotus clue. Question."
+  shorts:
+    - "The bell ringing in an empty office. Ends on: 'घंटी किसने बजाई?'"
+    - "A knife blade at the moonlit window. Ends on: 'कौन था वो?'"
+    - "At 2 am a floorboard creaks up. Cut."
+  thumbnail:
+    text: "बीमार के कमरे में कौन?"
+    prompt: >-
+      A pale sick young man in bed staring in terror at a moonlit window where a knife blade slides
+      through the gap, a woman asleep in a chair, deep red accent.
+
+# ------------------------------------------------------------------ EP 15
+- n: 15
+  source: The Adventure of the Dancing Men
+  title: "नाचते पुतले"
+  setting: A sugarcane-farm haveli near Gorakhpur, 1923.
+  characters:
+    - "Thakur Hiralal Kunwar: honest, devoted husband"
+    - "Ila: his wife from Calcutta, who made him promise never to ask about her past"
+    - "Bheema Sardar: a feared gang leader from Calcutta's underworld, her former fiance"
+  black_lotus: "The gang's cipher sheet ends with one special figure, a lotus, meaning 'the boss'. Bheema: 'हमारे ऊपर भी कोई है... कमल।' The last message in his pocket decodes to 'पंकज को ख़बर दो'."
+  beats:
+    - "HOOK: every morning little chalk figures of dancing men appear on the haveli walls. Ila faints each time. 'हर सुबह दीवार पर नाचते पुतले... और हर पुतला एक संदेश।'"
+    - "Hiralal brings copies of the drawings to Vikram."
+    - "Vikram cracks the cipher: each figure is a letter, the most common is 'अ', flags mark the ends of words. He decodes 'इला' and 'आ जाओ', and then a threat."
+    - "Vikram rushes to Gorakhpur but is too late: Hiralal has been shot (off-screen) and Ila is badly wounded but alive."
+    - "Vikram writes a message in the dancing men himself - 'तुरंत आओ' - and Bheema comes, believing Ila wrote it. He is arrested."
+    - "Reveal: Ila was the daughter of a Calcutta gang boss; the cipher was the gang's secret code. Black Lotus clue. Question."
+  shorts:
+    - "Chalk dancing men on a wall at dawn. Ends on: 'इनका मतलब क्या है?'"
+    - "Show five figures and their letters. Ends on: 'अगला शब्द आप डिकोड कीजिए - कमेंट में लिखिए।'"
+    - "Vikram draws his own message in the cipher. Ends on: 'क्या क़ातिल जाल में फँसेगा?'"
+  thumbnail:
+    text: "नाचते पुतले"
+    prompt: >-
+      Rows of chalk stick-figure dancing men drawn on an old whitewashed haveli wall at dawn,
+      a fainting woman in a sari, a lantern, deep red accent.
+
+# ------------------------------------------------------------------ EP 16
+- n: 16
+  source: The Adventure of the Solitary Cyclist
+  title: "सुनसान सड़क का साया"
+  setting: Dehradun, 1923. A lonely forest road between the station and the Sal Bagan estate.
+  characters:
+    - "Vasudha: a young music teacher who cycles to the station every Saturday"
+    - "Kashinath: her gentle employer, secretly in love with her"
+    - "Bhanu Pratap: a brute who wants to marry her for her inheritance"
+    - "Raghunandan: a fake pandit"
+  black_lotus: "The fake pandit carries a forged certificate from a 'पंकज सेवा सदन' temple fund. Savitri photographs Inspector Bhairav in Dehradun talking secretly to a man in a long dark coat (red herring)."
+  beats:
+    - "HOOK: every Saturday on a lonely forest road a silent bearded man on a bicycle follows Vasudha at exactly the same distance. When she stops, he stops. When she turns back, he vanishes."
+    - "Vasudha tells Vikram she learned of a rich uncle who died in Africa, and then two strangers from Africa found her this well-paid job."
+    - "Savitri hides in the bushes and sees the cyclist vanish through the Sal Bagan estate gates."
+    - "Next Saturday Vikram goes himself: Vasudha's tonga has been seized - and the cyclist races up, furious; he is her protector."
+    - "In a forest clearing the fake pandit is forcing a wedding with Bhanu; the cyclist, Kashinath in a false beard, shoots Bhanu in the shoulder."
+    - "Reveal: the men conspired to marry the heiress; Kashinath fell in love and guarded her in disguise; the forced wedding is void. Black Lotus clue. Question."
+  shorts:
+    - "The silent cyclist. Ends on: 'वो कौन है?'"
+    - "He vanishes at the estate gates. Ends on: 'ग़ायब कैसे हुआ?'"
+    - "The forced wedding in the forest. Cut."
+  thumbnail:
+    text: "सुनसान सड़क का साया"
+    prompt: >-
+      A young woman on a 1920s bicycle on a misty forest road looking back in fear at a distant bearded
+      cyclist silhouette, deep red accent.
+
+# ------------------------------------------------------------------ EP 17
+- n: 17
+  source: The Adventure of the Norwood Builder
+  title: "मुर्दा जो ज़िंदा था"
+  setting: Bombay, 1923. A builder's bungalow and timber yard in Bandra. Inspector Bhairav is in Bombay for training.
+  characters:
+    - "Rajiv Mehta: a young lawyer, panicking"
+    - "Seth Ishwardas Bhatia: an old builder, sly and spiteful"
+    - "His loyal housekeeper"
+  black_lotus: "Bhatia's debts were owed to a Bombay moneylender in the lotus network. The wax used to fake the thumbprint came from a packet stamped with a tiny black lotus."
+  beats:
+    - "HOOK: a young lawyer bursts in: 'मुझ पर उस आदमी के क़त्ल का इल्ज़ाम है... जिससे मैं सिर्फ़ एक बार मिला!' The old builder's remains are found in a timber-yard fire - and he had just made Rajiv his sole heir."
+    - "Evidence: the will, Rajiv's stick, and Rajiv's dark thumbprint on the hall wall."
+    - "Vikram: the thumbprint was NOT on the wall the day before (Savitri checked). The will was written on a train - the handwriting is shaky except at the stations. And Bhatia was once rejected by Rajiv's mother."
+    - "Vikram paces the upper corridor: it is six feet shorter than the room below. A hidden room."
+    - "He sets damp straw smoking in the corridor and everyone shouts 'आग! आग!' The 'dead' builder bursts out of a secret panel."
+    - "Reveal: Bhatia faked his death to escape his debts and ruin the son of the woman who rejected him. Black Lotus clue. Question."
+  shorts:
+    - "'मैं उस आदमी का क़ातिल कैसे हो सकता हूँ?' Ends on: 'सच क्या है?'"
+    - "A thumbprint that wasn't there yesterday. Ends on: 'ये कहाँ से आया?'"
+    - "'आग! आग!' Smoke in the corridor, a panel trembles. Cut."
+  thumbnail:
+    text: "मुर्दा जो ज़िंदा था"
+    prompt: >-
+      A hidden wooden wall panel creaking open in a smoke-filled corridor, an old man's glaring eyes
+      peering out, a shocked woman doctor holding a lantern, deep red accent.
+
+# ------------------------------------------------------------------ EP 18
+- n: 18
+  source: The Adventure of Black Peter
+  title: "समुंदर का शैतान"
+  setting: A Konkan fishing village near Ratnagiri, 1923. A retired captain's wooden sea-cabin above the shore.
+  characters:
+    - "Captain Bhimrao 'काला भीम' Jadhav: a cruel, drunken retired ship captain, feared by everyone"
+    - "Nilesh Shenoy: a thin young man searching for his late father's missing bank papers"
+    - "Kesari: an old, huge-shouldered harpooner"
+  black_lotus: "The stolen papers in the captain's logbook belonged to shell companies later bought by the Pankaj Seva Sadan trust. Vikram now quietly suspects the trust - but not yet the man."
+  beats:
+    - "HOOK: dawn; villagers find Kala Bhim dead in his sea-cabin, pinned to the wall by his own harpoon (show only the long shadow). 'समुंदर का शैतान, अपने ही हथियार से मारा गया।'"
+    - "Clues: a tobacco pouch with the initials 'K.', a notebook of bank codes. Nilesh is caught breaking into the cabin at night and arrested."
+    - "Vikram spends a morning at a butcher's shop trying to drive a harpoon through a hanging carcass - Savitri is horrified (comic). Thin Nilesh could never have done it."
+    - "Vikram advertises for harpooners for a 'whaling voyage' and interviews them; Kesari matches - handcuffs."
+    - "Reveal: years ago the captain threw a fleeing banker (Nilesh's father) overboard and stole his papers; Kesari saw it, came for his share, the captain attacked him, and Kesari killed him in self-defence. Black Lotus clue. Question."
+  shorts:
+    - "The harpoon's shadow on the cabin wall. Ends on: 'इतनी ताक़त किसमें थी?'"
+    - "Vikram at the butcher's with a harpoon. Ends on: 'विक्रम क्या साबित कर रहे थे?'"
+    - "Three harpooners line up for the interview. Ends on: 'इनमें से क़ातिल कौन?'"
+  thumbnail:
+    text: "समुंदर का शैतान"
+    prompt: >-
+      A lonely wooden sea-cabin on a stormy Konkan shore at dawn, the long shadow of a harpoon on the wall
+      through the open door, frightened fishermen with lanterns, deep red accent.
+
+# ------------------------------------------------------------------ EP 19
+- n: 19
+  source: The Adventure of the Six Napoleons
+  title: "छह मिट्टी के हाथी"
+  setting: Calcutta, 1923. Bowbazar's clay and plaster workshops, rich houses in Ballygunge.
+  note: "Use six identical decorative clay elephant statues - not religious idols."
+  characters:
+    - "Bhuvan: a quick, desperate workman"
+    - "Pyare Lal: his partner (found dead)"
+    - "Lakshmi: a maid of the Rani of Ratanpur, Bhuvan's sweetheart"
+  black_lotus: "Bhuvan had a buyer waiting: a card with a black lotus and 'हम मोती का इंतज़ार कर रहे हैं'. Savitri smells the card - kewra again. 'हर बार केवड़ा... ये इत्तफ़ाक़ नहीं हो सकता।'"
+  beats:
+    - "HOOK: night after night someone breaks into houses - not to steal money, only to smash identical clay elephant statues. Then, beside the sixth smashed statue, a dead man."
+    - "Inspector Bhairav (visiting Calcutta) says it's a madman who hates elephants."
+    - "Vikram traces all six statues to one batch from one workshop; a workman, Bhuvan, was arrested the day after that batch was made."
+    - "Two statues are left; Vikram waits in a dark garden and catches Bhuvan smashing the fifth."
+    - "Vikram buys the last statue at a high price and smashes it himself at home: inside is the Rani's famous black pearl!"
+    - "Reveal: Bhuvan stole the pearl through Lakshmi and hid it in a wet statue just before his arrest; after jail he hunted all six and killed the partner who tried to cheat him. Black Lotus clue. Question."
+  shorts:
+    - "Smashed elephant statues in a dark room. Ends on: 'कोई ऐसा क्यों करेगा?'"
+    - "The dead man beside the sixth statue. Ends on: 'उसे किसने मारा?'"
+    - "Vikram raises a hammer over the last statue. Cut."
+  thumbnail:
+    text: "छह मिट्टी के हाथी"
+    prompt: >-
+      Shattered clay elephant statues on a dark floor, a black pearl glowing among the fragments,
+      a hand holding a hammer, deep red accent.
+
+# ------------------------------------------------------------------ EP 20
+- n: 20
+  source: The Adventure of Charles Augustus Milverton
+  title: "राज़ों का सौदागर"
+  setting: Calcutta, winter 1923. A grand mansion in Alipore at night.
+  characters:
+    - "Seth Mohanlal Kapoor: the king of blackmailers - smiling, soft-voiced, utterly evil"
+    - "Rajkumari Uma: a young bride being blackmailed with old letters"
+    - "A veiled woman, one of his past victims"
+  black_lotus: "One letter in the safe does not burn: violet ink, black lotus seal, an order to Kapoor: 'विक्रम पर नज़र रखो।' Vikram studies the handwriting: a left-handed slant."
+  beats:
+    - "HOOK: 'शहर का सबसे ख़तरनाक आदमी कोई गुंडा नहीं था। वो एक मुस्कुराता हुआ सेठ था, जिसके पास सबके राज़ थे।'"
+    - "Rajkumari Uma's old letters: Kapoor demands a fortune before her wedding. Kapoor visits Vikram - a chilling, smiling scene; he refuses every offer."
+    - "Vikram goes undercover as a gas-lamp mechanic and even gets engaged to Kapoor's maid to learn the house (Savitri strongly disapproves - comic)."
+    - "Night burglary: masked Vikram and Savitri open the safe; Kapoor walks in; they hide behind the curtains."
+    - "A veiled woman enters - a widow whose husband died of shame after Kapoor exposed him - and shoots him (off-screen flashes). Vikram throws every paper from the safe into the fire; they flee over the garden wall."
+    - "Next day Inspector Bhairav asks Vikram to investigate 'two burglars'; Vikram declines with a straight face. Black Lotus clue. Question."
+  shorts:
+    - "The smiling blackmailer. Ends on: 'क्या आपने ऐसा विलेन कभी देखा?'"
+    - "Vikram engaged to the maid?! Ends on: 'क्या ये सही था?'"
+    - "Behind the curtain, the veiled woman raises her hand. Cut."
+  thumbnail:
+    text: "राज़ों का सौदागर"
+    prompt: >-
+      A smiling fat seth in a silk robe sitting before an open iron safe full of letters, firelight,
+      two masked figures hiding behind a velvet curtain, deep red accent.
+
+# ------------------------------------------------------------------ EP 21
+- n: 21
+  source: The Adventure of the Abbey Grange
+  title: "तीन गिलासों का झूठ"
+  setting: A tea-estate bungalow in the Darjeeling hills on a stormy winter night, 1924.
+  characters:
+    - "Raja Bahadur Narendra Singh: rich, drunk, cruel (the victim)"
+    - "Rani Meenakshi: his young wife"
+    - "Phoolmati: her fiercely loyal old nurse"
+    - "Captain Arvind Rao: a merchant navy officer who once loved the Rani"
+  black_lotus: "Vikram tells Savitri for the first time: 'काला कमल हमारे बहुत क़रीब है, सावित्री। वो हमें जानता है, हमारी हर चाल देखता है।'"
+  beats:
+    - "HOOK: a storm night. The Raja lies dead by the fireplace; the young Rani is tied to a chair and says three burglars did it - the same gang that robbed nearby houses. Three wine glasses on the table. 'तीन चोर, तीन गिलास... और एक झूठ।'"
+    - "The local police accept the gang story. Vikram leaves - then stops the train and comes back."
+    - "The glasses: only one has sediment at the bottom. Someone poured the dregs of one into the others so it would look like three drinkers."
+    - "The bell-rope was cut high up and knotted with a sailor's knot - a tall, strong sailor."
+    - "Vikram traces Captain Arvind Rao, who confesses: he saw the Raja beat the Rani, the Raja attacked him, and he struck back. The Rani and the nurse staged the burglary."
+    - "Vikram holds a mock trial with Savitri as the jury: 'दोषी या निर्दोष?' 'निर्दोष।' Arvind is let go and will return in a year. Black Lotus line. Question to viewers: be the jury."
+  shorts:
+    - "Three glasses, one with sediment. Ends on: 'आपने गड़बड़ पकड़ी?'"
+    - "A sailor's knot on the cut rope. Ends on: 'ये गाँठ क्या बताती है?'"
+    - "The mock trial. Ends on: 'आप जूरी हैं - दोषी या निर्दोष? कमेंट करें।'"
+  thumbnail:
+    text: "तीन गिलासों का झूठ"
+    prompt: >-
+      Three wine glasses on a dark table in a storm-lit bungalow, one glass with dark sediment, a frightened
+      young queen tied to a carved chair in the background, deep red accent.
+
+# ------------------------------------------------------------------ EP 22
+- n: 22
+  source: The Adventure of the Priory School
+  title: "बर्फ़ में खुरों के निशान"
+  setting: Mussoorie in snow, 1924. An elite boarding school and the snowy slopes beyond it, a rough roadside inn.
+  characters:
+    - "Dr Bhagwat: the anxious headmaster"
+    - "The Maharaja of Surajgarh: cold and proud"
+    - "Kunwar Lalit: his 10-year-old son (missing)"
+    - "Mr D'Mello: the drawing master (missing, then found dead)"
+    - "Jaiwant: the Maharaja's secretary - secretly his elder son"
+    - "Hukam Singh: a brutal innkeeper who keeps horses"
+  black_lotus: "The innkeeper's special horseshoes were forged by the same workshop that made the lotus coins in Episode 4. Raghav telegrams: 'भाई, सावधान। कमल तुम्हें घेर रहा है।'"
+  beats:
+    - "HOOK: a snowy night. The Maharaja's 10-year-old son vanishes from a locked dormitory; the drawing master's bicycle is gone too. 'बर्फ़ीली रात, ग़ायब राजकुमार...'"
+    - "Next day the drawing master is found dead on the hillside. No human footprints near the body - only cow hoofprints. 'पर वहाँ कोई गाय थी ही नहीं।'"
+    - "Vikram reads the bicycle tracks to tell which way it was going."
+    - "At the inn: horseshoes made to leave cow-hoof prints, an old dacoit trick; freshly shod horses."
+    - "They find the boy locked in the inn."
+    - "Reveal: the secretary Jaiwant kidnapped his half-brother to force the Maharaja to change his will; the innkeeper killed the drawing master who chased them. The Maharaja offers a huge fee; Vikram takes it - and gives it all to Savitri's clinic. Black Lotus clue. Question."
+  shorts:
+    - "An empty dormitory bed, an open window, snow. Ends on: 'राजकुमार कहाँ गया?'"
+    - "Cow hoofprints in the snow but no cow. Ends on: 'आप बताइए, ये कैसे हुआ?'"
+    - "The inn's stable door and a child's cry. Cut."
+  thumbnail:
+    text: "बर्फ़ में खुरों के निशान"
+    prompt: >-
+      Cow hoofprints leading across fresh snow on a moonlit Himalayan slope, a small boy's woollen cap
+      lying in the snow, dark pine trees, deep red accent.
+
+# ------------------------------------------------------------------ EP 23
+- n: 23
+  source: The Adventure of Wisteria Lodge
+  title: "रातों-रात ख़ाली हवेली"
+  setting: Portuguese Goa, monsoon 1924. An isolated villa in the coconut groves and a grand neighbouring estate.
+  characters:
+    - "Hemant Joshi: a pompous, very respectable Bombay businessman"
+    - "Senhor Alvaro Gomes: the charming host (found dead)"
+    - "Inspector Fernandes: a sharp Goan police officer, Vikram's friendly rival"
+    - "'Mr Harish': a deposed tyrant ruler of a small princely state, living in Goa under a false name"
+    - "Miss Burnet: the tyrant's governess, secretly the widow of a man he executed"
+  black_lotus: "Fernandes reveals that the tyrant's escape ship and money were arranged by 'बनारस की कोई पंकज नाम की संस्था'. Vikram says it aloud for the first time: 'पंकज... यानी कमल।' The trust has many trustees - including Inspector Bhairav's brother-in-law (red herring) and Devendranath."
+  beats:
+    - "HOOK: a guest wakes at one in the morning to total silence. In the morning the entire house is empty - host, servants, everyone gone. Then the host is found dead on the common. 'रात को सोया, सुबह पूरी हवेली ख़ाली।'"
+    - "Hemant's outraged story; Inspector Fernandes is clever and competitive."
+    - "A note in the dead man's pocket: 'हमारे रंग हरे और सफ़ेद। हरा खुला, सफ़ेद बंद। मुख्य सीढ़ी, पहला गलियारा, दाहिने सातवाँ...'"
+    - "Vikram realises Gomes invited Hemant only as a respectable alibi; the note was a signal from inside the neighbouring estate."
+    - "Savitri finds the governess drugged and locked in the tyrant's house; she had been signalling Gomes."
+    - "The tyrant escapes on a ship; months later news comes that he was assassinated in Lisbon. Black Lotus moment. Question."
+  shorts:
+    - "An empty villa at dawn. Ends on: 'सब कहाँ गए?'"
+    - "The coded note: 'हरा खुला, सफ़ेद बंद'. Ends on: 'इसका मतलब क्या है?'"
+    - "'पंकज... यानी कमल।' Ends on: 'क्या आप पहले ही समझ गए थे?'"
+  thumbnail:
+    text: "रातों-रात ख़ाली हवेली"
+    prompt: >-
+      A lone man in a nightshirt holding a candle in an empty grand Goan villa hallway at dawn,
+      every door open, curtains blowing, deep red accent.
+
+# ------------------------------------------------------------------ EP 24
+- n: 24
+  source: The Adventure of the Devil's Foot
+  title: "डर से मौत"
+  setting: The Rajputana desert, 1924. A village below the ruined, 'cursed' fort of Kaligarh. Savitri has brought Vikram here to rest.
+  characters:
+    - "Madhusudan: an oily brother, visitor of the victims"
+    - "Bindu: his sister (found dead); Gyan and Om: his brothers (driven mad)"
+    - "Dr Vardhaman Rai: a famous explorer of the Burmese jungles, who loved Bindu"
+    - "Pujari Shivdutt: the village priest"
+  black_lotus: "Dr Rai's expedition was sponsored by Pankaj Seva Sadan, which 'asked for the root for medical research'. After the poisoning Devendranath sends his personal doctor to treat Vikram - Savitri refuses to let him in, uneasy without knowing why."
+  beats:
+    - "HOOK: in a house below the cursed fort a sister is found dead and two brothers are laughing and singing madly around a card table, their faces twisted with terror. The candles have burned out; a strange smell lingers. 'चेहरों पर ऐसा ख़ौफ़... उन्होंने क्या देखा?'"
+    - "Villagers blame the tantrik's curse of Kaligarh fort."
+    - "Days later Madhusudan, who visited them that night, dies the same way in his own room - his lamp still burning in daylight."
+    - "Vikram scrapes ash from the lamp; he tests it himself, burning the powder in a lamp. Savitri drags him out at the last moment; both nearly die (an artistic, terrifying hallucination scene, no gore). 'उस दिन मैंने मौत को अपनी आँखों से देखा।'"
+    - "Reveal: Madhusudan poisoned his siblings with 'शैतान की जड़' - a root powder from the Burmese jungles stolen from Dr Rai - for the inheritance. Dr Rai, who loved Bindu, killed Madhusudan the same way."
+    - "Vikram lets Dr Rai return to Burma. Black Lotus clue. Question."
+  shorts:
+    - "Faces frozen in terror. Ends on: 'ऐसा क्या देखा उन्होंने?'"
+    - "The cursed fort above the village. Ends on: 'तांत्रिक का श्राप या कुछ और?'"
+    - "Vikram lights a lamp with the strange powder. Cut."
+  thumbnail:
+    text: "डर से मौत"
+    prompt: >-
+      A man's face frozen in absolute terror, lit by a strange green lamp flame in a desert house,
+      the silhouette of a ruined fort through the window, deep red accent.
+
+# ------------------------------------------------------------------ EP 25
+- n: 25
+  source: The Adventure of the Bruce-Partington Plans
+  title: "आख़िरी ट्रेन की लाश"
+  setting: Calcutta in fog, 1924. The railway line outside a tunnel; houses whose windows overhang the tracks.
+  characters:
+    - "Akash Banerjee: a young arsenal clerk (found dead)"
+    - "Bela: his fiancee"
+    - "Vinay: the brother of a senior official, secretly in debt"
+    - "Mr Oberoi: a foreign agent living beside the line"
+    - "Raghav: comes to Vikram in person for the first time"
+  black_lotus: "Vinay admits he was introduced to Oberoi at a Pankaj Seva Sadan charity dinner; he never met the host. Raghav: 'मुझे एक नाम पर शक है, पर सबूत नहीं।' Inspector Bhairav is suspended after a Black Lotus letter is 'found' in his office drawer (planted)."
+  beats:
+    - "HOOK: a foggy dawn. On the tracks just outside a tunnel lies a young man's body - no ticket - and in his pocket seven secret pages of the new 'Arjun' cannon plans. Three pages are missing. 'रेल की पटरी पर लाश... और जेब में देश का सबसे बड़ा राज़।'"
+    - "Raghav, who never leaves his chair, comes to Vikram's room himself."
+    - "Clues: no blood on the tracks, so he died elsewhere; the body lay where trains jolt over the points. Vikram deduces the body was placed on the ROOF of a train from a window above the line."
+    - "Bela: on his last night Akash suddenly ran off into the fog."
+    - "Vikram and Savitri break into Oberoi's house by the line (Savitri as a terrified lookout): a dark stain on the window sill directly above the tracks."
+    - "A coded newspaper advertisement lures Vinay to the house; he is arrested and confesses Oberoi killed Akash, who had followed them. Oberoi is caught with the missing pages. Black Lotus clue. Question."
+  shorts:
+    - "A body on the tracks by the tunnel. Ends on: 'वो यहाँ कैसे पहुँचा?'"
+    - "No blood on the tracks. Ends on: 'आप बताइए, ऐसा क्यों?'"
+    - "A window right above the tracks as a train thunders beneath. Cut."
+  thumbnail:
+    text: "आख़िरी ट्रेन की लाश"
+    prompt: >-
+      A steam train emerging from a foggy tunnel at dawn, a man's body silhouetted on the tracks in front,
+      a signal lamp glowing red.
+
+# ------------------------------------------------------------------ EP 26
+- n: 26
+  source: The Adventure of the Dying Detective
+  title: "विक्रम की आख़िरी साँसें?"
+  setting: Banaras, 1924. Vikram's room above the gali, lamp-lit and stuffy.
+  characters:
+    - "Amma ji: Vikram's elderly landlady, white sari, scolds him like a son"
+    - "Kulwant Sood: a plump planter back from Sumatra, an expert in tropical diseases, sinister and smiling"
+    - "Inspector Bhairav: suspended, but helps Vikram secretly"
+  black_lotus: "The deadly ivory box was delivered by a boy from Pankaj Seva Sadan hospital as a 'get-well gift'. Earlier, Devendranath had visited the 'dying' Vikram: the room smelled of kewra; he picked up a pen with his LEFT hand and wrote 'जल्दी ठीक हो जाओ' in violet ink. After Sood's arrest Vikram stares at that note for a long time: 'अब मुझे यक़ीन है।' He says no name."
+  beats:
+    - "HOOK: 'जासूस विक्रम मर रहे हैं।' Amma ji runs to Savitri at night: Vikram has not eaten for three days and is delirious with a rare Sumatran fever. He forbids Savitri to touch him: 'पास मत आना! ये बीमारी छूने से फैलती है!'"
+    - "Vikram raves about oysters and coins, and insists only one man can cure him: Kulwant Sood. Savitri fetches him; Sood comes eagerly."
+    - "Vikram tells Savitri to hide behind the head of the bed."
+    - "Alone with the 'dying' Vikram, Sood gloats: he killed his own nephew with this disease and sent Vikram an ivory box with a hidden spring needle; he pockets the box to destroy the evidence."
+    - "Vikram asks him to turn up the gas lamp - the signal. Bhairav bursts in and arrests Sood."
+    - "Vikram sits up and eats: three days of starving, belladonna drops, wax on his lips - and he kept Savitri away because a doctor would have seen through it. 'माफ़ करना, सावित्री। तुम्हारे आँसू ही इस नाटक को सच बना सकते थे।' Black Lotus moment. Question: 'विक्रम किसके बारे में सोच रहे थे?'"
+  shorts:
+    - "'पास मत आना!' Ends on: 'क्या ये विक्रम का अंत है?'"
+    - "An ivory box with a hidden needle. Ends on: 'ये तोहफ़ा किसने भेजा?'"
+    - "Sood gloats beside the bed. Cut before the lamp signal."
+  thumbnail:
+    text: "विक्रम की आख़िरी साँसें?"
+    prompt: >-
+      Detective Vikram pale and sweating in bed in a lamp-lit room, a woman doctor in tears reaching out,
+      a plump man's sinister shadow at the door, an ivory box on the side table, deep red accent.
+
+# ------------------------------------------------------------------ EP 27
+- n: 27
+  source: The Adventure of the Sussex Vampire
+  title: "क्या माँ चुड़ैल थी?"
+  setting: A coffee-estate bungalow in Coorg, 1924, misty and remote.
+  characters:
+    - "Rohit Kariappa: a coffee planter, Vikram's old college friend"
+    - "Leela: his second wife, who grew up in Rangoon, quiet and proud"
+    - "Jai: his 15-year-old son from his first marriage, lame after a childhood fall, jealous"
+    - "The baby; Dai Gangamma, the nurse; the family dog, strangely paralysed"
+  black_lotus: "While Vikram is away, a Black Lotus letter arrives at his lodgings: 'खेल ख़त्म होने वाला है, विक्रम। अगली चाल आख़िरी होगी।' Savitri notices that the violet ink and the kewra smell match Devendranath's party invitation lying on the same table. She freezes."
+  beats:
+    - "HOOK: the nurse screams - the young mother is bent over her baby, lips at the baby's neck, a red stain at her mouth (no gore). The village whispers: 'चुड़ैल!'"
+    - "She has also twice struck her stepson Jai for no reason. She refuses to explain and locks herself in."
+    - "Vikram arrives: Burmese weapons on the wall and a quiver with darts missing; the family dog strangely paralysed; Jai's reflection in the window as he watches the baby with hatred."
+    - "Reveal: Jai, jealous of the baby, pricked it with a poisoned Burmese dart (he had tested it on the dog). The mother sucked the poison out to save her baby and kept silent to spare her husband the truth about his son."
+    - "No chudail, only a mother's love. Jai is sent to a school by the sea. Black Lotus letter. Question."
+  shorts:
+    - "The mother at the baby's neck. Ends on: 'क्या वो सच में चुड़ैल थी?'"
+    - "The paralysed dog. Ends on: 'कुत्ते को क्या हुआ?'"
+    - "Jai's reflection in the window glass. Ends on: 'आपने भी देखा?'"
+  thumbnail:
+    text: "क्या माँ चुड़ैल थी?"
+    prompt: >-
+      A young mother in a sari bent over a cradle in a dark lamp-lit room, a nurse screaming in the doorway,
+      a witch-like shadow on the wall, deep red accent, no blood.
+
+# ------------------------------------------------------------------ EP 28
+- n: 28
+  source: The Adventure of the Beryl Coronet
+  title: "टूटा हुआ मुकुट"
+  setting: Banaras, 1924, just after heavy rain. A banker's house with a mud courtyard.
+  characters:
+    - "Seth Dwarkadas Agarwal: a respectable banker"
+    - "Arun: his wild but honest son"
+    - "Meenu: his sweet niece, secretly in love with a scoundrel"
+    - "Kunwar Shamsher Singh: a charming gambler and famous marksman (the Black Lotus's right hand)"
+  black_lotus: "BIG TWIST: the CID arrests Inspector Bhairav as the Black Lotus - a black lotus seal and letters 'found' in his house. Headlines: 'काला कमल पकड़ा गया!' Devendranath publicly congratulates the police. Vikram to Savitri: 'भैरव बेवकूफ़ है, बेईमान नहीं। असली कमल अब भी खुला घूम रहा है... और आज रात वो मुस्कुरा रहा होगा।'"
+  beats:
+    - "HOOK: midnight. The banker wakes to find his son holding the Maharaja's priceless topaz crown, left with the bank as security - one corner broken off, three stones missing. 'आधी रात, बेटे के हाथ में टूटा मुकुट।'"
+    - "The son refuses to explain and is arrested."
+    - "Vikram reads the footprints in the rain-wet courtyard mud: a woman to the side door, a man waiting, then bare feet chasing in a hurry."
+    - "Vikram disguised as a loafer buys a servant's old shoes and confronts Shamsher, who draws a pistol; Vikram's cane is faster."
+    - "Reveal: Meenu stole the crown for Shamsher; Arun saw, chased him and wrestled the crown back, a piece breaking off; he stayed silent to protect his cousin. Meenu runs away with Shamsher."
+    - "Vikram buys back the stones. Then the twist: Bhairav arrested as the Black Lotus. Question: 'क्या भैरव ही काला कमल है?'"
+  shorts:
+    - "The son with the broken crown at midnight. Ends on: 'क्या बेटा ही चोर था?'"
+    - "Footprints in the wet mud. Ends on: 'आप पढ़ पाए?'"
+    - "Bhairav in handcuffs, 'काला कमल पकड़ा गया!' Ends on: 'क्या भैरव ही काला कमल है? कमेंट करें।'"
+  thumbnail:
+    text: "टूटा हुआ मुकुट"
+    prompt: >-
+      A young man in nightclothes holding a broken jewelled crown in a dark room, his father in the doorway
+      with a candle in shock, rain on the window, deep red accent.
+
+# ------------------------------------------------------------------ EP 29
+- n: 29
+  source: The Final Problem
+  title: "मौत का झरना"
+  setting: Banaras, then a night train east, Shillong, and the thundering waterfall at Cherrapunji in the monsoon, 1924.
+  characters:
+    - "The Black Lotus: only a voice in the dark and a cloaked silhouette"
+    - "Raghav: arranges the escape"
+    - "A boy messenger in Cherrapunji"
+  black_lotus: "Final image: back in Banaras, at the Pankaj Seva Sadan charity gala, Devendranath raises a glass 'to the memory of the great detective Vikram' and lightly touches the handle of his ivory walking stick."
+  beats:
+    - "HOOK: a rain-lashed cliff at Cherrapunji. Two figures struggle at the edge of a roaring waterfall - one in a navy coat with a brass-handled cane, one in a long black cloak. Then both are gone. 'उस दिन झरने ने दो आदमियों को निगल लिया।'"
+    - "Flashback: Vikram arrives at Savitri's clinic at night and closes the shutters; his knuckles are bruised. 'आज तीन बार मुझे मारने की कोशिश हुई।' He knows who the Black Lotus is; in three days the police will close the whole network - but he must survive three days."
+    - "The Black Lotus had visited him - a voice in the dark: 'मेरा रास्ता छोड़ दो, विक्रम।' Vikram: 'तो हम दोनों गिरेंगे।'"
+    - "The escape by Raghav's plan: separate train carriages, a sudden stop at a small station while a special train hired by their enemy thunders past."
+    - "Cherrapunji: a boy brings a message that a sick Englishwoman at the hotel needs a doctor. Savitri goes, realises it is a trick, and runs back through the rain."
+    - "At the waterfall: only Vikram's cane and a note under his silver case: 'सावित्री, वो यहाँ आया। आज हमारा हिसाब होगा। मेरी फ़ाइल राघव के पास है।' Two sets of footprints to the edge, none coming back."
+    - "Savitri's grief: 'उस दिन मैंने अपना सबसे अच्छा दोस्त खो दिया।' The gala image. Question: 'क्या विक्रम सच में चले गए? कल आख़िरी एपिसोड।'"
+  shorts:
+    - "Two figures at the waterfall's edge. Ends on: 'क्या विक्रम मर गए?'"
+    - "'आज तीन बार मुझे मारने की कोशिश हुई।' A bullet hole in the shutter. Ends on: 'कौन है ये?'"
+    - "The cane and the note at the edge. Ends on: 'क्या ये अंत है? कल आख़िरी एपिसोड।'"
+  thumbnail:
+    text: "मौत का झरना"
+    prompt: >-
+      A roaring waterfall in heavy monsoon rain, two struggling silhouettes at the cliff edge, a brass-handled
+      cane lying on the wet rocks, deep red accent.
+
+# ------------------------------------------------------------------ EP 30
+- n: 30
+  source: The Adventure of the Empty House
+  title: "काला कमल कौन?"
+  setting: Banaras, three months later, 1924. Vikram's lodging, the empty house opposite it, and the glittering Pankaj Seva Sadan gala at Devendranath's palace.
+  note: "Season finale. Reveal the Black Lotus as Rai Bahadur Devendranath through all the clues planted across the season. End with a Season 2 tease."
+  characters:
+    - "Kunwar Shamsher Singh: the marksman with a silent air-rifle"
+    - "Inspector Bhairav: released, wants to redeem himself"
+    - "Raghav, Amma ji, Devendranath"
+  black_lotus: "THE REVEAL. Vikram lays out the clues in order: kewra on every letter (Ep 1, 5, 6, 19, 27); violet ink and a left-handed slant (Ep 2, 8, 20, 26); 'पंकज' means lotus - Pankaj Seva Sadan behind the crimes (Ep 3, 10, 14, 18, 23, 24, 25); then he unscrews the ivory handle of Devendranath's walking stick - the black lotus seal is inside."
+  beats:
+    - "HOOK: three months after Vikram's 'death', a young nobleman is shot dead in a locked room in Banaras and no one heard a shot. Savitri investigates alone; an old hunchbacked bookseller bumps into her... in her clinic he straightens up - it is Vikram! Savitri faints for the only time in her life. 'जिसे सारी दुनिया मरा समझ रही थी... वो मेरे सामने खड़ा था।'"
+    - "Vikram explains: at the waterfall a wrestling trick sent the cloaked agent over the edge; Vikram climbed the cliff and played dead to catch the network. Only Raghav knew."
+    - "The locked-room shooting was done with Shamsher's silent air-rifle - and Shamsher will now come for Vikram."
+    - "The trap: in the empty house opposite, Vikram and Savitri wait in darkness while a wax bust of Vikram sits in his lit window, Amma ji turning it every fifteen minutes. Shamsher fires - the wax head shatters - Vikram and the released Bhairav seize him. Shamsher laughs: 'मुझे पकड़ लिया, पर कमल को कभी नहीं पकड़ पाओगे।'"
+    - "The gala: Vikram walks in alive; the room falls silent. He lays out every clue, unscrews the walking stick: the black lotus seal. 'राय बहादुर देवेंद्रनाथ... आप ही काला कमल हैं।'"
+    - "Devendranath's calm smile: 'पहली चाल तुम्हारी थी, विक्रम... और आख़िरी भी।' Bhairav, redeemed, arrests him."
+    - "Season 2 tease: in his cell Devendranath lets a single black petal fall: 'कमल एक नहीं होता, विक्रम... कीचड़ में सौ उगते हैं।' Question: 'क्या आपने पहले ही पहचान लिया था? किस एपिसोड में? कमेंट में बताइए।'"
+  shorts:
+    - "The old bookseller straightens up. Ends on: 'विक्रम ज़िंदा हैं?!'"
+    - "The wax head in the window shatters. Ends on: 'गोली किसने चलाई?'"
+    - "Vikram begins to unscrew the walking stick handle. Cut before the reveal. Ends on: 'काला कमल कौन? पूरा एपिसोड चैनल पर।'"
+  thumbnail:
+    text: "काला कमल कौन?"
+    prompt: >-
+      Detective Vikram in a grand chandelier-lit hall holding up an ivory walking stick whose handle is unscrewed,
+      revealing a black lotus seal; shocked guests in shadow, one silver-haired figure turned away, deep red accent.

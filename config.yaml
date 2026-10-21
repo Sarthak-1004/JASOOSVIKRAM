@@ -1,0 +1,78 @@
+# ------------------------------------------------------------------
+# Hindi Thriller Bot - main settings. Edit this file, commit, done.
+# Secrets (API keys) are NOT here - they go in GitHub Secrets.
+# ------------------------------------------------------------------
+
+channel:
+  name: "Jasoos Vikram"
+  # Your exact YouTube handle (shown on every Short's end card). Change it if
+  # @JasoosVikram is taken and you pick a different one.
+  handle: "@JasoosVikram"
+  # Added to the end of every video description
+  description_footer: "🔔 ऐसी ही रहस्य और रोमांच से भरी कहानियों के लिए Jasoos Vikram (जासूस विक्रम) को सब्सक्राइब करें।"
+  timezone: Asia/Kolkata
+
+schedule:
+  # Publish times (IST) on the publish day: long video + 3 Shorts
+  long_video: "10:00"
+  shorts: ["13:00", "18:00", "21:00"]
+
+series:
+  # true = follow series/bible.yaml + series/episodes.yaml one episode per day
+  # false = a brand-new standalone story every day
+  enabled: true
+
+story:
+  text_model: gemini-2.5-pro          # falls back to fallback_model on error
+  fallback_model: gemini-2.5-flash
+  target_words: 720                   # ~5 min of Hindi narration
+  scenes: 22
+  images_per_scene: 4                 # 22 x 4 = 88 images
+  clip_candidates: 5                  # top 3 used, rest kept for /recut
+  history_size: 60                    # past plots sent to Gemini to avoid repeats
+  # Optional hint for the story world; leave empty for full variety
+  theme_hint: ""
+
+images:
+  model: gemini-2.5-flash-image       # "Nano Banana"
+  use_batch: true                     # 50% cheaper, generated the day before
+  vertical_for_shorts: true           # extra 9:16 images for Shorts scenes
+  sync_workers: 6                     # parallel requests when not using batch
+  style_prompt: >-
+    2D Indian graphic novel illustration, bold black ink outlines, flat cel shading,
+    muted noir colour palette with deep shadows and a single accent colour,
+    dramatic cinematic lighting, hand-drawn paper texture, Indian setting, Indian
+    clothing and architecture, suspenseful mood, cinematic composition.
+    Absolutely no text, no letters, no captions, no watermark, no speech bubbles.
+    Implied danger only - no gore, no blood splatter.
+
+voice:
+  provider: sarvam
+  model: bulbul:v2
+  speaker: anushka                    # female voices: anushka, manisha, vidya, arya
+  pace: 1.0
+  pitch: 0
+  loudness: 1.0
+  sample_rate: 22050
+  scene_gap: 0.35                     # seconds of silence between scenes
+
+video:
+  fps: 25
+  music_volume: 0.12                  # background music level (0-1)
+  long_crf: 20
+  shorts_target_seconds: [45, 75]
+  font: Noto Sans Devanagari
+  shorts_end_text: "पूरी कहानी चैनल पर देखें"
+
+youtube:
+  category_id: "24"                   # Entertainment
+  # Until Google approves your API project audit, uploads stay private.
+  # Keep false until then: the bot uploads privately and tells you to schedule
+  # in YouTube Studio. Set true after the audit is approved.
+  api_audited: false
+  synthetic_media: true               # "altered or synthetic content" disclosure
+
+review:
+  # Listener stops at this IST time; no reply by deadline => auto publish
+  listen_until: "01:00"
+  auto_publish: true

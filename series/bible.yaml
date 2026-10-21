@@ -1,0 +1,132 @@
+# ==================================================================
+# SERIES BIBLE - "जासूस विक्रम" Season 1 (30 episodes)
+# The bot sends this file to Gemini every day, so every episode stays
+# consistent. Edit freely.
+# A recurring character's face is locked the first time it is drawn:
+# state/series_refs/<id>.jpg. Replace that file to change the face.
+# ==================================================================
+series_name: "जासूस विक्रम"
+title_format: "{episode_title} | जासूस विक्रम Ep {n}"
+credit_line: "आर्थर कॉनन डॉयल की कहानी \"{source}\" से प्रेरित (public domain). सभी पात्र काल्पनिक हैं।"
+
+setting: >-
+  British-era India, 1923-1924. Home base: Vikram's rented upper floor in a narrow gali
+  near Dashashwamedh Ghat, Banaras - temple bells, river mist, oil lamps. Cases take Vikram
+  across 1920s India: Shimla, Mirzapur, Lucknow, Meerut, Calcutta, Bombay, Rajputana, Goa,
+  Mussoorie, Darjeeling, Cherrapunji. Period-accurate: tongas, steam trains, telegrams,
+  lanterns, gramophones. No modern objects.
+
+tone: >-
+  Classic fair-play detective mystery wrapped in Indian gothic horror. Every case first looks
+  supernatural (chudail, curse, ghost, haunted haveli) and the locals believe it - then Vikram
+  proves the human truth behind it. Deaths happen off-screen: shadows, screams, reactions,
+  a fallen lantern. No gore, no blood, nothing sexual, no community stereotypes.
+
+narrator: >-
+  Savitri narrates every episode in first person ("मैं सावित्री..."). Warm, hushed, suspenseful,
+  like telling a story by lamplight. She is in the scenes, not just describing them.
+
+style_extra: >-
+  1920s British-era India period details: oil lanterns, gas lamps, brass, carved wood,
+  vintage clothing, steam trains, no modern objects.
+
+recurring_characters:
+  - id: vikram
+    name: "जासूस विक्रम"
+    look: >-
+      Lean Indian man in his mid-30s, sharp intelligent eyes, neatly trimmed black moustache,
+      short side-parted hair, dark navy bandhgala coat over a white kurta, grey wool shawl over
+      one shoulder, black cane with a brass handle, often carries an oil lantern.
+    personality: >-
+      Calm, observant, dry humour, never raises his voice. Notices tiny details (mud on a shoe,
+      a smell, which hand someone writes with). Says little, then explains everything at the end.
+      Signature line when he solves it: "सच हमेशा छोटी चीज़ों में छिपा होता है।"
+
+  - id: savitri
+    name: "डॉक्टर सावित्री"
+    look: >-
+      Indian woman in her late 20s, intelligent kind face, hair in a low bun, small round
+      spectacles, cotton sari with a dark border, brown leather doctor's bag, small notebook.
+    personality: >-
+      A young doctor trained in Calcutta, brave but human - she gets scared and admits it.
+      Vikram's companion and the chronicler of his cases. Asks the questions the viewer is asking.
+
+  - id: inspector_bhairav
+    name: "इंस्पेक्टर भैरव पांडे"
+    look: >-
+      Heavy-set Indian police inspector in his late 40s, thick curled moustache, 1920s khaki
+      police uniform with a red-and-khaki pagri turban, leather belt, short wooden baton.
+    personality: >-
+      Banaras police. Loud, proud, always arrives late and arrests the wrong person, but honest
+      at heart. Comic relief and the season's RED HERRING for the Black Lotus.
+
+  - id: devendranath
+    name: "राय बहादुर देवेंद्रनाथ"
+    look: >-
+      Distinguished Indian gentleman around 60, silver hair and neat silver beard, white
+      achkan with gold buttons, gold-rimmed spectacles, ivory-handled walking stick.
+    personality: >-
+      Banaras's most respected banker and philanthropist, founder of the charity hospital
+      "पंकज सेवा सदन". Gentle, generous, always praises and helps Vikram. Wears kewra attar.
+      Left-handed. Writes with violet ink.
+
+  - id: raghav
+    name: "राघव (विक्रम के बड़े भाई)"
+    from_episode: 13
+    look: >-
+      Indian man in his mid-40s, heavier build, same sharp eyes as Vikram, grey three-piece
+      tweed suit, pocket watch chain, round black spectacles.
+    personality: >-
+      Works quietly for the government in Calcutta. Even smarter than Vikram but hates leaving
+      his chair. Has a secret government file on the Black Lotus.
+
+  - id: amma_ji
+    name: "अम्मा जी"
+    look: >-
+      Elderly Indian landlady around 70, white cotton sari with a thin border, silver hair in a bun,
+      reading glasses on a string, a brass key ring at her waist.
+    personality: >-
+      Vikram's landlady in the Banaras gali. Scolds him like a son, feeds everyone, fearless.
+
+  - id: black_lotus
+    name: "काला कमल"
+    look: >-
+      Never shown clearly: a silhouette in a long dark coat and hat, a gloved hand, or a black
+      lotus wax seal on a letter written in violet ink.
+    personality: >-
+      The hidden mastermind behind crime across India. Leaves a letter sealed with a black lotus
+      at the end of cases. Identity revealed only in Episode 30.
+
+secret_arc: >-
+  The Black Lotus is Rai Bahadur Devendranath, the beloved philanthropist. Clues planted across
+  the season, one or two per episode, always subtle and always fair:
+  (1) the Black Lotus letters smell faintly of kewra; Devendranath wears kewra attar;
+  (2) the letters are written in violet ink with a left-handed slant; Devendranath is left-handed;
+  (3) "pankaj" means lotus - his charity "पंकज सेवा सदन" keeps appearing in the background of crimes;
+  (4) his ivory walking-stick handle unscrews and hides the black lotus seal (shown only in Ep 30).
+  Inspector Bhairav is the red herring: he is often seen near Black Lotus events and is
+  arrested as the Black Lotus in Ep 28, but he is innocent.
+  Kunwar Shamsher Singh, a marksman and gentleman gambler, is Devendranath's right hand
+  (introduced Ep 28, caught Ep 30).
+  In Ep 29 Vikram goes over a waterfall at Cherrapunji with a cloaked figure and is presumed dead.
+  In Ep 30 he returns and unmasks Devendranath.
+
+rules:
+  - Vikram solves every case through observation and logic, and every clue is shown to the viewer before the reveal.
+  - The Black Lotus thread takes at most 2-3 sentences per episode (a seal, a letter, a smell, a shadow) and never steals the main case.
+  - Never use the names Sherlock Holmes, Watson, Moriarty or Baker Street.
+  - Never show the Black Lotus's face before Episode 30.
+  - Real places can be settings, but all people, families, crimes and institutions are fictional.
+
+viral_rules:
+  - "COLD OPEN: the first 2 sentences start at the scariest moment of the case (a scream, a body, a curse letter, a vanished person). No introductions before the hook."
+  - "Third sentence: the impossible question (locked room, no wound, a dead man seen alive). The viewer must want the answer."
+  - "Then Savitri's line: 'मैं सावित्री... ये उस रात की कहानी है...' and the story proper."
+  - "Make it look supernatural first: 'लोग कहते थे...' (a chudail, a curse, a ghost). The rational truth arrives only in the last 90 seconds."
+  - "Around 2:30, an interactive pause: 'रुकिए। क्या आपने वो सुराग पकड़ा?' Viewers love solving along; this drives comments."
+  - "Every scene ends on a small hook: a sound, a door, a shadow, a sentence cut short."
+  - "Short sentences, spoken Hindi, sensory details (smell of mustard oil, temple bells, creaking wood, rain on tin roof)."
+  - "Reveal in a clear chain: clue → meaning → culprit → motive. Then Vikram's signature line."
+  - "Last 15 seconds: the Black Lotus moment, then a direct question to viewers for comments ('काला कमल कौन है? अपना शक कमेंट में लिखिए।' or a case-specific question)."
+  - "Titles: a 2-5 word Hindi horror or mystery question or phrase (a curse, an impossible fact, a number). Thumbnail: one terrified face plus one mystery object, a red accent, 2-4 big words."
+  - "Shorts: start on the most shocking line, end on an unanswered question, never reveal the solution."
