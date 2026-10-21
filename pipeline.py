@@ -479,7 +479,7 @@ def stage_check() -> None:
     step("YouTube", youtube)
 
     report = "🔧 Setup check\n" + "\n".join(lines)
-    gh_annotate("notice", "setup check", report)
+    gh_annotate("warning", "setup check", report)
     notify(report)
     if not NO_TG:
         for path, cap in files:
