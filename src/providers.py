@@ -12,6 +12,7 @@ A provider that is out of quota or not configured is switched off for the rest o
 import base64
 import io
 import os
+import re
 import threading
 import time
 import urllib.parse
@@ -150,9 +151,14 @@ def _small_ref(data: bytes) -> bytes:
 
 
 def _cloudflare(prompt: str, refs: list[bytes], aspect: str) -> bytes | None:
-    acct, token = os.environ.get("CF_ACCOUNT_ID"), os.environ.get("CF_API_TOKEN")
+    acct, token = os.environ.get("CF_ACCOUNT_ID", ""), os.environ.get("CF_API_TOKEN", "").strip()
     if not acct or not token:
         raise ProviderDead("CF_ACCOUNT_ID / CF_API_TOKEN secrets not set")
+    # accept the bare ID or anything containing it, e.g. a pasted dashboard URL
+    m = re.search(r"[0-9a-f]{32}", acct.lower())
+    if not m:
+        raise ProviderDead("CF_ACCOUNT_ID does not contain a 32-character Cloudflare account ID")
+    acct = m.group(0)
     w, h = SIZES.get(aspect, SIZES["16:9"])
     form = {"prompt": (None, prompt[:2000]), "width": (None, str(w)), "height": (None, str(h))}
     for i, r in enumerate(refs[:4]):

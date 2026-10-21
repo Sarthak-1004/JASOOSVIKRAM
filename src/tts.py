@@ -39,14 +39,18 @@ def _speak(text: str) -> bytes:
         "loudness": v["loudness"], "speech_sample_rate": v["sample_rate"],
         "enable_preprocessing": True,
     }
+    last = ""
     for attempt in range(5):
         r = requests.post(URL, json=body, timeout=120,
-                          headers={"api-subscription-key": env("SARVAM_API_KEY")})
+                          headers={"api-subscription-key": env("SARVAM_API_KEY").strip()})
         if r.ok:
             return base64.b64decode(r.json()["audios"][0])
-        log.warning("Sarvam TTS %s: %s", r.status_code, r.text[:300])
+        last = f"HTTP {r.status_code}: {r.text[:500]}"
+        log.warning("Sarvam TTS %s", last)
+        if r.status_code in (400, 401, 403, 404, 422):  # bad key/request: retrying will not help
+            break
         time.sleep(3 * 2 ** attempt)
-    raise RuntimeError("Sarvam TTS failed repeatedly")
+    raise RuntimeError(f"Sarvam TTS failed: {last}")
 
 
 def _pcm(wav_bytes: bytes, path: Path):
