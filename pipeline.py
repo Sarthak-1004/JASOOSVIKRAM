@@ -410,6 +410,9 @@ def stage_publish(date: str) -> None:
     if state.get("status") == "published":
         log.info("Already published")
         return
+    if state.get("status") in (None, "new"):
+        log.info("Nothing was made for %s; nothing to publish.", date)
+        return
     if state.get("status") != "review" or not (wd / "v.mp4").exists():
         notify(f"❌ Auto-publish for {date}: no rendered videos found (status {state.get('status')}). "
                "Check the GitHub Actions logs.")
