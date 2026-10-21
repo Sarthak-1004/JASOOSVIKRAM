@@ -70,8 +70,39 @@ female storyteller. Rules:
 """
 
 
+def shot_plan(n_scenes: int, weights: list[int] | None = None) -> list[int]:
+    """Images per scene. images.total_per_episode (e.g. 50) is spread by scene length;
+    0 means a flat story.images_per_scene for every scene."""
+    total = int(CFG["images"].get("total_per_episode") or 0)
+    if not total:
+        return [CFG["story"]["images_per_scene"]] * n_scenes
+    total = max(total, n_scenes)
+    w = weights or [1] * n_scenes
+    raw = [total * x / sum(w) for x in w]
+    plan = [max(1, int(r)) for r in raw]
+    order = sorted(range(n_scenes), key=lambda i: raw[i] - int(raw[i]), reverse=True)
+    i = 0
+    while sum(plan) < total:  # hand out the remainder to the scenes that were rounded down most
+        plan[order[i % n_scenes]] += 1
+        i += 1
+    while sum(plan) > total:
+        j = max(range(n_scenes), key=lambda k: plan[k])
+        plan[j] -= 1
+    return plan
+
+
+def _plan_for(episode: dict | None) -> list[int]:
+    if episode and episode.get("script"):
+        return shot_plan(len(episode["script"]), [len(t.split()) for t in episode["script"]])
+    return shot_plan(CFG["story"]["scenes"])
+
+
 def _prompt(history: list[str], idea: str = "", episode: dict | None = None) -> str:
     s = CFG["story"]
+    plan = _plan_for(episode)
+    per_scene = (f"- Exactly {plan[0]} shots per scene." if len(set(plan)) == 1 else
+                 "- Shots per scene (follow exactly): " +
+                 ", ".join(f"scene {i} = {n}" for i, n in enumerate(plan, 1)) + ".")
     past = "\n".join(f"- {h}" for h in history[-s["history_size"]:]) or "- (none yet)"
     extra = idea or ("" if episode else s.get("theme_hint")) or ""
     if episode and episode.get("script"):
@@ -80,7 +111,7 @@ def _prompt(history: list[str], idea: str = "", episode: dict | None = None) -> 
 
 THE NARRATION IS ALREADY WRITTEN. Do not rewrite it. Return exactly {len(episode['script'])} scenes,
 copying each scene's narration below verbatim, and write the shots, characters, clips and metadata.
-- Exactly {s['images_per_scene']} shots per scene that illustrate that scene's narration.
+{per_scene} Each shot illustrates that scene's narration.
 - Exactly {s['clip_candidates']} clip candidates.
 
 {scenes}
@@ -91,14 +122,14 @@ copying each scene's narration below verbatim, and write the shots, characters, 
 Length and format:
 - Total narration: about {s['target_words']} Hindi words (about 5 minutes spoken).
 - Exactly {s['scenes']} scenes, about {s['target_words'] // s['scenes']} words each.
-- Exactly {s['images_per_scene']} shots per scene.
+{per_scene}
 - Exactly {s['clip_candidates']} clip candidates.
 {f'- Extra direction from the producer for this version: {extra}' if extra else ''}
 """
     return f"""Write today's story.
 - Total narration: about {s['target_words']} Hindi words (about 5 minutes spoken).
 - Exactly {s['scenes']} scenes, about {s['target_words'] // s['scenes']} words each.
-- Exactly {s['images_per_scene']} shots per scene.
+{per_scene}
 - 2 to 4 main characters.
 - Exactly {s['clip_candidates']} clip candidates.
 {f'- Story idea / direction from the producer: {extra}' if extra else ''}
@@ -168,6 +199,8 @@ def write_story(idea: str = "", episode: dict | None = None) -> dict:
                 _apply_fixed(data, episode)
                 data["episode"] = episode["n"]
                 series.finish_metadata(data, episode)
+            _fit_shots(data, _plan_for(episode) if len(_plan_for(episode)) == len(data["scenes"])
+                       else shot_plan(len(data["scenes"])))
             return data
         except Exception as e:  # noqa: BLE001
             if str(e) == models.FREE_TIER_HELP:
@@ -176,6 +209,16 @@ def write_story(idea: str = "", episode: dict | None = None) -> dict:
             last_err = e
             time.sleep(15 * (attempt + 1))
     raise RuntimeError(f"Could not write a story: {str(last_err)[:500]}")
+
+
+def _fit_shots(data: dict, plan: list[int]) -> None:
+    """Trim or top up each scene's shots to the planned image count."""
+    for sc, n in zip(data["scenes"], plan):
+        shots = sc["shots"] or [{"prompt": "", "characters": []}]
+        extra = [{**shots[i % len(shots)], "prompt": shots[i % len(shots)]["prompt"] +
+                  " Different camera angle and framing from the previous shot."}
+                 for i in range(max(0, n - len(shots)))]
+        sc["shots"] = (shots + extra)[:n]
 
 
 def _apply_fixed(data: dict, episode: dict) -> None:

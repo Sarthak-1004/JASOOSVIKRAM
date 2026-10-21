@@ -36,12 +36,21 @@ story:
   theme_hint: ""
 
 images:
+  # Images per episode, spread across the scenes by length (0 = story.images_per_scene each).
+  # 50 fits comfortably inside Cloudflare's free daily allowance (~90 images/day).
+  total_per_episode: 50
+  # Tried in order for every image. gemini needs a billed key (free tier has no image quota);
+  # cloudflare is free (secrets CF_ACCOUNT_ID + CF_API_TOKEN); pollinations is a slow free backup.
+  providers: [gemini, cloudflare, pollinations]
+  cloudflare_model: "@cf/black-forest-labs/flux-2-klein-4b"
+  pollinations_interval: 46           # seconds between free Pollinations requests
   # "Nano Banana" image models, cheapest suitable first. Same auto-fallback as text_models.
   models: [gemini-nano-banana-2.1, gemini-3.1-flash-lite-image, gemini-3.1-flash-image-preview,
            gemini-2.5-flash-image, gemini-3-pro-image-preview]
-  use_batch: true                     # 50% cheaper, generated the day before
-  vertical_for_shorts: true           # extra 9:16 images for Shorts scenes
-  sync_workers: 6                     # parallel requests when not using batch
+  use_batch: true                     # Gemini only: 50% cheaper, generated the day before
+  # extra 9:16 images for Shorts; false = Shorts reuse the 16:9 images on a blurred background
+  vertical_for_shorts: false
+  sync_workers: 4                     # parallel image requests
   style_prompt: >-
     2D Indian graphic novel illustration, bold black ink outlines, flat cel shading,
     muted noir colour palette with deep shadows and a single accent colour,

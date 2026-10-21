@@ -1,4 +1,4 @@
-"""Image generation with Gemini "Nano Banana" image models: batch + sync fallback."""
+"""Image generation: Gemini batch (paid keys) or the free provider chain in providers.py."""
 import base64
 import io
 import json
@@ -10,7 +10,7 @@ from google import genai
 from google.genai import types
 from PIL import Image, ImageEnhance, ImageFilter
 
-from . import models, series
+from . import models, providers, series
 from .common import CFG, STATE_DIR, env, log
 from .story import all_shots
 
@@ -89,22 +89,6 @@ def _save(data: bytes, out: Path) -> None:
     Image.open(io.BytesIO(data)).convert("RGB").save(out, "JPEG", quality=92)
 
 
-def _generate(contents, aspect: str):
-    return models.run("image", client(), lambda m: client().models.generate_content(
-        model=m, contents=contents,
-        config=types.GenerateContentConfig(
-            response_modalities=["TEXT", "IMAGE"],
-            image_config=types.ImageConfig(aspect_ratio=aspect))))
-
-
-def _image_from_response(resp) -> bytes | None:
-    for cand in resp.candidates or []:
-        for part in (cand.content.parts if cand.content else []) or []:
-            if part.inline_data and part.inline_data.data:
-                return part.inline_data.data
-    return None
-
-
 # ---------------------------------------------------------------- characters
 
 def make_characters(story: dict, wd: Path) -> None:
@@ -117,28 +101,19 @@ def make_characters(story: dict, wd: Path) -> None:
                   f"full body standing front view on the left and a head-and-shoulders close-up on the "
                   f"right, plain light grey background. {c['look']}")
         for attempt in range(3):
-            try:
-                resp = _generate(prompt, "16:9")
-                data = _image_from_response(resp)
-                if data:
-                    Image.open(io.BytesIO(data)).convert("RGB").save(out, "JPEG", quality=90)
-                    series.keep_ref(c["id"], out)
-                    log.info("Character sheet: %s", c["id"])
-                    break
-            except Exception as e:  # noqa: BLE001
-                if str(e) == models.FREE_TIER_HELP:
-                    raise
-                log.warning("Character %s attempt %d failed: %s", c["id"], attempt + 1, e)
-                time.sleep(5 * (attempt + 1))
+            if providers.all_dead():
+                return
+            data = providers.generate(prompt, [], "16:9")
+            if data:
+                Image.open(io.BytesIO(data)).convert("RGB").save(out, "JPEG", quality=90)
+                series.keep_ref(c["id"], out)
+                log.info("Character sheet: %s", c["id"])
+                break
+            log.warning("Character %s attempt %d: no image", c["id"], attempt + 1)
 
 
-def _ref_parts_bytes(story: dict, shot: dict, wd: Path) -> list:
-    parts = []
-    for cid in shot["characters"]:
-        p = char_path(wd, cid)
-        if p.exists():
-            parts.append(types.Part.from_bytes(data=p.read_bytes(), mime_type="image/jpeg"))
-    return parts
+def _ref_bytes(shot: dict, wd: Path) -> list[bytes]:
+    return [char_path(wd, cid).read_bytes() for cid in shot["characters"] if char_path(wd, cid).exists()]
 
 
 def make_thumbnail_art(story: dict, wd: Path) -> None:
@@ -151,38 +126,28 @@ def make_thumbnail_art(story: dict, wd: Path) -> None:
             "characters": [c["id"] for c in story["characters"]
                            if c["id"].lower() in story["thumbnail_prompt"].lower()
                            or c["name"] in story["thumbnail_prompt"]]}
-    for attempt in range(3):
-        try:
-            resp = _generate([_text(story, shot, "16:9"), *_ref_parts_bytes(story, shot, wd)], "16:9")
-            data = _image_from_response(resp)
-            if data:
-                _save(data, out)
-                return
-        except Exception as e:  # noqa: BLE001
-            if str(e) == models.FREE_TIER_HELP:
-                raise
-            log.warning("Thumbnail art attempt %d: %s", attempt + 1, e)
-            time.sleep(5)
+    for _ in range(2):
+        if providers.all_dead():
+            return
+        data = providers.generate(_text(story, shot, "16:9"), _ref_bytes(shot, wd), "16:9")
+        if data:
+            _save(data, out)
+            return
 
 
 # ---------------------------------------------------------------- sync
 
 def generate_one(story: dict, wd: Path, k: str) -> bool:
     shot, aspect = _shot_by_key(story, k)
-    for attempt in range(4):
-        try:
-            resp = _generate([_text(story, shot, aspect, soften=attempt >= 2),
-                              *_ref_parts_bytes(story, shot, wd)], aspect)
-            data = _image_from_response(resp)
-            if data:
-                _save(data, img_path(wd, k))
-                return True
-            log.warning("%s: no image returned (likely safety block), retrying", k)
-        except Exception as e:  # noqa: BLE001
-            if str(e) == models.FREE_TIER_HELP:
-                raise
-            log.warning("%s attempt %d: %s", k, attempt + 1, e)
-            time.sleep(min(60, 5 * 2 ** attempt))
+    for attempt in range(3):
+        if providers.all_dead():
+            return False
+        data = providers.generate(_text(story, shot, aspect, soften=attempt >= 1),
+                                  _ref_bytes(shot, wd), aspect)
+        if data:
+            _save(data, img_path(wd, k))
+            return True
+        log.warning("%s: no image on attempt %d (blocked or failed)", k, attempt + 1)
     return False
 
 
@@ -190,13 +155,18 @@ def generate_sync(story: dict, wd: Path, keys: list[str]) -> list[str]:
     """Generate keys in parallel; returns keys that still failed."""
     if not keys:
         return []
-    log.info("Generating %d images (standard API)", len(keys))
+    log.info("Generating %d images via %s", len(keys), providers._order())
     with ThreadPoolExecutor(CFG["images"]["sync_workers"]) as ex:
         ok = list(ex.map(lambda k: generate_one(story, wd, k), keys))
     return [k for k, good in zip(keys, ok) if not good]
 
 
 # ---------------------------------------------------------------- batch
+
+def batch_possible() -> bool:
+    return bool(CFG["images"].get("use_batch")) and providers._order()[:1] == ["gemini"] \
+        and providers.alive("gemini")
+
 
 def submit_batch(story: dict, state: dict, wd: Path, keys: list[str]) -> None:
     """Upload character refs + a JSONL of requests; start a 50%-price batch job."""
@@ -298,7 +268,12 @@ def fill_missing(story: dict, wd: Path) -> list[str]:
 def ensure_images(story: dict, state: dict, wd: Path, keys: list[str]) -> list[str]:
     collect_batch(state, wd)
     missing = [k for k in keys if not img_path(wd, k).exists()]
-    # verticals are optional (blur fallback); horizontals first
-    missing.sort(key=lambda k: k[0] != "h")
+    # horizontals before (optional) verticals; shots with characters first, so they get the
+    # provider that supports reference faces while its daily allowance lasts
+    has_char = lambda k: bool(_shot_by_key(story, k)[0]["characters"])  # noqa: E731
+    missing.sort(key=lambda k: (k[0] != "h", not has_char(k)))
     failed = generate_sync(story, wd, missing)
+    if not any(img_path(wd, key("h", s["n"])).exists() for s in all_shots(story)):
+        raise RuntimeError("No image could be made by any provider (" + providers.summary() + "). "
+                           "Check the CF_ACCOUNT_ID / CF_API_TOKEN secrets, or Gemini billing.")
     return fill_missing(story, wd) + failed

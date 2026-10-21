@@ -17,7 +17,7 @@ import sys
 import time
 import traceback
 
-from src import images, models, render, series, telegram as tg, tts
+from src import images, models, providers, render, series, telegram as tg, tts
 from src.common import CFG, ITEMS, STATE_DIR, git_pull, load_state, log, now, publish_times, resolve_date, \
     save_state, work_dir
 from src.story import add_history, all_shots, write_story
@@ -60,26 +60,25 @@ def stage_prepare(date: str, use_batch: bool, idea: str = "", force: bool = Fals
     images.make_characters(story, wd)
     images.make_thumbnail_art(story, wd)
     keys = images.wanted_keys(story, state["active_clips"])
-    if use_batch:
+    if use_batch and images.batch_possible():
         try:
             images.submit_batch(story, state, wd, keys)
             state["status"] = "images_submitted"
-        except Exception as e:  # noqa: BLE001 - produce falls back to the standard API
-            if str(e) == models.FREE_TIER_HELP:
-                raise
+        except Exception as e:  # noqa: BLE001 - produce makes the images with the provider chain
             log.error(traceback.format_exc())
-            notify(f"⚠️ Image batch could not be submitted ({e}). Images will be made at 15:00 "
-                   "with the standard API (full price) instead.")
+            notify(f"⚠️ Gemini image batch not available ({str(e)[:200]}). "
+                   "Images will be made at 15:00 with the next image provider instead.")
     save_state(state, msg=f"story for {date}")
     used = models.chosen()
     ep = f"Ep {story['episode']} " if story.get("episode") else ""
     warn = ""
-    if "pro" in (used.get("image") or ""):
+    if "pro" in (used.get("image") or "") and providers.stats.get("gemini"):
         warn = ("\n⚠️ Only an expensive 'pro' image model worked with this key. Check its price "
                 "before the next run, or change images.models in config.yaml.")
     notify(f"📝 {ep}story ready for {date}: {story['title']}\n"
-           f"Models: text {used.get('text')}, images {used.get('image')}{warn}\n"
-           f"Images are being made; the videos come here for review after the 15:00 run.")
+           f"Text model: {used.get('text')}\nImages so far: {providers.summary()}{warn}\n"
+           f"{sum(len(sc['shots']) for sc in story['scenes'])} images will be made at 15:00, "
+           f"then the videos come here for review.")
     if not NO_TG:
         for c in story["characters"]:
             p = images.char_path(wd, c["id"])
@@ -194,6 +193,7 @@ def send_review(state: dict, wd, problems=None, only=ITEMS) -> None:
         if thumb.exists():
             tg.send_photo(thumb, "Thumbnail")
     warn = f"\n⚠️ Images reused from neighbours: {', '.join(problems)}" if problems else ""
+    warn += f"\n🖼️ Image sources: {providers.summary()}"
     notify(status_text(state) + warn + "\n\n" + HELP, review_buttons())
 
 
