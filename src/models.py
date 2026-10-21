@@ -11,6 +11,8 @@ from .common import CFG, gh_annotate, log
 
 SKIP = ("tts", "embedding", "live", "audio", "computer-use", "robotics", "imagen", "veo",
         "lyria", "aqa", "learnlm", "gemma", "thinking-exp")
+TEXT_RE = re.compile(r"^gemini-(?:\d+(?:\.\d+)?-)?(?:pro|flash|flash-lite)(?:-preview)?"
+                     r"(?:-\d{2}-\d{2,4})*(?:-latest)?$")
 _lock = threading.Lock()
 _listed: list[str] | None = None
 _queues: dict[str, list[str]] = {}
@@ -41,8 +43,8 @@ def _candidates(kind: str, client) -> list[str]:
         return list(prefs)
     out = [m for m in prefs if m in avail]
     if kind == "text":
-        auto = [m for m in avail if m.startswith("gemini-") and "image" not in m
-                and "banana" not in m and not any(s in m for s in SKIP)]
+        # only general chat models (pro / flash / flash-lite), never transcribe/tts/tools variants
+        auto = [m for m in avail if TEXT_RE.match(m)]
         tier = lambda m: 0 if "pro" in m else 2 if "lite" in m else 1  # noqa: E731
         auto.sort(key=lambda m: (tier(m), tuple(-x for x in _version(m))))
     else:
@@ -79,7 +81,8 @@ def _unavailable(e: Exception) -> bool:
     code = getattr(e, "code", None) or getattr(e, "status_code", None)
     return (code == 404 or "not found" in msg or "no longer available" in msg
             or "not supported" in msg or "is not available" in msg or "deprecated" in msg
-            or ("modalit" in msg and "image" in msg) or _zero_quota(msg))
+            or ("modalit" in msg and "image" in msg) or "not enabled for this model" in msg
+            or _zero_quota(msg))
 
 
 def _busy(e: Exception) -> bool:

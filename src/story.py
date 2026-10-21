@@ -174,8 +174,9 @@ def _validate(story: Story, episode: dict | None = None) -> list[str]:
 
 def write_story(idea: str = "", episode: dict | None = None) -> dict:
     client = genai.Client(api_key=env("GEMINI_API_KEY"))
-    contents = _prompt(_history(), idea, episode)
-    config = types.GenerateContentConfig(system_instruction=SYSTEM, response_mime_type="application/json",
+    # instructions go in the message itself: some models reject a separate system instruction
+    contents = SYSTEM + "\n\n" + _prompt(_history(), idea, episode)
+    config = types.GenerateContentConfig(response_mime_type="application/json",
                                          response_schema=Story, temperature=1.0)
 
     def call(model: str):
@@ -183,7 +184,7 @@ def write_story(idea: str = "", episode: dict | None = None) -> dict:
         return client.models.generate_content(model=model, contents=contents, config=config)
 
     last_err = None
-    attempts = 6
+    attempts = 8
     for attempt in range(attempts):
         try:
             resp = models.run("text", client, call)
@@ -211,7 +212,7 @@ def write_story(idea: str = "", episode: dict | None = None) -> dict:
             gh_annotate("warning", f"story attempt {attempt + 1}", f"{type(e).__name__}: {str(e)[:1500]}")
             last_err = e
             if attempt < attempts - 1:
-                time.sleep(min(120, 20 * (attempt + 1)))  # every model busy: give Google a moment
+                time.sleep(min(300, 30 * 2 ** attempt))  # every model busy: wait up to ~20 min total
     raise RuntimeError(f"Could not write a story: {str(last_err)[:500]}")
 
 
