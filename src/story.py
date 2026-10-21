@@ -1,5 +1,6 @@
 """Story writing with Gemini: Hindi narration, scenes, image prompts, metadata."""
 import json
+import time
 
 from google import genai
 from google.genai import types
@@ -169,9 +170,12 @@ def write_story(idea: str = "", episode: dict | None = None) -> dict:
                 series.finish_metadata(data, episode)
             return data
         except Exception as e:  # noqa: BLE001
+            if str(e) == models.FREE_TIER_HELP:
+                raise
             log.warning("Story generation error: %s", e)
             last_err = e
-    raise RuntimeError(f"Could not write a story: {last_err}")
+            time.sleep(15 * (attempt + 1))
+    raise RuntimeError(f"Could not write a story: {str(last_err)[:500]}")
 
 
 def _apply_fixed(data: dict, episode: dict) -> None:

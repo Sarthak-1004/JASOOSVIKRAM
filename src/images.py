@@ -126,6 +126,8 @@ def make_characters(story: dict, wd: Path) -> None:
                     log.info("Character sheet: %s", c["id"])
                     break
             except Exception as e:  # noqa: BLE001
+                if str(e) == models.FREE_TIER_HELP:
+                    raise
                 log.warning("Character %s attempt %d failed: %s", c["id"], attempt + 1, e)
                 time.sleep(5 * (attempt + 1))
 
@@ -157,6 +159,8 @@ def make_thumbnail_art(story: dict, wd: Path) -> None:
                 _save(data, out)
                 return
         except Exception as e:  # noqa: BLE001
+            if str(e) == models.FREE_TIER_HELP:
+                raise
             log.warning("Thumbnail art attempt %d: %s", attempt + 1, e)
             time.sleep(5)
 
@@ -175,6 +179,8 @@ def generate_one(story: dict, wd: Path, k: str) -> bool:
                 return True
             log.warning("%s: no image returned (likely safety block), retrying", k)
         except Exception as e:  # noqa: BLE001
+            if str(e) == models.FREE_TIER_HELP:
+                raise
             log.warning("%s attempt %d: %s", k, attempt + 1, e)
             time.sleep(min(60, 5 * 2 ** attempt))
     return False

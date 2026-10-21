@@ -65,6 +65,8 @@ def stage_prepare(date: str, use_batch: bool, idea: str = "", force: bool = Fals
             images.submit_batch(story, state, wd, keys)
             state["status"] = "images_submitted"
         except Exception as e:  # noqa: BLE001 - produce falls back to the standard API
+            if str(e) == models.FREE_TIER_HELP:
+                raise
             log.error(traceback.format_exc())
             notify(f"⚠️ Image batch could not be submitted ({e}). Images will be made at 15:00 "
                    "with the standard API (full price) instead.")
@@ -451,7 +453,7 @@ def main() -> None:
             stage_produce(date, force=True)
     except Exception as e:
         log.error(traceback.format_exc())
-        notify(f"❌ {a.stage} failed for {date}: {e}")
+        notify(f"❌ {a.stage} failed for {date}: {str(e)[:900]}")
         raise
     log.info("Done in %.1f min", (time.time() - t0) / 60)
 

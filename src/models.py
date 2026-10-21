@@ -60,12 +60,26 @@ def current(kind: str, client) -> str | None:
         return _queues[kind][0] if _queues[kind] else None
 
 
+_free_tier_blocked: set[str] = set()
+
+FREE_TIER_HELP = (
+    "Your Gemini API key is on the FREE tier, which has no quota for these models "
+    "(image generation is never free). Turn on billing for the key's Google Cloud project: "
+    "aistudio.google.com/apikey -> your key -> 'Set up billing' (free-trial credits, if your "
+    "Google Cloud account has them, are used first). Then run '1 Prepare story + images' again.")
+
+
+def _zero_quota(msg: str) -> bool:
+    """429 with 'limit: 0' = this key has no allowance at all for the model (e.g. free tier)."""
+    return ("resource_exhausted" in msg or "429" in msg) and "limit: 0" in msg
+
+
 def _unavailable(e: Exception) -> bool:
     msg = str(e).lower()
     code = getattr(e, "code", None) or getattr(e, "status_code", None)
     return (code == 404 or "not found" in msg or "no longer available" in msg
             or "not supported" in msg or "is not available" in msg or "deprecated" in msg
-            or ("modalit" in msg and "image" in msg))
+            or ("modalit" in msg and "image" in msg) or _zero_quota(msg))
 
 
 def run(kind: str, client, fn):
@@ -73,6 +87,8 @@ def run(kind: str, client, fn):
     while True:
         model = current(kind, client)
         if model is None:
+            if _free_tier_blocked:
+                raise RuntimeError(FREE_TIER_HELP)
             raise RuntimeError(f"No usable Gemini {kind} model for this API key. "
                                f"Check the model lists in config.yaml.")
         try:
@@ -80,6 +96,8 @@ def run(kind: str, client, fn):
         except Exception as e:
             if not _unavailable(e):
                 raise
+            if "free_tier" in str(e).lower():
+                _free_tier_blocked.add(model)
             with _lock:
                 if _queues[kind] and _queues[kind][0] == model:
                     _queues[kind].pop(0)
