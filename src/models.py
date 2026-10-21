@@ -82,8 +82,18 @@ def _unavailable(e: Exception) -> bool:
             or ("modalit" in msg and "image" in msg) or _zero_quota(msg))
 
 
+def _busy(e: Exception) -> bool:
+    """Temporary overload (503 'high demand', 500, 'overloaded'): try another model, come back later."""
+    msg = str(e).lower()
+    code = getattr(e, "code", None) or getattr(e, "status_code", None)
+    return (code in (500, 503) or "high demand" in msg or "overloaded" in msg
+            or "503" in msg or "'status': 'unavailable'" in msg or "try again later" in msg)
+
+
 def run(kind: str, client, fn):
-    """fn(model_name) with the best usable model; switches model on 'model unavailable' errors."""
+    """fn(model_name) with the best usable model; switches model on 'model unavailable' errors
+    and rotates past models that are temporarily overloaded."""
+    busy: set[str] = set()
     while True:
         model = current(kind, client)
         if model is None:
@@ -94,6 +104,17 @@ def run(kind: str, client, fn):
         try:
             return fn(model)
         except Exception as e:
+            if _busy(e) and not _unavailable(e):
+                with _lock:
+                    busy.add(model)
+                    q = _queues[kind]
+                    if set(q) <= busy:  # every candidate is busy right now: let the caller wait
+                        raise
+                    if q and q[0] == model:
+                        q.append(q.pop(0))  # keep it, but try the others first
+                log.warning("Model %s busy (%s); trying %s", model, str(e)[:120], _queues[kind][0])
+                gh_annotate("notice", f"{kind} model {model} busy", str(e)[:400])
+                continue
             if not _unavailable(e):
                 raise
             if "free_tier" in str(e).lower():

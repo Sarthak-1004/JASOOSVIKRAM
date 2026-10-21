@@ -183,12 +183,13 @@ def write_story(idea: str = "", episode: dict | None = None) -> dict:
         return client.models.generate_content(model=model, contents=contents, config=config)
 
     last_err = None
-    for attempt in range(4):
+    attempts = 6
+    for attempt in range(attempts):
         try:
             resp = models.run("text", client, call)
             story = resp.parsed if isinstance(resp.parsed, Story) else Story.model_validate_json(resp.text)
             problems = _validate(story, episode)
-            if problems and attempt < 3:
+            if problems and attempt < attempts - 1:
                 log.warning("Story rejected: %s", problems)
                 gh_annotate("warning", f"story attempt {attempt + 1} rejected", str(problems)[:1000])
                 last_err = problems
@@ -209,7 +210,8 @@ def write_story(idea: str = "", episode: dict | None = None) -> dict:
             log.warning("Story generation error: %s", e)
             gh_annotate("warning", f"story attempt {attempt + 1}", f"{type(e).__name__}: {str(e)[:1500]}")
             last_err = e
-            time.sleep(15 * (attempt + 1))
+            if attempt < attempts - 1:
+                time.sleep(min(120, 20 * (attempt + 1)))  # every model busy: give Google a moment
     raise RuntimeError(f"Could not write a story: {str(last_err)[:500]}")
 
 
