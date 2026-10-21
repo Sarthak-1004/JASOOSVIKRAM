@@ -4,8 +4,8 @@ gemini       - Nano Banana via the Gemini API. Needs a billed key (free tier has
 cloudflare   - Workers AI FLUX.2 [klein]. Free: 10,000 neurons/day (~90 images at 1024x576),
                supports up to 4 reference images for consistent faces.
                Secrets: CF_ACCOUNT_ID, CF_API_TOKEN.
-pollinations - image.pollinations.ai FLUX. Free, no signup, slow (rate limited). Text-only.
-               Optional secret POLLINATIONS_TOKEN raises the limits.
+pollinations - image.pollinations.ai FLUX. Slow, text-only. Only used when the secret
+               POLLINATIONS_TOKEN is set (anonymous images carry a watermark).
 
 A provider that is out of quota or not configured is switched off for the rest of the run.
 """
@@ -29,6 +29,8 @@ stats: dict[str, int] = {}
 _lock = threading.Lock()
 _poll_lock = threading.Lock()
 _poll_last = [0.0]
+_fails: dict[str, int] = {}
+MAX_FAILS = 4  # consecutive failures before a provider is switched off for the run
 
 
 class ProviderDead(Exception):
@@ -85,10 +87,18 @@ def generate(prompt: str, refs: list[bytes], aspect: str) -> bytes | None:
             continue
         except Exception as e:  # noqa: BLE001 - one bad image must not stop the run
             log.warning("%s image failed: %s", name, str(e)[:300])
+            with _lock:
+                _fails[name] = _fails.get(name, 0) + 1
+                n = _fails[name]
+            if n == 1:
+                gh_annotate("warning", f"{name} image error", str(e)[:1500])
+            if n >= MAX_FAILS:
+                _kill(name, f"{n} failures in a row, last: {e}")
             continue
         if data:
             with _lock:
                 stats[name] = stats.get(name, 0) + 1
+                _fails[name] = 0
             return data
     return None
 
@@ -169,9 +179,8 @@ def _cloudflare(prompt: str, refs: list[bytes], aspect: str) -> bytes | None:
         if r.status_code == 429 or r.status_code >= 500:
             time.sleep(10 * (attempt + 1))
             continue
-        log.warning("Cloudflare image error %s: %s", r.status_code, text)
-        return None
-    return None
+        raise RuntimeError(f"Cloudflare HTTP {r.status_code}: {text}")
+    raise RuntimeError(f"Cloudflare kept failing (HTTP {r.status_code}): {text}")
 
 
 # ---------------------------------------------------------------- pollinations
@@ -180,7 +189,9 @@ def _pollinations(prompt: str, refs: list[bytes], aspect: str) -> bytes | None:
     w, h = SIZES.get(aspect, SIZES["16:9"])
     q = {"width": w, "height": h, "model": "flux", "nologo": "true", "seed": abs(hash(prompt)) % 10**6}
     tok = os.environ.get("POLLINATIONS_TOKEN")
-    headers = {"Authorization": f"Bearer {tok}"} if tok else {}
+    if not tok:
+        raise ProviderDead("POLLINATIONS_TOKEN not set (without it every image has a watermark)")
+    headers = {"Authorization": f"Bearer {tok}"}
     url = ("https://image.pollinations.ai/prompt/" + urllib.parse.quote(prompt[:1500])
            + "?" + urllib.parse.urlencode(q))
     gap = float(CFG["images"].get("pollinations_interval", 46))

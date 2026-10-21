@@ -48,6 +48,11 @@ def send_video(path: Path, caption: str = "") -> None:
               caption=caption[:1000], supports_streaming=True)
 
 
+def send_audio(path: Path, caption: str = "") -> None:
+    with open(path, "rb") as f:
+        _call("sendAudio", files={"audio": f}, http_timeout=300, chat_id=chat_id(), caption=caption[:1000])
+
+
 def updates(offset: int | None, timeout: int = 50) -> list[dict]:
     params = {"timeout": timeout, "allowed_updates": ["message", "callback_query"]}
     if offset is not None:

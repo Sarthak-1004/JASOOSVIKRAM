@@ -58,7 +58,6 @@ def stage_prepare(date: str, use_batch: bool, idea: str = "", force: bool = Fals
                   "batch": None, "status": "story_ready"})
     log.info("Story: %s | %s", story["title"], story["logline"])
     images.make_characters(story, wd)
-    images.make_thumbnail_art(story, wd)
     keys = images.wanted_keys(story, state["active_clips"])
     if use_batch and images.batch_possible():
         try:
@@ -77,7 +76,7 @@ def stage_prepare(date: str, use_batch: bool, idea: str = "", force: bool = Fals
                 "before the next run, or change images.models in config.yaml.")
     notify(f"📝 {ep}story ready for {date}: {story['title']}\n"
            f"Text model: {used.get('text')}\nImages so far: {providers.summary()}{warn}\n"
-           f"{sum(len(sc['shots']) for sc in story['scenes'])} images will be made at 15:00, "
+           f"{sum(len(sc['shots']) for sc in story['scenes'])} images + thumbnail will be made at 15:00, "
            f"then the videos come here for review.")
     if not NO_TG:
         for c in story["characters"]:
@@ -136,6 +135,7 @@ def stage_produce(date: str, force: bool = False) -> dict:
     wd = work_dir(date)
     story = state["story"]
     images.make_characters(story, wd)  # no-op if they exist; regenerates on a fresh runner
+    images.make_thumbnail_art(story, wd)
     keys = images.wanted_keys(story, state["active_clips"])
     problems = images.ensure_images(story, state, wd, keys)
     render_all(state, wd)
@@ -424,12 +424,74 @@ def stage_publish(date: str) -> None:
         upload_pending(state, wd)
 
 
+# ================================================================ check
+
+def stage_check() -> None:
+    """Test every key/service once and report on Telegram + the GitHub run page."""
+    from google import genai
+    lines, files = [], []
+    wd = work_dir("check")
+
+    def step(name, fn):
+        try:
+            lines.append(f"✅ {name}: {fn()}")
+        except (Exception, SystemExit) as e:  # noqa: BLE001 - SystemExit = missing secret
+            log.error(traceback.format_exc())
+            lines.append(f"❌ {name}: {type(e).__name__}: {str(e)[:400]}")
+
+    def gemini_text():
+        client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
+        r = models.run("text", client, lambda m: client.models.generate_content(
+            model=m, contents="Reply with exactly one word: OK"))
+        return f"{models.chosen()['text']} replied '{(r.text or '').strip()[:20]}'"
+    step("Gemini text", gemini_text)
+
+    prompt = (CFG["images"]["style_prompt"].strip() + " " + series.bible().get("style_extra", "") +
+              "\n\nFrame: a crumbling Banaras haveli at midnight, one oil lantern glowing in a window, "
+              "river mist. No text.")
+    for name in providers._order():
+        def one(name=name):
+            fn = {"gemini": providers._gemini, "cloudflare": providers._cloudflare,
+                  "pollinations": providers._pollinations}[name]
+            data = fn(prompt, [], "16:9")
+            if not data:
+                raise RuntimeError("no image returned")
+            out = wd / f"{name}.jpg"
+            images._save(data, out)
+            files.append((out, f"Test image from {name}"))
+            return "image OK"
+        step(f"Images via {name}", one)
+
+    def sarvam():
+        out = wd / "voice.wav"
+        out.write_bytes(tts._speak("नमस्ते, मैं सावित्री हूँ। ये कहानी है जासूस विक्रम की।"))
+        files.append((out, "Voice test (Sarvam)"))
+        return f"voice OK ({CFG['voice']['speaker']})"
+    step("Sarvam voice", sarvam)
+
+    def youtube():
+        from src import youtube as yt
+        items = yt.service().channels().list(part="snippet", mine=True).execute().get("items", [])
+        if not items:
+            raise RuntimeError("login works but this Google account has no YouTube channel")
+        sn = items[0]["snippet"]
+        return f"logged in to channel '{sn.get('title')}' ({sn.get('customUrl', 'no handle')})"
+    step("YouTube", youtube)
+
+    report = "🔧 Setup check\n" + "\n".join(lines)
+    gh_annotate("notice", "setup check", report)
+    notify(report)
+    if not NO_TG:
+        for path, cap in files:
+            (tg.send_audio if path.suffix == ".wav" else tg.send_photo)(path, cap)
+
+
 # ================================================================ main
 
 def main() -> None:
     global NO_TG
     p = argparse.ArgumentParser()
-    p.add_argument("stage", choices=["prepare", "produce", "listen", "publish", "local"])
+    p.add_argument("stage", choices=["prepare", "produce", "listen", "publish", "local", "check"])
     p.add_argument("--date", default="tomorrow")
     p.add_argument("--idea", default="")
     p.add_argument("--no-telegram", action="store_true")
@@ -448,6 +510,8 @@ def main() -> None:
             stage_listen(date)
         elif a.stage == "publish":
             stage_publish(date)
+        elif a.stage == "check":
+            stage_check()
         elif a.stage == "local":
             stage_prepare(date, use_batch=False, idea=a.idea, force=True)
             stage_produce(date, force=True)
