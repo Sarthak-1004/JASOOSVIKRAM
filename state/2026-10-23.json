@@ -1,7 +1,67 @@
 {
   "date": "2026-10-23",
-  "status": "story_ready",
-  "items": {},
+  "status": "review",
+  "items": {
+    "v": {
+      "title": "आधी रात की सीटी | जासूस विक्रम Ep 1",
+      "description": "1920 के भारत की एक खौफनाक और रहस्यमयी कहानी। जासूस विक्रम और डॉक्टर सावित्री एक ऐसी पहेली सुलझाते हैं जहाँ मौत एक सीटी के साथ आती है। क्या यह कोई प्रेत है या कोई इंसान की साज़िश? \n#Thriller #HindiMystery #JasoosVikram #IndianDetective #Suspense\n\nआर्थर कॉनन डॉयल की कहानी \"The Adventure of the Speckled Band\" से प्रेरित (public domain). सभी पात्र काल्पनिक हैं।",
+      "tags": [
+        "hindi thriller",
+        "mystery story",
+        "jasoos vikram",
+        "detective stories",
+        "1920s india",
+        "speckled band adaptation",
+        "suspense stories hindi"
+      ],
+      "status": "pending"
+    },
+    "s1": {
+      "title": "बंद कमरे में मौत... आख़िरी शब्द 'चितकबरी पट्टी' | जासूस विक्रम #shorts",
+      "description": "बंद कमरे में मौत... आख़िरी शब्द 'चितकबरी पट्टी' | जासूस विक्रम\n\nपूरी कहानी देखें: {LONG_URL}\n\n#shorts #hindistory #thriller",
+      "tags": [
+        "hindi thriller",
+        "mystery story",
+        "jasoos vikram",
+        "detective stories",
+        "1920s india",
+        "speckled band adaptation",
+        "suspense stories hindi",
+        "shorts"
+      ],
+      "status": "pending"
+    },
+    "s2": {
+      "title": "नकली रस्सी, जड़ा हुआ बिस्तर, दूध की तश्तरी... आप पहचान पाए? | जासूस विक्रम #shorts",
+      "description": "नकली रस्सी, जड़ा हुआ बिस्तर, दूध की तश्तरी... आप पहचान पाए? | जासूस विक्रम\n\nपूरी कहानी देखें: {LONG_URL}\n\n#shorts #hindistory #thriller",
+      "tags": [
+        "hindi thriller",
+        "mystery story",
+        "jasoos vikram",
+        "detective stories",
+        "1920s india",
+        "speckled band adaptation",
+        "suspense stories hindi",
+        "shorts"
+      ],
+      "status": "pending"
+    },
+    "s3": {
+      "title": "आधी रात, घुप अँधेरा... और फिर वो सीटी | जासूस विक्रम #shorts",
+      "description": "आधी रात, घुप अँधेरा... और फिर वो सीटी | जासूस विक्रम\n\nपूरी कहानी देखें: {LONG_URL}\n\n#shorts #hindistory #thriller",
+      "tags": [
+        "hindi thriller",
+        "mystery story",
+        "jasoos vikram",
+        "detective stories",
+        "1920s india",
+        "speckled band adaptation",
+        "suspense stories hindi",
+        "shorts"
+      ],
+      "status": "pending"
+    }
+  },
   "story": {
     "title": "आधी रात की सीटी | जासूस विक्रम Ep 1",
     "description": "1920 के भारत की एक खौफनाक और रहस्यमयी कहानी। जासूस विक्रम और डॉक्टर सावित्री एक ऐसी पहेली सुलझाते हैं जहाँ मौत एक सीटी के साथ आती है। क्या यह कोई प्रेत है या कोई इंसान की साज़िश? \n#Thriller #HindiMystery #JasoosVikram #IndianDetective #Suspense\n\nआर्थर कॉनन डॉयल की कहानी \"The Adventure of the Speckled Band\" से प्रेरित (public domain). सभी पात्र काल्पनिक हैं।",
@@ -523,5 +583,5 @@
   ],
   "next_clip": 3,
   "batch": null,
-  "media_run_id": "39669366877"
+  "media_run_id": "39764680850"
 }
