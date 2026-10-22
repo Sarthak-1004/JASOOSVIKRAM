@@ -18,7 +18,7 @@ import time
 import traceback
 
 from src import images, models, providers, render, series, telegram as tg, tts
-from src.common import CFG, ITEMS, STATE_DIR, gh_annotate, git_pull, load_state, log, now, publish_times, resolve_date, \
+from src.common import CFG, ITEMS, STATE_DIR, WORK_DIR, gh_annotate, git_pull, load_state, log, now, publish_times, resolve_date, \
     save_state, work_dir
 from src.story import add_history, all_shots, write_story
 
@@ -557,7 +557,9 @@ def main() -> None:
         if a.stage == "prepare":
             stage_prepare(date, CFG["images"]["use_batch"], a.idea, force=a.force)
         elif a.stage == "produce":
-            stage_produce(date, force=a.force)
+            st = stage_produce(date, force=a.force)
+            if st.get("status") == "review":  # tell the workflow to open the review window now
+                (WORK_DIR / "LISTEN_DATE").write_text(date)
         elif a.stage == "listen":
             stage_listen(date)
         elif a.stage == "publish":

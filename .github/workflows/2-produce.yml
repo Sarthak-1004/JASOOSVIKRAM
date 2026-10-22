@@ -14,7 +14,7 @@ on:
         default: false
 permissions:
   contents: write
-  actions: read
+  actions: write
 concurrency:
   group: thriller-pipeline
   cancel-in-progress: false
@@ -56,3 +56,10 @@ jobs:
           path: work/
           retention-days: 3
           if-no-files-found: ignore
+      - name: Open the review window right away
+        if: success()
+        run: |
+          if [ -f work/LISTEN_DATE ]; then
+            gh api -X POST "repos/${{ github.repository }}/actions/workflows/3-listen.yml/dispatches" \
+              -f ref=main -f "inputs[date]=$(cat work/LISTEN_DATE)"
+          fi
