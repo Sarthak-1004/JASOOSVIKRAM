@@ -241,6 +241,18 @@ def preview(src: Path, out: Path, height: int) -> Path:
     return out
 
 
+def fit_for_telegram(src: Path, out: Path, max_mb: float = 47.0) -> Path:
+    """Same resolution, re-encoded just enough to fit Telegram's 50 MB bot upload limit."""
+    if src.stat().st_size <= max_mb * 1024 * 1024:
+        return src
+    dur = media_duration(src)
+    kbps = max(300, int((max_mb - 1.5) * 8192 / dur - 128))
+    ffmpeg("-i", str(src), "-c:v", "libx264", "-preset", "medium", "-b:v", f"{kbps}k",
+           "-maxrate:v", f"{int(kbps * 1.4)}k", "-bufsize:v", f"{kbps * 2}k", "-pix_fmt", "yuv420p",
+           "-c:a", "aac", "-b:a", "128k", "-movflags", "+faststart", str(out))
+    return out
+
+
 def contact_sheets(story: dict, wd: Path, per_sheet: int = 45, cols: int = 9) -> list[Path]:
     """Numbered grids of all images so you can say '/redo 12 37'."""
     shots = all_shots(story)

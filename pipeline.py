@@ -199,7 +199,48 @@ def send_review(state: dict, wd, problems=None, only=ITEMS) -> None:
 
 # ================================================================ uploading
 
+def _channel_url() -> str:
+    return "https://www.youtube.com/" + CFG["channel"].get("handle", "@" + CFG["channel"]["name"].replace(" ", ""))
+
+
+def deliver_manual(state: dict, wd) -> None:
+    """Until Google approves the API audit, API uploads are locked private. So send the final
+    files + copy-ready text to Telegram; you upload and schedule them in the YouTube app."""
+    times = publish_times(state["date"])
+    run_url = (f"https://github.com/{os.environ.get('GITHUB_REPOSITORY', '')}/actions/runs/"
+               f"{state.get('media_run_id')}")
+    sent = []
+    for item in ITEMS:
+        it = state["items"].get(item)
+        if not it or it["status"] != "pending":
+            continue
+        src = wd / f"{item}.mp4"
+        f = render.fit_for_telegram(src, wd / f"{item}_tg.mp4")
+        name = f"{state['date']}_{item}_{'main' if item == 'v' else 'short'}.mp4"
+        tg.send_document(f, f"{LABEL[item]} → schedule for {times[item]:%a %d %b, %I:%M %p}", name)
+        desc = it["description"].replace("{LONG_URL}", _channel_url())
+        if CFG["channel"].get("description_footer"):
+            desc += "\n\n" + CFG["channel"]["description_footer"]
+        tg.send(f"📋 {LABEL[item]} — copy into YouTube\n\nTITLE:\n{it['title']}\n\n"
+                f"DESCRIPTION:\n{desc}\n\nTAGS:\n{', '.join(it['tags'])}")
+        it.update(status="uploaded", delivered=True)
+        sent.append(f"{LABEL[item]} → {times[item]:%a %d %b, %I:%M %p}")
+        save_state(state, msg=f"delivered {state['date']} {item}")
+    if sent and (wd / "thumb.jpg").exists() and state["items"].get("v", {}).get("delivered"):
+        tg.send_document(wd / "thumb.jpg", "Thumbnail for the main video", f"{state['date']}_thumbnail.jpg")
+    if sent:
+        notify("📦 Final files sent above. In the YouTube app: + → Upload video → pick the file → "
+               "paste title/description/tags → Visibility → Schedule:\n" + "\n".join(sent) +
+               "\n\nShorts must stay vertical; YouTube detects them automatically.\n"
+               f"Full-quality originals (if a file was squeezed to fit Telegram): {run_url} → Artifacts → media")
+    if all(state["items"][i]["status"] != "pending" for i in state["items"]):
+        state["status"] = "published"
+        save_state(state, msg=f"published {state['date']}")
+
+
 def upload_pending(state: dict, wd) -> None:
+    if not CFG["youtube"]["api_audited"]:
+        return deliver_manual(state, wd)
     from src import youtube
     times = publish_times(state["date"])
     long_url = ""
@@ -246,7 +287,8 @@ def handle(cmd: str, args: list[str], rest: str, state: dict, wd, allow_heavy: b
     elif cmd == "status":
         notify(status_text(state))
     elif cmd == "approve":
-        notify("⬆️ Uploading to YouTube…")
+        notify("⬆️ Uploading to YouTube…" if CFG["youtube"]["api_audited"]
+               else "📦 Sending the final files for you to upload…")
         upload_pending(state, wd)
         return state["status"] == "published"
     elif cmd in ("hold", "hold_all", "unhold"):
@@ -423,7 +465,8 @@ def stage_publish(date: str) -> None:
         if done:
             return
     if CFG["review"]["auto_publish"]:
-        notify("⏰ Deadline reached — auto-publishing everything not on hold.")
+        notify("⏰ Deadline reached — releasing everything not on hold." +
+               ("" if CFG["youtube"]["api_audited"] else " Upload and schedule the files below now."))
         upload_pending(state, wd)
 
 
@@ -465,12 +508,18 @@ def stage_check() -> None:
             return "image OK"
         step(f"Images via {name}", one)
 
-    def sarvam():
-        out = wd / "voice.wav"
-        out.write_bytes(tts._speak("नमस्ते, मैं सावित्री हूँ। ये कहानी है जासूस विक्रम की।"))
-        files.append((out, "Voice test (Sarvam)"))
-        return f"voice OK ({CFG['voice']['speaker']})"
-    step("Sarvam voice", sarvam)
+    line = ("आधी रात थी। बनारस की उस पुरानी हवेली में अचानक एक चीख गूँजी। "
+            "कमला का दरवाज़ा अंदर से बंद था। तो फिर... उसे मारा किसने?")
+    voices = [{"model": CFG["voice"]["model"], "speaker": CFG["voice"]["speaker"]}]
+    voices += [v for v in CFG["voice"].get("samples", []) if v not in voices]
+    for i, v in enumerate(voices):
+        def sample(v=v, i=i):
+            out = wd / f"voice_{i}_{v['speaker']}.wav"
+            out.write_bytes(tts._speak(line, model=v["model"], speaker=v["speaker"]))
+            tag = " (current)" if i == 0 else ""
+            files.append((out, f"Voice sample: {v['speaker']} · {v['model']}{tag}"))
+            return "sample sent"
+        step(f"Voice {v['speaker']} ({v['model']})", sample)
 
     def youtube():
         from src import youtube as yt

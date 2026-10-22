@@ -31,8 +31,8 @@ def _chunks(text: str) -> list[str]:
     return out
 
 
-def _speak(text: str) -> bytes:
-    v = CFG["voice"]
+def _speak(text: str, model: str | None = None, speaker: str | None = None) -> bytes:
+    v = {**CFG["voice"], **({"model": model} if model else {}), **({"speaker": speaker} if speaker else {})}
     # only the fields bulbul:v3 accepts; older pitch/loudness options were removed
     body = {"text": text, "target_language_code": "hi-IN", "speaker": v["speaker"],
             "model": v["model"], "pace": v["pace"]}

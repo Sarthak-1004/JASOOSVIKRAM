@@ -37,8 +37,9 @@ story:
 
 images:
   # Images per episode, spread across the scenes by length (0 = story.images_per_scene each).
-  # 50 fits comfortably inside Cloudflare's free daily allowance (~90 images/day).
-  total_per_episode: 50
+  # 60 (+ character sheets + thumbnail, ~7,000 of 10,000 free neurons) fits inside
+  # Cloudflare's free daily allowance and leaves room for ~25 /redo images.
+  total_per_episode: 60
   # Tried in order for every image. gemini needs a billed key (free tier has no image quota);
   # cloudflare is free (secrets CF_ACCOUNT_ID + CF_API_TOKEN); pollinations is a slow free backup.
   providers: [gemini, cloudflare, pollinations]
@@ -66,6 +67,12 @@ voice:
   # shreya, simran, tanya, shruti, suhani, kavitha, rupali. Run "0 Check setup" to hear one.
   speaker: priya
   pace: 1.0                           # 0.5-2.0; raise to ~1.08 if episodes run long
+  # "0 Check setup" sends a short sample of each of these so you can choose by ear.
+  samples:
+    - {model: "bulbul:v4-flash", speaker: anand_hi_documentary}
+    - {model: "bulbul:v4-flash", speaker: anand_hi_news}
+    - {model: "bulbul:v4-flash", speaker: ishita_hi_devotional}
+    - {model: "bulbul:v3", speaker: priya}
   scene_gap: 0.35                     # seconds of silence between scenes
 
 video:
@@ -82,6 +89,8 @@ youtube:
   # Keep false until then: the bot uploads privately and tells you to schedule
   # in YouTube Studio. Set true after the audit is approved.
   api_audited: false
+  # While false, nothing is uploaded through the API (such uploads are locked private by
+  # YouTube). Approving sends the final files to Telegram for you to upload and schedule.
   synthetic_media: true               # "altered or synthetic content" disclosure
 
 review:
