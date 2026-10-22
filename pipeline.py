@@ -427,6 +427,9 @@ def stage_listen(date: str) -> None:
     git_pull()
     state = load_state(date)
     wd = work_dir(date)
+    if state.get("status") == "published":  # already approved in an earlier review window
+        log.info("%s already published; nothing to review.", date)
+        return
     if state.get("status") not in ("review",):
         notify(f"⚠️ Nothing to review for {date} (status: {state.get('status')}).")
         return
