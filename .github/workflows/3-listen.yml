@@ -37,10 +37,8 @@ jobs:
           python-version: "3.12"
           cache: pip
       - name: Install tools
-        run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y -qq ffmpeg fonts-noto-core >/dev/null
-          pip install -q -r requirements.txt
+        timeout-minutes: 20
+        run: bash tools/install.sh
       - name: Get rendered media from earlier run
         run: |
           DATE=$(python -c "from src.common import resolve_date; print(resolve_date('${{ inputs.date || 'tomorrow' }}'))")
