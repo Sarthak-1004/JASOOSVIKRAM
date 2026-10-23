@@ -1,10 +1,15 @@
 {
- "next": 2,
+ "next": 3,
  "done": [
   {
    "n": 1,
    "title": "आधी रात की सीटी",
    "summary": "Detective Vikram investigates a locked-room death in 1920s Banaras where a young woman died after hearing a mysterious whistle."
+  },
+  {
+   "n": 2,
+   "title": "दीवार के अंदर कौन?",
+   "summary": "When eerie knocking echoes from a bank vault wall, Detective Vikram links it to a pawnshop clerk and a bizarre club paying a man just to copy books."
   }
  ]
 }
