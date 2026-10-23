@@ -1,7 +1,71 @@
 {
   "date": "2026-10-24",
-  "status": "story_ready",
-  "items": {},
+  "status": "review",
+  "items": {
+    "v": {
+      "title": "दीवार के अंदर कौन? | जासूस विक्रम Ep 2",
+      "description": "काशी इम्पीरियल बैंक की तिजोरी की दीवार से आधी रात को आई रहस्यमयी आवाज़। क्या दीवार में दफ़्न चोर की आत्मा लौट आई थी या कोई गहरा षड्यंत्र था? जासूस विक्रम और डॉक्टर सावित्री की एक और रोमांचक दास्तान।\n#JaasoosVikram #HindiKahaniya #SuspenseThriller #MysteryStories #AudioStoryHindi\n\nआर्थर कॉनन डॉयल की कहानी \"The Red-Headed League\" से प्रेरित (public domain). सभी पात्र काल्पनिक हैं।",
+      "tags": [
+        "Jaasoos Vikram",
+        "Detective Vikram",
+        "Hindi Mystery Stories",
+        "Suspense Thriller Hindi",
+        "Hindi Audio Story",
+        "1920s Banaras",
+        "Classic Detective Mystery",
+        "Kala Kamal"
+      ],
+      "status": "pending"
+    },
+    "s1": {
+      "title": "आधी रात, बैंक की दीवार के अंदर से आवाज़ | जासूस विक्रम #shorts",
+      "description": "आधी रात, बैंक की दीवार के अंदर से आवाज़ | जासूस विक्रम\n\nपूरी कहानी देखें: {LONG_URL}\n\n#shorts #hindistory #thriller",
+      "tags": [
+        "Jaasoos Vikram",
+        "Detective Vikram",
+        "Hindi Mystery Stories",
+        "Suspense Thriller Hindi",
+        "Hindi Audio Story",
+        "1920s Banaras",
+        "Classic Detective Mystery",
+        "Kala Kamal",
+        "shorts"
+      ],
+      "status": "pending"
+    },
+    "s2": {
+      "title": "बस बालों में सफ़ेद लट हो... और रोज़ चार रुपये | जासूस विक्रम #shorts",
+      "description": "बस बालों में सफ़ेद लट हो... और रोज़ चार रुपये | जासूस विक्रम\n\nपूरी कहानी देखें: {LONG_URL}\n\n#shorts #hindistory #thriller",
+      "tags": [
+        "Jaasoos Vikram",
+        "Detective Vikram",
+        "Hindi Mystery Stories",
+        "Suspense Thriller Hindi",
+        "Hindi Audio Story",
+        "1920s Banaras",
+        "Classic Detective Mystery",
+        "Kala Kamal",
+        "shorts"
+      ],
+      "status": "pending"
+    },
+    "s3": {
+      "title": "घुप अँधेरा... और फ़र्श का पत्थर उठने लगा | जासूस विक्रम #shorts",
+      "description": "घुप अँधेरा... और फ़र्श का पत्थर उठने लगा | जासूस विक्रम\n\nपूरी कहानी देखें: {LONG_URL}\n\n#shorts #hindistory #thriller",
+      "tags": [
+        "Jaasoos Vikram",
+        "Detective Vikram",
+        "Hindi Mystery Stories",
+        "Suspense Thriller Hindi",
+        "Hindi Audio Story",
+        "1920s Banaras",
+        "Classic Detective Mystery",
+        "Kala Kamal",
+        "shorts"
+      ],
+      "status": "pending"
+    }
+  },
   "story": {
     "title": "दीवार के अंदर कौन? | जासूस विक्रम Ep 2",
     "description": "काशी इम्पीरियल बैंक की तिजोरी की दीवार से आधी रात को आई रहस्यमयी आवाज़। क्या दीवार में दफ़्न चोर की आत्मा लौट आई थी या कोई गहरा षड्यंत्र था? जासूस विक्रम और डॉक्टर सावित्री की एक और रोमांचक दास्तान।\n#JaasoosVikram #HindiKahaniya #SuspenseThriller #MysteryStories #AudioStoryHindi\n\nआर्थर कॉनन डॉयल की कहानी \"The Red-Headed League\" से प्रेरित (public domain). सभी पात्र काल्पनिक हैं।",
@@ -574,5 +638,6 @@
     2
   ],
   "next_clip": 3,
-  "batch": null
+  "batch": null,
+  "media_run_id": "39942650275"
 }
