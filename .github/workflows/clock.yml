@@ -23,9 +23,9 @@ jobs:
           H=$(TZ=Asia/Kolkata date +%-H)
           if [ -z "$STAGE" ]; then
             case $H in
-              5|6|7) STAGE=prepare ;;
-              8|9) STAGE=publish ;;
-              14|15|16) STAGE=produce ;;
+              6) STAGE=prepare ;;
+              8) STAGE=publish ;;
+              15) STAGE=produce ;;
               *) echo "Nothing is due at $(TZ=Asia/Kolkata date +%H:%M) IST"; exit 0 ;;
             esac
           fi
