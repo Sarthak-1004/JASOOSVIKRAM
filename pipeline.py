@@ -467,29 +467,36 @@ def _drain(state: dict, wd, offset, allow_heavy: bool, timeout: int):
 
 # ================================================================ listen / publish
 
-def stage_listen(date: str) -> None:
+def stage_listen(date: str, resume: bool = False) -> bool:
+    """Answer Telegram commands until listen_until. A GitHub job can run ~6 hours, so when the
+    window is longer this returns True and the workflow starts a fresh run to carry on."""
     git_pull()
     state = load_state(date)
     wd = work_dir(date)
     if state.get("status") == "published":  # already approved in an earlier review window
         log.info("%s already published; nothing to review.", date)
-        return
+        return False
     if state.get("status") not in ("review",):
         notify(f"⚠️ Nothing to review for {date} (status: {state.get('status')}).")
-        return
+        return False
     hh, mm = map(int, CFG["review"]["listen_until"].split(":"))
     start = now()
     deadline = start.replace(hour=hh, minute=mm, second=0, microsecond=0)
     if deadline <= start:
         deadline += dt.timedelta(days=1)
-    deadline = min(deadline, start + dt.timedelta(hours=5, minutes=20))
-    notify(f"👀 Review window open until {deadline:%H:%M}. Send /help for commands.")
+    stop = min(deadline, start + dt.timedelta(hours=5, minutes=20))
+    if not resume:
+        notify(f"👀 Review window open until {deadline:%H:%M}. Send /help for commands.")
     offset, done = None, False
-    while not done and now() < deadline:
+    while not done and now() < stop:
         offset, done = _drain(state, wd, offset, allow_heavy=True, timeout=50)
-    if not done:
-        notify(f"🌙 Review window closed. Auto-publish runs at 08:00 for anything not on hold.\n"
-               + status_text(state))
+    if done:
+        return False
+    if now() < deadline - dt.timedelta(minutes=5):
+        return True
+    notify(f"🌙 Review window closed. Auto-publish runs at 08:00 for anything not on hold.\n"
+           + status_text(state))
+    return False
 
 
 def stage_publish(date: str) -> None:
@@ -595,6 +602,7 @@ def main() -> None:
     p.add_argument("--idea", default="")
     p.add_argument("--no-telegram", action="store_true")
     p.add_argument("--force", action="store_true", help="redo a stage that already ran for this date")
+    p.add_argument("--resume", action="store_true", help="listen: carry on a window, no opening message")
     a = p.parse_args()
     NO_TG = a.no_telegram or not os.environ.get("TELEGRAM_BOT_TOKEN")
     date = resolve_date(a.date)
@@ -608,7 +616,9 @@ def main() -> None:
             if st.get("status") == "review":  # tell the workflow to open the review window now
                 (WORK_DIR / "LISTEN_DATE").write_text(date)
         elif a.stage == "listen":
-            stage_listen(date)
+            (WORK_DIR / "LISTEN_DATE").unlink(missing_ok=True)  # may come in the produce artifact
+            if stage_listen(date, resume=a.resume):  # window not over: workflow starts the next run
+                (WORK_DIR / "LISTEN_DATE").write_text(date)
         elif a.stage == "publish":
             stage_publish(date)
         elif a.stage == "resend":

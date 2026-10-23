@@ -1,0 +1,40 @@
+name: "Clock (exact-time starter)"
+# GitHub's own schedules often start hours late, so an outside timer (cron-job.org) calls this
+# at exactly 06:00, 08:00 and 15:00 IST and it starts whichever stage is due.
+# The schedules inside the other workflows stay as a backup; every stage skips work already done.
+on:
+  workflow_dispatch:
+    inputs:
+      stage:
+        description: "Empty = pick by the current IST time; or prepare / produce / publish"
+        default: ""
+permissions:
+  actions: write
+jobs:
+  start:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - name: Start the stage that is due
+        run: |
+          STAGE="${{ inputs.stage }}"
+          H=$(TZ=Asia/Kolkata date +%-H)
+          if [ -z "$STAGE" ]; then
+            case $H in
+              5|6|7) STAGE=prepare ;;
+              8|9) STAGE=publish ;;
+              14|15|16) STAGE=produce ;;
+              *) echo "Nothing is due at $(TZ=Asia/Kolkata date +%H:%M) IST"; exit 0 ;;
+            esac
+          fi
+          case $STAGE in
+            prepare) WF=1-prepare.yml; DATE=tomorrow ;;
+            produce) WF=2-produce.yml; DATE=tomorrow ;;
+            publish) WF=4-publish.yml; DATE=today ;;
+            *) echo "::error::Unknown stage '$STAGE'"; exit 1 ;;
+          esac
+          echo "::notice title=clock::$(TZ=Asia/Kolkata date +%H:%M) IST - starting $STAGE for $DATE"
+          gh api -X POST "repos/${{ github.repository }}/actions/workflows/$WF/dispatches" \
+            -f ref=main -f "inputs[date]=$DATE"
