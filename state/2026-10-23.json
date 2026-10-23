@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "status": "published",
+  "status": "review",
   "items": {
     "v": {
       "title": "आधी रात की सीटी | जासूस विक्रम Ep 1",
@@ -30,8 +30,8 @@
         "suspense stories hindi",
         "shorts"
       ],
-      "status": "uploaded",
-      "delivered": true
+      "status": "pending",
+      "delivered": false
     },
     "s2": {
       "title": "नकली रस्सी, जड़ा हुआ बिस्तर, दूध की तश्तरी... आप पहचान पाए? | जासूस विक्रम #shorts",
@@ -46,8 +46,8 @@
         "suspense stories hindi",
         "shorts"
       ],
-      "status": "uploaded",
-      "delivered": true
+      "status": "pending",
+      "delivered": false
     },
     "s3": {
       "title": "आधी रात, घुप अँधेरा... और फिर वो सीटी | जासूस विक्रम #shorts",
@@ -62,8 +62,8 @@
         "suspense stories hindi",
         "shorts"
       ],
-      "status": "uploaded",
-      "delivered": true
+      "status": "pending",
+      "delivered": false
     }
   },
   "story": {
