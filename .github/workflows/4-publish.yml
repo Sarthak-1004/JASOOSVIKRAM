@@ -8,6 +8,10 @@ on:
       date:
         description: "Publish date: today / tomorrow / YYYY-MM-DD"
         default: "today"
+      resend:
+        description: "Send the final files to Telegram again"
+        type: boolean
+        default: false
 permissions:
   contents: write
   actions: read
@@ -44,4 +48,4 @@ jobs:
           DATE=$(python -c "from src.common import resolve_date; print(resolve_date('${{ inputs.date || 'today' }}'))")
           RUN=$(python -c "import json,sys; print(json.load(open(f'state/{sys.argv[1]}.json')).get('media_run_id') or '')" $DATE 2>/dev/null || true)
           if [ -n "$RUN" ]; then gh run download "$RUN" -n media -D work || echo "media download failed"; fi
-      - run: python pipeline.py publish --date "${{ inputs.date || 'today' }}"
+      - run: python pipeline.py ${{ inputs.resend && 'resend' || 'publish' }} --date "${{ inputs.date || 'today' }}"

@@ -209,15 +209,25 @@ def deliver_manual(state: dict, wd) -> None:
     times = publish_times(state["date"])
     run_url = (f"https://github.com/{os.environ.get('GITHUB_REPOSITORY', '')}/actions/runs/"
                f"{state.get('media_run_id')}")
-    sent = []
+    sent, failed = [], []
     for item in ITEMS:
         it = state["items"].get(item)
         if not it or it["status"] != "pending":
             continue
         src = wd / f"{item}.mp4"
+        if not src.exists():
+            failed.append(f"{LABEL[item]}: video file not found (media download failed?)")
+            continue
         f = render.fit_for_telegram(src, wd / f"{item}_tg.mp4")
         name = f"{state['date']}_{item}_{'main' if item == 'v' else 'short'}.mp4"
-        tg.send_document(f, f"{LABEL[item]} → schedule for {times[item]:%a %d %b, %I:%M %p}", name)
+        caption = f"{LABEL[item]} → schedule for {times[item]:%a %d %b, %I:%M %p}"
+        ok = tg.send_document(f, caption, name)
+        if not ok and "large" in tg.last_error[0].lower():  # squeeze harder and try again
+            ok = tg.send_document(render.fit_for_telegram(src, wd / f"{item}_tg2.mp4", max_mb=35.0),
+                                  caption, name)
+        if not ok:
+            failed.append(f"{LABEL[item]}: {tg.last_error[0]}")
+            continue
         desc = it["description"].replace("{LONG_URL}", _channel_url())
         if CFG["channel"].get("description_footer"):
             desc += "\n\n" + CFG["channel"]["description_footer"]
@@ -236,6 +246,23 @@ def deliver_manual(state: dict, wd) -> None:
     if all(state["items"][i]["status"] != "pending" for i in state["items"]):
         state["status"] = "published"
         save_state(state, msg=f"published {state['date']}")
+    if failed:
+        msg = ("Telegram did not accept these files:\n" + "\n".join(failed) +
+               f"\n\nDownload them from {run_url} → Artifacts → media")
+        raise RuntimeError(msg)  # the caller reports it on Telegram and the run page
+
+
+def stage_resend(date: str) -> None:
+    """Send the final files for a date to Telegram again (e.g. they never arrived)."""
+    git_pull()
+    state = load_state(date)
+    wd = work_dir(date)
+    for it in state.get("items", {}).values():
+        if it.get("delivered") and not it.get("youtube_id"):
+            it.update(status="pending", delivered=False)
+            state["status"] = "review"
+    notify(f"🔁 Sending the final files for {date} again.")
+    deliver_manual(state, wd)
 
 
 def upload_pending(state: dict, wd) -> None:
@@ -271,6 +298,23 @@ def upload_pending(state: dict, wd) -> None:
     if all(state["items"][i]["status"] != "pending" for i in state["items"]):
         state["status"] = "published"
         save_state(state, msg=f"published {state['date']}")
+    if failed:
+        msg = ("Telegram did not accept these files:\n" + "\n".join(failed) +
+               f"\n\nDownload them from {run_url} → Artifacts → media")
+        raise RuntimeError(msg)  # the caller reports it on Telegram and the run page
+
+
+def stage_resend(date: str) -> None:
+    """Send the final files for a date to Telegram again (e.g. they never arrived)."""
+    git_pull()
+    state = load_state(date)
+    wd = work_dir(date)
+    for it in state.get("items", {}).values():
+        if it.get("delivered") and not it.get("youtube_id"):
+            it.update(status="pending", delivered=False)
+            state["status"] = "review"
+    notify(f"🔁 Sending the final files for {date} again.")
+    deliver_manual(state, wd)
 
 
 # ================================================================ commands
@@ -546,7 +590,7 @@ def stage_check() -> None:
 def main() -> None:
     global NO_TG
     p = argparse.ArgumentParser()
-    p.add_argument("stage", choices=["prepare", "produce", "listen", "publish", "local", "check"])
+    p.add_argument("stage", choices=["prepare", "produce", "listen", "publish", "resend", "local", "check"])
     p.add_argument("--date", default="tomorrow")
     p.add_argument("--idea", default="")
     p.add_argument("--no-telegram", action="store_true")
@@ -567,6 +611,8 @@ def main() -> None:
             stage_listen(date)
         elif a.stage == "publish":
             stage_publish(date)
+        elif a.stage == "resend":
+            stage_resend(date)
         elif a.stage == "check":
             stage_check()
         elif a.stage == "local":

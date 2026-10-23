@@ -7,6 +7,7 @@ import requests
 from .common import env, log
 
 API = "https://api.telegram.org/bot{token}/{method}"
+last_error = [""]  # Telegram's reason for the most recent failed call
 
 
 def _call(method: str, files=None, http_timeout: int = 60, **params):
@@ -16,11 +17,16 @@ def _call(method: str, files=None, http_timeout: int = 60, **params):
             params[k] = json.dumps(v, ensure_ascii=False)
     try:
         r = requests.post(url, data=params, files=files, timeout=http_timeout)
-        data = r.json()
+        try:
+            data = r.json()
+        except ValueError:
+            data = {"ok": False, "description": f"HTTP {r.status_code}: {r.text[:200]}"}
         if not data.get("ok"):
+            last_error[0] = str(data.get("description") or data)[:300]
             log.warning("Telegram %s failed: %s", method, data)
         return data.get("result")
     except Exception as e:  # noqa: BLE001
+        last_error[0] = f"{type(e).__name__}: {e}"[:300]
         log.warning("Telegram %s error: %s", method, e)
         return None
 
@@ -48,10 +54,14 @@ def send_video(path: Path, caption: str = "") -> None:
               caption=caption[:1000], supports_streaming=True)
 
 
-def send_document(path: Path, caption: str = "", filename: str | None = None) -> None:
-    with open(path, "rb") as f:
-        _call("sendDocument", files={"document": (filename or path.name, f)}, http_timeout=900,
-              chat_id=chat_id(), caption=caption[:1000])
+def send_document(path: Path, caption: str = "", filename: str | None = None) -> bool:
+    """True only when Telegram confirms the file arrived (reason in last_error otherwise)."""
+    for _ in range(3):
+        with open(path, "rb") as f:
+            if _call("sendDocument", files={"document": (filename or path.name, f)}, http_timeout=900,
+                     chat_id=chat_id(), caption=caption[:1000]):
+                return True
+    return False
 
 
 def send_audio(path: Path, caption: str = "") -> None:
