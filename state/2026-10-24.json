@@ -66,7 +66,8 @@
         "Kala Kamal",
         "shorts"
       ],
-      "status": "pending"
+      "status": "uploaded",
+      "delivered": true
     }
   },
   "story": {
