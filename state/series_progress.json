@@ -1,5 +1,5 @@
 {
- "next": 3,
+ "next": 4,
  "done": [
   {
    "n": 1,
@@ -10,6 +10,11 @@
    "n": 2,
    "title": "दीवार के अंदर कौन?",
    "summary": "When eerie knocking echoes from a bank vault wall, Detective Vikram links it to a pawnshop clerk and a bizarre club paying a man just to copy books."
+  },
+  {
+   "n": 3,
+   "title": "नीली साड़ी का राज़",
+   "summary": "Detective Vikram uncovers the sinister plot behind a governess's strange employment conditions at a isolated Shimla bungalow."
   }
  ]
 }

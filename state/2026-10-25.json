@@ -1,0 +1,549 @@
+{
+  "date": "2026-10-25",
+  "status": "story_ready",
+  "items": {},
+  "story": {
+    "title": "नीली साड़ी का राज़ | जासूस विक्रम Ep 3",
+    "description": "1923 के शिमला में देवदार कोठी का बंद कमरा और एक खौफनाक रहस्य। जानिए कैसे जासूस विक्रम ने नीली साड़ी और कटे हुए बालों की पहेली को सुलझाया।\n\n#JasoosVikram #HindiKahaniyan #SuspenseThriller #MysteryStories #ShimlaHorror\n\nआर्थर कॉनन डॉयल की कहानी \"The Adventure of the Copper Beeches\" से प्रेरित (public domain). सभी पात्र काल्पनिक हैं।",
+    "tags": [
+      "Jasoos Vikram",
+      "Hindi Thriller",
+      "Detective Mystery",
+      "Hindi Stories",
+      "Suspense Audio Story",
+      "Shimla Mystery",
+      "Copper Beeches Hindi"
+    ],
+    "logline": "Detective Vikram uncovers the sinister plot behind a governess's strange employment conditions at a isolated Shimla bungalow.",
+    "thumbnail_text": "नीली साड़ी का राज़",
+    "thumbnail_shot": 1,
+    "thumbnail_prompt": "Young woman in a blue sari with freshly cut short hair peering through the keyhole of a locked wooden door in a foggy hill bungalow, a tall shadow behind the door, deep red accent.",
+    "characters": [
+      {
+        "id": "vikram",
+        "name": "जासूस विक्रम",
+        "look": "Lean Indian man in his mid-30s, sharp intelligent eyes, neatly trimmed black moustache, short side-parted hair, dark navy bandhgala coat over a white kurta, grey wool shawl over one shoulder, black cane with a brass handle, often carries an oil lantern."
+      },
+      {
+        "id": "savitri",
+        "name": "डॉक्टर सावित्री",
+        "look": "Indian woman in her late 20s, intelligent kind face, hair in a low bun, small round spectacles, cotton sari with a dark border, brown leather doctor's bag, small notebook."
+      },
+      {
+        "id": "anjali",
+        "name": "अंजलि",
+        "look": "Brave young Indian woman of 22, sharp expressive eyes, wearing a simple blue cotton sari, shoulder-length dark hair."
+      },
+      {
+        "id": "seth_kishorilal",
+        "name": "सेठ किशोरीलाल",
+        "look": "Plump Indian man in his late 40s, rounded face, overly wide cheerful smile, wearing a traditional embroidered kurta and waistcoat."
+      },
+      {
+        "id": "mrs_kishorilal",
+        "name": "श्रीमती किशोरीलाल",
+        "look": "Pale silent Indian woman in her late 30s, frail body, muted simple sari, anxious tired expression."
+      },
+      {
+        "id": "tolu",
+        "name": "तोलू",
+        "look": "Disheveled middle-aged Indian caretaker, rough dark jacket, rustic appearance."
+      }
+    ],
+    "scenes": [
+      {
+        "narration": "देवदार कोठी का एक हिस्सा हमेशा बंद रहता था। एक रात अंजलि ने उसके दरवाज़े के चाबी के छेद से झाँका। अंदर लालटेन की धीमी रोशनी थी... और दीवार पर एक परछाईं, जो धीरे-धीरे इधर से उधर टहल रही थी।",
+        "shots": [
+          {
+            "prompt": "A dark wooden hallway inside a 1920s hill station bungalow, cold blue mist visible through small windows, a young woman in a blue sari leaning down to look through a keyhole.",
+            "characters": [
+              "anjali"
+            ]
+          },
+          {
+            "prompt": "POV shot through a large brass keyhole, warm dim lantern glow inside a sealed room, casting a tall human shadow onto a dusty wooden wall.",
+            "characters": []
+          },
+          {
+            "prompt": "Close-up of a young woman's face, pale with terror and suspense, illuminated by dim keyhole light in the dark corridor.",
+            "characters": [
+              "anjali"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "पर सेठ किशोरीलाल ने हँसकर कहा था, \"वो हिस्सा तो बरसों से ख़ाली है, बिटिया।\" अगर वो हिस्सा ख़ाली था... तो उस बंद कमरे में टहल कौन रहा था?",
+        "shots": [
+          {
+            "prompt": "Medium shot of a plump middle-aged Indian man with a forced loud laugh inside a grand dark wooden dining room, holding a teacup, looking at a young woman.",
+            "characters": [
+              "seth_kishorilal",
+              "anjali"
+            ]
+          },
+          {
+            "prompt": "Low angle shot of the exterior of a lonely, eerie wooden bungalow surrounded by misty pine trees under a overcast sky in 1920s Shimla.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "मैं सावित्री हूँ। ये कहानी शुरू हुई थी एक महीने पहले, जब बाईस साल की अंजलि, शिमला से आई एक चिट्ठी लेकर विक्रम के पास आई। उसे एक अमीर परिवार में बच्चे को पढ़ाने की नौकरी मिल रही थी।",
+        "shots": [
+          {
+            "prompt": "Interior of a cozy 1920s rented room in Banaras near the river ghat, warm oil lamp light, Savitri in spectacles writing in a notebook near a window.",
+            "characters": [
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "A young woman sitting nervously on a wooden chair, holding a folded paper letter in her hands, showing it to a detective seated across a small table.",
+            "characters": [
+              "anjali",
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Close-up detail shot of an vintage handwritten letter written in dark ink resting on a wooden tabletop, surrounded by an old brass desk clock.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "तनख़्वाह आम नौकरी से तीन गुना। पर शर्तें अजीब थीं। उसे अपने लंबे, घने बाल कटवाने होंगे। एक ख़ास नीली साड़ी पहननी होगी। और जब कहा जाए, खिड़की की तरफ़ पीठ करके बैठना होगा।",
+        "shots": [
+          {
+            "prompt": "Detective Vikram examining the letter closely under yellow lamp light, thoughtful expression, touching his moustache.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Close-up of long black hair falling onto the floor as iron scissors cut it, lit by soft dim natural light.",
+            "characters": []
+          },
+          {
+            "prompt": "Over-the-shoulder shot of a young woman wearing a bright blue sari sitting near a window overlooking a lonely mountain road, facing away from the window.",
+            "characters": [
+              "anjali"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "विक्रम ने चिट्ठी पढ़कर कहा, \"इतनी तनख़्वाह के पीछे कोई वजह ज़रूर है। अगर कभी डर लगे, तो बस एक तार भेज देना।\" अंजलि ने अपने बाल कटवाए, और शिमला चली गई।",
+        "shots": [
+          {
+            "prompt": "Vikram standing calmly near a bookshelf, speaking reassuringly while holding his brass-topped cane.",
+            "characters": [
+              "vikram",
+              "anjali"
+            ]
+          },
+          {
+            "prompt": "Wide shot of a vintage 1920s steam locomotive chugging along a mountain railway track through pine trees and rolling fog.",
+            "characters": []
+          },
+          {
+            "prompt": "Anjali looking out from the window of a train carriage, her newly cut short hair fluttering slightly in the cold hill breeze.",
+            "characters": [
+              "anjali"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "देवदार कोठी पहाड़ी पर अकेली खड़ी थी, चारों ओर देवदार का घना जंगल और धुंध। सेठ बहुत हँसता था, ज़रूरत से ज़्यादा। उसकी पत्नी चुपचाप रहती, चेहरा पीला। और रात को अहाते में बघा नाम का एक भूखा, विशाल कुत्ता छोड़ दिया जाता था।",
+        "shots": [
+          {
+            "prompt": "Wide cinematic shot of an isolated colonial wooden villa nestled among tall foggy pine trees under a dark gray sky.",
+            "characters": []
+          },
+          {
+            "prompt": "Seth Kishorilal laughing heartily at a dinner table while his pale silent wife sits rigidly with a worried expression next to him.",
+            "characters": [
+              "seth_kishorilal",
+              "mrs_kishorilal"
+            ]
+          },
+          {
+            "prompt": "Low angle silhouette of a massive dark mastiff dog chained near an iron gate in a night courtyard bathed in mist.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "हर शाम सेठ अंजलि को नीली साड़ी पहनाकर खिड़की की ओर पीठ करके बिठाता, और मज़ेदार क़िस्से सुनाता। अंजलि को हँसना होता था। इतना ज़ोर से, कि बाहर सड़क से साफ़ दिखाई दे।",
+        "shots": [
+          {
+            "prompt": "Medium shot of Anjali in a blue sari sitting in a armchair with her back to a brightly lit window, forcing a laugh while looking at the Seth.",
+            "characters": [
+              "anjali",
+              "seth_kishorilal"
+            ]
+          },
+          {
+            "prompt": "Seth Kishorilal gesturing dramatically while narrating a story, standing under a glowing brass chandelier.",
+            "characters": [
+              "seth_kishorilal"
+            ]
+          },
+          {
+            "prompt": "Exterior view from a dark foggy road looking up at a lit window of the bungalow, showing the silhouette of a woman sitting inside.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "एक दिन अंजलि ने अपने रूमाल में एक छोटा सा शीशा छिपा लिया। हँसते-हँसते उसने शीशे में देखा... बाहर सड़क पर एक नौजवान खड़ा था, एकटक इसी खिड़की की तरफ़ देखता हुआ।",
+        "shots": [
+          {
+            "prompt": "Close-up of a small round compact mirror hidden inside a white embroidered handkerchief held secretly in a young woman's lap.",
+            "characters": [
+              "anjali"
+            ]
+          },
+          {
+            "prompt": "Reflection in the small mirror showing a blurry silhouette of a young man standing in coat on the cold mist-covered road outside.",
+            "characters": []
+          },
+          {
+            "prompt": "Anjali's eyes widening in realization while she pretends to smile, holding the handkerchief tightly.",
+            "characters": [
+              "anjali"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "फिर एक रात, अपनी अलमारी की बंद दराज़ में उसे लंबे, काले बालों का एक गुच्छा मिला। बिल्कुल उसके अपने कटे हुए बालों जैसा। पर उसके अपने बाल तो उसके बक्से में रखे थे।",
+        "shots": [
+          {
+            "prompt": "Anjali opening a dark wooden cabinet drawer late at night by oil light, her face shocked.",
+            "characters": [
+              "anjali"
+            ]
+          },
+          {
+            "prompt": "Detail shot of a thick coil of long black hair resting inside an old wooden drawer, lit by candlelight.",
+            "characters": []
+          },
+          {
+            "prompt": "Anjali holding her own short hair on one side while looking down at the drawer in deep horror.",
+            "characters": [
+              "anjali"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "उसी रात उसने बंद हिस्से में वो परछाईं देखी। और अगली सुबह विक्रम को तार मिला... \"तुरंत शिमला आइए।\" हम उसी रात की गाड़ी से निकल पड़े।",
+        "shots": [
+          {
+            "prompt": "Detail shot of a telegram form written in English script 'COME AT ONCE SHIMLA ANJALI' held in Vikram's hands.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Night shot of Vikram carrying a lantern and Savitri carrying a brown leather bag stepping onto a dark railway platform.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "रुकिए। कटे हुए बाल। एक ख़ास नीली साड़ी। खिड़की की ओर पीठ। सड़क पर खड़ा एक नौजवान। और बंद कमरे में परछाईं। क्या आपने अंदाज़ा लगाया, अंजलि से असल में क्या करवाया जा रहा था?",
+        "shots": [
+          {
+            "prompt": "Medium shot of Vikram looking straight at the camera with calm, questioning eyes under a lamppost on a foggy station platform.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Savitri standing beside Vikram, holding her notebook and looking thoughtfully towards the viewer.",
+            "characters": [
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Atmospheric shot of a lonely wooden sign post pointing into deep misty pine trees at night.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "शिमला के एक होटल में विक्रम ने अंजलि से पूछा, \"सेठ की पहली शादी से कोई बेटी है?\" अंजलि चौंकी। \"हाँ, अलका। लोग कहते हैं, वो विदेश चली गई है।\" विक्रम बोले, \"नहीं, अंजलि। वो विदेश नहीं गई। वो उसी बंद कमरे में है।\"",
+        "shots": [
+          {
+            "prompt": "Interior of a dimly lit hotel room in Shimla, Vikram standing near a fireplace explaining calmly.",
+            "characters": [
+              "vikram",
+              "anjali",
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Close-up of Anjali gasped in surprise, sitting on a wooden couch near Savitri.",
+            "characters": [
+              "anjali",
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Low angle view of the darkened locked wing door of the bungalow, mysterious and ominous.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "\"तुम्हें अलका बनाया जा रहा था। वही कटे बाल, वही नीली साड़ी, वही हँसी। सड़क वाला नौजवान अलका का मंगेतर है। उसे दिखाया जा रहा था कि अलका ख़ुश है, और अब उससे मिलना नहीं चाहती।\"",
+        "shots": [
+          {
+            "prompt": "Vikram walking around the room holding his brass cane, breaking down the puzzle step by step.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Flashback view of the young man standing outside on the misty road, looking up at the window with heartbreak.",
+            "characters": []
+          },
+          {
+            "prompt": "Close-up of Savitri taking rapid notes in her small notebook with a fountain pen.",
+            "characters": [
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "\"पर क्यों?\" मैंने पूछा। \"क्योंकि अलका की माँ की दौलत, उसकी शादी के दिन उसे मिल जाएगी,\" विक्रम बोले। \"और सेठ वो दौलत अपने हाथ से जाने नहीं देना चाहता।\"",
+        "shots": [
+          {
+            "prompt": "Savitri asking a question intently, looking at Vikram in the warm firelight.",
+            "characters": [
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Seth Kishorilal counted heavy stacks of old paper currency notes inside a private study room, narrow greedy eyes.",
+            "characters": [
+              "seth_kishorilal"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "उस रात सेठ और उसकी पत्नी शहर गए हुए थे। अंजलि ने चौकीदार तोलू को शराब पिलाकर सुला दिया। हम चुपचाप कोठी में घुसे। सीढ़ियाँ चरमरा रही थीं। बंद हिस्से का दरवाज़ा सामने था।",
+        "shots": [
+          {
+            "prompt": "Tolu sleeping passed out at a wooden desk with an empty clay bottle nearby in the dark lodge.",
+            "characters": [
+              "tolu"
+            ]
+          },
+          {
+            "prompt": "Vikram carrying an oil lantern quietly leading Savitri and Anjali up a dark creaking wooden staircase inside the bungalow.",
+            "characters": [
+              "vikram",
+              "savitri",
+              "anjali"
+            ]
+          },
+          {
+            "prompt": "Close-up shot of a heavy iron padlock securing a weathered wooden door inside the dark corridor.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "विक्रम ने ताला तोड़ा। कमरा ख़ाली था। एक बिस्तर, एक कुर्सी... और छत का रोशनदान खुला हुआ। ठंडी हवा अंदर आ रही थी। अलका जा चुकी थी।",
+        "shots": [
+          {
+            "prompt": "Vikram using his cane's brass tip to force open the rusted lock, door swinging open into a dusty room.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Interior of an empty attic room with a simple bed, an open skylight in the wooden ceiling letting in blue moonlight and fog.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "तभी सीढ़ियों पर भारी क़दम। सेठ किशोरीलाल लौट आया था, हाथ में मोटा डंडा। \"तुमने उसे भगा दिया!\" वो दहाड़ा। \"रुको, मैं अभी कुत्ते को खोलता हूँ!\" और वो नीचे दौड़ पड़ा।",
+        "shots": [
+          {
+            "prompt": "Seth Kishorilal bursting through the dark stairwell holding a thick wooden stick, furious face illuminated by lantern light.",
+            "characters": [
+              "seth_kishorilal"
+            ]
+          },
+          {
+            "prompt": "Seth running angrily down dark stairs towards the foggy courtyard.",
+            "characters": [
+              "seth_kishorilal"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "हम उसके पीछे भागे। अँधेरे अहाते में ज़ंजीर खुलने की खनक। फिर एक भयानक गुर्राहट... और फिर एक चीख। पर वो चीख हमारी नहीं थी। वो सेठ की अपनी चीख थी।",
+        "shots": [
+          {
+            "prompt": "Wide shot of Vikram and Savitri rushing out onto the misty nocturnal veranda, lantern casting long frantic shadows.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Silhouette of a giant shadow lunging forward in the mist as an iron chain drops to the stone ground with a clatter.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "बघा कई दिन से भूखा रखा गया था। अँधेरे में उसने अपने ही मालिक को नहीं पहचाना। विक्रम ने किसी तरह कुत्ते को दूर किया। सेठ बच गया, पर ज़िंदगी भर के लिए अपाहिज हो गया।",
+        "shots": [
+          {
+            "prompt": "Vikram stepping forward boldly, brandishing his lit lantern high to ward off a dark ferocious dog silhouette in the foggy night.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Wide atmospheric shot of the dimly lit courtyard with thick fog rolling across the ground.",
+            "characters": []
+          },
+          {
+            "prompt": "Savitri rushing forward with her doctor's bag in hand to offer aid in the dark night courtyard.",
+            "characters": [
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "बाद में पता चला, अलका का मंगेतर छत के रास्ते उसे निकाल ले गया था। उसी हफ़्ते दोनों की शादी हो गई। विक्रम बोले, \"एक नीली साड़ी, कुछ कटे बाल, और एक हँसी... सच हमेशा छोटी चीज़ों में छिपा होता है।\"",
+        "shots": [
+          {
+            "prompt": "A warm silhouette of a young couple standing hand-in-hand in daylight at a small hill church entrance.",
+            "characters": []
+          },
+          {
+            "prompt": "Vikram standing calmly by a pine tree outside, holding his cane, speaking with his signature thoughtful expression.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Close-up of Vikram looking directly at the camera while delivering his signature line.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "जाने से पहले विक्रम ने सेठ के बही-खाते पलटे। एक पन्ने पर बड़ी रक़म का उधार लिखा था... 'पंकज सेवा सदन, बनारस।' मैंने सोचा, कितनी भली संस्था है, जो मुसीबत में लोगों की मदद करती है।",
+        "shots": [
+          {
+            "prompt": "Detail close-up of Vikram's hand flipping through an old leather bound financial ledger under yellow lamplight.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Extreme close-up of a handwritten entry in violet ink on yellowed paper reading 'पंकज सेवा सदन, बनारस' with a faint kewra stain.",
+            "characters": []
+          },
+          {
+            "prompt": "Savitri looking over Vikram's shoulder with a naive, gentle smile.",
+            "characters": [
+              "savitri",
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "अंजलि अब सुरक्षित थी। पर लौटती गाड़ी में विक्रम खिड़की से बाहर अँधेरे को घूरते रहे। आपको क्या लगता है, अगर अंजलि ने वो तार न भेजा होता, तो उसके साथ क्या होता? कमेंट में ज़रूर बताइए।",
+        "shots": [
+          {
+            "prompt": "Interior of a steam train compartment at night, Anjali looking relieved sitting across from Savitri.",
+            "characters": [
+              "anjali",
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Vikram looking silently out of the train window into the pitch black night, deep in grave suspicion.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Wide shot of the train engine blowing steam into the dark mountain sky as it chugs away into the night.",
+            "characters": []
+          }
+        ]
+      }
+    ],
+    "clips": [
+      {
+        "start_scene": 1,
+        "end_scene": 2,
+        "hook_text": "ख़ाली कमरे में परछाईं",
+        "title": "चाबी के छेद से झाँका... और बंद कमरे में कोई टहल रहा था | जासूस विक्रम",
+        "end_question": "उस बंद कमरे में कौन था?"
+      },
+      {
+        "start_scene": 4,
+        "end_scene": 7,
+        "hook_text": "तीन गुना तनख़्वाह, अजीब शर्तें",
+        "title": "बाल कटवाओ, नीली साड़ी पहनो, खिड़की की ओर पीठ करके हँसो | जासूस विक्रम",
+        "end_question": "आख़िर क्यों?"
+      },
+      {
+        "start_scene": 15,
+        "end_scene": 17,
+        "hook_text": "भूखा कुत्ता खुल गया",
+        "title": "आधी रात का बचाव... और भूखे कुत्ते की ज़ंजीर खुली | जासूस विक्रम",
+        "end_question": "आगे क्या हुआ?"
+      },
+      {
+        "start_scene": 7,
+        "end_scene": 9,
+        "hook_text": "खिड़की पर नीली साड़ी का राज़",
+        "title": "दराज़ में किसके कटे बाल थे? | जासूस विक्रम",
+        "end_question": "क्या आपने सुराग पकड़ा?"
+      },
+      {
+        "start_scene": 12,
+        "end_scene": 14,
+        "hook_text": "विक्रम का बड़ा खुलासा!",
+        "title": "अलका के साथ क्या हुआ था? | जासूस विक्रम",
+        "end_question": "क्या आपका शक सही था?"
+      }
+    ],
+    "episode": 3,
+    "episode_title": "नीली साड़ी का राज़"
+  },
+  "active_clips": [
+    0,
+    1,
+    2
+  ],
+  "next_clip": 3,
+  "batch": null
+}
