@@ -62,7 +62,8 @@
         "Copper Beeches Hindi",
         "shorts"
       ],
-      "status": "pending"
+      "status": "uploaded",
+      "delivered": true
     }
   },
   "story": {
