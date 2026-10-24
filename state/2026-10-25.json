@@ -1,7 +1,67 @@
 {
   "date": "2026-10-25",
-  "status": "story_ready",
-  "items": {},
+  "status": "review",
+  "items": {
+    "v": {
+      "title": "नीली साड़ी का राज़ | जासूस विक्रम Ep 3",
+      "description": "1923 के शिमला में देवदार कोठी का बंद कमरा और एक खौफनाक रहस्य। जानिए कैसे जासूस विक्रम ने नीली साड़ी और कटे हुए बालों की पहेली को सुलझाया।\n\n#JasoosVikram #HindiKahaniyan #SuspenseThriller #MysteryStories #ShimlaHorror\n\nआर्थर कॉनन डॉयल की कहानी \"The Adventure of the Copper Beeches\" से प्रेरित (public domain). सभी पात्र काल्पनिक हैं।",
+      "tags": [
+        "Jasoos Vikram",
+        "Hindi Thriller",
+        "Detective Mystery",
+        "Hindi Stories",
+        "Suspense Audio Story",
+        "Shimla Mystery",
+        "Copper Beeches Hindi"
+      ],
+      "status": "pending"
+    },
+    "s1": {
+      "title": "चाबी के छेद से झाँका... और बंद कमरे में कोई टहल रहा था | जासूस विक्रम #shorts",
+      "description": "चाबी के छेद से झाँका... और बंद कमरे में कोई टहल रहा था | जासूस विक्रम\n\nपूरी कहानी देखें: {LONG_URL}\n\n#shorts #hindistory #thriller",
+      "tags": [
+        "Jasoos Vikram",
+        "Hindi Thriller",
+        "Detective Mystery",
+        "Hindi Stories",
+        "Suspense Audio Story",
+        "Shimla Mystery",
+        "Copper Beeches Hindi",
+        "shorts"
+      ],
+      "status": "pending"
+    },
+    "s2": {
+      "title": "बाल कटवाओ, नीली साड़ी पहनो, खिड़की की ओर पीठ करके हँसो | जासूस विक्रम #shorts",
+      "description": "बाल कटवाओ, नीली साड़ी पहनो, खिड़की की ओर पीठ करके हँसो | जासूस विक्रम\n\nपूरी कहानी देखें: {LONG_URL}\n\n#shorts #hindistory #thriller",
+      "tags": [
+        "Jasoos Vikram",
+        "Hindi Thriller",
+        "Detective Mystery",
+        "Hindi Stories",
+        "Suspense Audio Story",
+        "Shimla Mystery",
+        "Copper Beeches Hindi",
+        "shorts"
+      ],
+      "status": "pending"
+    },
+    "s3": {
+      "title": "आधी रात का बचाव... और भूखे कुत्ते की ज़ंजीर खुली | जासूस विक्रम #shorts",
+      "description": "आधी रात का बचाव... और भूखे कुत्ते की ज़ंजीर खुली | जासूस विक्रम\n\nपूरी कहानी देखें: {LONG_URL}\n\n#shorts #hindistory #thriller",
+      "tags": [
+        "Jasoos Vikram",
+        "Hindi Thriller",
+        "Detective Mystery",
+        "Hindi Stories",
+        "Suspense Audio Story",
+        "Shimla Mystery",
+        "Copper Beeches Hindi",
+        "shorts"
+      ],
+      "status": "pending"
+    }
+  },
   "story": {
     "title": "नीली साड़ी का राज़ | जासूस विक्रम Ep 3",
     "description": "1923 के शिमला में देवदार कोठी का बंद कमरा और एक खौफनाक रहस्य। जानिए कैसे जासूस विक्रम ने नीली साड़ी और कटे हुए बालों की पहेली को सुलझाया।\n\n#JasoosVikram #HindiKahaniyan #SuspenseThriller #MysteryStories #ShimlaHorror\n\nआर्थर कॉनन डॉयल की कहानी \"The Adventure of the Copper Beeches\" से प्रेरित (public domain). सभी पात्र काल्पनिक हैं।",
@@ -545,5 +605,6 @@
     2
   ],
   "next_clip": 3,
-  "batch": null
+  "batch": null,
+  "media_run_id": "40098218630"
 }
