@@ -1,7 +1,75 @@
 {
   "date": "2026-10-26",
-  "status": "story_ready",
-  "items": {},
+  "status": "review",
+  "items": {
+    "v": {
+      "title": "अनजान कोठी का बुलावा | जासूस विक्रम Ep 4",
+      "description": "मिर्ज़ापुर के घने जंगलों में छिपी एक रहस्यमयी कोठी, जहाँ एक युवा इंजीनियर को भेजा गया एक गुप्त मशीन की मरम्मत के लिए। पर वहाँ की लोहे की छत धीरे-धीरे नीचे उतरने लगी! जासूस विक्रम ने इस ख़ूनी साज़िश का सच कैसे उजागर किया?\n#JasoosVikram #HindiKahaniya #SuspenseStory #IndianDetective #ThrillerStories\n\nआर्थर कॉनन डॉयल की कहानी \"The Adventure of the Engineer's Thumb\" से प्रेरित (public domain). सभी पात्र काल्पनिक हैं।",
+      "tags": [
+        "Jasoos Vikram",
+        "Detective Vikram",
+        "Hindi Suspense Story",
+        "Hindi Kahani",
+        "Mirzapur Mystery",
+        "Engineer Thumb Hindi",
+        "Audio Story Hindi",
+        "Indian Thriller",
+        "1920s India Mystery"
+      ],
+      "status": "pending"
+    },
+    "s1": {
+      "title": "बंद कमरा... और धीरे-धीरे नीचे उतरती लोहे की छत | जासूस विक्रम #shorts",
+      "description": "बंद कमरा... और धीरे-धीरे नीचे उतरती लोहे की छत | जासूस विक्रम\n\nपूरी कहानी देखें: {LONG_URL}\n\n#shorts #hindistory #thriller",
+      "tags": [
+        "Jasoos Vikram",
+        "Detective Vikram",
+        "Hindi Suspense Story",
+        "Hindi Kahani",
+        "Mirzapur Mystery",
+        "Engineer Thumb Hindi",
+        "Audio Story Hindi",
+        "Indian Thriller",
+        "1920s India Mystery",
+        "shorts"
+      ],
+      "status": "pending"
+    },
+    "s2": {
+      "title": "एक घंटा चली बग्घी... पर घोड़ा ज़रा भी नहीं थका | जासूस विक्रम #shorts",
+      "description": "एक घंटा चली बग्घी... पर घोड़ा ज़रा भी नहीं थका | जासूस विक्रम\n\nपूरी कहानी देखें: {LONG_URL}\n\n#shorts #hindistory #thriller",
+      "tags": [
+        "Jasoos Vikram",
+        "Detective Vikram",
+        "Hindi Suspense Story",
+        "Hindi Kahani",
+        "Mirzapur Mystery",
+        "Engineer Thumb Hindi",
+        "Audio Story Hindi",
+        "Indian Thriller",
+        "1920s India Mystery",
+        "shorts"
+      ],
+      "status": "pending"
+    },
+    "s3": {
+      "title": "खिड़की से लटका इंजीनियर... और ऊपर उठा गँड़ासा | जासूस विक्रम #shorts",
+      "description": "खिड़की से लटका इंजीनियर... और ऊपर उठा गँड़ासा | जासूस विक्रम\n\nपूरी कहानी देखें: {LONG_URL}\n\n#shorts #hindistory #thriller",
+      "tags": [
+        "Jasoos Vikram",
+        "Detective Vikram",
+        "Hindi Suspense Story",
+        "Hindi Kahani",
+        "Mirzapur Mystery",
+        "Engineer Thumb Hindi",
+        "Audio Story Hindi",
+        "Indian Thriller",
+        "1920s India Mystery",
+        "shorts"
+      ],
+      "status": "pending"
+    }
+  },
   "story": {
     "title": "अनजान कोठी का बुलावा | जासूस विक्रम Ep 4",
     "description": "मिर्ज़ापुर के घने जंगलों में छिपी एक रहस्यमयी कोठी, जहाँ एक युवा इंजीनियर को भेजा गया एक गुप्त मशीन की मरम्मत के लिए। पर वहाँ की लोहे की छत धीरे-धीरे नीचे उतरने लगी! जासूस विक्रम ने इस ख़ूनी साज़िश का सच कैसे उजागर किया?\n#JasoosVikram #HindiKahaniya #SuspenseStory #IndianDetective #ThrillerStories\n\nआर्थर कॉनन डॉयल की कहानी \"The Adventure of the Engineer's Thumb\" से प्रेरित (public domain). सभी पात्र काल्पनिक हैं।",
@@ -575,5 +643,6 @@
     2
   ],
   "next_clip": 3,
-  "batch": null
+  "batch": null,
+  "media_run_id": "40199343874"
 }
