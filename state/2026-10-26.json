@@ -1,0 +1,579 @@
+{
+  "date": "2026-10-26",
+  "status": "story_ready",
+  "items": {},
+  "story": {
+    "title": "अनजान कोठी का बुलावा | जासूस विक्रम Ep 4",
+    "description": "मिर्ज़ापुर के घने जंगलों में छिपी एक रहस्यमयी कोठी, जहाँ एक युवा इंजीनियर को भेजा गया एक गुप्त मशीन की मरम्मत के लिए। पर वहाँ की लोहे की छत धीरे-धीरे नीचे उतरने लगी! जासूस विक्रम ने इस ख़ूनी साज़िश का सच कैसे उजागर किया?\n#JasoosVikram #HindiKahaniya #SuspenseStory #IndianDetective #ThrillerStories\n\nआर्थर कॉनन डॉयल की कहानी \"The Adventure of the Engineer's Thumb\" से प्रेरित (public domain). सभी पात्र काल्पनिक हैं।",
+    "tags": [
+      "Jasoos Vikram",
+      "Detective Vikram",
+      "Hindi Suspense Story",
+      "Hindi Kahani",
+      "Mirzapur Mystery",
+      "Engineer Thumb Hindi",
+      "Audio Story Hindi",
+      "Indian Thriller",
+      "1920s India Mystery"
+    ],
+    "logline": "A young engineer survives a descending ceiling trap and loses his thumb in a mysterious forest mansion, leading Detective Vikram to uncover a dangerous counterfeiting ring.",
+    "thumbnail_text": "मौत की मशीन",
+    "thumbnail_shot": 1,
+    "thumbnail_prompt": "Young Indian engineer in a 1920s waistcoat pushing against a descending iron ceiling in a dark machine room lit by one lantern, a woman's silhouette at a small door, deep red accent.",
+    "characters": [
+      {
+        "id": "vikram",
+        "name": "जासूस विक्रम",
+        "look": "Lean Indian man in his mid-30s, sharp intelligent eyes, neatly trimmed black moustache, short side-parted hair, dark navy bandhgala coat over a white kurta, grey wool shawl over one shoulder, black cane with a brass handle, often carries an oil lantern."
+      },
+      {
+        "id": "savitri",
+        "name": "डॉक्टर सावित्री",
+        "look": "Indian woman in her late 20s, intelligent kind face, hair in a low bun, small round spectacles, cotton sari with a dark border, brown leather doctor's bag, small notebook."
+      },
+      {
+        "id": "inspector_bhairav",
+        "name": "इंस्पेक्टर भैरव पांडे",
+        "look": "Heavy-set Indian police inspector in his late 40s, thick curled moustache, 1920s khaki police uniform with a red-and-khaki pagri turban, leather belt, short wooden baton."
+      },
+      {
+        "id": "sameer",
+        "name": "समीर",
+        "look": "Young Indian man in his early 20s, slender build, anxious expressive eyes, messy hair, wearing a worn cotton kurta and brown mechanic's waistcoat, heavy white bandage wrapping his right hand."
+      },
+      {
+        "id": "colonel_pratap",
+        "name": "कर्नल प्रताप",
+        "look": "Tall and exceptionally emaciated Indian man in his late 40s, hollow gaunt face, cold piercing eyes, thin sinister moustache, dressed in a sharp dark formal sherwani."
+      },
+      {
+        "id": "kothi_woman",
+        "name": "कोठी की औरत",
+        "look": "Young Indian woman in her early 20s, pale frightened face, disheveled dark hair, wearing a muted maroon cotton sari with a pallu drawn over her head."
+      }
+    ],
+    "scenes": [
+      {
+        "narration": "लोहे की छत धीरे-धीरे नीचे आ रही थी। समीर ने पूरी ताक़त से दरवाज़ा पीटा। बाहर से कोई जवाब नहीं। बस मशीन की गड़गड़ाहट, और ऊपर से उतरता अँधेरा। तभी दीवार के उस पार एक औरत चीखी... \"भागो!\"",
+        "shots": [
+          {
+            "prompt": "Low-angle shot inside an ominous stone chamber where a massive solid iron ceiling descends relentlessly, mechanical hydraulic gears turning on stone walls, warm lantern light casting long desperate shadows.",
+            "characters": [
+              "sameer"
+            ]
+          },
+          {
+            "prompt": "Close-up of Sameer violently pounding his fists against a heavy reinforced wooden door, panic and sweat glistening on his face under flickering yellow lantern glow.",
+            "characters": [
+              "sameer"
+            ]
+          },
+          {
+            "prompt": "Eye-level shot focusing on a thin slit in the rough wooden partition wall, where a terrified young woman's eyes appear in shadow, her mouth open in a desperate warning cry.",
+            "characters": [
+              "kothi_woman"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "सुबह छह बजे, एक नौजवान मेरे दवाख़ाने के दरवाज़े पर बेहोश होकर गिर पड़ा। उसका दाहिना हाथ कसकर कपड़े में लिपटा था। मैंने पट्टी खोली, तो सन्न रह गई। उस हाथ में अँगूठा नहीं था।",
+        "shots": [
+          {
+            "prompt": "Wide shot outside a quiet 1920s clinic in dawn light, Sameer collapsing onto the stone threshold, dust rising softly around him.",
+            "characters": [
+              "sameer"
+            ]
+          },
+          {
+            "prompt": "Medium shot of Savitri kneeling beside the collapsed young man, opening his tightly wrapped makeshift bandage with urgent concern in her clinic room.",
+            "characters": [
+              "savitri",
+              "sameer"
+            ]
+          },
+          {
+            "prompt": "Close-up shot of Savitri's face turning pale with shock and horror as she inspects the severely wounded, cleanly bandaged right hand missing its thumb.",
+            "characters": [
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "मैं सावित्री हूँ। मैंने उसकी मरहम-पट्टी की, और सीधे विक्रम के पास ले गई। उसका नाम था समीर। मिर्ज़ापुर का एक ग़रीब, पर होशियार इंजीनियर, जो पानी से चलने वाली मशीनें ठीक करता था।",
+        "shots": [
+          {
+            "prompt": "Medium shot of Savitri applying clean surgical bandages to Sameer's hand inside a period medical room filled with glass medicine bottles.",
+            "characters": [
+              "savitri",
+              "sameer"
+            ]
+          },
+          {
+            "prompt": "Wide shot of Vikram's study in Banaras, sunlight streaming through wooden shutters, Vikram standing calmly leaning on his brass-handled cane as Savitri leads Sameer inside.",
+            "characters": [
+              "vikram",
+              "savitri",
+              "sameer"
+            ]
+          },
+          {
+            "prompt": "Medium close-up of Sameer sitting on a wooden chair, trembling and pale, speaking with earnest gestures while holding his bandaged right hand against his chest.",
+            "characters": [
+              "sameer"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "समीर ने बताया, कल शाम उसके पास एक बहुत दुबला-पतला आदमी आया था। खोखली आवाज़, ठंडी आँखें। नाम बताया... कर्नल प्रताप। \"एक रात का काम है। पचास रुपये दूँगा। पर किसी को बताना मत।\"",
+        "shots": [
+          {
+            "prompt": "Flashback scene, eye-level medium shot in a modest engineering workshop at dusk, Colonel Pratap standing rigid, casting an imposing sinister silhouette against the oil lamp.",
+            "characters": [
+              "colonel_pratap",
+              "sameer"
+            ]
+          },
+          {
+            "prompt": "Close-up shot of Colonel Pratap's gaunt hollow face, piercing cold eyes staring unblinkingly forward under dim lamplight.",
+            "characters": [
+              "colonel_pratap"
+            ]
+          },
+          {
+            "prompt": "Over-the-shoulder shot from Sameer looking at Colonel Pratap placing a stack of crisp currency notes onto a wooden workbench cluttered with wrenches and blueprints.",
+            "characters": [
+              "colonel_pratap",
+              "sameer"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "पचास रुपये! समीर की तीन महीने की कमाई। काम था, मुल्तानी मिट्टी दबाने वाली एक मशीन ठीक करना। आधी रात को स्टेशन पर एक बंद बग्घी आई, जिसकी खिड़कियों के शीशे धुंधले थे। बाहर कुछ दिखाई नहीं देता था।",
+        "shots": [
+          {
+            "prompt": "Close-up of Sameer's face reflecting awe and temptation as he looks down at the money on the workbench in the dim workshop.",
+            "characters": [
+              "sameer"
+            ]
+          },
+          {
+            "prompt": "Wide shot of a misty deserted railway station platform at midnight, steam rising in the distance, a dark enclosed horse carriage waiting by the road.",
+            "characters": []
+          },
+          {
+            "prompt": "Medium interior shot inside the dark carriage, frosted frosted-glass windows completely obscuring the night outside, Sameer sitting nervously in deep shadows.",
+            "characters": [
+              "sameer"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "बग्घी पूरे एक घंटे चली। फिर जंगल के बीच एक टूटी-फूटी कोठी के सामने रुकी। उतरते वक़्त समीर ने एक चीज़ पर ध्यान दिया... घोड़ा ज़रा भी थका नहीं था। न पसीना, न हाँफना।",
+        "shots": [
+          {
+            "prompt": "Wide tracking shot of the black carriage moving through overgrown dense woods under the moonlight, dense trees looming over the gravel path.",
+            "characters": []
+          },
+          {
+            "prompt": "Wide exterior shot of a decaying colonial-era haveli mansion shrouded in wild creeping ivy and midnight fog, the carriage parked at the stone porch.",
+            "characters": []
+          },
+          {
+            "prompt": "Close-up of Sameer stepping down from carriage steps, his eyes observing the carriage horse which stands perfectly calm, dry coat and steady breath in the cool air.",
+            "characters": [
+              "sameer"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "अंदर, अँधेरे गलियारे में, एक डरी हुई औरत मिली। उसने काँपती आवाज़ में फुसफुसाया, \"यहाँ से चले जाओ। अभी। रुकना मत।\" पर तभी कर्नल आ गया, और वो औरत अँधेरे में ग़ायब हो गई।",
+        "shots": [
+          {
+            "prompt": "Medium shot in a desolate stone corridor lit by a single bracket torch, a young woman in a maroon sari urgently gripping Sameer's sleeve with terror in her eyes.",
+            "characters": [
+              "kothi_woman",
+              "sameer"
+            ]
+          },
+          {
+            "prompt": "Close-up of the woman whispering desperately, glancing over her shoulder into the darkness with frantic dread.",
+            "characters": [
+              "kothi_woman"
+            ]
+          },
+          {
+            "prompt": "Low-angle shot as the tall imposing shadow of Colonel Pratap emerges from the darkness of the hallway, the woman vanishing quickly around the corner.",
+            "characters": [
+              "colonel_pratap",
+              "sameer"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "कर्नल उसे एक बड़े कमरे में ले गया। वो कमरा ख़ुद एक मशीन था। लोहे की भारी छत, जो पानी के ज़ोर से नीचे दबती थी। समीर ने रिसाव ढूँढ़ लिया। पर फ़र्श पर उसे कुछ अजीब दिखा... चमकती हुई धातु की पपड़ी।",
+        "shots": [
+          {
+            "prompt": "Wide shot of a cavernous stone chamber dominated by a massive hydraulic press system, heavy pistons and an enormous iron ceiling plate suspended above.",
+            "characters": [
+              "colonel_pratap",
+              "sameer"
+            ]
+          },
+          {
+            "prompt": "Medium shot of Sameer holding a lantern close to an intricate valve pipe on the wall, inspecting a leaking water gasket.",
+            "characters": [
+              "sameer"
+            ]
+          },
+          {
+            "prompt": "Extreme close-up shot of the stone floor under lantern beam, revealing glistening silver metallic shavings and crust scattered across the flagstones instead of clay dust.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "मुल्तानी मिट्टी नहीं... धातु। समीर ने भोलेपन में पूछ लिया, \"कर्नल साहब, ये मशीन असल में दबाती क्या है?\" कर्नल का चेहरा पत्थर हो गया। वो बिना कुछ कहे बाहर निकला... और दरवाज़ा बाहर से बंद कर दिया।",
+        "shots": [
+          {
+            "prompt": "Medium shot of Sameer turning with a curious, bewildered expression, pointing his finger toward the metallic residue on the ground.",
+            "characters": [
+              "sameer",
+              "colonel_pratap"
+            ]
+          },
+          {
+            "prompt": "Extreme close-up of Colonel Pratap's cold face turning completely rigid and ruthless, his jaw clenched in deadly silence.",
+            "characters": [
+              "colonel_pratap"
+            ]
+          },
+          {
+            "prompt": "Over-the-shoulder shot from inside the chamber looking at Colonel Pratap abruptly stepping outside the massive doorway and slamming the heavy iron-bolted door shut.",
+            "characters": [
+              "colonel_pratap",
+              "sameer"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "फिर मशीन चल पड़ी। लोहे की छत नीचे उतरने लगी। एक हाथ, दो हाथ... समीर की चीखें मशीन के शोर में डूब गईं। तभी उसे लकड़ी की दीवार में एक दरार दिखी।",
+        "shots": [
+          {
+            "prompt": "Low-angle dynamic shot inside the chamber, the massive iron ceiling grinding downwards with menacing mechanical steam venting from the pipes, Sameer backing up in sheer terror.",
+            "characters": [
+              "sameer"
+            ]
+          },
+          {
+            "prompt": "Close-up of a rotting wooden plank wall in the corner of the chamber, lantern light catching a wide gap between warped wooden boards.",
+            "characters": [
+              "sameer"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "रुकिए। एक घंटे का सफ़र, पर ताज़ा घोड़ा। मुल्तानी मिट्टी की मशीन, पर फ़र्श पर धातु। आप क्या सोचते हैं, ये कोठी असल में कितनी दूर थी? और वहाँ बन क्या रहा था?",
+        "shots": [
+          {
+            "prompt": "Medium shot of Detective Vikram pacing slowly across his Banaras study, finger tapped against his chin, eyes fixed on the viewer with keen analytical intensity.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Close-up shot of a vintage brass magnifying glass lying beside a map of Mirzapur district on Vikram's wooden table, bathed in soft afternoon light.",
+            "characters": []
+          },
+          {
+            "prompt": "Over-the-shoulder shot of Savitri taking notes in her small diary, looking up with curious intrigue toward Vikram.",
+            "characters": [
+              "savitri",
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "समीर ने दरार में उँगलियाँ फँसाईं, और तख़्ता उखाड़ दिया। वो गलियारे में गिरा। वही औरत दौड़ती आई, और उसे एक खिड़की तक ले गई। \"कूद जाओ!\" समीर खिड़की से बाहर लटक गया।",
+        "shots": [
+          {
+            "prompt": "Medium action shot of Sameer tearing off a rotting wooden board with desperate strength and squeezing through the narrow breach into the corridor just as the ceiling crushes the floor.",
+            "characters": [
+              "sameer"
+            ]
+          },
+          {
+            "prompt": "Medium shot in the gloomy hallway, the frightened woman grabbing Sameer's arm and pulling him urgently toward an open arched stone window.",
+            "characters": [
+              "kothi_woman",
+              "sameer"
+            ]
+          },
+          {
+            "prompt": "Exterior shot from below the mansion wall, Sameer gripping the narrow stone windowsill with both hands, hanging suspended above the dark garden bushes.",
+            "characters": [
+              "sameer"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "ऊपर से कर्नल का चेहरा झाँका। उसके हाथ में एक भारी गँड़ासा था। चाँदनी में उसकी परछाईं उठी... और फिर समीर को बस इतना याद है कि वो नीचे झाड़ियों में गिरा, और बेहोश हो गया।",
+        "shots": [
+          {
+            "prompt": "Low-angle shot looking up at the windowsill, Colonel Pratap leaning out with a ferocious expression, raising a heavy meat cleaver high in the cold moonlight.",
+            "characters": [
+              "colonel_pratap"
+            ]
+          },
+          {
+            "prompt": "Silhouette shot against the moonlit stone wall showing the raised blade descending sharply toward the windowsill.",
+            "characters": [
+              "colonel_pratap"
+            ]
+          },
+          {
+            "prompt": "Wide shot of Sameer falling through the night air and crashing into the dense thorny undergrowth below, his dropped oil lantern shattering on the stone ground.",
+            "characters": [
+              "sameer"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "जब होश आया, तो वो स्टेशन के पास की झाड़ियों में पड़ा था। हाथ में असहनीय दर्द, और अँगूठा... ग़ायब। कोठी का कहीं कोई निशान नहीं।",
+        "shots": [
+          {
+            "prompt": "Medium shot of Sameer waking up in dewy tall grass near the railway embankment, morning mist drifting across the empty train tracks.",
+            "characters": [
+              "sameer"
+            ]
+          },
+          {
+            "prompt": "Close-up of Sameer staring down in agony and bewilderment at his blood-soaked makeshift wrapped right hand missing its thumb, the silent station visible in the hazy distance.",
+            "characters": [
+              "sameer"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "विक्रम ने नक़्शा फैलाया, और स्टेशन के चारों ओर एक छोटा सा गोला खींच दिया। \"घोड़ा ताज़ा था, यानी बग्घी एक घंटे तक गोल-गोल घूमती रही। कोठी स्टेशन से दूर नहीं... बहुत पास है।\"",
+        "shots": [
+          {
+            "prompt": "Overhead shot of Vikram's study table, Vikram using a brass compass and pencil to draw a tight circle around Mirzapur railway station on a sepia paper map.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Medium close-up of Vikram looking up with a razor-sharp intellect in his eyes, speaking calmly while holding his brass compass.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Reaction shot of Savitri and Sameer listening intently, relief and amazement washing over Sameer's weary face.",
+            "characters": [
+              "savitri",
+              "sameer"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "इंस्पेक्टर भैरव पांडे भी हमारे साथ हो लिए। मिर्ज़ापुर पहुँचते ही हमने आसमान में धुआँ देखा। जंगल के बीच, एक कोठी धू-धू कर जल रही थी।",
+        "shots": [
+          {
+            "prompt": "Wide shot of a dirt road near Mirzapur forest, Vikram, Savitri and Inspector Bhairav Pandey in his khaki uniform walking briskly toward the woods.",
+            "characters": [
+              "vikram",
+              "savitri",
+              "inspector_bhairav"
+            ]
+          },
+          {
+            "prompt": "Wide shot of thick black smoke billowing violently into the sky above the forest canopy, flames licking the rooftops of an old ruined mansion.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "समीर चीखा, \"वही है!\" उसकी गिरी हुई लालटेन से आग लगी थी। गिरोह रातों-रात भाग चुका था। न कर्नल, न वो औरत। बस जलती दीवारें, और टूटी हुई मशीन।",
+        "shots": [
+          {
+            "prompt": "Medium shot of Sameer pointing his uninjured left hand toward the blazing mansion ruins, Vikram and Bhairav standing vigilant beside him.",
+            "characters": [
+              "sameer",
+              "vikram",
+              "inspector_bhairav"
+            ]
+          },
+          {
+            "prompt": "Dramatic interior shot through smoldering wooden beams, showing the burnt twisted wreckage of the massive hydraulic press surrounded by smoking ashes.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "राख में विक्रम को चाँदी के कुछ चमकते सिक्के मिले। \"नक़ली सिक्के,\" वो बोले। \"ये मुल्तानी मिट्टी की नहीं, नक़ली रुपये ढालने की मशीन थी। समीर ने धातु देख ली थी, इसलिए उसे मरना था।\"",
+        "shots": [
+          {
+            "prompt": "Close-up of Vikram kneeling beside the soot-blackened ground, carefully using the tip of his brass cane to unearth shiny silver coins buried in ash.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Extreme close-up of two gleaming counterfeit silver rupee coins resting in Vikram's soot-smudged palm.",
+            "characters": []
+          },
+          {
+            "prompt": "Medium shot of Vikram standing upright, holding a coin to the daylight, explaining calmly to the shocked Inspector Bhairav and Savitri.",
+            "characters": [
+              "vikram",
+              "inspector_bhairav",
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "समीर ने धीरे से पूछा, \"और मेरा अँगूठा?\" विक्रम ने उसके कंधे पर हाथ रखा। \"तुम्हारा अँगूठा गया, समीर। पर तुम्हारी जान बच गई। और तुम्हारी वजह से एक पूरा गिरोह बेनक़ाब हुआ।\"",
+        "shots": [
+          {
+            "prompt": "Close-up shot of Sameer looking down at his bandaged hand, a look of somber grief in his eyes under the smoky sky.",
+            "characters": [
+              "sameer"
+            ]
+          },
+          {
+            "prompt": "Medium shot of Vikram placing a reassuring hand on Sameer's shoulder, his expression warm yet solemn amid the smoking rubble.",
+            "characters": [
+              "vikram",
+              "sameer"
+            ]
+          },
+          {
+            "prompt": "Savitri watching the two with empathetic eyes, clutching her doctor's medical bag beside the smoldering haveli ruins.",
+            "characters": [
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "\"घोड़े का सूखा शरीर, फ़र्श की पपड़ी, और एक सवाल जो नहीं पूछना था...\" विक्रम बोले, \"सच हमेशा छोटी चीज़ों में छिपा होता है।\"",
+        "shots": [
+          {
+            "prompt": "Medium shot of Detective Vikram standing tall before the burnt ruins, his grey shawl draped over his shoulder, his cane planted firmly on the ground.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Close-up of Vikram's face, his sharp eyes glinting with wisdom and subtle satisfaction as he speaks his signature truth.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "फिर उन्होंने एक सिक्का रोशनी में उठाया। उस पर राजा का चेहरा नहीं था। उसकी जगह, एक बहुत छोटा सा कमल का फूल उभरा हुआ था। विक्रम की आँखें सिकुड़ गईं।",
+        "shots": [
+          {
+            "prompt": "Over-the-shoulder shot of Vikram lifting the counterfeit coin against the pale sunbeams cutting through the smoke.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Extreme macro close-up of the silver coin face: instead of King George's portrait, an intricately embossed tiny black-tinted lotus emblem sits dead center, Vikram's eyes narrowing in grim recognition.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "इंस्पेक्टर भैरव ने चुपचाप एक सिक्का अपनी जेब में डाल लिया। \"सबूत के लिए,\" उन्होंने कहा। विक्रम कुछ नहीं बोले। पर मैंने देखा, उनकी नज़र भैरव की जेब पर टिकी रही। इन सिक्कों पर कमल का निशान क्यों था? कमेंट में बताइए।",
+        "shots": [
+          {
+            "prompt": "Medium shot of Inspector Bhairav Pandey subtly sliding one of the silver lotus coins into his khaki uniform pocket, trying to appear nonchalant under his thick moustache.",
+            "characters": [
+              "inspector_bhairav"
+            ]
+          },
+          {
+            "prompt": "Close-up of Vikram's sharp unblinking gaze silently tracking Bhairav's hand and pocket with deep suspicion.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Medium shot of Savitri looking straight toward the camera with an intriguing, questioning expression as dusk begins to fall over the burnt forest manor.",
+            "characters": [
+              "savitri"
+            ]
+          }
+        ]
+      }
+    ],
+    "clips": [
+      {
+        "start_scene": 1,
+        "end_scene": 2,
+        "hook_text": "नीचे आती लोहे की छत",
+        "title": "बंद कमरा... और धीरे-धीरे नीचे उतरती लोहे की छत | जासूस विक्रम",
+        "end_question": "क्या समीर बच पाया?"
+      },
+      {
+        "start_scene": 5,
+        "end_scene": 6,
+        "hook_text": "एक घंटे का सफ़र, ताज़ा घोड़ा",
+        "title": "एक घंटा चली बग्घी... पर घोड़ा ज़रा भी नहीं थका | जासूस विक्रम",
+        "end_question": "कोठी असल में कितनी दूर थी?"
+      },
+      {
+        "start_scene": 12,
+        "end_scene": 13,
+        "hook_text": "खिड़की से लटकी जान",
+        "title": "खिड़की से लटका इंजीनियर... और ऊपर उठा गँड़ासा | जासूस विक्रम",
+        "end_question": "आगे क्या हुआ?"
+      },
+      {
+        "start_scene": 8,
+        "end_scene": 10,
+        "hook_text": "मिट्टी की मशीन में धातु?",
+        "title": "एक ग़लत सवाल और मौत का जाल | जासूस विक्रम",
+        "end_question": "मशीन में क्या बन रहा था?"
+      },
+      {
+        "start_scene": 20,
+        "end_scene": 22,
+        "hook_text": "सिक्के पर कमल का निशान!",
+        "title": "जासूस विक्रम और काले कमल का सिक्का",
+        "end_question": "भैरव ने सिक्का क्यों छुपाया?"
+      }
+    ],
+    "episode": 4,
+    "episode_title": "अनजान कोठी का बुलावा"
+  },
+  "active_clips": [
+    0,
+    1,
+    2
+  ],
+  "next_clip": 3,
+  "batch": null
+}
