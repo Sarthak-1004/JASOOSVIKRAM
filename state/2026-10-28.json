@@ -1,0 +1,536 @@
+{
+  "date": "2026-10-28",
+  "status": "story_ready",
+  "items": {},
+  "story": {
+    "title": "पाँच काली पंखुड़ियाँ | जासूस विक्रम Ep 5",
+    "description": "बनारस की तूफानी रात में पाँच काली पंखुड़ियाँ मौत का पैगाम लेकर आती हैं। क्या जासूस विक्रम अर्जुन को इस खौफनाक संगठन से बचा पाएंगे? देखिए कैसे एक पुराना राज़ आज भी मौत बाँट रहा है।\n\n#JasoosVikram #ThrillerStory #MysteryHindi #BlackLotus #DetectiveStories\n\nआर्थर कॉनन डॉयल की कहानी \"The Five Orange Pips\" से प्रेरित (public domain). सभी पात्र काल्पनिक हैं।",
+    "tags": [
+      "Jasoos Vikram",
+      "Detective Vikram",
+      "Five Orange Pips Hindi",
+      "Hindi Thriller Story",
+      "Mystery Story",
+      "Detective Mystery",
+      "Banaras Stories",
+      "Black Lotus Mystery",
+      "Hindi Audio Story",
+      "Suspense Story"
+    ],
+    "logline": "Vikram fails to protect a young man who receives five black lotus petals, leading him to uncover a sinister smuggling network linked to his past cases.",
+    "thumbnail_text": "पाँच काली पंखुड़ियाँ",
+    "thumbnail_shot": 1,
+    "thumbnail_prompt": "Trembling hands holding an open envelope as five black lotus petals fall out, rain-streaked window, a terrified young man's face half in shadow, a red wax seal, deep red accent.",
+    "characters": [
+      {
+        "id": "vikram",
+        "name": "विक्रम",
+        "look": "Lean Indian man in his mid-30s, sharp intelligent eyes, neatly trimmed black moustache, short side-parted hair, dark navy bandhgala coat over a white kurta, grey wool shawl over one shoulder, black cane with a brass handle."
+      },
+      {
+        "id": "savitri",
+        "name": "सावित्री",
+        "look": "Indian woman in her late 20s, intelligent kind face, hair in a low bun, small round spectacles, cotton sari with a dark border, brown leather doctor's bag."
+      },
+      {
+        "id": "inspector_bhairav",
+        "name": "इंस्पेक्टर भैरव",
+        "look": "Heavy-set Indian police inspector in his late 40s, thick curled moustache, 1920s khaki police uniform with a red-and-khaki pagri turban, leather belt."
+      },
+      {
+        "id": "devendranath",
+        "name": "राय बहादुर देवेंद्रनाथ",
+        "look": "Distinguished Indian gentleman around sixty, silver hair and neat silver beard, white achkan with gold buttons, gold-rimmed spectacles, ivory-handled walking stick."
+      },
+      {
+        "id": "arjun",
+        "name": "अर्जुन मल्होत्रा",
+        "look": "A polite, frightened nineteen-year-old Indian youth, soaked from rain, wearing a simple white kurta and dhoti, eyes wide with fear."
+      }
+    ],
+    "scenes": [
+      {
+        "narration": "एक लिफ़ाफ़ा मेज़ पर खुला, और उसमें से पाँच सूखी, काली पंखुड़ियाँ गिर पड़ीं। अंदर एक पर्ची पर बस तीन शब्द लिखे थे... \"कागज़ लौटा दो।\" तीन दिन बाद, जिसने वो लिफ़ाफ़ा खोला था, वो बगीचे के घुटनों भर पानी वाले तालाब में मरा मिला।",
+        "shots": [
+          {
+            "prompt": "Close-up of a wooden desk where a thick parchment envelope lies open, five shriveled black lotus petals scattered around it.",
+            "characters": []
+          },
+          {
+            "prompt": "Detail shot of a small scrap of paper on the desk with the hand-written Hindi words 'कागज़ लौटा दो' in dark ink.",
+            "characters": []
+          },
+          {
+            "prompt": "Wide shot of a garden at night, moonlight reflecting in a shallow stone pond where a body lies motionless face down.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "घुटनों भर पानी में कोई कैसे डूब सकता है? लोग कहने लगे, ये श्राप है। काली पंखुड़ियाँ मौत की चिट्ठी हैं। और जिसे ये मिलती हैं, वो बचता नहीं।",
+        "shots": [
+          {
+            "prompt": "Low angle shot of the shallow garden pond, local villagers in 1920s clothing holding oil lanterns, shadows dancing on their faces as they whisper in fear.",
+            "characters": []
+          },
+          {
+            "prompt": "Close-up of a single black lotus petal stuck in the wet grass near the pond's edge.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "मैं सावित्री हूँ। उस साल बनारस में ऐसी बारिश हुई, जैसी बरसों में नहीं हुई थी। घाट डूब चुके थे। एक तूफ़ानी रात, विक्रम के दरवाज़े पर एक भीगा हुआ, काँपता हुआ लड़का खड़ा था। उन्नीस साल का अर्जुन मल्होत्रा।",
+        "shots": [
+          {
+            "prompt": "Wide shot of a narrow Banaras street at night, heavy monsoon rain flooding the cobblestones, temple silhouettes in the background.",
+            "characters": [
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Inside the house, Savitri looking through a window streaked with raindrops, a look of concern on her face.",
+            "characters": [
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Medium shot of Arjun Malhotra standing at the door, completely drenched, shivering violently, holding his hands together in a plea.",
+            "characters": [
+              "arjun"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "अर्जुन ने बताया, उसके चाचा ईश्वर रंगून से बहुत दौलत लेकर लौटे थे, पर हमेशा डरे-डरे रहते थे। एक दिन उन्हें पाँच काली पंखुड़ियों वाला लिफ़ाफ़ा मिला। उन्होंने संदूक के सारे कागज़ जला दिए। तीन दिन बाद... तालाब।",
+        "shots": [
+          {
+            "prompt": "Flashback: A bearded man in an old-fashioned suit looking nervously over his shoulder at a busy Rangoon port with steamships.",
+            "characters": []
+          },
+          {
+            "prompt": "Close-up of the man's hands throwing a bundle of papers into a metal brazier, flames reflecting in his panicked eyes.",
+            "characters": []
+          },
+          {
+            "prompt": "The garden pond seen during the day, now cordoned off, the man's hat floating on the still water.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "दो साल बाद, अर्जुन के पिता मदन को वही लिफ़ाफ़ा मिला। वही पाँच पंखुड़ियाँ। वही पर्ची। एक हफ़्ते बाद वो पत्थर की खदान में गिरकर मर गए। सबने कहा, हादसा था।",
+        "shots": [
+          {
+            "prompt": "Flashback: A man falling backward from the edge of a jagged rock quarry, dust and small stones falling with him, sunset lighting.",
+            "characters": []
+          },
+          {
+            "prompt": "A close-up of a similar envelope with a red wax seal lying in the mud near the edge of the quarry.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "अर्जुन ने काँपते हाथ से जेब से कुछ निकाला। \"और कल... ये मुझे मिला।\" एक लिफ़ाफ़ा। मेज़ पर पाँच काली पंखुड़ियाँ बिखर गईं। कमरे में अचानक ऐसी ठंड लगी, जैसे कोई खिड़की खुल गई हो।",
+        "shots": [
+          {
+            "prompt": "Close-up of Arjun’s trembling hand reaching into his wet kurta pocket.",
+            "characters": [
+              "arjun"
+            ]
+          },
+          {
+            "prompt": "Detail shot of five black lotus petals falling from a fresh envelope onto Vikram's desk next to a glowing oil lamp.",
+            "characters": [
+              "arjun"
+            ]
+          },
+          {
+            "prompt": "Medium shot of Vikram and Savitri looking at the petals, the flame of the kerosene lamp flickering violently.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "विक्रम ने पूछा, \"जो कागज़ जलाए गए, उनमें से कुछ बचा?\" अर्जुन ने एक अधजला पन्ना आगे बढ़ाया। उस पर तारीख़ें थीं, नाम थे, और हर नाम के आगे एक निशान... 'पंखुड़ियाँ भेजीं।' 'चले गए।'",
+        "shots": [
+          {
+            "prompt": "Medium shot of Vikram taking a charred, yellowed piece of paper from Arjun with great care.",
+            "characters": [
+              "vikram",
+              "arjun"
+            ]
+          },
+          {
+            "prompt": "Macro shot of the burnt paper showing a list of names and dates with 'पंखुड़ियाँ भेजीं' written next to them in Bengali-slanted script.",
+            "characters": []
+          },
+          {
+            "prompt": "Vikram holding the page up to the light of the oil lamp, his expression intense and analytical.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "विक्रम ने पन्ना रोशनी में देखा। \"तुम्हारे चाचा किसी बहुत बड़े गिरोह के लिए काम करते थे, अर्जुन। रंगून से तस्करी। फिर वो उनका हिसाब-किताब लेकर भाग आए। ये गिरोह अपने कागज़ वापस चाहता है।\"",
+        "shots": [
+          {
+            "prompt": "Wide shot of Vikram’s study, filled with books and maps, the storm raging outside the dark windows.",
+            "characters": [
+              "vikram",
+              "savitri",
+              "arjun"
+            ]
+          },
+          {
+            "prompt": "Silhouette of men loading heavy wooden crates onto a barge in a misty harbor, capturing the essence of smuggling.",
+            "characters": []
+          },
+          {
+            "prompt": "Close-up of Vikram’s eyes, reflecting the sharp logic and focus he is known for.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "\"ये कोई श्राप नहीं है,\" विक्रम ने धीरे से कहा। \"ये एक संगठन है। और इसका निशान है... काला कमल।\" मेरे रोंगटे खड़े हो गए। ठाकुर की मेज़ पर मिली वो चिट्ठी मुझे याद आ गई।",
+        "shots": [
+          {
+            "prompt": "Medium shot of Vikram leaning forward across the desk, his hands clasped together.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Close-up of a black lotus wax seal seen in a previous case file, emphasizing the recurring symbol.",
+            "characters": []
+          },
+          {
+            "prompt": "Close-up of Savitri, looking visibly shaken, her hand going to her throat.",
+            "characters": [
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "\"घर जाओ, अर्जुन। ये पन्ना एक चिट्ठी के साथ बगीचे की धूप-घड़ी पर रख दो, जैसा पर्ची में लिखा है। और घर से बाहर मत निकलना।\" विक्रम ने इंस्पेक्टर भैरव को संदेश भेजा कि अर्जुन के घर पहरा बिठाएँ।",
+        "shots": [
+          {
+            "prompt": "Medium shot of Vikram handing the paper back to Arjun, giving him stern instructions.",
+            "characters": [
+              "vikram",
+              "arjun"
+            ]
+          },
+          {
+            "prompt": "Wide shot of a stone sundial in a dark, wet garden, representing the meeting point.",
+            "characters": []
+          },
+          {
+            "prompt": "Medium shot of Vikram quickly writing a note on a pad to be sent to the police station.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "रुकिए। तीन लिफ़ाफ़े। तीन मौतें। और हर मौत ऐसी जगह, जहाँ उसे आसानी से हादसा कहा जा सके... तालाब, खदान। सोचिए, आज रात अर्जुन के लिए सबसे ख़तरनाक जगह कौन सी होगी?",
+        "shots": [
+          {
+            "prompt": "Montage shot showing the pond, the quarry, and a dark street lamp flickering in the wind.",
+            "characters": []
+          },
+          {
+            "prompt": "Medium shot of Savitri looking directly at the viewer with a look of deep concern.",
+            "characters": [
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "अर्जुन बारिश में निकल गया। कुछ देर बाद भैरव का जवाब आया... \"सुबह तक पहुँचूँगा, विक्रम बाबू। आज रात थाने में बहुत काम है।\" विक्रम ने खिड़की से बाहर देखा। बारिश और तेज़ हो गई थी।",
+        "shots": [
+          {
+            "prompt": "Wide shot of Arjun’s small silhouette walking away into the heavy curtain of rain.",
+            "characters": [
+              "arjun"
+            ]
+          },
+          {
+            "prompt": "Close-up of a telegram in Vikram's hand with the official police stamp.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Vikram standing by the window, the rain lashing against the glass, his face shadowed and grim.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "उस रात विक्रम सोए नहीं। मैं भी नहीं। सुबह के धुंधलके में दरवाज़े पर अख़बार गिरा। विक्रम ने उसे उठाया... और उनका चेहरा सफ़ेद पड़ गया।",
+        "shots": [
+          {
+            "prompt": "Close-up of a newspaper thudding onto the wet wooden porch in the grey light of dawn.",
+            "characters": []
+          },
+          {
+            "prompt": "Medium shot of Vikram picking up the newspaper, his hands still, his face losing all color.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "'दशाश्वमेध घाट पर दुखद हादसा। उन्नीस वर्षीय अर्जुन मल्होत्रा रात में फिसलकर बाढ़ में बह गए।' घाट तो अर्जुन के घर के रास्ते में भी नहीं था। उसे वहाँ ले जाया गया था।",
+        "shots": [
+          {
+            "prompt": "Close-up of the Hindi headline in the newspaper about the tragedy at the ghat.",
+            "characters": []
+          },
+          {
+            "prompt": "Wide shot of the Dashashwamedh Ghat, the ancient stone steps partially submerged under the brown, rising waters of the Ganga.",
+            "characters": []
+          },
+          {
+            "prompt": "Over-the-shoulder shot from Vikram's perspective looking at the churning river water.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "मैंने विक्रम को पहली बार इस तरह देखा। वो धीरे से कुर्सी पर बैठ गए। \"वो मेरे पास मदद माँगने आया था, सावित्री... और मैंने उसे अकेले तूफ़ान में भेज दिया। ये मेरी हार है।\"",
+        "shots": [
+          {
+            "prompt": "Medium shot of Vikram slumping into his wooden chair, looking defeated, his cane leaning against the table.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Close-up of Vikram’s hand gripping the edge of the desk so hard his knuckles are white.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Savitri standing behind him, her expression full of sympathy but also fear.",
+            "characters": [
+              "savitri",
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "फिर वो उठे, और उनकी आँखों में एक ऐसी ठंडी आग थी, जो मैंने पहले कभी नहीं देखी थी। \"अब ये मेरा अपना मामला है।\"",
+        "shots": [
+          {
+            "prompt": "Close-up of Vikram’s eyes as they snap open, filled with a sudden, dangerous resolve.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Medium shot of Vikram standing up and throwing his grey wool shawl over his shoulder.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "पूरा दिन वो पुराने अख़बारों और जहाज़ों के रजिस्टरों में डूबे रहे। तीनों लिफ़ाफ़ों पर डाक की मुहरें थीं... कलकत्ता, रंगून, और बनारस। और तीनों की तारीख़ें एक ही जहाज़ के आने-जाने से मिलती थीं... 'स्वर्णमाला।'",
+        "shots": [
+          {
+            "prompt": "Medium shot of Vikram in a cluttered maritime office, surrounded by stacks of old ledger books.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Detail shot of a shipping register with the name 'Swarnamala' written in fading ink.",
+            "characters": []
+          },
+          {
+            "prompt": "Vikram laying three envelopes side-by-side, pointing at the different city postmarks.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "\"क़ातिल उसी जहाज़ पर सफ़र करते हैं,\" विक्रम बोले। उन्होंने एक लिफ़ाफ़ा लिया, उसमें पाँच काली पंखुड़ियाँ रखीं, और जहाज़ के कप्तान के नाम भेज दिया। \"अब उन्हें भी पता चले, डर क्या होता है।\"",
+        "shots": [
+          {
+            "prompt": "Close-up of Vikram’s hands placing five black petals into a clean white envelope.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Medium shot of Vikram writing an address on the envelope with a fountain pen.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Vikram pressing his brass-handled cane into his palm, a look of grim satisfaction on his face.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "पर वो लिफ़ाफ़ा कभी नहीं पहुँचा। उसी हफ़्ते बंगाल की खाड़ी में चक्रवात आया, और 'स्वर्णमाला' अपने सारे लोगों समेत समुंदर में समा गया। विक्रम बोले, \"डाक की मुहर, जहाज़ की तारीख़... सच हमेशा छोटी चीज़ों में छिपा होता है। पर इस बार मैं देर से पहुँचा।\"",
+        "shots": [
+          {
+            "prompt": "Wide shot of a steamship struggling against massive, terrifying ocean waves under a black, lightning-streaked sky.",
+            "characters": []
+          },
+          {
+            "prompt": "Close-up of a mailbag floating alone in the dark, churning sea water.",
+            "characters": []
+          },
+          {
+            "prompt": "Medium shot of Vikram standing by the river Ganga, looking out into the mist, his back to the camera.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Close-up profile of Vikram, looking solemn as he speaks his signature line.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "अर्जुन का अंतिम संस्कार मणिकर्णिका घाट पर हुआ। बारिश अब भी थमी नहीं थी। भीड़ में राय बहादुर देवेंद्रनाथ भी थे। वो विक्रम के पास आए, और उनके कंधे पर हाथ रखा।",
+        "shots": [
+          {
+            "prompt": "Wide shot of the burning funeral pyre at Manikarnika Ghat at night, orange flames casting long shadows on the wet steps.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Medium shot of Rai Bahadur Devendranath in his white achkan, moving through the crowd toward Vikram.",
+            "characters": [
+              "devendranath",
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "\"इतना बोझ अपने ऊपर मत लीजिए, विक्रम जी। आपने अपना पूरा प्रयास किया।\" उनके जाने के बाद मुझे केवड़े की हल्की सी ख़ुशबू आई। मैंने सोचा, बनारस में केवड़ा कौन नहीं लगाता।",
+        "shots": [
+          {
+            "prompt": "Close-up of Devendranath’s hand on Vikram’s shoulder, his ivory-handled walking stick visible in his other hand.",
+            "characters": [
+              "devendranath",
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Medium shot of Savitri looking at Devendranath’s retreating figure, a subtle look of suspicion in her eyes as she notices a scent.",
+            "characters": [
+              "savitri",
+              "devendranath"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "जहाज़ डूब गया, पर काला कमल नहीं डूबा। विक्रम ने चिता की आग की ओर देखते हुए कहा, \"ये तो अभी शुरू हुआ है, सावित्री।\" क्या विक्रम अर्जुन को बचा सकते थे? अपनी राय कमेंट में लिखिए।",
+        "shots": [
+          {
+            "prompt": "Medium shot of Vikram looking into the roaring fire of the pyre, the light reflecting in his spectacles.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Close-up of a charred black lotus seal on a piece of paper lying near the embers.",
+            "characters": []
+          },
+          {
+            "prompt": "Savitri looking at the camera, the dark river Ganga behind her, as the story ends.",
+            "characters": [
+              "savitri"
+            ]
+          }
+        ]
+      }
+    ],
+    "clips": [
+      {
+        "start_scene": 1,
+        "end_scene": 2,
+        "hook_text": "पाँच काली पंखुड़ियाँ = मौत",
+        "title": "लिफ़ाफ़े से गिरीं पाँच काली पंखुड़ियाँ... तीन दिन बाद मौत | जासूस विक्रम",
+        "end_question": "अगली बारी किसकी?"
+      },
+      {
+        "start_scene": 4,
+        "end_scene": 6,
+        "hook_text": "तीन लिफ़ाफ़े, तीन मौतें",
+        "title": "चाचा, फिर पिता... और अब उसे भी वही लिफ़ाफ़ा मिला | जासूस विक्रम",
+        "end_question": "क्या ये श्राप है?"
+      },
+      {
+        "start_scene": 10,
+        "end_scene": 12,
+        "hook_text": "तूफ़ान में अकेला",
+        "title": "वो तूफ़ानी रात में अकेला घर की ओर निकला... | जासूस विक्रम",
+        "end_question": "क्या विक्रम उसे बचा पाएंगे?"
+      },
+      {
+        "start_scene": 13,
+        "end_scene": 15,
+        "hook_text": "जासूस की हार",
+        "title": "घाट पर हुआ हादसा | जासूस विक्रम",
+        "end_question": "क्या अर्जुन बच सकता था?"
+      },
+      {
+        "start_scene": 20,
+        "end_scene": 22,
+        "hook_text": "काले कमल का साया",
+        "title": "रहस्यमयी केवड़े की खुशबू | जासूस विक्रम",
+        "end_question": "अगला शिकार कौन?"
+      }
+    ],
+    "episode": 5,
+    "episode_title": "पाँच काली पंखुड़ियाँ"
+  },
+  "active_clips": [
+    0,
+    1,
+    2
+  ],
+  "next_clip": 3,
+  "batch": null
+}
