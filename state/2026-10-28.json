@@ -74,7 +74,8 @@
         "Suspense Story",
         "shorts"
       ],
-      "status": "pending"
+      "status": "uploaded",
+      "delivered": true
     }
   },
   "story": {
