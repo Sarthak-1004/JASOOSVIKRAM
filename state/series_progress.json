@@ -1,5 +1,5 @@
 {
- "next": 6,
+ "next": 7,
  "done": [
   {
    "n": 1,
@@ -25,6 +25,11 @@
    "n": 5,
    "title": "पाँच काली पंखुड़ियाँ",
    "summary": "Vikram fails to protect a young man who receives five black lotus petals, leading him to uncover a sinister smuggling network linked to his past cases."
+  },
+  {
+   "n": 6,
+   "title": "शापित नीलम",
+   "summary": "Detective Vikram investigates a stolen cursed sapphire found inside a festive duck in 1920s Banaras, uncovering a framing attempt and a mysterious connection to the Black Lotus."
   }
  ]
 }
