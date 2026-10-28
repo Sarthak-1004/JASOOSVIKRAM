@@ -1,7 +1,67 @@
 {
   "date": "2026-10-29",
-  "status": "story_ready",
-  "items": {},
+  "status": "review",
+  "items": {
+    "v": {
+      "title": "शापित नीलम | जासूस विक्रम Ep 6",
+      "description": "दिवाली की रात, बनारस के एक होटल से महारानी का बेशक़ीमती नीलम चोरी हो जाता है। शक एक ग़रीब प्लंबर पर है, लेकिन सुराग एक पुरानी टोपी और एक ज़िंदा बत्तख़ की ओर इशारा करते हैं। देखिए कैसे जासूस विक्रम छोटी चीज़ों से बड़े राज़ खोलते हैं।\n#mystery #thriller #jasoosvikram #hindistories #suspense\n\nआर्थर कॉनन डॉयल की कहानी \"The Adventure of the Blue Carbuncle\" से प्रेरित (public domain). सभी पात्र काल्पनिक हैं।",
+      "tags": [
+        "Jasoos Vikram",
+        "Hindi Mystery",
+        "Detective Story",
+        "Blue Carbuncle",
+        "Indian Thriller",
+        "1920s Banaras",
+        "Savitri Stories"
+      ],
+      "status": "pending"
+    },
+    "s1": {
+      "title": "कहते हैं नीलम हर किसी को रास नहीं आता... | जासूस विक्रम #shorts",
+      "description": "कहते हैं नीलम हर किसी को रास नहीं आता... | जासूस विक्रम\n\nपूरी कहानी देखें: {LONG_URL}\n\n#shorts #hindistory #thriller",
+      "tags": [
+        "Jasoos Vikram",
+        "Hindi Mystery",
+        "Detective Story",
+        "Blue Carbuncle",
+        "Indian Thriller",
+        "1920s Banaras",
+        "Savitri Stories",
+        "shorts"
+      ],
+      "status": "pending"
+    },
+    "s2": {
+      "title": "दिवाली की बत्तख़ काटी... और अंदर से निकला शापित नीलम | जासूस विक्रम #shorts",
+      "description": "दिवाली की बत्तख़ काटी... और अंदर से निकला शापित नीलम | जासूस विक्रम\n\nपूरी कहानी देखें: {LONG_URL}\n\n#shorts #hindistory #thriller",
+      "tags": [
+        "Jasoos Vikram",
+        "Hindi Mystery",
+        "Detective Story",
+        "Blue Carbuncle",
+        "Indian Thriller",
+        "1920s Banaras",
+        "Savitri Stories",
+        "shorts"
+      ],
+      "status": "pending"
+    },
+    "s3": {
+      "title": "मंडी वाली बोली: तुमसे पहले भी कोई इसी बत्तख़ को ढूँढ़ रहा था | जासूस विक्रम #shorts",
+      "description": "मंडी वाली बोली: तुमसे पहले भी कोई इसी बत्तख़ को ढूँढ़ रहा था | जासूस विक्रम\n\nपूरी कहानी देखें: {LONG_URL}\n\n#shorts #hindistory #thriller",
+      "tags": [
+        "Jasoos Vikram",
+        "Hindi Mystery",
+        "Detective Story",
+        "Blue Carbuncle",
+        "Indian Thriller",
+        "1920s Banaras",
+        "Savitri Stories",
+        "shorts"
+      ],
+      "status": "pending"
+    }
+  },
   "story": {
     "title": "शापित नीलम | जासूस विक्रम Ep 6",
     "description": "दिवाली की रात, बनारस के एक होटल से महारानी का बेशक़ीमती नीलम चोरी हो जाता है। शक एक ग़रीब प्लंबर पर है, लेकिन सुराग एक पुरानी टोपी और एक ज़िंदा बत्तख़ की ओर इशारा करते हैं। देखिए कैसे जासूस विक्रम छोटी चीज़ों से बड़े राज़ खोलते हैं।\n#mystery #thriller #jasoosvikram #hindistories #suspense\n\nआर्थर कॉनन डॉयल की कहानी \"The Adventure of the Blue Carbuncle\" से प्रेरित (public domain). सभी पात्र काल्पनिक हैं।",
@@ -495,5 +555,6 @@
     2
   ],
   "next_clip": 3,
-  "batch": null
+  "batch": null,
+  "media_run_id": "40723543549"
 }
