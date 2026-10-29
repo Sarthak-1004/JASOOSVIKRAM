@@ -62,7 +62,8 @@
         "Savitri Stories",
         "shorts"
       ],
-      "status": "pending"
+      "status": "uploaded",
+      "delivered": true
     }
   },
   "story": {
