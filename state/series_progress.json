@@ -1,5 +1,5 @@
 {
- "next": 7,
+ "next": 8,
  "done": [
   {
    "n": 1,
@@ -30,6 +30,11 @@
    "n": 6,
    "title": "शापित नीलम",
    "summary": "Detective Vikram investigates a stolen cursed sapphire found inside a festive duck in 1920s Banaras, uncovering a framing attempt and a mysterious connection to the Black Lotus."
+  },
+  {
+   "n": 7,
+   "title": "खिड़की में दिखा चेहरा",
+   "summary": "Detective Vikram uncovers the double life of a respectable man who has been disguising himself as a famous Banaras beggar to earn a fortune."
   }
  ]
 }
