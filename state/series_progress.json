@@ -1,5 +1,5 @@
 {
- "next": 8,
+ "next": 9,
  "done": [
   {
    "n": 1,
@@ -35,6 +35,11 @@
    "n": 7,
    "title": "खिड़की में दिखा चेहरा",
    "summary": "Detective Vikram uncovers the double life of a respectable man who has been disguising himself as a famous Banaras beggar to earn a fortune."
+  },
+  {
+   "n": 8,
+   "title": "झील की चुड़ैल",
+   "summary": "When a farmer is murdered near a misty lake, villagers blame a legendary ghost, but Detective Vikram uncovers a decades-old story of dacoits, blackmail, and sacrifice."
   }
  ]
 }

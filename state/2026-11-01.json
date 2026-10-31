@@ -1,0 +1,561 @@
+{
+  "date": "2026-11-01",
+  "status": "story_ready",
+  "items": {},
+  "story": {
+    "title": "झील की चुड़ैल | जासूस विक्रम Ep 8",
+    "description": "सोनपुर की झील पर रात के अंधेरे में एक ख़ौफ़नाक चीख गूंजती है और मोहन राठौड़ का शव मिलता है। लोग कहते हैं झील की चुड़ैल ने उसकी जान ली, लेकिन जासूस विक्रम को शक है कि इस हत्या के पीछे इंसानी चाल है। क्या विक्रम इस रहस्यमयी क़त्ल की गुत्थी सुलझा पाएगा? देखिए जासूस विक्रम की इस नई रोमांचक केस स्टडी में।\n\n#HindiKahaniya #ThrillerStory #DetectiveVikram #HindiMystery #AudioStory\n\nआर्थर कॉनन डॉयल की कहानी \"The Boscombe Valley Mystery\" से प्रेरित (public domain). सभी पात्र काल्पनिक हैं।",
+    "tags": [
+      "जासूस विक्रम",
+      "Detective Vikram",
+      "Hindi Thriller",
+      "Mystery Stories Hindi",
+      "Suspense Stories",
+      "Jheel Ki Chudail",
+      "Hindi Crime Story",
+      "Audio Story Hindi"
+    ],
+    "logline": "When a farmer is murdered near a misty lake, villagers blame a legendary ghost, but Detective Vikram uncovers a decades-old story of dacoits, blackmail, and sacrifice.",
+    "thumbnail_text": "झील की चुड़ैल",
+    "thumbnail_shot": 5,
+    "thumbnail_prompt": "A misty lake at dusk, a white veiled figure among dark trees reflected in the water, a terrified young man in the foreground, deep red accent.",
+    "characters": [
+      {
+        "id": "vikram",
+        "name": "जासूस विक्रम",
+        "look": "Lean Indian man in his mid-30s, sharp intelligent eyes, neatly trimmed black moustache, short side-parted hair, dark navy bandhgala coat over a white kurta, grey wool shawl over one shoulder, black cane with a brass handle, often carries an oil lantern."
+      },
+      {
+        "id": "savitri",
+        "name": "डॉक्टर सावित्री",
+        "look": "Indian woman in her late 20s, intelligent kind face, hair in a low bun, small round spectacles, cotton sari with a dark border, brown leather doctor's bag, small notebook."
+      },
+      {
+        "id": "inspector_bhairav",
+        "name": "इंस्पेक्टर भैरव पांडे",
+        "look": "Heavy-set Indian police inspector in his late 40s, thick curled moustache, 1920s khaki police uniform with a red-and-khaki pagri turban, leather belt, short wooden baton."
+      },
+      {
+        "id": "jaswant",
+        "name": "ठाकुर जसवंत सिंह",
+        "look": "Rich old Indian landowner around 60, white hair and beard, wearing a traditional achkan and shawl, leaning heavily on a carved wooden walking stick with a pronounced limp in his right leg."
+      },
+      {
+        "id": "mohan",
+        "name": "मोहन राठौड़",
+        "look": "Middle-aged Indian farmer in his late 40s, weathered face, wearing a simple dhoti and kurta."
+      },
+      {
+        "id": "shekhar",
+        "name": "शेखर राठौड़",
+        "look": "Young Indian man in his early 20s, earnest face, wearing a simple cotton kurta and dhoti."
+      },
+      {
+        "id": "ratna",
+        "name": "रत्ना",
+        "look": "Young Indian woman in her early 20s, fair intelligent face, traditional Rajputana cotton lehenga choli with a white cotton dupatta."
+      }
+    ],
+    "scenes": [
+      {
+        "narration": "शाम ढल रही थी। सोनपुर की झील पर धुंध उतर आई थी। तभी झील किनारे से एक चीख उठी। गाँव वाले दौड़े। पानी के किनारे मोहन राठौड़ औंधे मुँह पड़ा था। मर चुका था।",
+        "shots": [
+          {
+            "prompt": "Wide shot of Sonpur lake at dusk with thick mist hanging over the water and surrounding kadam trees, dim orange twilight sky.",
+            "characters": []
+          },
+          {
+            "prompt": "Medium shot of frantic Indian villagers running through misty woods towards the lakeshore with flickering lanterns in hand.",
+            "characters": []
+          },
+          {
+            "prompt": "Close-up low angle shot of Mohan Rathore lying face down on the muddy bank of the lake, motionless near the dark rippling water.",
+            "characters": [
+              "mohan"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "दो चरवाहों ने क़सम खाई, उन्होंने कदंब के पेड़ों के बीच एक सफ़ेद आकृति देखी थी। लहराती हुई, बिना चेहरे की। पूरा गाँव फुसफुसाने लगा... \"झील की चुड़ैल ने उसे बुलाया था।\"",
+        "shots": [
+          {
+            "prompt": "Medium shot of two terrified Indian cowherds pointing fearfully into the shadowy Kadamba trees during twilight.",
+            "characters": []
+          },
+          {
+            "prompt": "Mystical shot of a floating white translucent dupatta and veiled silhouette drifting between dark tree trunks near mist-covered water, moody atmosphere.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "मैं सावित्री हूँ। उस हफ़्ते हम राजपूताना में थे, जब एक लड़की, रत्ना, रोती हुई विक्रम के पास आई। \"मोहन चाचा के क़त्ल के इल्ज़ाम में शेखर को पकड़ लिया गया है। पर वो बेगुनाह है, मैं जानती हूँ।\"",
+        "shots": [
+          {
+            "prompt": "Medium shot of Savitri in her cotton sari with spectacles writing in her small notebook inside a dimly lit traditional Rajasthani guest room.",
+            "characters": [
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Over-the-shoulder shot of Detective Vikram sitting calmly as young Ratna, crying with hands folded, pleads desperately.",
+            "characters": [
+              "vikram",
+              "ratna"
+            ]
+          },
+          {
+            "prompt": "Close-up shot of Ratna with tears on her face, earnest expression, wearing traditional Rajput attire.",
+            "characters": [
+              "ratna"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "शेखर, मोहन राठौड़ का बेटा था। मरने से कुछ मिनट पहले, झील किनारे उसकी अपने पिता से ज़ोरदार बहस हुई थी। गाँव वालों ने आवाज़ें सुनी थीं। सबूत पक्के लगते थे।",
+        "shots": [
+          {
+            "prompt": "Medium shot at dusk showing young Shekhar arguing heatedly with his father Mohan near the lake edge, shadows lengthening.",
+            "characters": [
+              "shekhar",
+              "mohan"
+            ]
+          },
+          {
+            "prompt": "Silhouette shot of villagers standing at a distance watching the father and son quarrel bitterly by the waterside.",
+            "characters": [
+              "shekhar",
+              "mohan"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "रत्ना, ठाकुर जसवंत सिंह की बेटी थी, जो इस इलाक़े के सबसे अमीर ज़मींदार थे। मोहन उन्हीं की ज़मीन पर खेती करता था। और रत्ना और शेखर... एक-दूसरे से प्यार करते थे।",
+        "shots": [
+          {
+            "prompt": "Wide shot of a grand ancestral Rajputana haveli against the twilight horizon, reflecting wealth and heritage.",
+            "characters": []
+          },
+          {
+            "prompt": "Tender medium shot of young Ratna and Shekhar looking affectionately at each other near an ornate stone jharokha archway.",
+            "characters": [
+              "ratna",
+              "shekhar"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "हम हवालात में शेखर से मिले। उसने बताया, बहस के बाद वो चला गया था। फिर पिता की चीख सुनकर लौटा। \"वो मर रहे थे। बस एक शब्द बोल पाए... '...बल'। और पास की घास पर एक भूरी शॉल पड़ी थी। जब मैं दोबारा मुड़ा, वो शॉल ग़ायब थी।\"",
+        "shots": [
+          {
+            "prompt": "Medium shot inside a dark 1920s police lockup with iron bars, Vikram and Savitri looking in at young Shekhar.",
+            "characters": [
+              "vikram",
+              "savitri",
+              "shekhar"
+            ]
+          },
+          {
+            "prompt": "Close-up of Shekhar behind bars speaking with wide fearful eyes, remembering the scene.",
+            "characters": [
+              "shekhar"
+            ]
+          },
+          {
+            "prompt": "Flashback close-up of dying Mohan lying on grass, lips moving weakly near the murky lake water.",
+            "characters": [
+              "mohan"
+            ]
+          },
+          {
+            "prompt": "Detail shot of a brown woollen shawl lying crumpled on dark green grass, bathed in eerie moonlight.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "एक शॉल, जो आई और ग़ायब हो गई। और एक अधूरा शब्द। पुलिस कहती थी, शेखर झूठ बोल रहा है। गाँव वाले कहते थे, वो चुड़ैल का कपड़ा था। विक्रम ने बस इतना कहा, \"चलो, झील चलते हैं।\"",
+        "shots": [
+          {
+            "prompt": "Close-up of Inspector Bhairav leaning against a jail wall with folded arms, sneering with disbelief.",
+            "characters": [
+              "inspector_bhairav"
+            ]
+          },
+          {
+            "prompt": "Wide shot of superstitious villagers gathered near a village peepal tree whispering mysteriously.",
+            "characters": []
+          },
+          {
+            "prompt": "Medium shot of Detective Vikram picking up his black brass-handled cane and oil lantern, looking resolute.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "झील किनारे विक्रम घुटनों के बल बैठ गए, और कीचड़ में पैरों के निशान ऐसे पढ़ने लगे, जैसे कोई किताब हो। \"ये शेखर के जूते हैं। ये मोहन के। और ये... किसी तीसरे आदमी के। वो दाहिने पैर से लँगड़ाकर चलता है।\"",
+        "shots": [
+          {
+            "prompt": "Low angle shot of Vikram kneeling on muddy lakeside ground, lantern held close to inspect deep boot prints.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Close-up detail shot of clear foot impressions in wet mud showing one heavy lopsided drag mark on the right side.",
+            "characters": []
+          },
+          {
+            "prompt": "Medium shot of Vikram pointing his finger towards the mud traces, explaining his finding to Savitri.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "पेड़ के पीछे, जहाँ वो तीसरा आदमी खड़ा रहा होगा, विक्रम को सिगार की राख मिली। \"बर्मा का चुरुट,\" वो बोले। \"बहुत महँगा। ऐसा चुरुट इस गाँव में कौन पीता है?\"",
+        "shots": [
+          {
+            "prompt": "Medium shot of Vikram examining the damp grass behind a thick Kadamba tree trunk by lantern light.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Extreme close-up of grey cigar ash lying on a dark leaf, Vikram gently picking a flake up with his fingers.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "और जहाँ शॉल पड़ी थी, वहाँ घास दबी हुई थी। \"क़ातिल घबराहट में अपनी शॉल छोड़ गया था,\" विक्रम बोले। \"जब शेखर पिता के पास झुका था, वो चुपके से लौटा, और उसे उठा ले गया।\"",
+        "shots": [
+          {
+            "prompt": "Low angle shot of crushed blades of grass where a large object had previously rested near the lakebank.",
+            "characters": []
+          },
+          {
+            "prompt": "Atmospheric re-enactment silhouette of a shadowy figure stealthily reaching down to grab a fallen shawl while a boy kneels over a body.",
+            "characters": []
+          },
+          {
+            "prompt": "Medium shot of Savitri listening intently with wide eyes, holding her doctor's bag tightly.",
+            "characters": [
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "रुकिए। एक अधूरा शब्द... '...बल'। लँगड़ाते पैरों के निशान। बर्मा का महँगा चुरुट। आप बताइए, '...बल' का पूरा शब्द क्या हो सकता है? कमेंट में लिखिए, फिर आगे देखिए।",
+        "shots": [
+          {
+            "prompt": "Split shot showing visual clues: a close-up of the lopsided footprint in mud and cigar ash on grass.",
+            "characters": []
+          },
+          {
+            "prompt": "Medium shot of Savitri looking directly at the camera in dramatic warm lantern light, holding a notebook.",
+            "characters": [
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "विक्रम ने रत्ना से पूछा, \"मोहन राठौड़ इस गाँव में कब आया था?\" \"बरसों पहले, चंबल की तरफ़ से। मेरे पिता ने उसे बिना किराए के ज़मीन दी थी।\" विक्रम की आँखें चमक उठीं। \"चंबल। '...बल' नहीं, सावित्री... चंबल।\"",
+        "shots": [
+          {
+            "prompt": "Medium shot of Vikram questioning Ratna in a courtyard under a porch light.",
+            "characters": [
+              "vikram",
+              "ratna"
+            ]
+          },
+          {
+            "prompt": "Close-up of Ratna speaking softly, recalling old memories of her father and Mohan.",
+            "characters": [
+              "ratna"
+            ]
+          },
+          {
+            "prompt": "Close-up shot of Vikram's eyes widening in sudden sharp deduction and understanding.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "उस शाम हम ठाकुर जसवंत सिंह की हवेली पहुँचे। एक बूढ़ा, बीमार आदमी, जिसका चेहरा बड़ा भला लगता था। वो छड़ी के सहारे चलते थे... दाहिने पैर से लँगड़ाते हुए। मेज़ पर बर्मा के चुरुट का डिब्बा रखा था।",
+        "shots": [
+          {
+            "prompt": "Wide shot of the opulent, dimly lit drawing room of Thakur Jaswant Singh's ancestral mansion with wooden furniture and oil lamps.",
+            "characters": [
+              "jaswant"
+            ]
+          },
+          {
+            "prompt": "Medium shot of frail Thakur Jaswant Singh limping slowly across the carved rug with his wooden stick, right leg dragging.",
+            "characters": [
+              "jaswant"
+            ]
+          },
+          {
+            "prompt": "Close-up object detail shot of an expensive polished wooden box of imported Burmese cheroots sitting on a carved side table.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "विक्रम ने उनके सामने बैठकर बस इतना कहा, \"चंबल, ठाकुर साहब।\" बूढ़े ठाकुर के हाथ काँपने लगे। बहुत देर तक कमरे में सिर्फ़ घड़ी की टिक-टिक गूँजती रही। फिर वो बोले।",
+        "shots": [
+          {
+            "prompt": "Over-the-shoulder shot of Vikram sitting opposite Thakur Jaswant Singh, looking calmly into the old landlord's eyes.",
+            "characters": [
+              "vikram",
+              "jaswant"
+            ]
+          },
+          {
+            "prompt": "Extreme close-up of Thakur Jaswant Singh's trembling wrinkled hands clutching his walking stick as shock spreads over his face.",
+            "characters": [
+              "jaswant"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "\"तीस साल पहले मैं चंबल का डाकू था। लूट का माल लेकर भागा, नया नाम रखा, और इज़्ज़तदार ज़मींदार बन गया। पर मोहन मेरे गिरोह में था। वो मुझे पहचान गया।\"",
+        "shots": [
+          {
+            "prompt": "Flashback wide shot of a fierce dacoit band riding horses through the rugged ravines of Chambal under a dark stormy sky.",
+            "characters": []
+          },
+          {
+            "prompt": "Medium shot of young Jaswant in dacoit attire burying a wooden chest of treasure in a cave.",
+            "characters": [
+              "jaswant"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "\"तीस साल वो मुझसे पैसे ऐंठता रहा। ज़मीन, घर, सब लिया। और अब... अब वो चाहता था कि मेरी रत्ना की शादी उसके बेटे से हो, ताकि मेरी सारी जायदाद उसकी हो जाए।\"",
+        "shots": [
+          {
+            "prompt": "Flashback medium shot of Mohan Rathore smugly demanding money from a distressed Jaswant inside a private study.",
+            "characters": [
+              "mohan",
+              "jaswant"
+            ]
+          },
+          {
+            "prompt": "Close-up of Jaswant looking agonized and helpless as Mohan slams a land deed document on the table.",
+            "characters": [
+              "jaswant"
+            ]
+          },
+          {
+            "prompt": "Medium shot of Jaswant looking over at a framed photograph of his young daughter Ratna with deep paternal protection.",
+            "characters": [
+              "jaswant"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "\"उस शाम झील पर मैंने उसे शेखर से यही कहते सुना। मेरी बच्ची को सौदे की चीज़ बना रहा था। मैं अपना होश खो बैठा, विक्रम बाबू। मैं बीमार हूँ, कुछ ही महीने बचे हैं। पर रत्ना को ये सच कभी पता न चले।\"",
+        "shots": [
+          {
+            "prompt": "Flashback high-angle shot of Jaswant hiding behind Kadamba trees, overhearing Mohan shouting at Shekhar near the misty lake.",
+            "characters": [
+              "jaswant",
+              "mohan",
+              "shekhar"
+            ]
+          },
+          {
+            "prompt": "Shadowy silhouette shot of Jaswant striking Mohan down in a sudden fit of rage by the foggy shore.",
+            "characters": [
+              "jaswant",
+              "mohan"
+            ]
+          },
+          {
+            "prompt": "Close-up of aging Jaswant weeping quietly in his armchair in front of Vikram and Savitri.",
+            "characters": [
+              "jaswant"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "विक्रम ने एक कागज़ आगे बढ़ाया। \"अपना बयान लिख दीजिए। अगर शेखर को सज़ा हुई, तो मैं ये अदालत में दूँगा। अगर नहीं, तो ये कभी किसी को नहीं दिखेगा।\" ठाकुर ने काँपते हाथों से दस्तख़त कर दिए।",
+        "shots": [
+          {
+            "prompt": "Close-up shot of Vikram placing a written confession paper and fountain pen on the table in front of Thakur Jaswant.",
+            "characters": [
+              "vikram",
+              "jaswant"
+            ]
+          },
+          {
+            "prompt": "Medium shot of Thakur Jaswant Singh signing the document with trembling fingers while Savitri watches solemnly.",
+            "characters": [
+              "jaswant",
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Close-up of Vikram folding the signed paper carefully and putting it inside his coat pocket.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "अदालत में विक्रम ने पैरों के निशानों और शॉल के सबूत से साबित कर दिया कि वहाँ एक तीसरा आदमी था। शेखर बरी हो गया। कुछ महीनों बाद ठाकुर जसवंत सिंह चल बसे, और उनका राज़ उनके साथ चला गया।",
+        "shots": [
+          {
+            "prompt": "Medium shot inside a 1920s British-Indian courtroom, Detective Vikram presenting mud footprint sketches to the judge.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Medium shot of young Shekhar stepping out of the courtroom free, hugging a tearful Ratna in joy.",
+            "characters": [
+              "shekhar",
+              "ratna"
+            ]
+          },
+          {
+            "prompt": "Wide shot of a quiet funeral pyre at sunset by the lake, smoke rising peacefully into the twilight sky.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "और झील की चुड़ैल? वो रत्ना का सफ़ेद दुपट्टा था, जो उस शाम हवा में उड़कर कदंब की डाल में अटक गया था। \"चुड़ैल कभी थी ही नहीं,\" विक्रम बोले। \"एक अधूरा शब्द, लँगड़ाते क़दम... सच हमेशा छोटी चीज़ों में छिपा होता है।\"",
+        "shots": [
+          {
+            "prompt": "Medium shot showing a white cotton dupatta caught on low branches of a Kadamba tree fluttering gently in the breeze.",
+            "characters": []
+          },
+          {
+            "prompt": "Close-up of Vikram untangling the white cloth from the branch with a slight dry smile.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Medium shot of Vikram turning towards Savitri near the lake at dusk, holding his black brass-handled cane.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "पर ठाकुर ने बयान लिखते हुए एक और बात कही थी, जिसने विक्रम को चौंका दिया। \"हमारे गिरोह को पैसा शहर का एक सेठ देता था। चेहरा कभी नहीं देखा। उसके ख़त हमेशा बैंगनी स्याही में आते थे।\"",
+        "shots": [
+          {
+            "prompt": "Flashback close-up of a yellowed old letter written in distinctive bright violet ink held by hands.",
+            "characters": []
+          },
+          {
+            "prompt": "Close-up shot of Vikram looking intensely at a line of writing on Jaswant's confession paper.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Close-up shot of Savitri gasping slightly as Vikram shows her the violet ink connection.",
+            "characters": [
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "बैंगनी स्याही। ठाकुर रघुवेंद्र की मेज़ पर मिली चिट्ठी भी बैंगनी स्याही में थी। विक्रम ने धीरे से कहा, \"तीस साल पुराना जाल, सावित्री... ये कमल बहुत पुराना है।\" क्या शेखर और रत्ना को सच पता चलना चाहिए था? कमेंट में बताइए।",
+        "shots": [
+          {
+            "prompt": "Extreme close-up of an old letter penned in violet ink with a distinct left-handed slant lying on a mahogany table next to a black wax seal of a lotus.",
+            "characters": []
+          },
+          {
+            "prompt": "Medium shot of Detective Vikram looking out at the Banaras ghats at night with river mist and distant oil lamps, grave expression.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Close-up of Savitri speaking to the camera in warm evening lamplight, holding her journal with an intriguing question in her eyes.",
+            "characters": [
+              "savitri"
+            ]
+          }
+        ]
+      }
+    ],
+    "clips": [
+      {
+        "start_scene": 1,
+        "end_scene": 2,
+        "hook_text": "झील किनारे सफ़ेद साया",
+        "title": "झील किनारे लाश... और पेड़ों के बीच एक सफ़ेद साया | जासूस विक्रम",
+        "end_question": "क्या वो सच में चुड़ैल थी?"
+      },
+      {
+        "start_scene": 6,
+        "end_scene": 7,
+        "hook_text": "मरते वक़्त: '...बल'",
+        "title": "मरते हुए पिता का आख़िरी शब्द: '...बल' | जासूस विक्रम",
+        "end_question": "आप बताइए, इसका मतलब क्या था?"
+      },
+      {
+        "start_scene": 8,
+        "end_scene": 10,
+        "hook_text": "लँगड़ाते क़दमों के निशान",
+        "title": "कीचड़ में तीसरे आदमी के लँगड़ाते निशान | जासूस विक्रम",
+        "end_question": "क़ातिल कौन है?"
+      },
+      {
+        "start_scene": 12,
+        "end_scene": 14,
+        "hook_text": "चंबल डाकू का पुराना राज़",
+        "title": "चंबल के डाकू का सनसनीखेज़ सच | जासूस विक्रम",
+        "end_question": "क्या विक्रम सही साबित होगा?"
+      },
+      {
+        "start_scene": 20,
+        "end_scene": 22,
+        "hook_text": "बैंगनी स्याही का रहस्य",
+        "title": "काले कमल का तीस साल पुराना जाल | जासूस विक्रम",
+        "end_question": "क्या शेखर और रत्ना को सच पता चलना चाहिए था?"
+      }
+    ],
+    "episode": 8,
+    "episode_title": "झील की चुड़ैल"
+  },
+  "active_clips": [
+    0,
+    1,
+    2
+  ],
+  "next_clip": 3,
+  "batch": null
+}
