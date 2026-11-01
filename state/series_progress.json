@@ -1,5 +1,5 @@
 {
- "next": 9,
+ "next": 10,
  "done": [
   {
    "n": 1,
@@ -40,6 +40,11 @@
    "n": 8,
    "title": "झील की चुड़ैल",
    "summary": "When a farmer is murdered near a misty lake, villagers blame a legendary ghost, but Detective Vikram uncovers a decades-old story of dacoits, blackmail, and sacrifice."
+  },
+  {
+   "n": 9,
+   "title": "कुत्ता क्यों नहीं भौंका?",
+   "summary": "On the eve of the Lucknow Cup, a champion racehorse vanishes and its trainer is found dead, leaving Detective Vikram to unravel the deadly secret behind a watchdog that never barked."
   }
  ]
 }

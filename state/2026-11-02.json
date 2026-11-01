@@ -1,0 +1,572 @@
+{
+  "date": "2026-11-02",
+  "status": "story_ready",
+  "items": {},
+  "story": {
+    "title": "कुत्ता क्यों नहीं भौंका? | जासूस विक्रम Ep 9",
+    "description": "लखनऊ कप से ठीक एक रात पहले महाराज का चैंपियन घोड़ा बादल ग़ायब हो गया और ट्रेनर की लाश मिली। आख़िर उस रात अस्तबल का ख़ूँख़ार कुत्ता क्यों नहीं भौंका? जासूस विक्रम ने सुलझाई लखनऊ की सबसे रहस्यमयी गुत्थी।\n#JaasoosVikram #HindiKahaniya #SuspenseThriller #DetectiveVikram #MysteryStories\n\nआर्थर कॉनन डॉयल की कहानी \"Silver Blaze\" से प्रेरित (public domain). सभी पात्र काल्पनिक हैं।",
+    "tags": [
+      "जासूस विक्रम",
+      "कुत्ता क्यों नहीं भौंका",
+      "hindi detective story",
+      "suspense thriller hindi",
+      "silver blaze hindi",
+      "historical mystery india",
+      "1920s india mystery",
+      "audio thriller hindi",
+      "hindi horror story",
+      "crime mystery banaras"
+    ],
+    "logline": "On the eve of the Lucknow Cup, a champion racehorse vanishes and its trainer is found dead, leaving Detective Vikram to unravel the deadly secret behind a watchdog that never barked.",
+    "thumbnail_text": "कुत्ता क्यों नहीं भौंका?",
+    "thumbnail_shot": 4,
+    "thumbnail_prompt": "A silent black dog sitting calmly beside an empty moonlit stable stall with its door open, a lantern on the ground, a white horse vanishing into the fog, deep red accent.",
+    "characters": [
+      {
+        "id": "vikram",
+        "name": "जासूस विक्रम",
+        "look": "Lean Indian man in his mid-30s, sharp intelligent eyes, neatly trimmed black moustache, short side-parted hair, dark navy bandhgala coat over a white kurta, grey wool shawl over one shoulder, black cane with a brass handle."
+      },
+      {
+        "id": "savitri",
+        "name": "डॉक्टर सावित्री",
+        "look": "Indian woman in her late 20s, intelligent kind face, hair in a low bun, small round spectacles, cotton sari with a dark border, brown leather doctor's bag, small notebook."
+      },
+      {
+        "id": "inspector_bhairav",
+        "name": "इंस्पेक्टर भैरव पांडे",
+        "look": "Heavy-set Indian police inspector in his late 40s, thick curled moustache, 1920s khaki police uniform with a red-and-khaki pagri turban, leather belt, short wooden baton."
+      },
+      {
+        "id": "devendranath",
+        "name": "राय बहादुर देवेंद्रनाथ",
+        "look": "Distinguished Indian gentleman around 60, silver hair and neat silver beard, white achkan with gold buttons, gold-rimmed spectacles, ivory-handled walking stick."
+      },
+      {
+        "id": "vijayendra",
+        "name": "महाराज विजयेंद्र",
+        "look": "Aristocratic Indian royal in his 40s, proud posture, ornate silk sherwani with jeweled buttons, finely wound royal safa turban, worried expression."
+      },
+      {
+        "id": "gopal",
+        "name": "गोपाल",
+        "look": "Weathered Indian horse trainer in his 40s, rugged build, simple cotton kurta-dhoti, leather riding vest, seen lying lifeless in the field."
+      },
+      {
+        "id": "lakhan",
+        "name": "लखन",
+        "look": "Slender young Indian stable boy around 18, simple dusty kurta-pyjama, disheveled hair, groggy and pale expression."
+      },
+      {
+        "id": "gambler",
+        "name": "जुआरी",
+        "look": "Slick Indian man in his late 30s, dressed in an overly flashy embroidered achkan, thin slick moustache, nervous shifting eyes."
+      }
+    ],
+    "scenes": [
+      {
+        "narration": "लखनऊ कप से एक रात पहले, महाराज विजयेंद्र का सफ़ेद घोड़ा, बादल, अपने अस्तबल से ग़ायब हो गया। और सुबह, घास के मैदान में उसका ट्रेनर गोपाल मरा पड़ा मिला। उसके हाथ में एक छोटा सा, सर्जन वाला चाकू था।",
+        "shots": [
+          {
+            "prompt": "An empty royal horse stable stall with an unlatched wooden gate swinging slightly, scattered straw on cobblestone, dim blue predawn mist, wide establishing shot, cold atmosphere.",
+            "characters": []
+          },
+          {
+            "prompt": "The lifeless body of the trainer lying on dewy open grassland at dawn, mist curling across the grass, wide ground-level shot, somber early morning light.",
+            "characters": [
+              "gopal"
+            ]
+          },
+          {
+            "prompt": "Close-up of the dead trainer's hand resting on wet grass, loosely clutching a delicate vintage silver surgical cataract knife, morning dew glistening on the blade.",
+            "characters": [
+              "gopal"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "अस्तबल पर रात भर पहरा था। एक बड़ा, ख़ूँख़ार कुत्ता वहाँ बँधा रहता था, जो किसी अजनबी की आहट पर आसमान सिर पर उठा लेता था। पर उस रात... वो एक बार भी नहीं भौंका।",
+        "shots": [
+          {
+            "prompt": "A large fierce black watchdog sitting entirely silent and calm beside the open stable stall, heavy iron chain loose on straw, dim lantern light, medium eye-level shot.",
+            "characters": []
+          },
+          {
+            "prompt": "Over-the-shoulder view looking past the seated mastiff dog into the empty stable stall, moonlight cutting through wooden rafters, eerie stillness.",
+            "characters": []
+          },
+          {
+            "prompt": "Close-up of the dog's calm watchful amber eyes reflecting faint moonlight, head tilted, silence hanging in the air.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "मैं सावित्री हूँ। उस हफ़्ते लखनऊ में हर कोई एक ही बात कर रहा था। बादल, हिंदुस्तान का सबसे तेज़ घोड़ा, और लाखों की शर्तें। इंस्पेक्टर भैरव भी छुट्टी पर वहीं थे, और उन्होंने फ़ौरन एक आदमी को गिरफ़्तार कर लिया।",
+        "shots": [
+          {
+            "prompt": "Savitri standing near the stable entrance holding her notebook and leather bag, observing the commotion thoughtfully, medium shot, soft dawn glow.",
+            "characters": [
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Busy 1920s Lucknow racecourse entrance with colonial carriages, tongas, and animated spectators discussing the race, wide panoramic shot, golden morning haze.",
+            "characters": []
+          },
+          {
+            "prompt": "Inspector Bhairav loudly gripping a flashy man by the collar near a paddock fence, twirling his wooden baton proudly, medium shot, bright morning light.",
+            "characters": [
+              "inspector_bhairav",
+              "gambler"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "वो एक चिकना-चुपड़ा जुआरी था, जो उस शाम अस्तबल के आसपास देखा गया था। उसने अस्तबल के लड़के, लखन, से घोड़े के बारे में पूछताछ की थी। \"यही चोर है, यही क़ातिल!\" भैरव ने ऐलान किया।",
+        "shots": [
+          {
+            "prompt": "The flashy gambler looking anxious and sweating, hands bound, cornered against a wooden horse fence, close-up shot, harsh side lighting.",
+            "characters": [
+              "gambler"
+            ]
+          },
+          {
+            "prompt": "Flashback twilight shot of the gambler whispering to young stable boy Lakhan outside the stables, handing him a coin, low-angle medium shot, dusky orange sky.",
+            "characters": [
+              "gambler",
+              "lakhan"
+            ]
+          },
+          {
+            "prompt": "Inspector Bhairav gesturing dramatically with his baton while declaring guilt, chest puffed out in pride, Maharaja Vijayendra watching skeptically in background, medium shot.",
+            "characters": [
+              "inspector_bhairav",
+              "vijayendra"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "विक्रम ने अस्तबल के लड़के से बात की। उस रात लखन बेहोश पड़ा मिला था। उसके खाने में अफ़ीम मिली थी। \"उस रात खाने में क्या बना था?\" विक्रम ने पूछा। \"मसालेदार मटन करी, साहब।\"",
+        "shots": [
+          {
+            "prompt": "Vikram kneeling gently beside Lakhan who sits dazed on a wooden bench inside the stable tack room, Vikram asking questions calmly, medium two-shot, lantern illumination.",
+            "characters": [
+              "vikram",
+              "lakhan"
+            ]
+          },
+          {
+            "prompt": "Lakhan rubbing his aching forehead while looking up at Vikram, an empty brass tiffin plate with remnants of dark red gravy on the stool beside him, close-up shot.",
+            "characters": [
+              "lakhan"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "\"अफ़ीम का स्वाद कड़वा होता है,\" विक्रम ने मुझसे धीरे से कहा। \"पर तेज़ मसालेदार करी में छिप जाता है। जिसने भी अफ़ीम डाली, उसे पहले से पता था कि उस रात करी बनेगी। वो बाहर का जुआरी ये कैसे जानता?\"",
+        "shots": [
+          {
+            "prompt": "Vikram leaning toward Savitri in the quiet hallway of the stable, speaking quietly, his cane resting against his arm, medium shot, dramatic shadows.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Detail close-up of Vikram's gloved fingers lifting a pinch of dried herb residue from the rim of the metal plate, candlelight reflecting on his thoughtful face.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Savitri adjusting her round spectacles, writing notes intently in her small diary with a sudden look of realization, medium close-up, warm interior glow.",
+            "characters": [
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "गोपाल की जेब से एक दर्ज़ी का बिल निकला। रेशमी साड़ियों का, बहुत महँगा। पर गोपाल की पत्नी ने कहा, उसे कभी कोई रेशमी साड़ी नहीं मिली। विक्रम ने बिल चुपचाप अपनी जेब में रख लिया।",
+        "shots": [
+          {
+            "prompt": "Close-up of Vikram examining a folded vintage paper invoice for expensive silk saris, written in elegant calligraphy, warm lamplight illuminating the paper.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "A poor village woman in a faded cotton sari weeping softly inside a humble brick courtyard, shaking her head in denial, medium shot, muted morning daylight.",
+            "characters": []
+          },
+          {
+            "prompt": "Vikram slipping the folded tailor's bill neatly into his bandhgala coat pocket, his expression composed and analytical, medium close-up shot.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "फिर विक्रम ने चरवाहे से एक अजीब सवाल पूछा। \"पिछले दिनों तुम्हारी भेड़ों में कुछ अनोखा हुआ?\" चरवाहा चौंका। \"जी साहब। तीन भेड़ें अचानक लँगड़ी हो गईं। पता नहीं कैसे।\"",
+        "shots": [
+          {
+            "prompt": "Vikram leaning on his brass-handled cane, speaking to an elderly rural shepherd holding a bamboo crook in an open meadow, medium wide shot, overcast sky.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "A small flock of sheep grazing on the grassy hillocks, three sheep limping awkwardly in the foreground, low-angle shot, pastoral countryside backdrop.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "भैरव ने झुँझलाकर पूछा, \"विक्रम बाबू, भेड़ों से क्या लेना? कोई और बात, जिस पर मुझे ध्यान देना चाहिए?\" विक्रम बोले, \"हाँ। रात को कुत्ते का अजीब बर्ताव।\" \"पर कुत्ते ने तो कुछ किया ही नहीं!\" \"यही तो अजीब है, इंस्पेक्टर साहब।\"",
+        "shots": [
+          {
+            "prompt": "Inspector Bhairav throwing his hands up in exasperation, frowning at Vikram outside the stables, medium two-shot, bright morning sun casting sharp shadows.",
+            "characters": [
+              "inspector_bhairav",
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Vikram holding his cane upright, raising an eyebrow with a subtle knowing smile while looking at Bhairav, close-up shot, intense intelligent gaze.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "The large black watchdog lying lazily on the stable straw, chewing a piece of wood, unbothered, ground-level low shot.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "रुकिए। एक कुत्ता, जो हर अजनबी पर भौंकता है, उस रात चुप रहा। तो घोड़े को ले जाने वाला अजनबी नहीं था। आप बताइए, कुत्ता क्यों नहीं भौंका? कमेंट में अपना जवाब लिखिए।",
+        "shots": [
+          {
+            "prompt": "Savitri looking directly toward the camera with an intriguing, inviting expression, holding her leather bag, stable archway in background, medium close-up shot.",
+            "characters": [
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Dramatic silhouette of a man leading a horse out of the stable gate under the full moon while the silhouette of a dog sits peacefully beside them without moving.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "\"कुत्ता उसे जानता था,\" विक्रम बोले। \"जो रात को घोड़ा लेकर निकला, वो इसी अस्तबल का आदमी था।\" फिर वो मैदान में उतरे, और घोड़े के खुरों के निशान ढूँढ़ने लगे। निशान दूर, पास वाले अस्तबल की ओर जाते थे।",
+        "shots": [
+          {
+            "prompt": "Vikram speaking decisively while gesturing toward the open grassland, Savitri listening closely beside him, medium shot, crisp morning air.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Vikram crouching on wet muddy turf, measuring distinct horseshoe impressions with the tip of his brass cane, close-up ground shot.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "A winding trail of hoof prints leading across the misty Lucknow expanse toward a distant cluster of brick stables, wide tracking shot.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "पास वाला अस्तबल, बादल के सबसे बड़े मुक़ाबले वाले घोड़े का था। वहाँ के मालिक ने क़सम खाई, उसने कोई सफ़ेद घोड़ा नहीं देखा। विक्रम एक भूरे घोड़े के पास रुके, उसके माथे को छुआ, और मुस्करा दिए। कुछ नहीं बोले।",
+        "shots": [
+          {
+            "prompt": "A rival stable owner in a waistcoat gesturing defensively with folded palms before Vikram and Bhairav, inside a large dimly lit barn, medium shot.",
+            "characters": [
+              "vikram",
+              "inspector_bhairav"
+            ]
+          },
+          {
+            "prompt": "Vikram gently placing his hand on the forehead of an elegant dark brown thoroughbred horse in a wooden stall, studying its hair closely, medium close-up.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Close-up of Vikram's fingertips showing a faint trace of dark walnut dye, Vikram smiling subtly to himself, side lighting.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "रेस का दिन। पूरा लखनऊ मैदान में उमड़ आया था। महाराज विजयेंद्र परेशान थे। \"विक्रम बाबू, बादल नहीं मिला तो?\" विक्रम बोले, \"महाराज, बस रेस देखिए।\"",
+        "shots": [
+          {
+            "prompt": "Grand royal grandstand at the 1920s Lucknow racecourse packed with aristocrats in colorful turbans and parasols, flags fluttering, wide panoramic shot, festive atmosphere.",
+            "characters": []
+          },
+          {
+            "prompt": "Maharaja Vijayendra pacing anxiously on the royal balcony, wringing his hands as Vikram stands calm and unperturbed beside him, medium two-shot.",
+            "characters": [
+              "vijayendra",
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "भीड़ में राय बहादुर देवेंद्रनाथ भी थे, बनारस से आए हुए। मुस्कुराते हुए उन्होंने बताया कि उन्होंने बादल के ख़िलाफ़ बड़ी शर्त लगाई है। \"घोड़ा ही नहीं है, तो जीतेगा कौन?\"",
+        "shots": [
+          {
+            "prompt": "Rai Bahadur Devendranath holding his ivory-handled walking stick, leaning on the railing of the pavilion with a gracious gentlemanly smile, medium shot, afternoon sunlight.",
+            "characters": [
+              "devendranath"
+            ]
+          },
+          {
+            "prompt": "Devendranath chuckling softly as he converses with Vikram and Savitri, holding betting slips in his left hand, golden buttons gleaming on his achkan.",
+            "characters": [
+              "devendranath",
+              "vikram",
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "रेस शुरू हुई। एक भूरा घोड़ा, जिसके माथे पर हल्का सा सफ़ेद धब्बा झलक रहा था, बिजली की तरह सबसे आगे निकल गया। पूरा मैदान चीख उठा। वो घोड़ा जीत गया।",
+        "shots": [
+          {
+            "prompt": "Thoroughbred racehorses thundering along the dirt track kicking up dust, a sleek brown horse surging powerfully ahead of the pack, dynamic wide action shot.",
+            "characters": []
+          },
+          {
+            "prompt": "The brown champion horse crossing the finish line with jockey cheering, sunlight catching a subtle white star shape under the sweat on its forehead, low dramatic angle.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "विक्रम ने एक भीगा कपड़ा लेकर घोड़े का माथा पोंछा। भूरा रंग उतरने लगा। नीचे से सफ़ेद चमड़ी निकली। \"महाराज,\" विक्रम बोले, \"आपका बादल। किसी ने उसे रंगकर छिपा दिया था।\"",
+        "shots": [
+          {
+            "prompt": "Vikram wiping the champion horse's forehead with a damp white cloth in the paddock, brown dye washing away to reveal pure snowy white horse hair, close-up shot.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Maharaja Vijayendra gasping in joyous disbelief, reaching out to touch his magnificent white stallion, Vikram standing by with a calm smile, medium group shot.",
+            "characters": [
+              "vijayendra",
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "महाराज ने पूछा, \"और गोपाल का क़ातिल? उस जुआरी को फाँसी होगी?\" विक्रम ने सिर हिलाया। \"जुआरी बेगुनाह है, महाराज। गोपाल का क़ातिल यहीं खड़ा है।\" और उन्होंने बादल की गर्दन थपथपाई।",
+        "shots": [
+          {
+            "prompt": "Maharaja Vijayendra looking stunned and pointing toward the captive gambler, Inspector Bhairav leaning in listening intently, medium shot.",
+            "characters": [
+              "vijayendra",
+              "inspector_bhairav"
+            ]
+          },
+          {
+            "prompt": "Vikram gently patting the neck of the white stallion Badal, turning to the gathering crowd with resolute calm, medium close-up, golden hour light.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "\"गोपाल पर भारी कर्ज़ था। उसका एक दूसरा घर भी था, जिसके बारे में किसी को नहीं पता था। रेशमी साड़ियाँ उसी के लिए थीं। कर्ज़ चुकाने के लिए उसने बादल के हारने पर शर्त लगाई।\"",
+        "shots": [
+          {
+            "prompt": "Vikram taking out the tailor's bill from his coat, unfolding it before the Maharaja and Bhairav, medium three-shot, warm late-day glow.",
+            "characters": [
+              "vikram",
+              "vijayendra",
+              "inspector_bhairav"
+            ]
+          },
+          {
+            "prompt": "Flashback reconstruction: Gopal meeting a shadowy bookmaker in an alley, signing an IOU ledger under an oil lamp, medium moody shot.",
+            "characters": [
+              "gopal"
+            ]
+          },
+          {
+            "prompt": "Savitri watching Vikram explain, nodding slowly as the pieces fall into place, close-up shot.",
+            "characters": [
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "\"उस रात उसने ख़ुद अस्तबल के लड़के को अफ़ीम दी, और बादल को चुपचाप बाहर ले गया। कुत्ता उसे जानता था, इसलिए चुप रहा। वो चाकू से बादल की पिछली टाँग की नस पर हल्का सा चीरा लगाना चाहता था, ताकि घोड़ा लँगड़ा जाए, और किसी को पता न चले।\"",
+        "shots": [
+          {
+            "prompt": "Flashback night scene: Gopal quietly spooning powdered opium into Lakhan's dinner pot inside the dim stable kitchen, dramatic low lantern light.",
+            "characters": [
+              "gopal"
+            ]
+          },
+          {
+            "prompt": "Flashback night scene: Gopal leading Badal by the halter past the docile black watchdog, the dog wagging its tail softly in the moonlight, silhouette shot.",
+            "characters": [
+              "gopal"
+            ]
+          },
+          {
+            "prompt": "Flashback: Gopal kneeling on dewy grassland behind the horse, holding the small silver surgical knife, hands trembling in the pale moonlight, close-up shot.",
+            "characters": [
+              "gopal"
+            ]
+          },
+          {
+            "prompt": "Vikram demonstrating the miniature incision technique with his hands as Maharaja and Bhairav listen in rapt silence, medium shot.",
+            "characters": [
+              "vikram",
+              "vijayendra"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "\"इसका अभ्यास उसने भेड़ों पर किया था। पर बादल ने अँधेरे में चाकू की चमक देखी, और पूरी ताक़त से लात मार दी। क़ातिल घोड़ा था, महाराज। और उसने अपनी जान बचाई। सच हमेशा छोटी चीज़ों में छिपा होता है।\"",
+        "shots": [
+          {
+            "prompt": "Flashback: Moonlight reflecting sharply on the surgical blade, the horse's eye widening in alarm, tense extreme close-up.",
+            "characters": []
+          },
+          {
+            "prompt": "Shadowy flashback on the misty field: horse hooves lashing out backward in sudden defense, the trainer's lantern falling into the grass, dark silhouette, no gore.",
+            "characters": [
+              "gopal"
+            ]
+          },
+          {
+            "prompt": "Vikram leaning forward, uttering his signature philosophy with quiet conviction, Savitri smiling beside him in deep admiration, medium close-up.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "भागा हुआ बादल पास वाले अस्तबल के मालिक को मिला था, जिसने लालच में उसे रंगकर छिपा दिया। उस शाम देवेंद्रनाथ ने हँसते हुए सट्टेबाज़ को अपनी हारी हुई शर्त की रक़म चुकाई। सट्टेबाज़ ने पैसे एक अजीब बटुए में रखे... काले रेशम पर कढ़ा एक छोटा सा काला फूल।",
+        "shots": [
+          {
+            "prompt": "The rival stable owner hanging his head in shame as two constables step beside him near the stalls, dusk settling, medium shot.",
+            "characters": [
+              "inspector_bhairav"
+            ]
+          },
+          {
+            "prompt": "Rai Bahadur Devendranath standing by a wooden paddock fence, handing a thick stack of banknotes with his left hand to a shady bookmaker with a cheerful laugh.",
+            "characters": [
+              "devendranath"
+            ]
+          },
+          {
+            "prompt": "Close-up of the shady bookmaker's hands opening a dark velvet pouch, embroidered delicately with a subtle five-petaled black lotus symbol.",
+            "characters": []
+          },
+          {
+            "prompt": "Devendranath tapping his ivory walking stick lightly on the turf, smiling cordially into the twilight haze as the bookmaker slips away, medium shot.",
+            "characters": [
+              "devendranath"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "मैंने सोचा, बस एक डिज़ाइन होगा। पर विक्रम की नज़र उस बटुए पर देर तक टिकी रही। ये वही सट्टेबाज़ था, जिसने गोपाल को कर्ज़ दिया था। आपने कुत्ते वाली पहेली सुलझाई थी? सच-सच कमेंट में बताइए।",
+        "shots": [
+          {
+            "prompt": "Savitri watching the transaction thoughtfully in the amber sunset glow, her round spectacles reflecting the fading dusk light, medium close-up.",
+            "characters": [
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Vikram's intense, focused gaze locked onto the departing bookmaker's pocket, jaw set in deep contemplation, side profile close-up.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Savitri turning to face the camera directly in front of the darkening racecourse pavilion, asking viewers with an enigmatic smile, medium shot, lantern glow.",
+            "characters": [
+              "savitri"
+            ]
+          }
+        ]
+      }
+    ],
+    "clips": [
+      {
+        "start_scene": 1,
+        "end_scene": 2,
+        "hook_text": "चैंपियन घोड़ा ग़ायब",
+        "title": "रेस से एक रात पहले चैंपियन घोड़ा ग़ायब, ट्रेनर की लाश | जासूस विक्रम",
+        "end_question": "घोड़ा कहाँ गया?"
+      },
+      {
+        "start_scene": 9,
+        "end_scene": 10,
+        "hook_text": "कुत्ते ने कुछ नहीं किया",
+        "title": "'कुत्ते ने तो कुछ किया ही नहीं' - 'यही तो अजीब है' | जासूस विक्रम",
+        "end_question": "कुत्ता क्यों नहीं भौंका? कमेंट में बताइए।"
+      },
+      {
+        "start_scene": 13,
+        "end_scene": 15,
+        "hook_text": "भूरा घोड़ा जीत गया",
+        "title": "रेस में एक अनजान भूरा घोड़ा सबसे आगे निकल गया... | जासूस विक्रम",
+        "end_question": "क्या ये वही घोड़ा है?"
+      },
+      {
+        "start_scene": 5,
+        "end_scene": 7,
+        "hook_text": "मटन करी में अफ़ीम का राज़",
+        "title": "गोपाल की जेब से निकला रहस्यमयी बिल | जासूस विक्रम",
+        "end_question": "रेशमी साड़ी किसके लिए थी?"
+      },
+      {
+        "start_scene": 16,
+        "end_scene": 17,
+        "hook_text": "क़ातिल का हैरान करने वाला सच",
+        "title": "गोपाल का क़ातिल कोई इंसान नहीं था? | जासूस विक्रम",
+        "end_question": "क्या आप असली क़ातिल पहचान पाए?"
+      }
+    ],
+    "episode": 9,
+    "episode_title": "कुत्ता क्यों नहीं भौंका?"
+  },
+  "active_clips": [
+    0,
+    1,
+    2
+  ],
+  "next_clip": 3,
+  "batch": null
+}
