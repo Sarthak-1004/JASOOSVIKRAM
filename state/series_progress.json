@@ -1,5 +1,5 @@
 {
- "next": 11,
+ "next": 12,
  "done": [
   {
    "n": 1,
@@ -50,6 +50,11 @@
    "n": 10,
    "title": "तहखाने का मंत्र",
    "summary": "Detective Vikram deciphers an ancient family riddle using geometry and the shadow of a long-dead tree to uncover an ancestral treasure and a grim murder in a Lucknow haveli."
+  },
+  {
+   "n": 11,
+   "title": "मुट्ठी में फटा कागज़",
+   "summary": "In 1923 Meerut, Vikram investigates a coachman's murder where the only clue is a torn scrap of paper with two distinct handwritings."
   }
  ]
 }
