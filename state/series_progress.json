@@ -1,5 +1,5 @@
 {
- "next": 12,
+ "next": 13,
  "done": [
   {
    "n": 1,
@@ -55,6 +55,11 @@
    "n": 11,
    "title": "मुट्ठी में फटा कागज़",
    "summary": "In 1923 Meerut, Vikram investigates a coachman's murder where the only clue is a torn scrap of paper with two distinct handwritings."
+  },
+  {
+   "n": 12,
+   "title": "पर्दे पर अजीब पंजे",
+   "summary": "In 1923 Meerut, Detective Vikram investigates a Colonel's death inside a locked room where the only clues are strange paw prints and a long-lost name from the Mesopotamia campaign."
   }
  ]
 }

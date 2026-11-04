@@ -1,0 +1,526 @@
+{
+  "date": "2026-11-05",
+  "status": "story_ready",
+  "items": {},
+  "story": {
+    "title": "पर्दे पर अजीब पंजे | जासूस विक्रम Ep 12",
+    "description": "मेरठ छावनी में एक कर्नल की रहस्यमयी मौत। बंद कमरा, गायब चाबी और पर्दे पर किसी जानवर के डरावने पंजे। क्या यह कोई श्राप है या अतीत का कोई काला राज? विक्रम और सावित्री की एक नई रोमांचक गुत्थी।\n\n#JasoosVikram #HindiMystery #ThrillerStory #DetectiveStories #1920sIndia\n\nआर्थर कॉनन डॉयल की कहानी \"The Crooked Man\" से प्रेरित (public domain). सभी पात्र काल्पनिक हैं।",
+    "tags": [
+      "Jasoos Vikram",
+      "Detective Vikram",
+      "Hindi Mystery",
+      "Indian Thriller",
+      "1920s India",
+      "The Crooked Man Hindi",
+      "Savitri Stories",
+      "Suspense"
+    ],
+    "logline": "In 1923 Meerut, Detective Vikram investigates a Colonel's death inside a locked room where the only clues are strange paw prints and a long-lost name from the Mesopotamia campaign.",
+    "thumbnail_text": "पर्दे पर अजीब पंजे",
+    "thumbnail_shot": 3,
+    "thumbnail_prompt": "Small strange paw prints across a white curtain in a dark colonial bungalow room, a fallen lamp, a man's frozen terrified face in shadow, deep red accent.",
+    "characters": [
+      {
+        "id": "vikram",
+        "name": "विक्रम",
+        "look": "Lean Indian man in his mid-30s, sharp intelligent eyes, neatly trimmed black moustache, short side-parted hair, dark navy bandhgala coat over a white kurta, grey wool shawl over one shoulder, black cane with a brass handle, often carries an oil lantern."
+      },
+      {
+        "id": "savitri",
+        "name": "सावित्री",
+        "look": "Indian woman in her late 20s, intelligent kind face, hair in a low bun, small round spectacles, cotton sari with a dark border, brown leather doctor's bag, small notebook."
+      },
+      {
+        "id": "hemant",
+        "name": "हेमंत",
+        "look": "A hideously bent and broken Indian man in his 50s, weather-beaten face, wearing tattered cotton clothes, carrying a small wooden box."
+      },
+      {
+        "id": "nandini",
+        "name": "नंदिनी",
+        "look": "A gentle Indian woman in her late 50s, dignified but distressed face, wearing a plain cotton sari with a dark border."
+      }
+    ],
+    "scenes": [
+      {
+        "narration": "मेरठ छावनी। बरसात की रात। कर्नल अमरजीत सिंह भुल्लर के बंगले के बंद कमरे से उनकी पत्नी की चीख आई... \"कायर! दग़ाबाज़!\" फिर एक भयानक धमाका। फिर सन्नाटा।",
+        "shots": [
+          {
+            "prompt": "Wide shot of a large colonial-style bungalow in Meerut during a heavy monsoon rain at night, lightning illuminating the architecture.",
+            "characters": []
+          },
+          {
+            "prompt": "Close-up of a heavy teak bedroom door in a dimly lit hallway, the silhouette of a woman screaming reflected on the polished wood.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "दरवाज़ा अंदर से बंद था, चाबी ग़ायब। नौकर खिड़की तोड़कर अंदर घुसे। कर्नल फ़र्श पर मरे पड़े थे, चेहरा ऐसे ख़ौफ़ में जमा हुआ, जैसे मौत को सामने देखा हो। उनकी पत्नी नंदिनी बेहोश थीं।",
+        "shots": [
+          {
+            "prompt": "Servants and soldiers in uniform smashing through a glass window pane with a heavy object, glass shards flying.",
+            "characters": []
+          },
+          {
+            "prompt": "Wide shot inside the bedroom, a man in a white nightshirt lies sprawled on a patterned carpet next to a fallen lamp.",
+            "characters": []
+          },
+          {
+            "prompt": "Extreme close-up of the Colonel's face, eyes wide and bulging, mouth agape in a frozen expression of absolute terror.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "और सफ़ेद पर्दे पर... किसी अजीब जानवर के छोटे-छोटे पंजों के निशान थे। न बिल्ली के, न कुत्ते के। बंद कमरा, मरा हुआ कर्नल... और पर्दे पर अजीब पंजे।",
+        "shots": [
+          {
+            "prompt": "Close-up of small, muddy animal paw prints with sharp claw marks trailing up a white cotton curtain.",
+            "characters": []
+          },
+          {
+            "prompt": "Vikram standing in the room, illuminated by a lantern, looking intently at the paw prints on the curtain.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "मैं सावित्री हूँ। कर्नल के माथे पर चोट का निशान था। फ़ौजी पुलिस ने फ़ौरन नंदिनी को क़त्ल के इल्ज़ाम में पकड़ लिया। बेहोश होने से पहले वो बस एक नाम बुदबुदाई थीं... \"हेमंत।\"",
+        "shots": [
+          {
+            "prompt": "Savitri kneeling by a bed, holding Nandini's hand, looking worried behind her spectacles.",
+            "characters": [
+              "savitri",
+              "nandini"
+            ]
+          },
+          {
+            "prompt": "Soldiers in 1920s khaki uniforms leading a weeping Nandini away into a police carriage in the rain.",
+            "characters": [
+              "nandini"
+            ]
+          },
+          {
+            "prompt": "Extreme close-up of Nandini's pale lips whispering a single word.",
+            "characters": [
+              "nandini"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "नंदिनी को छावनी में हर कोई पसंद करता था। ग़रीबों की मदद करतीं, अस्पताल में सेवा करतीं। कर्नल से उनकी शादी को तीस साल हो गए थे। इतने सालों में किसी ने उन्हें ऊँची आवाज़ में बोलते नहीं सुना था।",
+        "shots": [
+          {
+            "prompt": "Flashback: Nandini in a bright garden, handing small coins and food to poor children.",
+            "characters": [
+              "nandini"
+            ]
+          },
+          {
+            "prompt": "Flashback: Nandini and the Colonel sitting for tea on a sunny verandah, looking like a happy, respectable couple.",
+            "characters": [
+              "nandini"
+            ]
+          },
+          {
+            "prompt": "Medium shot of an old black-and-white framed wedding photograph of the couple on a mantelpiece.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "विक्रम ने पर्दे के निशान बहुत ग़ौर से देखे। \"लंबा शरीर, छोटे पैर, नाख़ून आगे को मुड़े हुए। ये जानवर बिल्ली से छोटा है, पर पर्दे पर चढ़ सकता है।\" फिर उन्होंने खिड़की के बाहर लॉन देखा। वहाँ एक आदमी के पैरों के निशान थे।",
+        "shots": [
+          {
+            "prompt": "Vikram using a small magnifying glass to examine the claw marks on the white curtain.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Macro shot of the magnifying glass showing the unique shape of the sharp, curved claws.",
+            "characters": []
+          },
+          {
+            "prompt": "Vikram kneeling on the wet grass of the lawn outside the bedroom window, lantern in hand.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Over-the-shoulder shot from Vikram's perspective looking at distinct, deep footprints in the mud leading to the house.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "पैरों के निशान लॉन पार करके खिड़की तक आते थे, और फिर वापस जाते थे। \"कोई और भी कमरे में था,\" विक्रम बोले। \"और उसके साथ ये जानवर भी। चाबी वही लेकर गया।\"",
+        "shots": [
+          {
+            "prompt": "Low-angle shot of Vikram tracing the path of the footprints with his brass-handled cane.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Vikram looking through the broken window into the bedroom, his face illuminated by a flickering lamp.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Detail shot of Vikram's gloved hand touching the empty keyhole of the bedroom door.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "नंदिनी की सहेली, रोज़ी डिसूज़ा, उस शाम उनके साथ घर लौटी थी। पहले तो वो कुछ बताने को तैयार नहीं थी। फिर रो पड़ी। \"रास्ते में लैंप के नीचे हमें एक आदमी मिला था। बुरी तरह मुड़ा हुआ, कुबड़ा। और वो नंदिनी को जानता था।\"",
+        "shots": [
+          {
+            "prompt": "A young woman, Rosy, in a 1920s European-style dress, crying into a lace handkerchief in a drawing room.",
+            "characters": []
+          },
+          {
+            "prompt": "Flashback: A misty night street under a yellow gas lamp, two women walking.",
+            "characters": [
+              "nandini"
+            ]
+          },
+          {
+            "prompt": "Flashback: A twisted, hunched silhouette of a man standing in the long shadows cast by the street lamp.",
+            "characters": []
+          },
+          {
+            "prompt": "Flashback: Close-up of Nandini stopping in her tracks, her face turning pale with shock.",
+            "characters": [
+              "nandini"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "\"उसे देखते ही नंदिनी का रंग उड़ गया। वो बोलीं, 'हेमंत... तुम ज़िंदा हो?' दोनों ने कुछ देर अकेले में बात की। फिर नंदिनी घर लौटीं, तो गुस्से से काँप रही थीं।\"",
+        "shots": [
+          {
+            "prompt": "Flashback: Nandini and the bent man talking urgently in the shadows of a narrow alleyway.",
+            "characters": [
+              "nandini",
+              "hemant"
+            ]
+          },
+          {
+            "prompt": "Flashback: Nandini walking away rapidly, her face full of suppressed rage and tears.",
+            "characters": [
+              "nandini"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "रुकिए। एक बंद कमरा। माथे पर चोट। पर्दे पर किसी अनजान जानवर के पंजे। और एक कुबड़ा आदमी, जिसे सब मरा समझते थे। क्या आपने पहचाना, ये पंजे किस जानवर के थे?",
+        "shots": [
+          {
+            "prompt": "Medium close-up of Vikram tapping his chin in thought, looking at the evidence on a table.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Montage shot: The paw prints, the broken window, and the silhouette of the bent man under the street lamp.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "विक्रम ने छावनी के बाहर की धर्मशालाओं में पूछताछ की। एक मदारी के बारे में पता चला, जो अपने डिब्बे में एक जानवर रखता है, और साँपों के साथ खेल दिखाता है। \"नेवला,\" विक्रम बोले। \"साँप का दुश्मन।\"",
+        "shots": [
+          {
+            "prompt": "Vikram and Savitri walking through a bustling, crowded marketplace near the Meerut cantonment.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "A street performer in the distance, a small mongoose scurrying around his shoulders as a crowd watches.",
+            "characters": []
+          },
+          {
+            "prompt": "Close-up of Vikram's face as he realizes the truth, a slight smile appearing.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "हम एक छोटी, अँधेरी धर्मशाला में पहुँचे। कोने में एक बुरी तरह मुड़ा हुआ आदमी बैठा था। पास में लकड़ी का एक डिब्बा रखा था, जिसके अंदर कुछ सरसरा रहा था।",
+        "shots": [
+          {
+            "prompt": "Interior of a dark, smoke-filled lodge room with low ceilings and mud walls.",
+            "characters": []
+          },
+          {
+            "prompt": "Hemant Kale sitting on a low wooden cot, his body unnaturally bent, a plain wooden box next to him.",
+            "characters": [
+              "hemant"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "विक्रम ने कहा, \"हेमंत काले। मुझे सब पता है। अगर तुम सच नहीं बताओगे, तो नंदिनी को फाँसी हो जाएगी।\" उस टूटे हुए आदमी की आँखों में आँसू आ गए। \"नहीं... नंदिनी को नहीं।\"",
+        "shots": [
+          {
+            "prompt": "Vikram standing tall before the sitting man, the lantern light casting long shadows behind him.",
+            "characters": [
+              "vikram",
+              "hemant"
+            ]
+          },
+          {
+            "prompt": "Close-up of Hemant looking up at Vikram, his eyes red and brimming with tears.",
+            "characters": [
+              "hemant"
+            ]
+          },
+          {
+            "prompt": "Savitri watching from the doorway, her doctor's bag in hand, looking sympathetic.",
+            "characters": [
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "\"बरसों पहले, मैं और अमरजीत एक ही पलटन में थे। मेसोपोटामिया की जंग में। हम दोनों नंदिनी से प्यार करते थे। और नंदिनी... मुझसे प्यार करती थी।\"",
+        "shots": [
+          {
+            "prompt": "Flashback: Two young Indian soldiers in WWI British uniforms standing in a desert camp in Mesopotamia.",
+            "characters": []
+          },
+          {
+            "prompt": "Flashback: A young, beautiful Nandini in a sepia-toned photograph held in a soldier's hand.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "\"एक रात अमरजीत ने मुझे एक ख़तरनाक मोर्चे पर भेजा। जानबूझकर। दुश्मन को मेरी ख़बर दे दी गई। मुझे पकड़ लिया गया। बरसों क़ैद में रहा। मेरा शरीर टूट गया, मुड़ गया। और यहाँ सबको बताया गया कि मैं मर चुका हूँ।\"",
+        "shots": [
+          {
+            "prompt": "Flashback: The young Colonel pointing toward a dark, enemy-held horizon as a young Hemant walks forward alone.",
+            "characters": []
+          },
+          {
+            "prompt": "Flashback: Hemant in a dark, stone prison cell, looking thin and broken.",
+            "characters": [
+              "hemant"
+            ]
+          },
+          {
+            "prompt": "Close-up of Hemant's twisted hands resting on his knees in the present day.",
+            "characters": [
+              "hemant"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "\"अमरजीत ने नंदिनी से शादी कर ली। उस शाम जब मैंने नंदिनी को सच बताया, वो घर जाकर अमरजीत पर चीख पड़ी... 'कायर! दग़ाबाज़!' मैं खिड़की से अंदर गया। बस उसकी आँखों में एक बार देखना चाहता था।\"",
+        "shots": [
+          {
+            "prompt": "Flashback: Nandini shouting at the Colonel in their bedroom, her face full of heartbreak.",
+            "characters": [
+              "nandini"
+            ]
+          },
+          {
+            "prompt": "Flashback: Hemant’s hunched figure climbing over the window sill of the bungalow in the rain.",
+            "characters": [
+              "hemant"
+            ]
+          },
+          {
+            "prompt": "Hemant standing in the shadows of the bedroom, staring at the terrified Colonel.",
+            "characters": [
+              "hemant"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "\"पर जैसे ही अमरजीत ने मुझे देखा... बरसों पुराना पाप उसके सामने खड़ा था। उसका चेहरा सफ़ेद पड़ गया, और वो गिर पड़ा। माथा अँगीठी से टकराया। मैंने उसे छुआ तक नहीं। मेरा नेवला डिब्बे से निकलकर पर्दे पर चढ़ गया।\"",
+        "shots": [
+          {
+            "prompt": "The Colonel clutching his chest and falling backward, his face frozen in a scream of guilt.",
+            "characters": []
+          },
+          {
+            "prompt": "The Colonel's head hitting the corner of a brass fireplace fender as he collapses.",
+            "characters": []
+          },
+          {
+            "prompt": "A small mongoose scurrying across the floor and jumping onto the white curtains.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "\"नंदिनी बेहोश थी। मैं घबरा गया, चाबी उठाई, और भाग गया।\" एक डॉक्टर के तौर पर मैंने कर्नल की रिपोर्ट दोबारा देखी। मौत चोट से नहीं, दिल के दौरे से हुई थी।",
+        "shots": [
+          {
+            "prompt": "Hemant picking up a silver key from the carpet and rushing out of the window into the rain.",
+            "characters": [
+              "hemant"
+            ]
+          },
+          {
+            "prompt": "Savitri sitting at a desk, carefully reading a handwritten medical document by candlelight.",
+            "characters": [
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "विक्रम बोले, \"कोई क़त्ल नहीं हुआ। कर्नल को उसके अपने डर ने मारा।\" नंदिनी रिहा हो गईं। हेमंत ने छावनी छोड़ दी, अपने नेवले के साथ।",
+        "shots": [
+          {
+            "prompt": "Nandini walking out of the police gates, Savitri placing a comforting shawl over her shoulders.",
+            "characters": [
+              "nandini",
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Hemant walking down a dusty road away from the city, his wooden box on his back.",
+            "characters": [
+              "hemant"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "\"पर्दे पर पंजे, लॉन पर क़दम, और एक नाम...\" विक्रम ने कहा, \"सच हमेशा छोटी चीज़ों में छिपा होता है।\"",
+        "shots": [
+          {
+            "prompt": "Close-up of Vikram’s calm, intelligent face as he delivers his signature line.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Vikram’s hand resting on the brass handle of his black cane.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "पर जाते-जाते हेमंत ने एक बात कही, जो मुझे आज तक याद है। \"बाबू जी, मैं तो रंगून में भीख माँग रहा था। एक अजनबी ने मुझे पैसे दिए, टिकट दिया, कहा 'मेरठ जाओ, अपने पुराने दोस्त से मिलो।' उसके ख़त बैंगनी स्याही में थे, और उनसे केवड़े की ख़ुशबू आती थी।\"",
+        "shots": [
+          {
+            "prompt": "Hemant showing Vikram a train ticket and a folded piece of parchment.",
+            "characters": [
+              "hemant",
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Close-up of the letter with a left-handed slant and bright violet ink.",
+            "characters": []
+          },
+          {
+            "prompt": "A mysterious figure in a long coat and hat standing in the fog of a railway station, face unseen.",
+            "characters": []
+          },
+          {
+            "prompt": "Vikram sniffing the air, a look of realization and concern on his face.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "विक्रम का चेहरा सख़्त हो गया। \"किसी ने ये मुलाक़ात जानबूझकर करवाई, सावित्री। कर्नल के पास फ़ौज के गोला-बारूद के ठेके थे। अब वो ठेके किसे मिलेंगे?\" आपको क्या लगता है, क्या हेमंत को माफ़ी मिलनी चाहिए थी? कमेंट करें।",
+        "shots": [
+          {
+            "prompt": "Vikram and Savitri walking back toward their home base, the Ganga river in the distance with temple bells ringing.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "A close-up of a black lotus wax seal on a discard paper on a desk.",
+            "characters": []
+          },
+          {
+            "prompt": "Vikram looking directly toward the camera with a serious, questioning expression.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      }
+    ],
+    "clips": [
+      {
+        "start_scene": 1,
+        "end_scene": 3,
+        "hook_text": "बंद कमरा, अजीब पंजे",
+        "title": "बंद कमरे में मरा कर्नल... और पर्दे पर किसी जानवर के पंजे | जासूस विक्रम",
+        "end_question": "ये पंजे किसके थे?"
+      },
+      {
+        "start_scene": 8,
+        "end_scene": 9,
+        "hook_text": "'कायर! दग़ाबाज़!'",
+        "title": "लैंप के नीचे मिला एक कुबड़ा आदमी, जिसे सब मरा समझते थे | जासूस विक्रम",
+        "end_question": "किसने किसको धोखा दिया?"
+      },
+      {
+        "start_scene": 11,
+        "end_scene": 12,
+        "hook_text": "डिब्बे में कुछ हिल रहा है",
+        "title": "अँधेरी धर्मशाला... और डिब्बे के अंदर कुछ सरसराया | जासूस विक्रम",
+        "end_question": "डिब्बे में क्या था?"
+      },
+      {
+        "start_scene": 4,
+        "end_scene": 7,
+        "hook_text": "कत्ल का इल्ज़ाम",
+        "title": "नंदिनी और हेमंत का रिश्ता | जासूस विक्रम",
+        "end_question": "क्या नंदिनी बेगुनाह है?"
+      },
+      {
+        "start_scene": 8,
+        "end_scene": 10,
+        "hook_text": "अजीब अजनबी",
+        "title": "लैंप के नीचे वो साया | जासूस विक्रम",
+        "end_question": "कौन था वो कुबड़ा आदमी?"
+      }
+    ],
+    "episode": 12,
+    "episode_title": "पर्दे पर अजीब पंजे"
+  },
+  "active_clips": [
+    0,
+    1,
+    2
+  ],
+  "next_clip": 3,
+  "batch": null
+}
