@@ -1,5 +1,5 @@
 {
- "next": 13,
+ "next": 14,
  "done": [
   {
    "n": 1,
@@ -60,6 +60,11 @@
    "n": 12,
    "title": "पर्दे पर अजीब पंजे",
    "summary": "In 1923 Meerut, Detective Vikram investigates a Colonel's death inside a locked room where the only clues are strange paw prints and a long-lost name from the Mesopotamia campaign."
+  },
+  {
+   "n": 13,
+   "title": "बँधी आँखों का सफ़र",
+   "summary": "In 1923 Calcutta, Vikram and his brilliant brother Raghav race to rescue a captive Tibetan trader whose desperate messages were decoded by a terrified blindfolded interpreter."
   }
  ]
 }
