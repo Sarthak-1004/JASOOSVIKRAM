@@ -1,5 +1,5 @@
 {
- "next": 14,
+ "next": 15,
  "done": [
   {
    "n": 1,
@@ -65,6 +65,11 @@
    "n": 13,
    "title": "बँधी आँखों का सफ़र",
    "summary": "In 1923 Calcutta, Vikram and his brilliant brother Raghav race to rescue a captive Tibetan trader whose desperate messages were decoded by a terrified blindfolded interpreter."
+  },
+  {
+   "n": 14,
+   "title": "बीमार के कमरे में कौन?",
+   "summary": "When a vital treaty vanishes from an office and someone creeps into a bedridden clerk's sickroom at midnight, Detective Vikram uncovers a desperate thief trapped by his own crime."
   }
  ]
 }
