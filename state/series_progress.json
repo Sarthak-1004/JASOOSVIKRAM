@@ -1,5 +1,5 @@
 {
- "next": 15,
+ "next": 16,
  "done": [
   {
    "n": 1,
@@ -70,6 +70,11 @@
    "n": 14,
    "title": "बीमार के कमरे में कौन?",
    "summary": "When a vital treaty vanishes from an office and someone creeps into a bedridden clerk's sickroom at midnight, Detective Vikram uncovers a desperate thief trapped by his own crime."
+  },
+  {
+   "n": 15,
+   "title": "नाचते पुतले",
+   "summary": "When eerie chalk figures appear on a country haveli's walls driving a young bride to terror, Detective Vikram deciphers a deadly underworld cipher before a ruthless gangster strikes."
   }
  ]
 }
