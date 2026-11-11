@@ -1,0 +1,588 @@
+{
+  "date": "2026-11-12",
+  "status": "story_ready",
+  "items": {},
+  "story": {
+    "title": "छह मिट्टी के हाथी | जासूस विक्रम Ep 19",
+    "description": "कलकत्ता 1923 में एक अजीब चोर घरों से सिर्फ़ मिट्टी के हाथी चुराकर चकनाचूर कर रहा था। फिर एक टूटे हाथी के पास एक लाश मिली। जासूस विक्रम ने इस अनोखी पहेली को कैसे सुलझाया और आख़िरी हाथी में क्या निकला? सुनिए डॉक्टर सावित्री की ज़बानी यह सनसनीखेज़ दास्तान। #JasoosVikram #HindiStories #SuspenseThriller #DetectiveVikram #PeriodMystery\n\nआर्थर कॉनन डॉयल की कहानी \"The Adventure of the Six Napoleons\" से प्रेरित (public domain). सभी पात्र काल्पनिक हैं।",
+    "tags": [
+      "Jasoos Vikram",
+      "Detective Vikram",
+      "Hindi Audio Story",
+      "Calcutta 1920s",
+      "Suspense Thriller Hindi",
+      "Sherlock Holmes Indian Adaptation",
+      "Six Napoleons Hindi",
+      "Black Lotus Mystery",
+      "Historical Detective Story",
+      "Hindi Kahaniya"
+    ],
+    "logline": "When a series of bizarre nighttime break-ins targeting identical clay elephant statues in 1923 Calcutta culminates in murder, Detective Vikram traces a desperate convict hunting for a stolen royal pearl.",
+    "thumbnail_text": "छह मिट्टी के हाथी",
+    "thumbnail_shot": 44,
+    "thumbnail_prompt": "Shattered clay elephant statues on a dark floor, a black pearl glowing among the fragments, a hand holding a hammer, deep red accent.",
+    "characters": [
+      {
+        "id": "vikram",
+        "name": "जासूस विक्रम",
+        "look": "Lean Indian man in his mid-30s, sharp intelligent eyes, neatly trimmed black moustache, short side-parted hair, dark navy bandhgala coat over a white kurta, grey wool shawl over one shoulder, black cane with a brass handle, often carries an oil lantern."
+      },
+      {
+        "id": "savitri",
+        "name": "डॉक्टर सावित्री",
+        "look": "Indian woman in her late 20s, intelligent kind face, hair in a low bun, small round spectacles, cotton sari with a dark border, brown leather doctor's bag, small notebook."
+      },
+      {
+        "id": "inspector_bhairav",
+        "name": "इंस्पेक्टर भैरव पांडे",
+        "look": "Heavy-set Indian police inspector in his late 40s, thick curled moustache, 1920s khaki police uniform with a red-and-khaki pagri turban, leather belt, short wooden baton."
+      },
+      {
+        "id": "bhuvan",
+        "name": "भुवन",
+        "look": "Wiry Indian craftsman in his late 20s, sharp nervous eyes, short unkempt hair, rough clay-stained hands, wearing a worn cotton dhoti and grey sleeveless vest."
+      },
+      {
+        "id": "pyare_lal",
+        "name": "प्यारे लाल",
+        "look": "Stocky Indian man in his early 30s, scruffy stubble, wearing a checked cotton kurta and dark waistcloth."
+      },
+      {
+        "id": "lakshmi",
+        "name": "लक्ष्मी",
+        "look": "Young Indian maidservant in her early 20s, shy expression, simple printed cotton saree, silver anklets."
+      }
+    ],
+    "scenes": [
+      {
+        "narration": "कलकत्ता में एक के बाद एक घरों में चोरी हो रही थी। पर चोर न पैसे ले जाता, न गहने। बस घर में रखा मिट्टी का एक सजावटी हाथी उठाता, और बाहर गली में ले जाकर उसे चकनाचूर कर देता।",
+        "shots": [
+          {
+            "prompt": "Wide shot of a shadowy figure creeping across a grand 1920s colonial Calcutta drawing room at midnight, moonlight filtering through slatted wooden venetian blinds.",
+            "characters": [
+              "bhuvan"
+            ]
+          },
+          {
+            "prompt": "Close-up of rough hands carefully lifting a painted decorative terracotta elephant statue from a polished mahogany mantelpiece, leaving brass candlesticks and silver coins untouched.",
+            "characters": [
+              "bhuvan"
+            ]
+          },
+          {
+            "prompt": "Medium shot in a dark cobbled alleyway outside the mansion as the painted clay elephant statue violently shatters into fragments against the wet stone ground under the amber glow of a gas streetlamp.",
+            "characters": [
+              "bhuvan"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "हर बार एक ही जैसा हाथी। हर बार टुकड़े-टुकड़े। लोग हँसते थे, कोई पागल है। फिर एक रात, एक टूटे हुए हाथी के पास, एक आदमी की लाश मिली। अब कोई नहीं हँस रहा था।",
+        "shots": [
+          {
+            "prompt": "Detailed object shot of scattered painted clay elephant shards lying in a puddle on wet cobblestones, the trunk and ear fragments clearly visible.",
+            "characters": []
+          },
+          {
+            "prompt": "Wide shot of a foggy Calcutta street corner at night, neighborhood watchmen in wool shawls gathering in hushed terror under an iron lamp post.",
+            "characters": []
+          },
+          {
+            "prompt": "Low-angle medium shot showing the motionless body of Pyare Lal lying face down on wet flagstones, a shattered clay elephant head resting right beside his outstretched fingers.",
+            "characters": [
+              "pyare_lal"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "मैं सावित्री हूँ। इंस्पेक्टर भैरव भी कलकत्ता आए हुए थे, और वो पूरी तरह आश्वस्त थे। \"विक्रम बाबू, ये कोई सनकी है, जिसे हाथियों से नफ़रत है। बस।\" विक्रम बोले, \"सनकी आदमी इतने ध्यान से हर बार एक ही तरह का हाथी नहीं चुनता।\"",
+        "shots": [
+          {
+            "prompt": "Medium shot of Savitri holding a small notebook, standing beside Detective Vikram in a high-ceilinged colonial police office in Calcutta under warm hanging oil lanterns.",
+            "characters": [
+              "savitri",
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Medium shot of Inspector Bhairav leaning across a heavy teak police desk, gesturing emphatically with both hands, looking pompous and self-assured in his khaki uniform.",
+            "characters": [
+              "inspector_bhairav"
+            ]
+          },
+          {
+            "prompt": "Close-up of Vikram standing with his brass-handled cane, sharp thoughtful eyes narrowed in quiet deduction, completely unconvinced.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "विक्रम ने टूटे हाथी का एक टुकड़ा उठाया। उसके नीचे एक कारख़ाने की मुहर थी। हम बहूबाज़ार के मिट्टी और प्लास्टर के कारख़ानों की तंग गलियों में पहुँचे। कारख़ाने के मालिक ने बताया, उस साँचे से एक साथ सिर्फ़ छह हाथी बने थे।",
+        "shots": [
+          {
+            "prompt": "Macro close-up of Vikram's gloved fingers turning over a curved piece of terracotta clay, revealing an oval stamped workshop seal under a small brass magnifying glass.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Wide atmospheric shot of Bowbazar's crowded artisan alleyway in 1920s Calcutta, plaster dust hanging in the air, storefronts filled with white casts and drying clay figurines.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Medium shot inside a cluttered workshop where an elderly Bengali artisan in a dhoti and clay-smeared apron speaks nervously to Vikram and Savitri.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "\"छह के छह अलग-अलग दुकानों पर बिके, फिर अलग-अलग घरों में गए।\" विक्रम ने पूछा, \"जिस दिन ये बने, उस दिन कारख़ाने में कुछ अजीब हुआ था?\" मालिक ने याद किया। \"हाँ। अगले ही दिन पुलिस ने हमारे एक कारीगर, भुवन, को गिरफ़्तार कर लिया था।\"",
+        "shots": [
+          {
+            "prompt": "Medium shot of the workshop owner pointing at empty wooden drying racks while Vikram listens with rapt attention, his grey shawl draped over his shoulder.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Close-up of Vikram's face illuminated by the flickering flame of an oil lamp, absorbing every detail with intense calculation.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Flashback wide shot showing two British-era Indian police constables barging through the doorway of the busy clay workshop as workers scramble.",
+            "characters": [
+              "bhuvan"
+            ]
+          },
+          {
+            "prompt": "Flashback medium shot of young Bhuvan with wet clay on his hands being grabbed by police constables right beside a row of newly cast clay elephant figures.",
+            "characters": [
+              "bhuvan"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "\"पुलिस उसके पीछे भागती हुई आई थी। वो दौड़ता हुआ कारख़ाने में घुसा, कुछ देर रुका, फिर पकड़ा गया। उसे एक साल की सज़ा हुई। अभी पिछले हफ़्ते ही छूटा है।\" विक्रम की आँखें चमक उठीं।",
+        "shots": [
+          {
+            "prompt": "Flashback medium shot of Bhuvan panting in panic, ducking behind shelves of drying statues inside the shadowed workshop moments before his arrest.",
+            "characters": [
+              "bhuvan"
+            ]
+          },
+          {
+            "prompt": "Flashback medium shot of an iron prison gate clanging shut in a damp Calcutta jail, Bhuvan staring through the iron bars with clenched fists and dark resolve.",
+            "characters": [
+              "bhuvan"
+            ]
+          },
+          {
+            "prompt": "Close-up of Vikram's eyes widening with sudden brilliant clarity, a subtle knowing smile forming on his lips.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "मरा हुआ आदमी पहचाना गया... प्यारे लाल, भुवन का पुराना साथी। उसकी जेब में भुवन की एक तस्वीर थी। \"दोनों मिलकर कुछ ढूँढ़ रहे थे,\" विक्रम बोले। \"फिर किसी बात पर दोनों में झगड़ा हुआ।\"",
+        "shots": [
+          {
+            "prompt": "Close-up of Savitri holding a faded black-and-white studio portrait photograph of Bhuvan, found in the deceased man's pocket, under an examination lamp.",
+            "characters": [
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Medium shot of Inspector Bhairav scratching his turban in confusion while looking at the evidence laid out on the wooden desk beside Savitri.",
+            "characters": [
+              "inspector_bhairav",
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Medium two-shot of Vikram pacing by a rain-streaked arched window, holding his cane behind his back as he explains the betrayal between the two partners.",
+            "characters": [
+              "vikram",
+              "savitri",
+              "inspector_bhairav"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "विक्रम ने अपनी डायरी में छह घरों की सूची बनाई। चार हाथी टूट चुके थे। \"दो बाक़ी हैं, सावित्री। और भुवन उन तक पहुँचे बिना रुकेगा नहीं।\"",
+        "shots": [
+          {
+            "prompt": "Over-the-shoulder close-up of Vikram's fountain pen crossing out four handwritten Calcutta addresses in his leather notebook, leaving two addresses uncrossed.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Medium shot of Vikram snapping his notebook shut, turning urgently toward Savitri with determined resolve in his eyes.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "एक हाथी बालीगंज की एक कोठी में था, दूसरा एक बूढ़ी विधवा के घर। विक्रम ने कहा, \"भुवन अगली रात बालीगंज जाएगा। और हम वहाँ पहले से होंगे।\"",
+        "shots": [
+          {
+            "prompt": "Wide establishing shot of a grand, quiet aristocratic mansion in Ballygunge at twilight, iron gates framed by dark tropical foliage and weeping banyan trees.",
+            "characters": []
+          },
+          {
+            "prompt": "Medium shot of Vikram spreading a detailed vintage map of Calcutta on a small round table, pointing out Ballygunge to Savitri and Inspector Bhairav.",
+            "characters": [
+              "vikram",
+              "savitri",
+              "inspector_bhairav"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "रुकिए। छह हाथी, जो एक ही दिन बने। उसी दिन, पुलिस से भागता एक कारीगर कारख़ाने में घुसा। और अब, जेल से छूटते ही, वो उन्हीं हाथियों को तोड़ रहा है। आप बताइए, वो क्या ढूँढ़ रहा है?",
+        "shots": [
+          {
+            "prompt": "Wide dramatic shot of six identical unpainted terracotta elephant statues placed in a stark row across a long wooden workbench, cast in deep shadow.",
+            "characters": []
+          },
+          {
+            "prompt": "Close-up shot of Savitri turning directly to face the camera, her spectacles gleaming, asking the interactive deduction question with a curious expression.",
+            "characters": [
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Dramatic split composition showing the painted clay elephant statue on one side and Bhuvan's desperate, shadowy eyes on the other side.",
+            "characters": [
+              "bhuvan"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "रात। बालीगंज की कोठी का अँधेरा बगीचा। मैं, विक्रम और भैरव झाड़ियों में छिपे थे। आधी रात के बाद, एक फुर्तीली परछाईं दीवार फाँदकर आई, खिड़की खोली, और कुछ ही पलों में एक हाथी लेकर बाहर निकली।",
+        "shots": [
+          {
+            "prompt": "Low-angle medium shot of Vikram, Savitri, and Inspector Bhairav concealed behind dense garden bushes in the pitch-dark estate garden, breath visible in the cool night air.",
+            "characters": [
+              "vikram",
+              "savitri",
+              "inspector_bhairav"
+            ]
+          },
+          {
+            "prompt": "Silhouette shot of a lithe figure agilely climbing over the spiked iron boundary wall under the pale light of a crescent moon.",
+            "characters": [
+              "bhuvan"
+            ]
+          },
+          {
+            "prompt": "Wide shot of Bhuvan slipping quietly through the open ground-floor French window of the mansion, tightly clutching a clay elephant statue against his chest.",
+            "characters": [
+              "bhuvan"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "उसने हाथी को बगीचे के पत्थर पर पटका। टुकड़े बिखर गए। वो घुटनों पर बैठकर उन्हें टटोलने लगा। तभी भैरव उस पर कूद पड़े। \"पकड़ लिया!\" भुवन ने बहुत हाथ-पैर मारे, पर हथकड़ी लग चुकी थी।",
+        "shots": [
+          {
+            "prompt": "Action shot of Bhuvan violently smashing the clay elephant against a flat garden stone pathway, clay shards exploding in the moonlight.",
+            "characters": [
+              "bhuvan"
+            ]
+          },
+          {
+            "prompt": "Close-up of Bhuvan frantically digging his bare hands into the scattered terracotta clay debris on the wet grass, desperately searching for something.",
+            "characters": [
+              "bhuvan"
+            ]
+          },
+          {
+            "prompt": "Wide action shot as Inspector Bhairav lunges forward from the shadows, pinning Bhuvan to the lawn while Vikram steps into view holding his lantern high.",
+            "characters": [
+              "bhuvan",
+              "inspector_bhairav",
+              "vikram",
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "टूटे हाथी में कुछ नहीं था। भुवन गुस्से से दाँत पीस रहा था। भैरव बोले, \"मामला ख़त्म, विक्रम बाबू। सनकी पकड़ा गया।\" विक्रम मुस्कराए। \"नहीं, इंस्पेक्टर साहब। मामला कल ख़त्म होगा।\"",
+        "shots": [
+          {
+            "prompt": "Medium close-up of handcuffed Bhuvan pinned against the garden wall, snarling with impotent rage, his eyes wild with frustration.",
+            "characters": [
+              "bhuvan",
+              "inspector_bhairav"
+            ]
+          },
+          {
+            "prompt": "Medium two-shot of Inspector Bhairav dusting his uniform proudly, while Vikram looks down at the empty clay shards with a calm, patient smile.",
+            "characters": [
+              "inspector_bhairav",
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "अगली सुबह विक्रम उस बूढ़ी विधवा के घर गए, और आख़िरी हाथी को उसकी असली क़ीमत से दस गुना ज़्यादा में ख़रीद लिया। विधवा ख़ुशी से रो पड़ी। विक्रम हाथी को कपड़े में लपेटकर घर ले आए।",
+        "shots": [
+          {
+            "prompt": "Medium shot in a modest Calcutta living room bathed in morning sun; Vikram politely handing a generous sheaf of rupee currency notes to an elderly frail widow.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Close-up of the sixth intact decorative clay elephant statue standing safely on an embroidered lace doily on a side table.",
+            "characters": []
+          },
+          {
+            "prompt": "Medium shot of Vikram sitting inside a horse-drawn cab, gently wrapping the sixth clay elephant inside a protective dark woolen shawl.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "शाम को उन्होंने हम सबको अपने कमरे में बुलाया। भैरव, मैं, और कारख़ाने का मालिक। मेज़ पर सफ़ेद कपड़ा बिछाया, और हाथी उस पर रखा। फिर उन्होंने एक हथौड़ा उठाया।",
+        "shots": [
+          {
+            "prompt": "Wide shot of Vikram's study in the evening, illuminated by multiple brass oil lamps; Savitri, Inspector Bhairav, and the workshop owner sitting around a central table.",
+            "characters": [
+              "vikram",
+              "savitri",
+              "inspector_bhairav"
+            ]
+          },
+          {
+            "prompt": "Dramatic medium shot of Vikram standing over the table, lifting a heavy iron craftsman hammer high above the lone clay elephant statue resting on a clean white cloth.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "एक वार। मिट्टी का हाथी टुकड़े-टुकड़े हो गया। और उन टुकड़ों के बीच, लालटेन की रोशनी में, कुछ चमक उठा। एक बड़ा, गोल, काला मोती।",
+        "shots": [
+          {
+            "prompt": "Action freeze-frame of the iron hammer head striking the terracotta elephant, the hollow clay statue breaking open cleanly.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Macro close-up shot of the white cloth covered in terracotta fragments, revealing a massive, perfectly spherical black pearl gleaming with deep peacock-colored iridescence under the lantern light.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "\"रतनपुर की रानी का मशहूर काला मोती,\" विक्रम बोले। \"जो एक साल पहले चोरी हुआ था।\" भैरव कुर्सी से गिरते-गिरते बचे।",
+        "shots": [
+          {
+            "prompt": "Medium close-up of Vikram holding the luminous black pearl delicately between his fingers, the golden lantern glow reflecting off its flawless dark surface.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Medium shot of Inspector Bhairav jolting backward in his wooden armchair with wide eyes and open mouth, nearly tumbling onto the floor in utter shock.",
+            "characters": [
+              "inspector_bhairav",
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "\"भुवन रानी की एक नौकरानी, लक्ष्मी, से प्यार करता था। उसी की मदद से उसने मोती चुराया। पुलिस पीछे पड़ी, तो वो कारख़ाने में घुसा। वहाँ गीली मिट्टी के छह हाथी सूख रहे थे। उसने मोती एक हाथी के अंदर दबा दिया।\"",
+        "shots": [
+          {
+            "prompt": "Flashback medium shot of Lakshmi, the young palace maid, secretly slipping a velvet jewelry pouch into Bhuvan's hands in a shadowed royal garden walkway at dusk.",
+            "characters": [
+              "lakshmi",
+              "bhuvan"
+            ]
+          },
+          {
+            "prompt": "Flashback wide shot of Bhuvan stumbling into the Bowbazar workshop through a rear door, hearing distant police whistles in the stormy street.",
+            "characters": [
+              "bhuvan"
+            ]
+          },
+          {
+            "prompt": "Flashback close-up of Bhuvan's clay-covered thumb pushing the large black pearl into the soft wet clay belly of one of six identical unfinished elephant statues.",
+            "characters": [
+              "bhuvan"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "\"फिर वो पकड़ा गया, और एक साल जेल में रहा। छूटते ही उसने उन छह हाथियों को ढूँढ़ना शुरू किया। प्यारे लाल ने उसे धोखा देकर मोती ख़ुद हड़पना चाहा, और भुवन ने उसे मार डाला।\"",
+        "shots": [
+          {
+            "prompt": "Flashback medium shot in a dark Calcutta rain-soaked alleyway showing Bhuvan furiously arguing with Pyare Lal, rain dripping from their shoulders under a flickering streetlamp.",
+            "characters": [
+              "bhuvan",
+              "pyare_lal"
+            ]
+          },
+          {
+            "prompt": "Flashback silhouette shot of Pyare Lal falling backward against a brick wall as Bhuvan flees into the rainy night, leaving a dropped clay statue on the ground.",
+            "characters": [
+              "pyare_lal"
+            ]
+          },
+          {
+            "prompt": "Medium shot in Vikram's present study as Vikram calmly explains the criminal timeline, pointing with his cane toward the evidence on the table.",
+            "characters": [
+              "vikram",
+              "savitri",
+              "inspector_bhairav"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "\"कारख़ाने की मुहर, एक गिरफ़्तारी की तारीख़, और छह की गिनती...\" विक्रम ने कहा, \"सच हमेशा छोटी चीज़ों में छिपा होता है।\"",
+        "shots": [
+          {
+            "prompt": "Close-up of Vikram's face, his calm eyes radiating quiet intellect and wisdom as he delivers his signature line.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Medium shot of Savitri looking at Vikram with admiration and relief, while Inspector Bhairav nods slowly in humble astonishment.",
+            "characters": [
+              "savitri",
+              "inspector_bhairav"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "पर भुवन की जेब से एक और चीज़ मिली थी। एक कार्ड। उस पर काले कमल का निशान था, और लिखा था... \"हम मोती का इंतज़ार कर रहे हैं।\" भुवन के पास पहले से एक ख़रीदार था।",
+        "shots": [
+          {
+            "prompt": "Medium close-up of Inspector Bhairav placing a small stiff paper card taken from Bhuvan's pocket onto the table beside the black pearl.",
+            "characters": [
+              "inspector_bhairav",
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Macro detail shot of the thick cream parchment card bearing a stark black wax seal depicting a black lotus flower, with elegant handwritten words written in violet ink.",
+            "characters": []
+          },
+          {
+            "prompt": "Close-up of Vikram staring down at the black lotus wax seal, his expression turning instantly grave and troubled.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "मैंने कार्ड उठाया, और नाक के पास ले गई। केवड़ा। फिर से। \"हर बार केवड़ा, विक्रम... ये इत्तफ़ाक़ नहीं हो सकता।\" विक्रम ने मेरी तरफ़ देखा। \"मुझे पता है, सावित्री। मुझे पता है।\" आपको क्या लगता है, ये ख़ुशबू किसकी है? कमेंट करें।",
+        "shots": [
+          {
+            "prompt": "Close-up of Savitri holding the black lotus card near her face, her eyes widening behind her round spectacles as she recognizes the faint scent.",
+            "characters": [
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Medium two-shot across the table; Savitri and Vikram locking eyes in tense silence as the lamplight flickers between them.",
+            "characters": [
+              "savitri",
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Medium shot of Detective Vikram looking out into the foggy, dark Calcutta street through the glass window, holding his cane firmly as mist rolls over the glass.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      }
+    ],
+    "clips": [
+      {
+        "start_scene": 1,
+        "end_scene": 2,
+        "hook_text": "हर रात टूटते हाथी",
+        "title": "चोर न पैसे ले जाता, न गहने... बस मिट्टी के हाथी तोड़ता | जासूस विक्रम",
+        "end_question": "उस आदमी को किसने मारा?"
+      },
+      {
+        "start_scene": 4,
+        "end_scene": 6,
+        "hook_text": "छह हाथी, एक राज़",
+        "title": "छह हाथी एक ही दिन बने... और उसी दिन एक कारीगर पकड़ा गया | जासूस विक्रम",
+        "end_question": "दोनों का कनेक्शन क्या है?"
+      },
+      {
+        "start_scene": 14,
+        "end_scene": 15,
+        "hook_text": "आख़िरी हाथी पर हथौड़ा",
+        "title": "जासूस ने आख़िरी हाथी दस गुना दाम में ख़रीदा... और हथौड़ा उठाया | जासूस विक्रम",
+        "end_question": "अंदर क्या था?"
+      },
+      {
+        "start_scene": 10,
+        "end_scene": 12,
+        "hook_text": "आधी रात का जाल",
+        "title": "बालीगंज की कोठी में रंगे हाथों पकड़ा गया चोर | जासूस विक्रम",
+        "end_question": "क्या चोर अब सब सच बता देगा?"
+      },
+      {
+        "start_scene": 21,
+        "end_scene": 22,
+        "hook_text": "काले कमल का ख़त",
+        "title": "काले कमल का नया सुराग और केवड़े की ख़ुशबू | जासूस विक्रम",
+        "end_question": "केवड़े की ख़ुशबू वाला मास्टरमाइंड कौन है?"
+      }
+    ],
+    "episode": 19,
+    "episode_title": "छह मिट्टी के हाथी"
+  },
+  "active_clips": [
+    0,
+    1,
+    2
+  ],
+  "next_clip": 3,
+  "batch": null
+}

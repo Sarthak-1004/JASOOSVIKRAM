@@ -1,5 +1,5 @@
 {
- "next": 19,
+ "next": 20,
  "done": [
   {
    "n": 1,
@@ -90,6 +90,11 @@
    "n": 18,
    "title": "समुंदर का शैतान",
    "summary": "In 1923 Konkan, Detective Vikram investigates the brutal murder of a tyrannical sea captain pinned to his cabin wall by a harpoon, uncovering maritime treachery and a link to a shadowy trust."
+  },
+  {
+   "n": 19,
+   "title": "छह मिट्टी के हाथी",
+   "summary": "When a series of bizarre nighttime break-ins targeting identical clay elephant statues in 1923 Calcutta culminates in murder, Detective Vikram traces a desperate convict hunting for a stolen royal pearl."
   }
  ]
 }
