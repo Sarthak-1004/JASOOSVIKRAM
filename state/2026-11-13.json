@@ -1,0 +1,562 @@
+{
+  "date": "2026-11-13",
+  "status": "story_ready",
+  "items": {},
+  "story": {
+    "title": "राज़ों का सौदागर | जासूस विक्रम Ep 20",
+    "description": "कलकत्ता 1923 में एक ऐसा मुस्कुराता हुआ ब्लैकमेलर सेठ मोहनलाल कपूर था जो मासूम लोगों की ज़िंदगी बर्बाद करता था। जब राजकुमारी उमा मदद माँगने आई, तो जासूस विक्रम और सावित्री ने क़ानून से हटकर न्याय करने का रास्ता चुना। पर क्या इस घिनौने खेल के पीछे भी काले कमल का हाथ था? देखिए पूरा रहस्य।\n#JasoosVikram #HindiKahaniya #ThrillerStory #DetectiveMystery #AudioStory\n\nआर्थर कॉनन डॉयल की कहानी \"The Adventure of Charles Augustus Milverton\" से प्रेरित (public domain). सभी पात्र काल्पनिक हैं।",
+    "tags": [
+      "जासूस विक्रम",
+      "Jasoos Vikram",
+      "Hindi Thriller Story",
+      "Suspense Mystery",
+      "Calcutta 1920s",
+      "Detective Vikram",
+      "Hindi Audio Story",
+      "Black lotus mystery"
+    ],
+    "logline": "In 1923 Calcutta, Detective Vikram and Savitri orchestrate a daring midnight heist against a ruthless blackmailer, leading to a shocking crime and a subtle clue pointing to the Black Lotus.",
+    "thumbnail_text": "राज़ों का सौदागर",
+    "thumbnail_shot": 29,
+    "thumbnail_prompt": "A smiling fat seth in a silk robe sitting before an open iron safe full of letters, firelight, two masked figures hiding behind a velvet curtain, deep red accent.",
+    "characters": [
+      {
+        "id": "vikram",
+        "name": "जासूस विक्रम",
+        "look": "Lean Indian man in his mid-30s, sharp intelligent eyes, neatly trimmed black moustache, short side-parted hair, dark navy bandhgala coat over a white kurta, grey wool shawl over one shoulder, black cane with a brass handle."
+      },
+      {
+        "id": "savitri",
+        "name": "डॉक्टर सावित्री",
+        "look": "Indian woman in her late 20s, intelligent kind face, hair in a low bun, small round spectacles, cotton sari with a dark border, brown leather doctor's bag, small notebook."
+      },
+      {
+        "id": "inspector_bhairav",
+        "name": "इंस्पेक्टर भैरव पांडे",
+        "look": "Heavy-set Indian police inspector in his late 40s, thick curled moustache, 1920s khaki police uniform with a red-and-khaki pagri turban, leather belt, short wooden baton."
+      },
+      {
+        "id": "kapoor",
+        "name": "सेठ मोहनलाल कपूर",
+        "look": "Overweight wealthy Indian man in his late 40s, sinister smiling face, thin moustache, wearing a rich silk robe over a kurta, heavy gold rings on fingers."
+      },
+      {
+        "id": "rajkumari_uma",
+        "name": "राजकुमारी उमा",
+        "look": "Young royal Indian woman in her early 20s, graceful but anxious expression, wearing an elegant silk saree with traditional gold jewellery."
+      },
+      {
+        "id": "veiled_woman",
+        "name": "घूँघट वाली महिला",
+        "look": "Grieving Indian woman in simple dark attire, dark veil draped over her face hiding her tears, trembling hands."
+      }
+    ],
+    "scenes": [
+      {
+        "narration": "शहर का सबसे ख़तरनाक आदमी कोई गुंडा नहीं था। उसके हाथ में न चाकू था, न पिस्तौल। वो एक मुस्कुराता हुआ, मोटा सेठ था, जिसकी तिजोरी में पूरे कलकत्ता के राज़ बंद थे। सेठ मोहनलाल कपूर।",
+        "shots": [
+          {
+            "prompt": "Close-up of a massive brass lock keyhole on a heavy iron safe inside a dimly lit room, oil lamps flickering.",
+            "characters": []
+          },
+          {
+            "prompt": "Medium shot of Seth Kapoor, a wealthy fat man in a rich silk robe, smiling evil smile while sitting at a grand wooden desk in 1920s Calcutta mansion.",
+            "characters": [
+              "kapoor"
+            ]
+          },
+          {
+            "prompt": "Wide shot of a grand study room filled with old wooden cabinets, leather-bound registers, and dim yellow light.",
+            "characters": [
+              "kapoor"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "वो पुराने ख़त ख़रीदता था। प्रेम-पत्र, पुरानी ग़लतियाँ, शर्मनाक राज़। फिर उन लोगों से सौदा करता। पैसा दो, या बर्बाद हो जाओ। कितने घर उजड़ गए। पर क़ानून उसका कुछ नहीं बिगाड़ सकता था।",
+        "shots": [
+          {
+            "prompt": "Detail shot of hands holding aged yellowing letters wrapped in satin ribbons, warm lantern light.",
+            "characters": []
+          },
+          {
+            "prompt": "Over-the-shoulder shot of Kapoor holding an open letter, smirking sinisterly across a lavish table.",
+            "characters": [
+              "kapoor"
+            ]
+          },
+          {
+            "prompt": "Medium close-up of a stack of handwritten paper bundles inside a dark open iron vault.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "मैं सावित्री हूँ। उस सर्दी में राजकुमारी उमा विक्रम के पास आईं। अगले महीने उनकी शादी थी। और कपूर के पास उनके कुछ पुराने, मासूम ख़त थे, जो उन्होंने बरसों पहले किसी को लिखे थे।",
+        "shots": [
+          {
+            "prompt": "Medium shot of Savitri standing near a wooden table in Vikram's dimly lit Banaras study room, holding her small notebook.",
+            "characters": [
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Eye-level shot of Rajkumari Uma sitting opposite Vikram, looking deeply distressed, holding a silk handkerchief.",
+            "characters": [
+              "vikram",
+              "rajkumari_uma"
+            ]
+          },
+          {
+            "prompt": "Close-up of Rajkumari Uma's trembling hands resting on the dark wooden table surface.",
+            "characters": [
+              "rajkumari_uma"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "\"ख़तों में कुछ ग़लत नहीं है, विक्रम बाबू। पर अगर वो मेरे होने वाले पति के परिवार तक पहुँचे, तो शादी टूट जाएगी।\" कपूर ने इतनी बड़ी रक़म माँगी थी, जो राजकुमारी के पास थी ही नहीं।",
+        "shots": [
+          {
+            "prompt": "Close-up of Rajkumari Uma speaking with tearful, pleading eyes, warm lantern glow illuminating her face.",
+            "characters": [
+              "rajkumari_uma"
+            ]
+          },
+          {
+            "prompt": "Medium shot of Vikram listening intently, chin resting on his hand, sharp observant eyes.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Wide shot of the dimly lit room with tea cups on the table and rain mist outside the wooden window.",
+            "characters": [
+              "vikram",
+              "savitri",
+              "rajkumari_uma"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "उसी शाम कपूर ख़ुद विक्रम से मिलने आया। रेशमी कुर्ता, मुस्कुराता हुआ गोल चेहरा, और बेहद नरम आवाज़। \"विक्रम जी, मैं तो बस एक व्यापारी हूँ। माल है, दाम है।\" उसकी मुस्कान से मेरी रीढ़ में ठंड दौड़ गई।",
+        "shots": [
+          {
+            "prompt": "Medium shot of Seth Kapoor walking into the room with a charming, oily smile, holding a wooden walking cane.",
+            "characters": [
+              "kapoor"
+            ]
+          },
+          {
+            "prompt": "Over-the-shoulder shot of Savitri watching Kapoor with disgust and unease, standing near the doorway.",
+            "characters": [
+              "savitri",
+              "kapoor"
+            ]
+          },
+          {
+            "prompt": "Close-up of Seth Kapoor's smirking mouth as he speaks smoothly, oil lamp casting soft shadows.",
+            "characters": [
+              "kapoor"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "विक्रम ने कम रक़म की पेशकश की। कपूर हँसा। \"एक पैसा कम नहीं। और हाँ, ख़त मेरी जेब में नहीं हैं, अगर आप सोच रहे हों।\" वो उठा, झुककर सलाम किया, और चला गया। विक्रम बोले, \"इस आदमी से बात नहीं, सीधे उसकी तिजोरी से मिलना होगा।\"",
+        "shots": [
+          {
+            "prompt": "Medium shot of Vikram offering a paper draft, face calm and stern.",
+            "characters": [
+              "vikram",
+              "kapoor"
+            ]
+          },
+          {
+            "prompt": "Low angle shot of Seth Kapoor chuckling arrogance, tapping his chest pocket lightly.",
+            "characters": [
+              "kapoor"
+            ]
+          },
+          {
+            "prompt": "Medium shot of Vikram looking thoughtful after Kapoor leaves, standing near the lamp.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "अगले हफ़्ते विक्रम ग़ायब रहे। जब लौटे, तो हँसते हुए बताया, \"मैं गैस-लैंप ठीक करने वाला रामू बनकर कपूर की कोठी में काम कर रहा था। और... मेरी कपूर की नौकरानी से सगाई हो गई है।\" मेरी चाय गले में अटक गई।",
+        "shots": [
+          {
+            "prompt": "Wide shot of Vikram in dirty cotton laborer clothes carrying a brass lamp-repair toolkit in a 1920s street.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Medium shot of Vikram back in his coat, smirking lightly as he speaks to Savitri.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Close-up reaction shot of Savitri coughing into her handkerchief, tea cup in hand.",
+            "characters": [
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "\"विक्रम! ये धोखा है!\" \"हाँ, सावित्री। पर उसकी कोठी का नक़्शा मुझे उसी से मिला। और फ़िक्र मत करो, उसका एक पुराना प्रेमी है, जो मुझसे कहीं बेहतर है।\" मुझे ये बिल्कुल पसंद नहीं आया। पर मैंने कुछ नहीं कहा।",
+        "shots": [
+          {
+            "prompt": "Medium shot of Savitri scolding Vikram with angry expression, standing in the study room.",
+            "characters": [
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Close-up of Vikram showing a hand-drawn blueprint map of a large mansion on paper.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Wide shot of the study room with atmospheric oil lamp glow as Savitri shakes her head.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "उस रात, नक़ाब पहने, हम अलीपुर की उस आलीशान कोठी में घुसे। बर्फ़ीली हवा, काँच की खिड़की, और विक्रम के औज़ार। मेरा दिल इतनी ज़ोर से धड़क रहा था कि डर था, कोई सुन लेगा।",
+        "shots": [
+          {
+            "prompt": "Exterior night shot of a dark colonial Alipore mansion surrounded by misty garden, moonlight filtering through clouds.",
+            "characters": []
+          },
+          {
+            "prompt": "Medium shot of two dark masked figures in dark coats picking the lock of a glass French window.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Close-up of metal lock picks quietly turning inside a window latch.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "कपूर का कमरा। एक बड़ी हरी तिजोरी। विक्रम ने बीस मिनट में उसे खोल लिया। अंदर ख़तों के बंडल, हर बंडल पर किसी का नाम। तभी... बाहर से क़दमों की आवाज़। हम मख़मली पर्दों के पीछे छिप गए।",
+        "shots": [
+          {
+            "prompt": "Interior shot of a dark luxurious study, a large green iron vault standing in the corner.",
+            "characters": []
+          },
+          {
+            "prompt": "Close-up shot of Vikram's hands skillfully manipulating the dial of the green safe.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Low-angle shot of dark shadows under heavy velvet curtains near the balcony window.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "रुकिए। हम दो नक़ाबपोश, एक खुली तिजोरी, और सामने ख़ुद कपूर। क़ानून तोड़कर किसी बेगुनाह की इज़्ज़त बचाना... क्या विक्रम ने सही किया? आप होते, तो क्या करते? कमेंट में लिखिए।",
+        "shots": [
+          {
+            "prompt": "Dramatic eye-level shot behind velvet curtain folds, viewing the open safe in shadow.",
+            "characters": []
+          },
+          {
+            "prompt": "Close-up of Savitri's worried eyes visible above her dark face cloth, back against the wall.",
+            "characters": [
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "कपूर अंदर आया, और कुर्सी पर बैठकर सिगार जलाया। वो किसी का इंतज़ार कर रहा था। पर्दे की झिरी से हम सब देख रहे थे। फिर दरवाज़ा धीरे से खुला। एक औरत अंदर आई, घूँघट में।",
+        "shots": [
+          {
+            "prompt": "Medium shot of Seth Kapoor relaxing in a leather armchair, lighting a cigar with a match frame flare.",
+            "characters": [
+              "kapoor"
+            ]
+          },
+          {
+            "prompt": "Point-of-view shot through curtain slit showing the heavy study door opening creakingly.",
+            "characters": []
+          },
+          {
+            "prompt": "Wide shot of a woman in dark sari entering silently, head fully covered with a deep veil.",
+            "characters": [
+              "kapoor",
+              "veiled_woman"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "कपूर मुस्कराया। \"आप आ गईं? अपनी मालकिन के ख़त ख़रीदने?\" औरत ने घूँघट उठाया। कपूर का चेहरा सफ़ेद पड़ गया। \"तुम... तुम?\"",
+        "shots": [
+          {
+            "prompt": "Medium close-up of Kapoor smirking arrogantly sitting back in his chair.",
+            "characters": [
+              "kapoor"
+            ]
+          },
+          {
+            "prompt": "Dramatic shot of the veiled woman lifting her veil revealing an intense grieving expression.",
+            "characters": [
+              "veiled_woman",
+              "kapoor"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "\"हाँ, मैं। तुमने मेरे पति के ख़त छापे थे। वो शर्म से मर गए। मैं हर रोज़ उनकी तस्वीर के आगे मरी हूँ।\" उसके हाथ में कुछ चमका। \"अब तुम्हारी बारी है।\"",
+        "shots": [
+          {
+            "prompt": "Close-up of the woman's furious tear-stained face speaking with quiet rage.",
+            "characters": [
+              "veiled_woman"
+            ]
+          },
+          {
+            "prompt": "Detail shot of a dark metallic object glinting in her hand in the warm fireplace glow.",
+            "characters": [
+              "veiled_woman"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "कमरे में तेज़ चमक हुई। एक के बाद एक। मैंने आँखें बंद कर लीं। जब खोलीं, कपूर कुर्सी से फ़र्श पर लुढ़क चुका था। वो औरत बिना पीछे देखे चली गई।",
+        "shots": [
+          {
+            "prompt": "Silhouette shot of light flashing in the dark room, casting violent shadows on wall.",
+            "characters": []
+          },
+          {
+            "prompt": "Wide shot showing Seth Kapoor collapsed on the carpet, an overturned glass beside him, room in eerie quiet.",
+            "characters": [
+              "kapoor"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "विक्रम पर्दे से निकले। उन्होंने कपूर की ओर नहीं देखा। सीधे तिजोरी तक गए, ख़तों के सारे बंडल उठाए, और जलती अँगीठी में झोंक दिए। एक-एक करके। सैकड़ों लोगों के राज़ राख हो गए।",
+        "shots": [
+          {
+            "prompt": "Medium shot of masked Vikram emerging calm from behind curtains, stepping towards the open safe.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Close-up of paper letter bundles burning inside a roaring stone fireplace, ash floating upwards.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "तभी पूरी कोठी जाग उठी। नौकर दौड़ते हुए आए। हम खिड़की से कूदे, बगीचे में भागे, दीवार फाँदी। एक चौकीदार ने मेरा टख़ना पकड़ लिया। मैंने झटका दिया, और हम अँधेरे में ग़ायब हो गए।",
+        "shots": [
+          {
+            "prompt": "Wide shot of two masked figures vaulting over a low stone window frame into dark garden mist.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Action close-up of a night watchman's hand grabbing a woman's ankle in wet grass.",
+            "characters": [
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Wide shot of two silhouettes running into dark misty tree line beyond mansion wall.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "अगली सुबह, इंस्पेक्टर भैरव विक्रम के कमरे में आए। \"विक्रम बाबू, कल रात कपूर का क़त्ल हुआ। दो नक़ाबपोश चोर भी देखे गए। एक का क़द बिल्कुल आपके जितना था। आप इस मामले में मेरी मदद करेंगे?\"",
+        "shots": [
+          {
+            "prompt": "Medium shot of Inspector Bhairav Pandey standing in Vikram's Banaras morning room, looking suspicious.",
+            "characters": [
+              "inspector_bhairav"
+            ]
+          },
+          {
+            "prompt": "Eye-level shot of Vikram pouring morning tea calmly, unbothered.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Medium shot of Savitri standing nearby pretending to read a newspaper with a straight face.",
+            "characters": [
+              "savitri",
+              "inspector_bhairav"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "विक्रम ने बिल्कुल गंभीर चेहरे से कहा, \"माफ़ कीजिए, इंस्पेक्टर साहब। इस बार मेरी हमदर्दी अपराधियों के साथ है।\" भैरव कुछ समझे बिना चले गए। मैंने अपनी हँसी बड़ी मुश्किल से रोकी।",
+        "shots": [
+          {
+            "prompt": "Close-up of Vikram looking directly at Bhairav with deadpan serious expression.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Medium shot of Inspector Bhairav scratching his head under his turban, bewildered, walking away.",
+            "characters": [
+              "inspector_bhairav"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "\"एक मुस्कान, एक तिजोरी, और एक घूँघट,\" विक्रम ने कहा। \"कभी-कभी क़ानून से बड़ा न्याय होता है। सच हमेशा छोटी चीज़ों में छिपा होता है।\" राजकुमारी उमा की शादी धूमधाम से हुई।",
+        "shots": [
+          {
+            "prompt": "Medium shot of Vikram leaning on his cane near window looking out at river morning mist.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Wide beautiful shot of a bright festive Indian wedding venue decorated with marigold flowers and lanterns.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "पर एक बंडल नहीं जला था। विक्रम ने उसे जेब में रख लिया था। घर आकर उन्होंने उसे खोला। बैंगनी स्याही। काले कमल की मुहर। और कपूर के नाम एक आदेश... \"विक्रम पर नज़र रखो।\"",
+        "shots": [
+          {
+            "prompt": "Close-up shot of Vikram taking out an unburnt folded letter from his dark coat inner pocket.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Detail shot of handwritten text in distinct bright violet ink on parchment paper.",
+            "characters": []
+          },
+          {
+            "prompt": "Extreme close-up of a dark black lotus wax seal stamped onto the vintage document.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "कपूर काले कमल का जासूस था। विक्रम ने लिखावट को देर तक देखा। \"देखो, सावित्री। सारे अक्षर पीछे की ओर झुके हैं। ये किसी बाएँ हाथ से लिखने वाले की लिखावट है।\" क्या आपको याद है, इस कहानी में अब तक किसने बाएँ हाथ से कुछ लिखा था? कमेंट करें।",
+        "shots": [
+          {
+            "prompt": "Medium shot of Vikram showing the violet letter to Savitri under lamp light.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Close-up of the handwritten violet text showing a clear left-handed slant in the script.",
+            "characters": []
+          },
+          {
+            "prompt": "Close-up of Vikram's thoughtful eyes reflected in warm lamp light.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Atmospheric wide shot of the dark room lit only by a single flickering desk lamp.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          }
+        ]
+      }
+    ],
+    "clips": [
+      {
+        "start_scene": 1,
+        "end_scene": 2,
+        "hook_text": "शहर का सबसे ख़तरनाक आदमी",
+        "title": "न चाकू, न पिस्तौल... फिर भी शहर का सबसे ख़तरनाक आदमी | जासूस विक्रम",
+        "end_question": "क्या आपने ऐसा विलेन कभी देखा?"
+      },
+      {
+        "start_scene": 7,
+        "end_scene": 8,
+        "hook_text": "जासूस की नक़ली सगाई!",
+        "title": "केस के लिए विक्रम ने नौकरानी से सगाई कर ली! | जासूस विक्रम",
+        "end_question": "क्या ये सही था?"
+      },
+      {
+        "start_scene": 12,
+        "end_scene": 14,
+        "hook_text": "घूँघट वाली औरत",
+        "title": "पर्दे के पीछे छिपे जासूस... और कमरे में आई घूँघट वाली औरत | जासूस विक्रम",
+        "end_question": "आगे क्या हुआ?"
+      },
+      {
+        "start_scene": 15,
+        "end_scene": 17,
+        "hook_text": "राज़ों का भयानक अंत",
+        "title": "तिजोरी की आग का सच | जासूस विक्रम",
+        "end_question": "क्या विक्रम पकड़े जाएँगे?"
+      },
+      {
+        "start_scene": 21,
+        "end_scene": 22,
+        "hook_text": "काले कमल का नया सुराग",
+        "title": "काले कमल का सीक्रेट ऑर्डर | जासूस विक्रम",
+        "end_question": "क्या बाएँ हाथ का राज़ पकड़ा?"
+      }
+    ],
+    "episode": 20,
+    "episode_title": "राज़ों का सौदागर"
+  },
+  "active_clips": [
+    0,
+    1,
+    2
+  ],
+  "next_clip": 3,
+  "batch": null
+}

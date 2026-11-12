@@ -1,5 +1,5 @@
 {
- "next": 20,
+ "next": 21,
  "done": [
   {
    "n": 1,
@@ -95,6 +95,11 @@
    "n": 19,
    "title": "छह मिट्टी के हाथी",
    "summary": "When a series of bizarre nighttime break-ins targeting identical clay elephant statues in 1923 Calcutta culminates in murder, Detective Vikram traces a desperate convict hunting for a stolen royal pearl."
+  },
+  {
+   "n": 20,
+   "title": "राज़ों का सौदागर",
+   "summary": "In 1923 Calcutta, Detective Vikram and Savitri orchestrate a daring midnight heist against a ruthless blackmailer, leading to a shocking crime and a subtle clue pointing to the Black Lotus."
   }
  ]
 }
