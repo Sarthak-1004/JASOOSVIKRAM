@@ -1,5 +1,6 @@
 """Hindi narration with Sarvam AI Bulbul. One WAV per scene (gives exact scene timing)."""
 import base64
+import io
 import re
 import time
 import wave
@@ -10,7 +11,7 @@ import requests
 from .common import CFG, env, log
 
 URL = "https://api.sarvam.ai/text-to-speech"
-MAX_CHARS = 450  # stay well under the per-request limit
+MAX_CHARS = 1200  # one request per scene, so the voice keeps its tone across the whole scene
 
 
 def split_sentences(text: str) -> list[str]:
@@ -33,9 +34,10 @@ def _chunks(text: str) -> list[str]:
 
 def _speak(text: str, model: str | None = None, speaker: str | None = None) -> bytes:
     v = {**CFG["voice"], **({"model": model} if model else {}), **({"speaker": speaker} if speaker else {})}
-    # only the fields bulbul:v3 accepts; older pitch/loudness options were removed
     body = {"text": text, "target_language_code": "hi-IN", "speaker": v["speaker"],
-            "model": v["model"], "pace": v["pace"]}
+            "model": v["model"], "pace": v["pace"], "output_audio_codec": "wav"}
+    if v.get("sample_rate"):
+        body["speech_sample_rate"] = v["sample_rate"]
     if v.get("temperature") is not None:
         body["temperature"] = v["temperature"]
     last = ""
@@ -43,13 +45,29 @@ def _speak(text: str, model: str | None = None, speaker: str | None = None) -> b
         r = requests.post(URL, json=body, timeout=120,
                           headers={"api-subscription-key": env("SARVAM_API_KEY").strip()})
         if r.ok:
-            return base64.b64decode(r.json()["audios"][0])
+            return _join([base64.b64decode(a) for a in r.json()["audios"]])
         last = f"HTTP {r.status_code}: {r.text[:500]}"
         log.warning("Sarvam TTS %s", last)
         if r.status_code in (400, 401, 403, 404, 422):  # bad key/request: retrying will not help
             break
         time.sleep(3 * 2 ** attempt)
     raise RuntimeError(f"Sarvam TTS failed: {last}")
+
+
+def _join(parts: list[bytes]) -> bytes:
+    """Sarvam can return long text as several WAV files; make them one."""
+    if len(parts) == 1:
+        return parts[0]
+    params, frames = None, b""
+    for part in parts:
+        with wave.open(io.BytesIO(part)) as w:
+            params = params or w.getparams()
+            frames += w.readframes(w.getnframes())
+    out = io.BytesIO()
+    with wave.open(out, "wb") as w:
+        w.setparams(params)
+        w.writeframes(frames)
+    return out.getvalue()
 
 
 def _pcm(wav_bytes: bytes, path: Path):

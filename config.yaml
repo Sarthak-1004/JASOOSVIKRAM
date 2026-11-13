@@ -62,17 +62,15 @@ images:
 
 voice:
   provider: sarvam
-  model: bulbul:v3                    # v2 was retired by Sarvam in Oct 2026
-  # bulbul:v3 female voices: priya, ishita (top quality), roopa, pooja, ritu, kavya, neha,
-  # shreya, simran, tanya, shruti, suhani, kavitha, rupali. Run "0 Check setup" to hear one.
-  speaker: priya
+  # Same narrator as the thriller channel (STORY1): the male storyteller voice on bulbul:v4-flash.
+  model: "bulbul:v4-flash"
+  speaker: shubh_hi_stories_dramatic
+  sample_rate: 24000
   pace: 1.0                           # 0.5-2.0; raise to ~1.08 if episodes run long
-  # "0 Check setup" sends a short sample of each of these so you can choose by ear.
+  # "0 Check setup" sends a short sample of each of these so you can compare by ear.
   samples:
+    - {model: "bulbul:v4-flash", speaker: mahesh_hi_documentary}
     - {model: "bulbul:v4-flash", speaker: anand_hi_documentary}
-    - {model: "bulbul:v4-flash", speaker: anand_hi_news}
-    - {model: "bulbul:v4-flash", speaker: ishita_hi_devotional}
-    - {model: "bulbul:v3", speaker: priya}
   scene_gap: 0.35                     # seconds of silence between scenes
 
 video:

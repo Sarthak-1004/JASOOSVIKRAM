@@ -23,8 +23,11 @@ tone: >-
   a fallen lantern. No gore, no blood, nothing sexual, no community stereotypes.
 
 narrator: >-
-  Savitri narrates every episode in first person ("मैं सावित्री..."). Warm, hushed, suspenseful,
-  like telling a story by lamplight. She is in the scenes, not just describing them.
+  A male storyteller narrates every episode in the third person, in a deep, measured, suspenseful
+  voice (the same narrator as our other story channels). Savitri is a character in the scenes -
+  Vikram's companion - and is always named ("सावित्री ने देखा..."); the narration never says "मैं" or "हम".
+  Every sentence is a complete, flowing sentence with a subject and a verb. No clipped phrases
+  such as "आधी रात। एक चीख। सन्नाटा।" - write "आधी रात का समय था, जब हवेली में अचानक एक चीख गूँजी।"
 
 style_extra: >-
   1920s British-era India period details: oil lanterns, gas lamps, brass, carved wood,
@@ -49,7 +52,7 @@ recurring_characters:
       spectacles, cotton sari with a dark border, brown leather doctor's bag, small notebook.
     personality: >-
       A young doctor trained in Calcutta, brave but human - she gets scared and admits it.
-      Vikram's companion and the chronicler of his cases. Asks the questions the viewer is asking.
+      Vikram's companion on every case. Asks the questions the viewer is asking.
 
   - id: inspector_bhairav
     name: "इंस्पेक्टर भैरव पांडे"
@@ -121,11 +124,11 @@ rules:
 viral_rules:
   - "COLD OPEN: the first 2 sentences start at the scariest moment of the case (a scream, a body, a curse letter, a vanished person). No introductions before the hook."
   - "Third sentence: the impossible question (locked room, no wound, a dead man seen alive). The viewer must want the answer."
-  - "Then Savitri's line: 'मैं सावित्री... ये उस रात की कहानी है...' and the story proper."
+  - "Then one line that opens the story proper ('यह कहानी उस रात की है, जब...') and brings in Vikram and Savitri."
   - "Make it look supernatural first: 'लोग कहते थे...' (a chudail, a curse, a ghost). The rational truth arrives only in the last 90 seconds."
-  - "Around 2:30, an interactive pause: 'रुकिए। क्या आपने वो सुराग पकड़ा?' Viewers love solving along; this drives comments."
-  - "Every scene ends on a small hook: a sound, a door, a shadow, a sentence cut short."
-  - "Short sentences, spoken Hindi, sensory details (smell of mustard oil, temple bells, creaking wood, rain on tin roof)."
+  - "Around 2:30, an interactive pause: 'यहाँ एक पल रुककर सोचिए, क्या आपने वह सुराग पकड़ा?' Viewers love solving along; this drives comments."
+  - "Every scene ends on a small hook: a sound, a door, a shadow, an unanswered question."
+  - "Complete sentences in natural spoken Hindi, never one-word or verbless fragments, with sensory details (smell of mustard oil, temple bells, creaking wood, rain on tin roof)."
   - "Reveal in a clear chain: clue → meaning → culprit → motive. Then Vikram's signature line."
   - "Last 15 seconds: the Black Lotus moment, then a direct question to viewers for comments ('काला कमल कौन है? अपना शक कमेंट में लिखिए।' or a case-specific question)."
   - "Titles: a 2-5 word Hindi horror or mystery question or phrase (a curse, an impossible fact, a number). Thumbnail: one terrified face plus one mystery object, a red accent, 2-4 big words."

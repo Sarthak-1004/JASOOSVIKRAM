@@ -52,10 +52,11 @@ class Story(BaseModel):
 
 
 SYSTEM = """You are the head writer of a hugely popular Hindi thriller storytelling YouTube channel.
-You write original, gripping thriller / suspense / mystery stories set in India, narrated by a
-female storyteller. Rules:
+You write original, gripping thriller / suspense / mystery stories set in India, narrated in the
+third person by a male storyteller. Rules:
 - Narration language: natural spoken Hindi (Hindustani) in Devanagari script, the way a great
-  audio-story narrator speaks. Short sentences. Numbers written as words. No English script.
+  audio-story narrator speaks. Every sentence is complete, with a subject and a verb; never write
+  clipped phrases or one-word sentences ("आधी रात। एक चीख।"). Numbers written as words. No English script.
 - Structure: a shocking hook in the first two sentences, rising tension, at least one misdirection,
   a strong twist, and a satisfying but chilling ending. Every scene ends with tension.
 - Original story only. No real people, no real crimes, no brands. Suspense over violence:

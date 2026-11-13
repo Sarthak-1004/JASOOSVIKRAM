@@ -6,7 +6,7 @@ This bot posts a daily 5-minute Hindi thriller story video on YouTube at **10:00
 |---|---|
 | Story, scenes, image prompts, titles | Gemini 2.5 Pro / Flash |
 | ~88 images in 2D Indian graphic-novel style (+ vertical images for Shorts) | Gemini 2.5 Flash Image ("Nano Banana") with the Batch API (50% off) |
-| Female Hindi narration | Sarvam AI Bulbul |
+| Hindi narration (male storyteller, same voice as the thriller channel) | Sarvam AI Bulbul v4 |
 | Video: zoom/pan on images, Hindi subtitles, music | FFmpeg |
 | Runs every day | GitHub Actions (free) |
 | Review and approval | Telegram bot |
@@ -118,7 +118,7 @@ How it works:
 - `schedule`: publish times.
 - `story.theme_hint`: e.g. "haunted places in Rajasthan" for a themed week. You can also run Prepare by hand with an idea using `python pipeline.py prepare --idea "..."`.
 - `images.style_prompt`: the art style. Add 1-2 style reference images later if you want an even more consistent look.
-- `voice.speaker`: female voices are `anushka`, `manisha`, `vidya`, `arya`. Try each in the Sarvam playground.
+- `voice.speaker`: the narrator. It is `shubh_hi_stories_dramatic` on `bulbul:v4-flash`, the same voice as the thriller channel. Run **0 Check setup** to hear it next to the `voice.samples`.
 - `images.vertical_for_shorts: false` uses blurred-background frames for Shorts instead of extra vertical images, which is about 30% cheaper.
 
 ## Run locally (optional)
