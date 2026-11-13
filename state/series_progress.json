@@ -1,5 +1,5 @@
 {
- "next": 21,
+ "next": 22,
  "done": [
   {
    "n": 1,
@@ -100,6 +100,11 @@
    "n": 20,
    "title": "राज़ों का सौदागर",
    "summary": "In 1923 Calcutta, Detective Vikram and Savitri orchestrate a daring midnight heist against a ruthless blackmailer, leading to a shocking crime and a subtle clue pointing to the Black Lotus."
+  },
+  {
+   "n": 21,
+   "title": "तीन गिलासों का झूठ",
+   "summary": "When a tyrannical Raja is murdered in a Darjeeling tea estate bungalow, his young wife claims three burglars did it, but Detective Vikram spots a hidden discrepancy in the three wine glasses."
   }
  ]
 }

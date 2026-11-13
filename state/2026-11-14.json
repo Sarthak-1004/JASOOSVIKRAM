@@ -1,0 +1,573 @@
+{
+  "date": "2026-11-14",
+  "status": "story_ready",
+  "items": {},
+  "story": {
+    "title": "तीन गिलासों का झूठ | जासूस विक्रम Ep 21",
+    "description": "दार्जिलिंग के पहाड़ी चाय बाग़ान के बंगले में राजा की हत्या हो जाती है। रानी का दावा है कि तीन चोरों ने वारदात को अंजाम दिया। मेज़ पर मिले तीन गिलासों का सच क्या है? क्या जासूस विक्रम इस उलझे रहस्य की गाँठ खोल पाएँगे?\n\n#JasoomVikram #HindiMystery #SuspenseStory #Thriller #DarjeelingMystery\n\nआर्थर कॉनन डॉयल की कहानी \"The Adventure of the Abbey Grange\" से प्रेरित (public domain). सभी पात्र काल्पनिक हैं।",
+    "tags": [
+      "जासूस विक्रम",
+      "Jasoom Vikram",
+      "Hindi Thriller",
+      "Detective Mystery",
+      "Hindi Stories",
+      "Darjeeling Mystery",
+      "Abbey Grange Hindi",
+      "1920s India Mystery"
+    ],
+    "logline": "When a tyrannical Raja is murdered in a Darjeeling tea estate bungalow, his young wife claims three burglars did it, but Detective Vikram spots a hidden discrepancy in the three wine glasses.",
+    "thumbnail_text": "तीन गिलासों का झूठ",
+    "thumbnail_shot": 2,
+    "thumbnail_prompt": "Three wine glasses on a dark table in a storm-lit bungalow, one glass with dark sediment, a frightened young queen tied to a carved chair in the background, deep red accent.",
+    "characters": [
+      {
+        "id": "vikram",
+        "name": "जासूस विक्रम",
+        "look": "Lean Indian man in his mid-30s, sharp intelligent eyes, neatly trimmed black moustache, short side-parted hair, dark navy bandhgala coat over a white kurta, grey wool shawl over one shoulder, black cane with a brass handle, often carries an oil lantern."
+      },
+      {
+        "id": "savitri",
+        "name": "डॉक्टर सावित्री",
+        "look": "Indian woman in her late 20s, intelligent kind face, hair in a low bun, small round spectacles, cotton sari with a dark border, brown leather doctor's bag, small notebook."
+      },
+      {
+        "id": "narendra",
+        "name": "राजा बहादुर नरेंद्र सिंह",
+        "look": "Wealthy Indian nobleman in his 40s, heavy build, silk achkan, thick moustache, dark skin, motionless by a fireplace."
+      },
+      {
+        "id": "meenakshi",
+        "name": "रानी मीनाक्षी",
+        "look": "Young Indian woman in her early 20s, delicate features, pale face, royal silk sari with tear stains, faint bruised wrists."
+      },
+      {
+        "id": "phoolmati",
+        "name": "फूलमती",
+        "look": "Elderly loyal Indian nurse in her late 50s, grey hair tied in a tight bun, traditional cotton sari, protective posture."
+      },
+      {
+        "id": "arvind",
+        "name": "कैप्टन अरविंद राव",
+        "look": "Tall, broad-shouldered Indian merchant navy officer in his early 30s, weathered sea-faring look, dark double-breasted naval blazer with metal buttons."
+      }
+    ],
+    "scenes": [
+      {
+        "narration": "तूफ़ानी रात। दार्जिलिंग के एक चाय बाग़ान का बंगला। राजा बहादुर नरेंद्र सिंह अँगीठी के पास मरे पड़े थे। और उनकी जवान रानी, मीनाक्षी, एक नक़्क़ाशीदार कुर्सी से रस्सी से बँधी थीं।",
+        "shots": [
+          {
+            "prompt": "Wide shot of a colonial tea-estate bungalow in Darjeeling during a heavy rainstorm at night, warm lights flickering inside wooden windows.",
+            "characters": []
+          },
+          {
+            "prompt": "Low angle indoor shot of a grand living room with a roaring fireplace, showing the prone silhouette of a wealthy nobleman lying beside the stone hearth.",
+            "characters": [
+              "narendra"
+            ]
+          },
+          {
+            "prompt": "Medium close-up of a terrified young queen in a silk sari tied securely with rough jute rope to a heavily carved wooden armchair, her expression shocked.",
+            "characters": [
+              "meenakshi"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "रानी ने काँपती आवाज़ में बताया, तीन चोर खिड़की से घुसे। राजा ने विरोध किया, तो उन्होंने अँगीठी की छड़ से उन्हें मार डाला। मेज़ पर शराब के तीन गिलास थे। तीन चोर, तीन गिलास... और एक झूठ।",
+        "shots": [
+          {
+            "prompt": "Close-up of the young queen speaking tearfully, cold shadows illuminating her frightened face near a dimly lit floor lamp.",
+            "characters": [
+              "meenakshi"
+            ]
+          },
+          {
+            "prompt": "Medium shot of an iron fireplace poker resting near the stone mantelpiece next to a fallen chair.",
+            "characters": []
+          },
+          {
+            "prompt": "Close-up of three dark crystal wine glasses standing together on a polished rosewood table, lit by dramatic candlelight.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "मैं सावित्री हूँ। उस सर्दी में हम दार्जिलिंग में थे, जब पुलिस ने विक्रम को बुलाया। आसपास के बंगलों में एक गिरोह पहले भी चोरियाँ कर चुका था। पुलिस को कोई शक नहीं था। \"वही गिरोह है, विक्रम बाबू।\"",
+        "shots": [
+          {
+            "prompt": "Medium shot of Savitri standing near an open doorway wearing a dark-bordered sari and warm shawl, looking worriedly into the room.",
+            "characters": [
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Wide shot of Detective Vikram in his navy bandhgala examining the scene alongside local British-era Indian police officers holding lanterns.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Close-up profile of a police constable gesturing towards an open window framed by heavy rain outside.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "रानी की बूढ़ी, वफ़ादार दाई, फूलमती, ने बताया कि राजा कैसे थे। शराबी, ज़ालिम। \"रानी के गहने तक जुए में हार जाते थे, और नशे में हाथ उठाते थे। रानी की बाँहों पर नील के निशान देखिए।\" रानी ने अपनी बाँहें दुपट्टे में छिपा लीं।",
+        "shots": [
+          {
+            "prompt": "Medium shot of an elderly nurse standing defensively in front of the tied queen, pointing toward the injured wrist.",
+            "characters": [
+              "phoolmati",
+              "meenakshi"
+            ]
+          },
+          {
+            "prompt": "Extreme close-up of dark purple bruises visible on a delicate wrist before a silk drape covers it.",
+            "characters": [
+              "meenakshi"
+            ]
+          },
+          {
+            "prompt": "Close-up of Detective Vikram observing the hidden bruises with a thoughtful, serious expression.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Over-the-shoulder shot from behind Vikram as the queen nervously pulls her silk drape tight over her arm.",
+            "characters": [
+              "vikram",
+              "meenakshi"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "विक्रम ने कमरा देखा, गिलास देखे, रस्सी देखी। फिर बोले, \"सब ठीक लगता है। गिरोह का ही काम है।\" और हम स्टेशन चल पड़े। मैं हैरान थी। विक्रम इतनी जल्दी मान गए?",
+        "shots": [
+          {
+            "prompt": "Wide shot of Vikram pacing slowly across the wood-panelled room, leaning on his brass-handled cane.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Medium shot of Vikram quietly stepping away toward the exit, motioning Savitri to follow.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Wide shot of a misty steam railway station platform at night, vintage train headlights cutting through thick fog.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "ट्रेन चल पड़ी। विक्रम खिड़की से बाहर घूरते रहे। अचानक वो उठे, और ज़ंजीर खींच दी। ट्रेन चीख़ती हुई रुकी। \"सावित्री, उतरो! मैं बेवकूफ़ था। वो गिलास!\"",
+        "shots": [
+          {
+            "prompt": "Inside a 1920s steam train compartment, close-up of Vikram staring out of the rain-streaked window intently.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Action shot of Vikram suddenly standing up and pulling the brass emergency chain on the carriage ceiling.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "हम बंगले में लौटे। विक्रम ने तीनों गिलास रोशनी में उठाए। \"देखो। तीनों में शराब के निशान हैं। पर तलछट, यानी नीचे बैठा गाद... सिर्फ़ एक गिलास में है।\"",
+        "shots": [
+          {
+            "prompt": "Medium shot of Vikram back inside the bungalow study, holding two crystal wine glasses up to an oil lamp beam.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Macro close-up of the base of three wine glasses, showing dark purple wine sediment clinging to the bottom of only one glass.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "\"अगर तीन लोगों ने एक ही बोतल से पिया होता, तो तलछट आख़िरी गिलास में होता। पर यहाँ, किसी ने एक गिलास की बची शराब बाक़ी दो में डाली है, ताकि लगे कि तीन लोग पी रहे थे।\"",
+        "shots": [
+          {
+            "prompt": "Close-up of Vikram explaining with his finger pointing at the rim of the dark wine glass.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Medium shot of Savitri listening closely, her spectacles reflecting the candlelight as realization hits her.",
+            "characters": [
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Detailed shot of an empty wine bottle resting beside three unequal pours on the wooden table.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "फिर विक्रम ने कुर्सी पर चढ़कर घंटी की रस्सी देखी। रस्सी बहुत ऊँचाई से काटी गई थी। \"चोर बहुत लंबा था। और ये गाँठ देखो। ये जहाज़ियों वाली गाँठ है। ऐसी गाँठ सिर्फ़ एक मल्लाह बाँधता है।\"",
+        "shots": [
+          {
+            "prompt": "Medium shot of Vikram standing on a low wooden stool, inspecting a severed bell-rope hanging near the high ceiling moulding.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Close-up of Vikram's gloved fingers examining a intricate sailor's hitch knot tied into the cut rope end.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Over-the-shoulder shot of Savitri looking up at the high ceiling fixture where the rope was severed.",
+            "characters": [
+              "savitri",
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "रुकिए। तीन गिलास, पर तलछट सिर्फ़ एक में। ऊँचाई से कटी रस्सी, और एक मल्लाह की गाँठ। आपने गड़बड़ पकड़ी? रानी झूठ क्यों बोल रही हैं?",
+        "shots": [
+          {
+            "prompt": "Dynamic split composition showing the sediment in the wine glass on the left and the intricate knot on the right under yellow lantern light.",
+            "characters": []
+          },
+          {
+            "prompt": "Medium close-up of Vikram turning slowly toward the camera with a calculating look, his brass-topped cane in hand.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "विक्रम ने कलकत्ता तार भेजा। जवाब आया... कुछ दिन पहले एक जहाज़ का अफ़सर, कैप्टन अरविंद राव, दार्जिलिंग आया था। लंबा, ताक़तवर। और बरसों पहले, जब रानी मीनाक्षी कुँवारी थीं, वो उनसे प्यार करता था।",
+        "shots": [
+          {
+            "prompt": "Close-up of a yellowed telegraph sheet held in Vikram's hands with handwritten English courier marks.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Flashback style shot: a tall young naval officer in uniform standing beside a shy young woman in a gardenside gazebo years ago.",
+            "characters": [
+              "arvind",
+              "meenakshi"
+            ]
+          },
+          {
+            "prompt": "Medium shot of Vikram and Savitri walking down a dimly lit hillside road in mist near Darjeeling market.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "हमने कैप्टन अरविंद को एक छोटे होटल में ढूँढ़ निकाला। उसने विक्रम को देखा, और बिना डरे कहा, \"आप जानते हैं। मुझे पता था, कोई न कोई जान ही जाएगा।\" उसकी आवाज़ में कोई पछतावा नहीं था।",
+        "shots": [
+          {
+            "prompt": "Wide shot of a modest wooden hotel room interior lit by a single kerosene lamp, showing a broad-shouldered man in a navy jacket standing calmly.",
+            "characters": [
+              "arvind"
+            ]
+          },
+          {
+            "prompt": "Medium shot of Captain Arvind looking directly at Vikram without fear or malice.",
+            "characters": [
+              "arvind"
+            ]
+          },
+          {
+            "prompt": "Medium shot of Vikram and Savitri standing at the hotel room door, Vikram calmly leaning on his cane.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "\"उस रात मैं बस मीनाक्षी को एक बार देखने आया था। फूलमती ने मुझे अंदर आने दिया। तभी राजा शराब में धुत्त आ गया। उसने मेरे सामने मीनाक्षी पर हाथ उठाया। फिर अपनी छड़ी लेकर मुझ पर झपटा।\"",
+        "shots": [
+          {
+            "prompt": "Flashback scene: inside the bungalow living room, an enraged intoxicated nobleman raising a heavy walking stick aggressively.",
+            "characters": [
+              "narendra"
+            ]
+          },
+          {
+            "prompt": "Flashback scene: the tall naval officer stepping between the enraged Raja and the cowering young queen.",
+            "characters": [
+              "arvind",
+              "meenakshi",
+              "narendra"
+            ]
+          },
+          {
+            "prompt": "Close-up of Captain Arvind speaking emotionally in the dimly lit hotel room.",
+            "characters": [
+              "arvind"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "\"मैंने अँगीठी की छड़ उठाई, और अपने बचाव में वार किया। बस एक वार। वो गिरा, और नहीं उठा।\" अरविंद ने सिर उठाया। \"मैं ख़ुद पुलिस के पास जाता, विक्रम बाबू। पर मीनाक्षी ने कहा, रस्सी बाँधो, गिलास सजाओ, चोरों की कहानी बनाओ।\"",
+        "shots": [
+          {
+            "prompt": "Flashback scene: silhouette of the fight by the fireplace as an iron poker is raised in self-defense against an attack.",
+            "characters": [
+              "arvind",
+              "narendra"
+            ]
+          },
+          {
+            "prompt": "Flashback scene: the young queen urgently pleading with the tall officer while the old nurse holds a ball of rope.",
+            "characters": [
+              "meenakshi",
+              "arvind",
+              "phoolmati"
+            ]
+          },
+          {
+            "prompt": "Medium shot of Captain Arvind looking down at his large calloused hands in the hotel room.",
+            "characters": [
+              "arvind"
+            ]
+          },
+          {
+            "prompt": "Close-up of Savitri watching the captain with deep sympathy.",
+            "characters": [
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "\"मैंने रस्सी काटी, उन्हें बाँधा, और अपनी आदत वाली गाँठ लगा दी। गिलास फूलमती ने सजाए। और मैं चला गया।\" कमरे में सन्नाटा था। बाहर बारिश हो रही थी।",
+        "shots": [
+          {
+            "prompt": "Flashback scene: the captain tying the knot around the queen's wrists gently, his head turned away.",
+            "characters": [
+              "arvind",
+              "meenakshi"
+            ]
+          },
+          {
+            "prompt": "Wide shot of the quiet hotel room with rain pouring heavily against the small glass window pane.",
+            "characters": [
+              "vikram",
+              "savitri",
+              "arvind"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "विक्रम बहुत देर तक चुप रहे। फिर बोले, \"सावित्री, आज तुम जूरी हो। अदालत यहीं लगेगी। अभियुक्त ने एक ज़ालिम आदमी को, अपने बचाव में, और एक औरत की रक्षा के लिए मारा। तुम्हारा फ़ैसला?\"",
+        "shots": [
+          {
+            "prompt": "Medium shot of Vikram looking solemnly towards Savitri, the warm oil lamp lighting half his face.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Close-up of Savitri startled by Vikram's sudden question, looking between Vikram and Captain Arvind.",
+            "characters": [
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Wide shot of the three figures inside the hotel room in dramatic shadow.",
+            "characters": [
+              "vikram",
+              "savitri",
+              "arvind"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "मैंने अरविंद को देखा। फिर रानी की बाँहों के नीले निशान याद आए। मैंने कहा, \"निर्दोष।\" विक्रम मुस्कराए। \"जनता की आवाज़, भगवान की आवाज़। कैप्टन, आप आज़ाद हैं।\"",
+        "shots": [
+          {
+            "prompt": "Close-up of Savitri taking a deep breath and speaking firmly with compassion.",
+            "characters": [
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Medium shot of Vikram offering a slight, understanding smile and gesturing to the captain.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "\"एक साल के लिए विदेश चले जाइए। फिर लौटिए। और अगर रानी चाहें, तो...\" विक्रम ने बात अधूरी छोड़ दी। अरविंद की आँखें भर आईं।",
+        "shots": [
+          {
+            "prompt": "Close-up of Captain Arvind bowing his head in deep gratitude, tears in his eyes.",
+            "characters": [
+              "arvind"
+            ]
+          },
+          {
+            "prompt": "Medium shot of Vikram turning toward the door, wrapping his grey shawl around his shoulder.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "\"एक गिलास का तलछट, और एक मल्लाह की गाँठ,\" विक्रम बोले। \"सच हमेशा छोटी चीज़ों में छिपा होता है। और कभी-कभी, सच जानकर भी चुप रहना पड़ता है।\"",
+        "shots": [
+          {
+            "prompt": "Medium close-up of Vikram walking down misty wooden stairs of the hotel outside, carrying his lit brass oil lantern.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Side profile of Savitri walking beside Vikram along the wet cobblestone path.",
+            "characters": [
+              "savitri",
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "पर जिस गिरोह के नाम पर रानी ने झूठ गढ़ा था, वो गिरोह असली था। और पुलिस की फ़ाइल में उसका निशान दर्ज था। एक छोटा सा कमल।",
+        "shots": [
+          {
+            "prompt": "Close-up of an official police case ledger lying open on a dark table, showing a faint black lotus wax stamp stamped on paper.",
+            "characters": []
+          },
+          {
+            "prompt": "Extreme close-up of the black lotus symbol pressed into dark wax.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "उस रात, होटल की बालकनी में, विक्रम ने पहली बार मुझसे वो बात कही, जो वो बहुत दिनों से सोच रहे थे। \"सावित्री, काला कमल हमारे बहुत क़रीब है। वो हमें जानता है। हमारी हर चाल देखता है।\"",
+        "shots": [
+          {
+            "prompt": "Wide shot of a wooden verandah overlooking misty pine trees in Darjeeling under a dark cloudy night sky.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Medium shot of Vikram leaning against the balcony railing, looking out into the pitch-black mountain valley.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Close-up of Savitri looking at Vikram with a chill of dread in her eyes.",
+            "characters": [
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "\"कितने क़रीब?\" मैंने पूछा। विक्रम ने कोई जवाब नहीं दिया। बस बादलों में छिपी कंचनजंघा को देखते रहे। अब आप जूरी हैं। कैप्टन अरविंद... दोषी या निर्दोष? कमेंट में अपना फ़ैसला लिखिए।",
+        "shots": [
+          {
+            "prompt": "Wide cinematic shot of snow-capped mountain peaks faintly lit by moonbeams through dark stormy clouds.",
+            "characters": []
+          },
+          {
+            "prompt": "Medium shot of Vikram standing motionless in dark navy coat against the nocturnal mountain backdrop.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Close-up of an open leather journal resting on a wooden table beside a pen and lamp flame.",
+            "characters": []
+          }
+        ]
+      }
+    ],
+    "clips": [
+      {
+        "start_scene": 1,
+        "end_scene": 2,
+        "hook_text": "तीन चोर, तीन गिलास",
+        "title": "राजा की लाश, बँधी हुई रानी, और मेज़ पर तीन गिलास | जासूस विक्रम",
+        "end_question": "क्या रानी सच बोल रही थीं?"
+      },
+      {
+        "start_scene": 7,
+        "end_scene": 9,
+        "hook_text": "तलछट सिर्फ़ एक गिलास में",
+        "title": "तीन गिलास, पर तलछट सिर्फ़ एक में... और मल्लाह की गाँठ | जासूस विक्रम",
+        "end_question": "आपने गड़बड़ पकड़ी?"
+      },
+      {
+        "start_scene": 16,
+        "end_scene": 16,
+        "hook_text": "आप हैं जूरी",
+        "title": "जासूस ने यहीं अदालत लगाई... जूरी आप हैं | जासूस विक्रम",
+        "end_question": "दोषी या निर्दोष? कमेंट करें।"
+      },
+      {
+        "start_scene": 1,
+        "end_scene": 4,
+        "hook_text": "चाय बाग़ान में मर्डर",
+        "title": "दार्जिलिंग बंगले में सनसनी | जासूस विक्रम",
+        "end_question": "क्या यह डाकुओं का काम है?"
+      },
+      {
+        "start_scene": 12,
+        "end_scene": 15,
+        "hook_text": "कैप्टन का इक़बाल-ए-जुर्म",
+        "title": "कातिल ने खुद खोला राज़ | जासूस विक्रम",
+        "end_question": "क्या कैप्टन सच बोल रहा है?"
+      }
+    ],
+    "episode": 21,
+    "episode_title": "तीन गिलासों का झूठ"
+  },
+  "active_clips": [
+    0,
+    1,
+    2
+  ],
+  "next_clip": 3,
+  "batch": null
+}
