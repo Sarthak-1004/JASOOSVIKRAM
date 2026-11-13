@@ -98,6 +98,13 @@ def _plan_for(episode: dict | None) -> list[int]:
     return shot_plan(CFG["story"]["scenes"])
 
 
+CAST_RULE = """- `characters` must have one entry, with a short latin id and a full `look`, for every person who is
+  seen in this episode: the recurring characters who appear in it (keep their exact ids) and EVERY
+  one of the "Episode characters" listed above (give each a new id, for example `meera`).
+- Every shot's `characters` lists the ids of everyone visible in that frame, and the shot prompt
+  names them, so the same face can be drawn each time."""
+
+
 def _prompt(history: list[str], idea: str = "", episode: dict | None = None) -> str:
     s = CFG["story"]
     plan = _plan_for(episode)
@@ -114,6 +121,7 @@ THE NARRATION IS ALREADY WRITTEN. Do not rewrite it. Return exactly {len(episode
 copying each scene's narration below verbatim, and write the shots, characters, clips and metadata.
 {per_scene} Each shot illustrates that scene's narration.
 - Exactly {s['clip_candidates']} clip candidates.
+{CAST_RULE}
 
 {scenes}
 """
@@ -125,6 +133,7 @@ Length and format:
 - Exactly {s['scenes']} scenes, about {s['target_words'] // s['scenes']} words each.
 {per_scene}
 - Exactly {s['clip_candidates']} clip candidates.
+{CAST_RULE}
 {f'- Extra direction from the producer for this version: {extra}' if extra else ''}
 """
     return f"""Write today's story.
@@ -165,6 +174,11 @@ def _validate(story: Story, episode: dict | None = None) -> list[str]:
     if len(story.clips) < 3:
         problems.append("fewer than 3 clips")
     ids = {c.id for c in story.characters}
+    if episode and episode.get("characters"):
+        guests = ids - series.recurring_ids()
+        if len(guests) < max(1, len(episode["characters"]) - 1):  # without a sheet their faces drift
+            problems.append(f"characters list has {len(guests)} of this episode's "
+                            f"{len(episode['characters'])} own characters; add every Episode character")
     for sc in story.scenes:
         if not sc.shots:
             problems.append("scene without shots")
