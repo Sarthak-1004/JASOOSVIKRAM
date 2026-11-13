@@ -1,7 +1,71 @@
 {
   "date": "2026-11-14",
-  "status": "story_ready",
-  "items": {},
+  "status": "review",
+  "items": {
+    "v": {
+      "title": "आधी रात की सीटी | जासूस विक्रम Ep 1",
+      "description": "बनारस की एक पुरानी हवेली में आधी रात को गूँजती सीटी और कमला की रहस्यमयी मौत का खौफ़नाक सच! क्या हवेली पर किसी शैतानी साये का बसेरा था या इसके पीछे छिपा था कोई इंसानी दिमाग? जासूस विक्रम और डॉक्टर सावित्री ने इस ख़तरनाक गुत्थी को कैसे सुलझाया? जानिए इस दिल दहला देने वाली थ्रिलर कहानी में।\n\n#JasoosVikram #HindiHorror #HindiThriller #DetectiveStories #BanarasMystery\n\nआर्थर कॉनन डॉयल की कहानी \"The Adventure of the Speckled Band\" से प्रेरित (public domain). सभी पात्र काल्पनिक हैं।",
+      "tags": [
+        "Jasoos Vikram",
+        "Hindi Thriller",
+        "Hindi Horror Story",
+        "Mystery Story Hindi",
+        "Audio Story Hindi",
+        "Detective Vikram",
+        "Speckled Band Hindi",
+        "Banaras Haveli Horror"
+      ],
+      "status": "pending"
+    },
+    "s1": {
+      "title": "बंद कमरे में मौत... आख़िरी शब्द 'चितकबरी पट्टी' | जासूस विक्रम #shorts",
+      "description": "बंद कमरे में मौत... आख़िरी शब्द 'चितकबरी पट्टी' | जासूस विक्रम\n\nपूरी कहानी देखें: {LONG_URL}\n\n#shorts #hindistory #thriller",
+      "tags": [
+        "Jasoos Vikram",
+        "Hindi Thriller",
+        "Hindi Horror Story",
+        "Mystery Story Hindi",
+        "Audio Story Hindi",
+        "Detective Vikram",
+        "Speckled Band Hindi",
+        "Banaras Haveli Horror",
+        "shorts"
+      ],
+      "status": "pending"
+    },
+    "s2": {
+      "title": "नकली रस्सी, जड़ा हुआ बिस्तर, दूध की तश्तरी... आप पहचान पाए? | जासूस विक्रम #shorts",
+      "description": "नकली रस्सी, जड़ा हुआ बिस्तर, दूध की तश्तरी... आप पहचान पाए? | जासूस विक्रम\n\nपूरी कहानी देखें: {LONG_URL}\n\n#shorts #hindistory #thriller",
+      "tags": [
+        "Jasoos Vikram",
+        "Hindi Thriller",
+        "Hindi Horror Story",
+        "Mystery Story Hindi",
+        "Audio Story Hindi",
+        "Detective Vikram",
+        "Speckled Band Hindi",
+        "Banaras Haveli Horror",
+        "shorts"
+      ],
+      "status": "pending"
+    },
+    "s3": {
+      "title": "आधी रात, घुप अँधेरा... और फिर वो सीटी | जासूस विक्रम #shorts",
+      "description": "आधी रात, घुप अँधेरा... और फिर वो सीटी | जासूस विक्रम\n\nपूरी कहानी देखें: {LONG_URL}\n\n#shorts #hindistory #thriller",
+      "tags": [
+        "Jasoos Vikram",
+        "Hindi Thriller",
+        "Hindi Horror Story",
+        "Mystery Story Hindi",
+        "Audio Story Hindi",
+        "Detective Vikram",
+        "Speckled Band Hindi",
+        "Banaras Haveli Horror",
+        "shorts"
+      ],
+      "status": "pending"
+    }
+  },
   "story": {
     "title": "आधी रात की सीटी | जासूस विक्रम Ep 1",
     "description": "बनारस की एक पुरानी हवेली में आधी रात को गूँजती सीटी और कमला की रहस्यमयी मौत का खौफ़नाक सच! क्या हवेली पर किसी शैतानी साये का बसेरा था या इसके पीछे छिपा था कोई इंसानी दिमाग? जासूस विक्रम और डॉक्टर सावित्री ने इस ख़तरनाक गुत्थी को कैसे सुलझाया? जानिए इस दिल दहला देने वाली थ्रिलर कहानी में।\n\n#JasoosVikram #HindiHorror #HindiThriller #DetectiveStories #BanarasMystery\n\nआर्थर कॉनन डॉयल की कहानी \"The Adventure of the Speckled Band\" से प्रेरित (public domain). सभी पात्र काल्पनिक हैं।",
@@ -560,5 +624,6 @@
     2
   ],
   "next_clip": 3,
-  "batch": null
+  "batch": null,
+  "media_run_id": "43415853911"
 }
