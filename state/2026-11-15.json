@@ -1,0 +1,597 @@
+{
+  "date": "2026-11-15",
+  "status": "story_ready",
+  "items": {},
+  "story": {
+    "title": "दीवार के अंदर कौन? | जासूस विक्रम Ep 2",
+    "description": "काशी इम्पीरियल बैंक की तिजोरी की दीवार से हर आधी रात ठक-ठक की रहस्यमयी आवाज़ आती थी। चौकीदार इसे ज़िंदा चुनवाए गए चोर की आत्मा मानता था, पर सच कुछ और ही निकला। जासूस विक्रम और डॉक्टर सावित्री ने इस रहस्य की परतें कैसे खोलीं, सुनिए इस रोमांचक कहानी में।\n\n#JasoosVikram #HindiKahaniya #SuspenseThriller #DetectiveMystery #HorrorStoriesHindi\n\nआर्थर कॉनन डॉयल की कहानी \"The Red-Headed League\" से प्रेरित (public domain). सभी पात्र काल्पनिक हैं।",
+    "tags": [
+      "जासूस विक्रम",
+      "Jasoos Vikram",
+      "दीवार के अंदर कौन",
+      "The Red Headed League Hindi",
+      "Detective Vikram",
+      "Hindi Suspense Stories",
+      "Banaras Mysteries",
+      "1920s India Thriller",
+      "Hindi Audio Story",
+      "Indian Detective"
+    ],
+    "logline": "Detective Vikram uncovers a daring bank heist disguised as a supernatural wall-knocking ghost and an eccentric society for men with a white streak in their hair.",
+    "thumbnail_text": "दीवार के अंदर कौन?",
+    "thumbnail_shot": 1,
+    "thumbnail_prompt": "Frightened night watchman pressing his ear to a cracked bank vault wall, holding a lantern, a glowing hand-shaped shadow behind the cracks, deep red accent.",
+    "characters": [
+      {
+        "id": "vikram",
+        "name": "जासूस विक्रम",
+        "look": "Lean Indian man in his mid-30s, sharp intelligent eyes, neatly trimmed black moustache, short side-parted hair, dark navy bandhgala coat over a white kurta, grey wool shawl over one shoulder, black cane with a brass handle, often carries an oil lantern."
+      },
+      {
+        "id": "savitri",
+        "name": "डॉक्टर सावित्री",
+        "look": "Indian woman in her late 20s, intelligent kind face, hair in a low bun, small round spectacles, cotton sari with a dark border, brown leather doctor's bag, small notebook."
+      },
+      {
+        "id": "inspector_bhairav",
+        "name": "इंस्पेक्टर भैरव पांडे",
+        "look": "Heavy-set Indian police inspector in his late 40s, thick curled moustache, 1920s khaki police uniform with a red-and-khaki pagri turban, leather belt, short wooden baton."
+      },
+      {
+        "id": "devendranath",
+        "name": "राय बहादुर देवेंद्रनाथ",
+        "look": "Distinguished Indian gentleman around 60, silver hair and neat silver beard, white achkan with gold buttons, gold-rimmed spectacles, ivory-handled walking stick."
+      },
+      {
+        "id": "ramdas",
+        "name": "लाला रामदास",
+        "look": "Plump and cheerful Indian man in his early 50s, round face, distinctive wide white streak running through his thick black hair, wearing a loose beige kurta and dhoti."
+      },
+      {
+        "id": "jaidev",
+        "name": "जयदेव",
+        "look": "Wiry Indian young man in his early 20s, restless cunning eyes, thin moustache, wearing a disheveled cotton kurta with heavily stained and worn pyjamas caked in dry clay at the knees."
+      },
+      {
+        "id": "watchman",
+        "name": "चौकीदार",
+        "look": "Elderly Indian night watchman in his 60s, wrinkled face, grey stubble, wearing a weathered woollen coat, simple muffler wrapped around his ears, holding a brass oil lantern."
+      },
+      {
+        "id": "accomplice",
+        "name": "सुरंग का साथी",
+        "look": "Muscular Indian man in his late 20s, rugged build, soot-smeared face, wearing a dark vest and rough trousers."
+      }
+    ],
+    "scenes": [
+      {
+        "narration": "आधी रात का समय था और काशी इम्पीरियल बैंक का बूढ़ा चौकीदार लालटेन लिए तिजोरी वाले कमरे के बाहर खड़ा था। तभी उसे दीवार के अंदर से ठक-ठक की आवाज़ सुनाई दी। ऐसा लग रहा था, जैसे कोई दीवार के भीतर से बाहर निकलने की कोशिश कर रहा हो।",
+        "shots": [
+          {
+            "prompt": "An elderly night watchman watchman walking down a dim stone corridor of a colonial bank at midnight, holding a glowing brass oil lantern, wide angle, cast shadows and eerie blue moonlight mixing with yellow flame.",
+            "characters": [
+              "watchman"
+            ]
+          },
+          {
+            "prompt": "Close-up of watchman pressing his ear against a heavy cracked stone wall of the vault, his face full of dread and terror, warm lantern light illuminating his wide frightened eyes.",
+            "characters": [
+              "watchman"
+            ]
+          },
+          {
+            "prompt": "Low-angle shot focusing on the massive stone vault wall in deep shadow, faint hairline fractures in the mortar where fine dust trickles down, cinematic suspenseful atmosphere.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "चौकीदार ने क़सम खाकर कहा कि बरसों पहले एक चोर को इसी दीवार में ज़िंदा चुनवा दिया गया था, और उसकी आत्मा आज भी बाहर निकलने का रास्ता खोद रही है। लेकिन क्या सच में उस दीवार के अंदर कोई आत्मा थी?",
+        "shots": [
+          {
+            "prompt": "Medium shot of watchman gesturing frantically in fear, pointing at the dark towering bank vault wall, shadows looming tall behind him, dim lantern light.",
+            "characters": [
+              "watchman"
+            ]
+          },
+          {
+            "prompt": "Extreme close-up of watchman's wrinkled terrified face, sweat glistening on his forehead, mouth parted in whispered shock, dark dramatic side lighting.",
+            "characters": [
+              "watchman"
+            ]
+          },
+          {
+            "prompt": "Wide shot of the oppressive stone vault door and towering walls shrouded in cobwebs and cold mist, deep shadows, an ominous stillness.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "यह कहानी जासूस विक्रम और उनकी साथी डॉक्टर सावित्री के एक अनोखे मामले की है। उसी हफ़्ते विक्रम के कमरे में एक मोटा और हँसमुख आदमी आया, जिसके काले बालों के बीच एक चौड़ी सफ़ेद लट थी। उसका नाम लाला रामदास था और वह चौक बाज़ार में गिरवी की एक छोटी सी दुकान चलाता था।",
+        "shots": [
+          {
+            "prompt": "Interior of Vikram's Banaras room with wooden shelves and oil lamps; ramdas sitting across a wooden table, laughing with a baffled expression, wide angle, soft afternoon light coming through arched window.",
+            "characters": [
+              "ramdas",
+              "vikram",
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Close-up of ramdas, highlighting his chubby jovial face and the striking thick white streak running clearly through his dark black hair, warm interior lighting.",
+            "characters": [
+              "ramdas"
+            ]
+          },
+          {
+            "prompt": "Medium shot over vikram's shoulder, showing vikram listening calmly with sharp observant eyes, brass-handled cane leaning against his chair, while savitri takes notes beside him.",
+            "characters": [
+              "vikram",
+              "savitri",
+              "ramdas"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "रामदास ने हँसते हुए कहा, \"विक्रम बाबू, मेरे साथ एक अजीब मज़ाक हुआ है।\" आठ हफ़्ते पहले अख़बार में 'सफ़ेद लट सभा' का एक इश्तहार छपा था। उसमें लिखा था कि जिनके बालों में सफ़ेद लट हो, उन्हें रोज़ चार रुपये की नौकरी दी जाएगी।",
+        "shots": [
+          {
+            "prompt": "Medium shot of ramdas holding up an old 1920s newspaper clipping with Hindi text, animatedly narrating his story, daylight illuminating the paper, eye-level angle.",
+            "characters": [
+              "ramdas"
+            ]
+          },
+          {
+            "prompt": "Over-the-shoulder shot from savitri looking at ramdas, savitri adjusting her round spectacles in amused surprise, soft natural room light.",
+            "characters": [
+              "savitri",
+              "ramdas"
+            ]
+          },
+          {
+            "prompt": "Close-up of the vintage sepia newspaper advertisement in Ramdas's hands, showing formal boxed print in vintage Hindi typesetting, shallow depth of field.",
+            "characters": [
+              "ramdas"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "रामदास वहाँ गए और उन्हें चुन लिया गया। उनका काम बस इतना था कि वह रोज़ सुबह दस बजे से दोपहर दो बजे तक एक पुरानी किताब की हाथ से नक़ल करें। शर्त यह थी कि वह उस दौरान एक मिनट के लिए भी दफ़्तर छोड़कर नहीं जा सकते थे।",
+        "shots": [
+          {
+            "prompt": "Flashback scene: ramdas sitting at a small wooden desk in an austere rented office, diligently copying text into a ledger with a dip pen, high-angle shot, sunlight streaming through a window.",
+            "characters": [
+              "ramdas"
+            ]
+          },
+          {
+            "prompt": "Close-up of a vintage wall clock showing ten past eleven, swinging brass pendulum, vintage colonial room aesthetic.",
+            "characters": []
+          },
+          {
+            "prompt": "Medium shot of ramdas looking around an empty sparse office room with rows of stacked ledgers, alone and focused, afternoon dust motes in the air.",
+            "characters": [
+              "ramdas"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "आठ हफ़्ते तक रामदास रोज़ वहाँ गए, रोज़ लिखते रहे और रोज़ चार रुपये लेते रहे। लेकिन आज सुबह दफ़्तर पर ताला लटका हुआ था। दरवाज़े पर चिपकी एक पर्ची पर लिखा था कि सफ़ेद लट सभा भंग की जाती है। वह सभा, उसके आदमी और उसका दफ़्तर, सब कुछ ग़ायब हो चुका था।",
+        "shots": [
+          {
+            "prompt": "Exterior shot of a heavy wooden door in a narrow alleyway with a large brass padlock hanging on the latch, eye-level, overcast morning light.",
+            "characters": []
+          },
+          {
+            "prompt": "Close-up of a small paper note pasted crudely onto the locked weathered door, written in black ink, surrounded by peeling paint and old wood grain.",
+            "characters": []
+          },
+          {
+            "prompt": "Medium shot of ramdas standing outside the locked door in disbelief, holding his cloth bag, scratching his head with a bewildered expression.",
+            "characters": [
+              "ramdas"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "यह सुनकर सावित्री हँस पड़ीं, लेकिन विक्रम नहीं हँसे। उन्होंने पूछा, \"जब आप दस से दो बजे तक बाहर रहते थे, तब दुकान कौन संभालता था?\" रामदास बोले, \"मेरा नया मुंशी जयदेव संभालता था। वह बड़ा मेहनती लड़का है और आधी तनख़्वाह पर काम करता है।\"",
+        "shots": [
+          {
+            "prompt": "Medium two-shot of savitri chuckling lightly while vikram remains stoic and razor-sharp, his dark navy bandhgala coat prominent, warm indoor light.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Close-up of vikram's intense, calculating eyes leaning slightly forward as he asks the crucial question, dramatic shadow crossing his face.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Medium shot of ramdas answering proudly with folded hands, explaining about his helpful clerk, friendly and trusting smile.",
+            "characters": [
+              "ramdas"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "आधी तनख़्वाह की बात सुनकर विक्रम की आँखें चमक उठीं। उन्होंने पूछा, \"यह जयदेव अपने ख़ाली वक़्त में क्या करता है?\" रामदास ने बताया, \"वह तहख़ाने में घुसा रहता है, बाबू, और कहता है कि उसे तस्वीरें धोने का शौक़ है।\"",
+        "shots": [
+          {
+            "prompt": "Close-up of vikram resting his chin on his hands, fingers linked over his brass cane handle, eyes gleaming with sudden insight and suspicion.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Flashback view: A dark cellar with rough stone steps leading downwards into gloom, faint red photographic lamp glow deep at the bottom, eerie atmosphere.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "उसी दोपहर विक्रम और सावित्री चौक बाज़ार पहुँचे। विक्रम ने दुकान के बाहर अपनी छड़ी से फ़र्श को तीन बार ठोका और कान लगाकर उसकी आवाज़ सुनी। फिर उन्होंने दुकान का दरवाज़ा खटखटाया, जिसे एक जवान लड़के ने खोला। विक्रम ने उससे बस एक रास्ता पूछा और लौट आए।",
+        "shots": [
+          {
+            "prompt": "Bustling Banaras Chowk bazaar street scene, cobbled alley, vikram bending slightly to tap the stone pavement firmly with his brass cane, savitri watching carefully nearby, wide angle.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Low-angle close-up of the brass tip of Vikram's cane striking the hollow-sounding stone pavement, small dust puffs rising from the stone gaps.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Medium shot at the pawnshop doorway; jaidev opening the door with a guarded, suspicious gaze, talking to vikram who politely asks directions.",
+            "characters": [
+              "jaidev",
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "बाहर आकर विक्रम ने पूछा, \"क्या तुमने उसके घुटने देखे, सावित्री?\" सावित्री ने उन पर ध्यान नहीं दिया था। विक्रम बोले, \"उसके पाजामे के घुटने घिसे हुए थे और मिट्टी से सने थे, जैसे कोई घंटों तक ज़मीन पर घुटनों के बल काम करता रहा हो।\"",
+        "shots": [
+          {
+            "prompt": "Medium two-shot of vikram and savitri walking through a narrow crowded Banaras lane, Vikram turning his head to speak quietly to Savitri, eye-level, dappled sunlight.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Close-up flashback of jaidev's lower legs at the shop doorway, focusing on the heavily worn fabric and thick dried reddish clay caked on the knees of his pyjamas.",
+            "characters": [
+              "jaidev"
+            ]
+          },
+          {
+            "prompt": "Over-the-shoulder shot from vikram looking at savitri as her expression turns from curiosity to sudden realization, busy bazaar blurred in the background.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "यहाँ एक पल रुककर सोचिए। एक ऐसी नौकरी थी, जो एक आदमी को रोज़ चार घंटे घर से दूर रखती थी। एक मुंशी था, जो आधी तनख़्वाह पर भी ख़ुश था, तहख़ाने में वक़्त बिताता था और जिसके घुटने घिसे हुए थे। क्या आपको समझ आया कि दीवार के अंदर से आने वाली आवाज़ किसकी थी?",
+        "shots": [
+          {
+            "prompt": "Dramatic profile close-up of vikram pausing in front of an ancient carved archway, deep in thoughtful deduction, golden sunset light hitting his face.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Split screen or montage visual: on the left, an empty clerk desk; on the right, dark earthen tunnel walls carved through underground stone, atmospheric and mysterious.",
+            "characters": []
+          },
+          {
+            "prompt": "Medium shot of savitri turning towards the viewer with an intriguing, questioning gaze, notebook held in her hand, banaras street background.",
+            "characters": [
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "फिर विक्रम ने दुकान के पीछे खड़ी पत्थर की ऊँची इमारत की ओर देखा। वह इमारत काशी इम्पीरियल बैंक की थी। रामदास की दुकान की पिछली दीवार और बैंक की तिजोरी की दीवार आपस में सटी हुई थीं।",
+        "shots": [
+          {
+            "prompt": "Low-angle towering shot of the grand colonial sandstone facade of Kashi Imperial Bank, iron-barred windows and massive stone masonry rising behind small wooden pawnshops.",
+            "characters": []
+          },
+          {
+            "prompt": "Wide shot showing the back alley where the rear stone wall of Ramdas's humble pawnshop directly shares an adjoining foundation wall with the formidable bank vault.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "उस शाम वे दोनों बैंक के मालिक, राय बहादुर देवेंद्रनाथ से मिले। उनके बाल चाँदी जैसे सफ़ेद थे, आँखों पर सुनहरी ऐनक थी और हाथ में हाथीदाँत की मूठ वाली छड़ी थी। वह बड़े नरम स्वभाव के आदमी थे। उन्होंने कहा, \"विक्रम जी, बनारस को आप पर गर्व है।\"",
+        "shots": [
+          {
+            "prompt": "Interior of an opulent colonial office with mahogany furniture; devendranath standing gracefully to welcome vikram and savitri, holding an ivory-handled cane, wide shot, warm chandelier light.",
+            "characters": [
+              "devendranath",
+              "vikram",
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Close-up of devendranath, showing his dignified silver hair, neat beard, gold-rimmed spectacles, and warm courteous smile, wearing an elegant white achkan with gold buttons.",
+            "characters": [
+              "devendranath"
+            ]
+          },
+          {
+            "prompt": "Medium shot of devendranath extending a warm hand towards vikram, vikram bowing respectfully in return, rich tapestries in the background.",
+            "characters": [
+              "devendranath",
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "बनारस पुलिस के इंस्पेक्टर भैरव पांडे भी मूँछों पर ताव देते हुए वहाँ आ पहुँचे। उन्होंने कहा, \"यहाँ कोई भूत-वूत नहीं है, विक्रम बाबू, मैं सब संभाल लूँगा।\" विक्रम मुस्कराकर बोले, \"आज रात आप बस चुपचाप बैठिएगा, इंस्पेक्टर साहब।\"",
+        "shots": [
+          {
+            "prompt": "Medium shot of inspector_bhairav marching into the bank office, twirling his thick curled moustache proudly, baton under his arm, looking pompous.",
+            "characters": [
+              "inspector_bhairav",
+              "devendranath",
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Two-shot of inspector_bhairav puffing his chest out confidently while vikram gives a subtle, knowing smirk, leaning on his brass cane.",
+            "characters": [
+              "inspector_bhairav",
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "शनिवार की रात वे सब बैंक की तिजोरी वाले कमरे में पहुँचे। विक्रम ने लालटेन पर ढक्कन रख दिया और कमरे में घुप अँधेरा छा गया। चारों लोग पत्थर के फ़र्श पर साँस रोके बैठे थे। सन्नाटा इतना गहरा था कि सावित्री को अपनी धड़कन सुनाई दे रही थी।",
+        "shots": [
+          {
+            "prompt": "Inside the massive bank vault, cold stone walls lined with iron chests; vikram carefully placing a dark metal hood over a burning lantern, dimming the room into deep shadow.",
+            "characters": [
+              "vikram",
+              "savitri",
+              "inspector_bhairav",
+              "devendranath"
+            ]
+          },
+          {
+            "prompt": "Medium wide shot of four silhouettes seated in pitch darkness against the vault wall, only faint outlines visible against dark blue gloom, high tension.",
+            "characters": [
+              "vikram",
+              "savitri",
+              "inspector_bhairav",
+              "devendranath"
+            ]
+          },
+          {
+            "prompt": "Extreme close-up of savitri's eyes in the near darkness, wide and vigilant, listening intently to the chilling silence.",
+            "characters": [
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "पहले एक घंटा बीता और फिर दूसरा भी बीत गया। तभी फ़र्श के नीचे से वही ठक-ठक की आवाज़ आने लगी। सावित्री की साँस रुक गई, क्योंकि सामने पत्थर का एक चौकोर टुकड़ा धीरे-धीरे ऊपर उठ रहा था।",
+        "shots": [
+          {
+            "prompt": "Low-angle shot focusing on the stone floor of the vault, a heavy square stone slab beginning to tilt upwards, faint golden light seeping through the crack.",
+            "characters": []
+          },
+          {
+            "prompt": "Close-up of savitri and inspector_bhairav in deep shadows, savitri holding her breath in alarm, Bhairav gripping his baton tightly.",
+            "characters": [
+              "savitri",
+              "inspector_bhairav"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "उस दरार से रोशनी की एक पतली लकीर निकली और फिर लालटेन थामे हुए एक हाथ बाहर आया। उसके बाद जो चेहरा दिखा, वह आधी तनख़्वाह वाले मुंशी जयदेव का था। वह सुरंग से बाहर निकला और उसके पीछे एक और आदमी भी आया।",
+        "shots": [
+          {
+            "prompt": "A dirty hand holding a small candle lantern emerging upward from the open floor cavity, illuminating the dark edges of the displaced stone slab.",
+            "characters": []
+          },
+          {
+            "prompt": "Medium shot of jaidev clambering out of the underground opening, his face covered in soot and sweat, lantern light casting dramatic under-lighting on his cunning face.",
+            "characters": [
+              "jaidev"
+            ]
+          },
+          {
+            "prompt": "Low-angle shot showing jaidev pulling himself onto the vault floor, followed by accomplice emerging from the dark hole behind him, holding crowbars.",
+            "characters": [
+              "jaidev",
+              "accomplice"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "विक्रम चिल्लाए, \"इन्हें अभी पकड़ो!\" इंस्पेक्टर भैरव शेर की तरह झपटे, लेकिन उन्होंने ग़लती से सावित्री को पकड़ लिया। इतने में विक्रम ने जयदेव की कलाई जकड़ ली, जबकि उसका साथी वापस सुरंग में कूदकर भाग गया।",
+        "shots": [
+          {
+            "prompt": "Action shot in the dimly lit vault: vikram lunging forward with agility, gripping jaidev firmly by the wrist while Jaidev struggles fiercely to pull away.",
+            "characters": [
+              "vikram",
+              "jaidev"
+            ]
+          },
+          {
+            "prompt": "Comic action in the background: inspector_bhairav accidentally grabbing a startled savitri's shawl in the dark chaos, while accomplice drops backwards into the tunnel hole.",
+            "characters": [
+              "inspector_bhairav",
+              "savitri",
+              "accomplice"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "सुबह विक्रम ने सारी बात समझाई। उन्होंने कहा, \"सफ़ेद लट सभा कोई सभा नहीं थी, वह एक जाल था, ताकि रामदास रोज़ चार घंटे दुकान से दूर रहें। उन्हीं चार घंटों में जयदेव तहख़ाने से बैंक की तिजोरी तक सुरंग खोदता रहा।\"",
+        "shots": [
+          {
+            "prompt": "Next morning outside the bank, daylight flooding the courtyard; vikram explaining with calm authority to the gathered group, gesturing towards the open vault tunnel, wide angle.",
+            "characters": [
+              "vikram",
+              "savitri",
+              "ramdas",
+              "devendranath"
+            ]
+          },
+          {
+            "prompt": "Close-up of ramdas with his mouth agape in absolute shock, touching his white streak of hair in disbelief, morning sunlight on his face.",
+            "characters": [
+              "ramdas"
+            ]
+          },
+          {
+            "prompt": "Cutaway view of the underground tunnel excavated between the pawnshop cellar and the bank vault floor, showing discarded pickaxes and heaps of dug-out dirt.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "विक्रम ने आगे कहा, \"उसके घुटने खुदाई की वजह से घिसे थे। मैं फ़र्श पर छड़ी मारकर सुन रहा था कि नीचे कोई खोखली जगह तो नहीं है। दीवार से आने वाली वह ठक-ठक किसी आत्मा की नहीं, बल्कि एक कुदाल की थी। सच हमेशा छोटी चीज़ों में छिपा होता है।\"",
+        "shots": [
+          {
+            "prompt": "Medium shot of vikram tapping his cane lightly against the ground, offering his signature calm smile, savitri nodding in admiration beside him.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Close-up of jaidev sitting handcuffed on a bench, looking defeated and sullen, his soiled clay-covered trousers visible.",
+            "characters": [
+              "jaidev"
+            ]
+          },
+          {
+            "prompt": "Low-angle heroic portrait of vikram in his navy bandhgala and shawl, eyes sharp and steady, classic 1920s detective stature.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "जब सिपाही जयदेव को ले जा रहे थे, तब वह मुड़ा और फुसफुसाकर बोला, \"आज की चाल तुमने जीत ली, विक्रम, पर काले कमल तक यह ख़बर पहुँच जाएगी।\" उसकी आँखों में कोई डर नहीं था, बस एक अजीब सी मुस्कान थी।",
+        "shots": [
+          {
+            "prompt": "Medium shot of two colonial policemen escorting jaidev away; Jaidev twisting his head back over his shoulder to whisper threateningly at vikram, a sinister smile on his lips.",
+            "characters": [
+              "jaidev",
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Tight close-up of jaidev's dark unblinking eyes and menacing smirk, background blurred with morning Banaras street lights.",
+            "characters": [
+              "jaidev"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "राय बहादुर देवेंद्रनाथ ने अपनी सुनहरी क़लम उठाई, बाएँ हाथ से इनाम का चेक लिखा और बोले, \"यह बैंक हमेशा आपका एहसानमंद रहेगा।\" लेकिन विक्रम का ध्यान अब भी जयदेव के शब्दों पर अटका हुआ था। आख़िर यह काला कमल कौन है? अपना शक कमेंट में ज़रूर लिखिए।",
+        "shots": [
+          {
+            "prompt": "Close-up shot focusing on devendranath holding a golden fountain pen firmly in his LEFT hand, signing a bank cheque with purple ink, ivory walking stick resting against his chair.",
+            "characters": [
+              "devendranath"
+            ]
+          },
+          {
+            "prompt": "Medium shot of devendranath handing the signed paper to vikram with a gracious smile, while vikram holds it looking pensive and alert.",
+            "characters": [
+              "devendranath",
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Close-up of vikram looking into the distance with a serious, searching expression, thinking deeply about the mysterious Black Lotus as temple bells ring faintly in Banaras.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      }
+    ],
+    "clips": [
+      {
+        "start_scene": 1,
+        "end_scene": 2,
+        "hook_text": "दीवार के अंदर से ठक-ठक",
+        "title": "आधी रात, बैंक की दीवार के अंदर से आवाज़ | जासूस विक्रम",
+        "end_question": "दीवार के अंदर कौन था?"
+      },
+      {
+        "start_scene": 4,
+        "end_scene": 7,
+        "hook_text": "सिर्फ़ सफ़ेद लट वालों की नौकरी",
+        "title": "बस बालों में सफ़ेद लट हो... और रोज़ चार रुपये | जासूस विक्रम",
+        "end_question": "ये नौकरी असली थी या जाल?"
+      },
+      {
+        "start_scene": 15,
+        "end_scene": 16,
+        "hook_text": "अँधेरी तिजोरी में इंतज़ार",
+        "title": "घुप अँधेरा... और फ़र्श का पत्थर उठने लगा | जासूस विक्रम",
+        "end_question": "नीचे से कौन निकला?"
+      },
+      {
+        "start_scene": 7,
+        "end_scene": 10,
+        "hook_text": "मिट्टी से सने घुटने!",
+        "title": "मुंशी के पाजामे का गहरा राज़ | जासूस विक्रम Shorts",
+        "end_question": "क्या आप सुराग पकड़ पाए?"
+      },
+      {
+        "start_scene": 20,
+        "end_scene": 22,
+        "hook_text": "काले कमल की चेतावनी",
+        "title": "काले कमल का अगला शिकार? | जासूस विक्रम Shorts",
+        "end_question": "काला कमल कौन हो सकता है?"
+      }
+    ],
+    "episode": 2,
+    "episode_title": "दीवार के अंदर कौन?"
+  },
+  "active_clips": [
+    0,
+    1,
+    2
+  ],
+  "next_clip": 3,
+  "batch": null
+}

@@ -1,10 +1,15 @@
 {
- "next": 2,
+ "next": 3,
  "done": [
   {
    "n": 1,
    "title": "आधी रात की सीटी",
    "summary": "Detective Vikram investigates a young woman's mysterious death in a creepy Banaras haveli, uncovering a lethal plot involving a dead snake, locked rooms, and hidden wealth before receiving a chilling message from the Black Lotus."
+  },
+  {
+   "n": 2,
+   "title": "दीवार के अंदर कौन?",
+   "summary": "Detective Vikram uncovers a daring bank heist disguised as a supernatural wall-knocking ghost and an eccentric society for men with a white streak in their hair."
   }
  ]
 }
