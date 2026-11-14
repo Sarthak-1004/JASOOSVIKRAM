@@ -17,8 +17,9 @@ import sys
 import time
 import traceback
 
+import autoyt  # the shared YouTube uploader in ../auto-yt; every workflow installs it
 from src import images, models, providers, render, series, telegram as tg, tts
-from src.common import CFG, ITEMS, STATE_DIR, WORK_DIR, gh_annotate, git_pull, load_state, log, now, publish_times, resolve_date, \
+from src.common import CFG, ITEMS, SLUG, STATE_DIR, WORK_DIR, gh_annotate, git_pull, load_state, log, now, publish_times, resolve_date, \
     save_state, work_dir
 from src.story import add_history, all_shots, write_story
 
@@ -266,55 +267,37 @@ def stage_resend(date: str) -> None:
 
 
 def upload_pending(state: dict, wd) -> None:
-    if not CFG["youtube"]["api_audited"]:
+    """Uploads and schedules every item not on hold through the shared auto-yt uploader. Without a
+    YouTube login, the files go to Telegram for a manual upload instead."""
+    if not autoyt.enabled(SLUG):
         return deliver_manual(state, wd)
-    from src import youtube
     times = publish_times(state["date"])
-    long_url = ""
-    if state["items"].get("v", {}).get("youtube_id"):
-        long_url = f"https://youtu.be/{state['items']['v']['youtube_id']}"
-    for item in ITEMS:
-        it = state["items"].get(item)
-        if not it or it["status"] != "pending":
-            continue
-        desc = it["description"].replace("{LONG_URL}", long_url or "चैनल पर")
-        if CFG["channel"].get("description_footer"):
-            desc += "\n\n" + CFG["channel"]["description_footer"]
-        vid = youtube.upload(wd / f"{item}.mp4", it["title"], desc, it["tags"], times[item],
-                             wd / "thumb.jpg" if item == "v" else None)
-        it.update(status="uploaded", youtube_id=vid)
-        if item == "v":
-            long_url = f"https://youtu.be/{vid}"
-        save_state(state, msg=f"uploaded {state['date']} {item}")
-    lines = [f"{LABEL[i]}: https://youtu.be/{state['items'][i]['youtube_id']}"
-             for i in ITEMS if state["items"].get(i, {}).get("youtube_id")]
-    if CFG["youtube"]["api_audited"]:
-        notify("📅 Scheduled on YouTube:\n" + "\n".join(lines))
-    else:
-        sched = "\n".join(f"{LABEL[i]} → {times[i]:%d %b %H:%M}" for i in ITEMS
-                          if state["items"].get(i, {}).get("youtube_id"))
-        notify("⬆️ Uploaded as PRIVATE (API audit not approved yet).\nPlease schedule in YouTube "
-               f"Studio:\n{sched}\n\n" + "\n".join(lines))
+    footer = CFG["channel"].get("description_footer")
+    items = [{"key": item, "label": LABEL[item], "kind": "main" if item == "v" else "short",
+              "upload_file": wd / f"{item}.mp4", "title": it["title"], "tags": it["tags"],
+              "description": it["description"] + (f"\n\n{footer}" if footer else ""),
+              "long_url_fallback": "चैनल पर"}
+             for item in ITEMS if (it := state["items"].get(item)) and it["status"] == "pending"]
+    # Items uploaded by an earlier run are already in the state, so they are never uploaded twice.
+    record = {key: {"id": it["youtube_id"]} for key, it in state["items"].items() if it.get("youtube_id")}
+
+    def save(rec):
+        for key, entry in rec.items():
+            it = state["items"][key]
+            if entry.get("id") and not it.get("youtube_id"):
+                it.update(status="uploaded", youtube_id=entry["id"])
+                save_state(state, msg=f"uploaded {state['date']} {key}")
+
+    autoyt.publish_all(SLUG, items, times, record, save, wd / "thumb.jpg")
+    if items:
+        text, failed = autoyt.report(items, record, times)
+        if failed:
+            text += ("\n\nThese stay pending: send /approve to try again while the review window is open. "
+                     "After the deadline, upload them by hand (the run page → Artifacts → media).")
+        notify(text)
     if all(state["items"][i]["status"] != "pending" for i in state["items"]):
         state["status"] = "published"
         save_state(state, msg=f"published {state['date']}")
-    if failed:
-        msg = ("Telegram did not accept these files:\n" + "\n".join(failed) +
-               f"\n\nDownload them from {run_url} → Artifacts → media")
-        raise RuntimeError(msg)  # the caller reports it on Telegram and the run page
-
-
-def stage_resend(date: str) -> None:
-    """Send the final files for a date to Telegram again (e.g. they never arrived)."""
-    git_pull()
-    state = load_state(date)
-    wd = work_dir(date)
-    for it in state.get("items", {}).values():
-        if it.get("delivered") and not it.get("youtube_id"):
-            it.update(status="pending", delivered=False)
-            state["status"] = "review"
-    notify(f"🔁 Sending the final files for {date} again.")
-    deliver_manual(state, wd)
 
 
 # ================================================================ commands
@@ -331,7 +314,7 @@ def handle(cmd: str, args: list[str], rest: str, state: dict, wd, allow_heavy: b
     elif cmd == "status":
         notify(status_text(state))
     elif cmd == "approve":
-        notify("⬆️ Uploading to YouTube…" if CFG["youtube"]["api_audited"]
+        notify("⬆️ Uploading to YouTube…" if autoyt.enabled(SLUG)
                else "📦 Sending the final files for you to upload…")
         upload_pending(state, wd)
         return state["status"] == "published"
@@ -520,7 +503,7 @@ def stage_publish(date: str) -> None:
             return
     if CFG["review"]["auto_publish"]:
         notify("⏰ Deadline reached — releasing everything not on hold." +
-               ("" if CFG["youtube"]["api_audited"] else " Upload and schedule the files below now."))
+               ("" if autoyt.enabled(SLUG) else " Upload and schedule the files below now."))
         upload_pending(state, wd)
 
 
@@ -576,12 +559,11 @@ def stage_check() -> None:
         step(f"Voice {v['speaker']} ({v['model']})", sample)
 
     def youtube():
-        from src import youtube as yt
-        items = yt.service().channels().list(part="snippet", mine=True).execute().get("items", [])
-        if not items:
-            raise RuntimeError("login works but this Google account has no YouTube channel")
-        sn = items[0]["snippet"]
-        return f"logged in to channel '{sn.get('title')}' ({sn.get('customUrl', 'no handle')})"
+        if not autoyt.enabled(SLUG):
+            raise RuntimeError("no YouTube login (YT_CLIENT_ID, YT_CLIENT_SECRET, YT_REFRESH_TOKEN); "
+                               "files will go to Telegram for a manual upload")
+        autoyt.check(SLUG)  # the upload-only login can't read the channel name, but it proves the token works
+        return "login works; uploads go through auto-yt"
     step("YouTube", youtube)
 
     report = "🔧 Setup check\n" + "\n".join(lines)

@@ -34,3 +34,4 @@ fi
 
 ffmpeg -version | head -1
 pip install -q -r requirements.txt
+pip install -q ./.auto-yt  # shared YouTube uploader, checked out by each workflow

@@ -20,6 +20,7 @@ CFG = yaml.safe_load((ROOT / "config.yaml").read_text(encoding="utf-8"))
 TZ = ZoneInfo(CFG["channel"]["timezone"])
 
 ITEMS = ["v", "s1", "s2", "s3"]  # long video + 3 shorts
+SLUG = "jasoos_vikram"  # this channel's name in auto-yt; its login is YT_REFRESH_TOKEN_JASOOS_VIKRAM
 
 
 def env(name: str, required: bool = True) -> str:
@@ -93,14 +94,10 @@ def git_pull() -> None:
 
 
 def publish_times(date: str) -> dict:
-    """item -> aware datetime (IST) when it should go public."""
-    d = dt.date.fromisoformat(date)
-    times = [CFG["schedule"]["long_video"], *CFG["schedule"]["shorts"]]
-    out = {}
-    for item, t in zip(ITEMS, times):
-        h, m = map(int, t.split(":"))
-        out[item] = dt.datetime.combine(d, dt.time(h, m), tzinfo=TZ)
-    return out
+    """item -> aware datetime (IST) when it should go public. The times live in auto-yt's
+    channels.json with the other channels' schedules, so there is one place to change them."""
+    import autoyt
+    return autoyt.publish_times(SLUG, date)
 
 
 def gh_annotate(level: str, title: str, msg: str) -> None:

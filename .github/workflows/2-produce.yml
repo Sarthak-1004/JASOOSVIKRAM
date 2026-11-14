@@ -29,13 +29,19 @@ jobs:
       TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
       YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
       YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
-      YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+      YT_REFRESH_TOKEN_JASOOS_VIKRAM: ${{ secrets.YT_REFRESH_TOKEN }}
       CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
       CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
       POLLINATIONS_TOKEN: ${{ secrets.POLLINATIONS_TOKEN }}
       GH_TOKEN: ${{ github.token }}
     steps:
       - uses: actions/checkout@v4
+      # The shared YouTube uploader and publish times (auto-yt); tools/install.sh installs it.
+      - uses: actions/checkout@v4
+        with:
+          repository: Sarthak-1004/auto-yt
+          path: .auto-yt
+          token: ${{ secrets.AUTO_YT_TOKEN || github.token }}
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"

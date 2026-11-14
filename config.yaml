@@ -12,10 +12,9 @@ channel:
   description_footer: "🔔 ऐसी ही रहस्य और रोमांच से भरी कहानियों के लिए Jasoos Vikram (जासूस विक्रम) को सब्सक्राइब करें।"
   timezone: Asia/Kolkata
 
-schedule:
-  # Publish times (IST) on the publish day: long video + 3 Shorts
-  long_video: "10:00"
-  shorts: ["13:00", "18:00", "21:00"]
+# Publish times and YouTube settings (category, language, synthetic-content label) now live in
+# the shared uploader: auto-yt/autoyt/channels.json, under "jasoos_vikram". Currently the long
+# video at 10:00 and the Shorts at 13:00, 18:00 and 21:00 IST on the publish day.
 
 series:
   # true = follow series/bible.yaml + series/episodes.yaml one episode per day
@@ -80,16 +79,6 @@ video:
   shorts_target_seconds: [45, 75]
   font: Noto Sans Devanagari
   shorts_end_text: "पूरी कहानी चैनल पर देखें"
-
-youtube:
-  category_id: "24"                   # Entertainment
-  # Until Google approves your API project audit, uploads stay private.
-  # Keep false until then: the bot uploads privately and tells you to schedule
-  # in YouTube Studio. Set true after the audit is approved.
-  api_audited: false
-  # While false, nothing is uploaded through the API (such uploads are locked private by
-  # YouTube). Approving sends the final files to Telegram for you to upload and schedule.
-  synthetic_media: true               # "altered or synthetic content" disclosure
 
 review:
   # Listener stops at this IST time; no reply by deadline => auto publish

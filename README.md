@@ -64,13 +64,13 @@ Get it from https://dashboard.sarvam.ai → API keys. Each day uses about 4,000 
 1. Go to https://console.cloud.google.com, create a project (or use the Gemini one), and enable the **YouTube Data API v3**.
 2. Go to **APIs & Services → OAuth consent screen**. Choose External, fill in the app name and your email, then click **Publish app** so it's **"In production"**. If you skip this, the login token expires every 7 days and the uploads stop.
 3. Go to **Credentials → Create credentials → OAuth client ID → Desktop app**. Download the JSON file and save it as `tools/client_secret.json`. Don't commit it; `.gitignore` already blocks it.
-4. On your own computer, run:
+4. Uploads go through the shared uploader in the `auto-yt` repo (`Sarthak-1004/auto-yt`), which every workflow checks out. On your own computer, from the `auto-yt` folder, run:
    ```
-   pip install google-auth-oauthlib
-   python tools/get_youtube_token.py
+   pip install -e ".[login]"
+   python -m autoyt login jasoos_vikram --client ..\JASOOSVIKRAM\tools\client_secret.json
    ```
-   Log in with the Google account that owns the channel. Copy the 3 values it prints.
-5. **Apply for the API audit now:** https://support.google.com/youtube/contact/yt_api_form. Until Google approves it, videos uploaded through the API stay private. In the meantime the bot uploads them as private and sends you the times to schedule them by hand in YouTube Studio (about 2 minutes a day). After approval, set `api_audited: true` in `config.yaml`.
+   Log in with the Google account that owns the channel. Copy the 3 values it prints. Save its `YT_REFRESH_TOKEN_JASOOS_VIKRAM` value as the `YT_REFRESH_TOKEN` secret here; the workflows pass it on under the longer name.
+5. No API audit is needed any more: videos uploaded from unverified projects are no longer locked to private (limit 100 uploads a day). Without a YouTube login, approving sends the final files to Telegram for a manual upload instead.
 6. Verify your channel by phone at https://www.youtube.com/verify. Without this, custom thumbnails won't upload.
 
 ### 6. GitHub Secrets
@@ -85,6 +85,7 @@ Go to **Settings → Secrets and variables → Actions → New repository secret
 | `YT_CLIENT_ID` | from step 5 |
 | `YT_CLIENT_SECRET` | from step 5 |
 | `YT_REFRESH_TOKEN` | from step 5 |
+| `AUTO_YT_TOKEN` | only if the `auto-yt` repo is private: a fine-grained token with read access to it |
 
 ### 7. Background music (optional but recommended)
 Put a few dark or suspense instrumental `.mp3` files in `assets/music/`. Free sources: YouTube Studio → Audio Library, or Pixabay Music. Check that each track's license allows YouTube use. The bot picks one per day.
@@ -115,7 +116,7 @@ How it works:
 
 ## Settings (`config.yaml`)
 - `channel.name`: once you choose it, it's shown on the Shorts end card.
-- `schedule`: publish times.
+- Publish times are in the `auto-yt` repo, `autoyt/channels.json` under `jasoos_vikram`, next to the other channels' times.
 - `story.theme_hint`: e.g. "haunted places in Rajasthan" for a themed week. You can also run Prepare by hand with an idea using `python pipeline.py prepare --idea "..."`.
 - `images.style_prompt`: the art style. Add 1-2 style reference images later if you want an even more consistent look.
 - `voice.speaker`: the narrator. It is `shubh_hi_stories_dramatic` on `bulbul:v4-flash`, the same voice as the thriller channel. Run **0 Check setup** to hear it next to the `voice.samples`.
