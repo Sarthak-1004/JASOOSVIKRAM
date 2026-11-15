@@ -1,5 +1,5 @@
 {
- "next": 3,
+ "next": 4,
  "done": [
   {
    "n": 1,
@@ -10,6 +10,11 @@
    "n": 2,
    "title": "दीवार के अंदर कौन?",
    "summary": "Detective Vikram uncovers a daring bank heist disguised as a supernatural wall-knocking ghost and an eccentric society for men with a white streak in their hair."
+  },
+  {
+   "n": 3,
+   "title": "नीली साड़ी का राज़",
+   "summary": "In 1923 Shimla, a governess hired under bizarre conditions discovers a captive heiress hidden in a locked bungalow wing and uncovers a sinister inheritance trap."
   }
  ]
 }
