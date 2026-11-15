@@ -1,7 +1,71 @@
 {
   "date": "2026-11-16",
-  "status": "story_ready",
-  "items": {},
+  "status": "review",
+  "items": {
+    "v": {
+      "title": "नीली साड़ी का राज़ | जासूस विक्रम Ep 3",
+      "description": "शिमला के सुनसान देवदार कोठी में अंजलि को मिली तीन गुनी तनख़्वाह वाली नौकरी, लेकिन उसकी शर्तें अजीब थीं—बाल कटवाना, नीली साड़ी पहनना और खिड़की की ओर पीठ करके हँसना! उस बंद कमरे में कौन था?\n\nजासूस विक्रम और डॉक्टर सावित्री ने इस ख़ौफ़नाक साज़िश की परतें कैसे खोलीं? देखिए इस रोंगटे खड़े कर देने वाले एपिसोड में।\n\n#JasoosVikram #HindiKahaniya #ThrillerStories #HindiMystery #DetectiveStories\n\nआर्थर कॉनन डॉयल की कहानी \"The Adventure of the Copper Beeches\" से प्रेरित (public domain). सभी पात्र काल्पनिक हैं।",
+      "tags": [
+        "जासूस विक्रम",
+        "Jasoos Vikram",
+        "Hindi Thriller Stories",
+        "Hindi Stories",
+        "Mystery Kahaniya",
+        "Horror Stories Hindi",
+        "Shimla Mystery",
+        "Detective Vikram Ep 3"
+      ],
+      "status": "pending"
+    },
+    "s1": {
+      "title": "चाबी के छेद से झाँका... और बंद कमरे में कोई टहल रहा था | जासूस विक्रम #shorts",
+      "description": "चाबी के छेद से झाँका... और बंद कमरे में कोई टहल रहा था | जासूस विक्रम\n\nपूरी कहानी देखें: {LONG_URL}\n\n#shorts #hindistory #thriller",
+      "tags": [
+        "जासूस विक्रम",
+        "Jasoos Vikram",
+        "Hindi Thriller Stories",
+        "Hindi Stories",
+        "Mystery Kahaniya",
+        "Horror Stories Hindi",
+        "Shimla Mystery",
+        "Detective Vikram Ep 3",
+        "shorts"
+      ],
+      "status": "pending"
+    },
+    "s2": {
+      "title": "बाल कटवाओ, नीली साड़ी पहनो, खिड़की की ओर पीठ करके हँसो | जासूस विक्रम #shorts",
+      "description": "बाल कटवाओ, नीली साड़ी पहनो, खिड़की की ओर पीठ करके हँसो | जासूस विक्रम\n\nपूरी कहानी देखें: {LONG_URL}\n\n#shorts #hindistory #thriller",
+      "tags": [
+        "जासूस विक्रम",
+        "Jasoos Vikram",
+        "Hindi Thriller Stories",
+        "Hindi Stories",
+        "Mystery Kahaniya",
+        "Horror Stories Hindi",
+        "Shimla Mystery",
+        "Detective Vikram Ep 3",
+        "shorts"
+      ],
+      "status": "pending"
+    },
+    "s3": {
+      "title": "आधी रात का बचाव... और भूखे कुत्ते की ज़ंजीर खुली | जासूस विक्रम #shorts",
+      "description": "आधी रात का बचाव... और भूखे कुत्ते की ज़ंजीर खुली | जासूस विक्रम\n\nपूरी कहानी देखें: {LONG_URL}\n\n#shorts #hindistory #thriller",
+      "tags": [
+        "जासूस विक्रम",
+        "Jasoos Vikram",
+        "Hindi Thriller Stories",
+        "Hindi Stories",
+        "Mystery Kahaniya",
+        "Horror Stories Hindi",
+        "Shimla Mystery",
+        "Detective Vikram Ep 3",
+        "shorts"
+      ],
+      "status": "pending"
+    }
+  },
   "story": {
     "title": "नीली साड़ी का राज़ | जासूस विक्रम Ep 3",
     "description": "शिमला के सुनसान देवदार कोठी में अंजलि को मिली तीन गुनी तनख़्वाह वाली नौकरी, लेकिन उसकी शर्तें अजीब थीं—बाल कटवाना, नीली साड़ी पहनना और खिड़की की ओर पीठ करके हँसना! उस बंद कमरे में कौन था?\n\nजासूस विक्रम और डॉक्टर सावित्री ने इस ख़ौफ़नाक साज़िश की परतें कैसे खोलीं? देखिए इस रोंगटे खड़े कर देने वाले एपिसोड में।\n\n#JasoosVikram #HindiKahaniya #ThrillerStories #HindiMystery #DetectiveStories\n\nआर्थर कॉनन डॉयल की कहानी \"The Adventure of the Copper Beeches\" से प्रेरित (public domain). सभी पात्र काल्पनिक हैं।",
@@ -567,5 +631,6 @@
     2
   ],
   "next_clip": 3,
-  "batch": null
+  "batch": null,
+  "media_run_id": "43735739937"
 }
