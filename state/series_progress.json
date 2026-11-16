@@ -1,5 +1,5 @@
 {
- "next": 4,
+ "next": 5,
  "done": [
   {
    "n": 1,
@@ -15,6 +15,11 @@
    "n": 3,
    "title": "नीली साड़ी का राज़",
    "summary": "In 1923 Shimla, a governess hired under bizarre conditions discovers a captive heiress hidden in a locked bungalow wing and uncovers a sinister inheritance trap."
+  },
+  {
+   "n": 4,
+   "title": "अनजान कोठी का बुलावा",
+   "summary": "In 1923 Mirzapur, Detective Vikram investigates a secret forest mansion where a young engineer barely escapes a lethal hydraulic trap designed to protect a dangerous counterfeiting operation."
   }
  ]
 }
