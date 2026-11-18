@@ -1,0 +1,609 @@
+{
+  "date": "2026-11-19",
+  "status": "story_ready",
+  "items": {},
+  "story": {
+    "title": "शापित नीलम | जासूस विक्रम Ep 6",
+    "description": "बनारस की जगमगाती दिवाली पर गंगा व्यू होटल से महारानी का बेशकीमती शापित नीलम चोरी हो जाता है। शक एक बेगुनाह प्लंबर पर जाता है, लेकिन असली सुराग एक बत्तख़ और फटी पुरानी टोपी में छिपा था। क्या जासूस विक्रम इस रहस्यमयी चोरी के पीछे छिपे काले कमल के तार पकड़ पाएंगे?\n\n#JasoorVikram #HindiKahaniya #SuspenseThriller #MysteryStories #DetectiveStory\n\nआर्थर कॉनन डॉयल की कहानी \"The Adventure of the Blue Carbuncle\" से प्रेरित (public domain). सभी पात्र काल्पनिक हैं।",
+    "tags": [
+      "Jasoos Vikram",
+      "Detective Vikram",
+      "Hindi Suspense Story",
+      "Mystery Thriller Hindi",
+      "Sherlock Style Hindi",
+      "Blue Carbuncle Hindi",
+      "Banaras 1920s",
+      "Kala Kamal Mystery"
+    ],
+    "logline": "On Diwali night in 1923 Banaras, Detective Vikram traces a stolen cursed sapphire hidden inside a dressed duck back to a panicked hotel servant and the scent of kewra.",
+    "thumbnail_text": "शापित नीलम",
+    "thumbnail_shot": 20,
+    "thumbnail_prompt": "A glowing blue sapphire in the open palm of a shocked woman doctor, a white duck beside her, Diwali diyas glowing in a dark room, deep red accent.",
+    "characters": [
+      {
+        "id": "vikram",
+        "name": "जासूस विक्रम",
+        "look": "Lean Indian man in his mid-30s, sharp intelligent eyes, neatly trimmed black moustache, short side-parted hair, dark navy bandhgala coat over a white kurta, grey wool shawl over one shoulder, black cane with a brass handle."
+      },
+      {
+        "id": "savitri",
+        "name": "डॉक्टर सावित्री",
+        "look": "Indian woman in her late 20s, intelligent kind face, hair in a low bun, small round spectacles, cotton sari with a dark border, brown leather doctor's bag, small notebook."
+      },
+      {
+        "id": "inspector_bhairav",
+        "name": "इंस्पेक्टर भैरव पांडे",
+        "look": "Heavy-set Indian police inspector in his late 40s, thick curled moustache, 1920s khaki police uniform with a red-and-khaki pagri turban, leather belt, short wooden baton."
+      },
+      {
+        "id": "ramesh",
+        "name": "रमेश",
+        "look": "Young Indian plumber in his late 20s, lean build, distraught face, disheveled hair, coarse cotton kurta stained with pipe grease, looking terrified and weeping."
+      },
+      {
+        "id": "constable",
+        "name": "सिपाही",
+        "look": "Young Indian police constable in his 20s, lean frame, 1920s khaki police uniform with a red turban, carrying an oil lamp in hand."
+      },
+      {
+        "id": "cook",
+        "name": "बावर्ची",
+        "look": "Elderly Indian house cook in his 50s, round expressive face, grey hair, simple white cotton dhoti-kurta with a kitchen cloth tied across his waist."
+      },
+      {
+        "id": "bhola",
+        "name": "भोला",
+        "look": "Impoverished Indian scholar in his 50s, wire-rimmed spectacles, tired kind eyes, receding grey hair, faded threadbare brown sherwani with patched sleeves."
+      },
+      {
+        "id": "ganga_bai",
+        "name": "गंगा बाई",
+        "look": "Sturdy middle-aged Indian poultry seller in her late 40s, sharp defiant eyes, hair tied with a colorful rag, bright rustic cotton sari tucked at waist, standing amidst wicker poultry coops."
+      },
+      {
+        "id": "hariprasad",
+        "name": "हरिप्रसाद",
+        "look": "Frail and nervous Indian hotel attendant in his late 20s, anxious darting eyes, thin trembling hands, faded maroon hotel uniform vest over a simple white kurta."
+      }
+    ],
+    "scenes": [
+      {
+        "narration": "कहते हैं कि नीलम हर किसी को रास नहीं आता। जिसने भी उसे पहना, वह या तो राजा बन गया या मिट्टी में मिल गया, और जिसने उसे चुराया, उसकी क़िस्मत ही फूट गई। उस दिवाली पर बनारस में ऐसा ही एक शापित नीलम चोरी हो गया।",
+        "shots": [
+          {
+            "prompt": "Macro close-up shot of a magnificent royal blue sapphire set in an antique gold pendant, glowing ominously under warm flickering oil lamp light, resting on dark red velvet.",
+            "characters": []
+          },
+          {
+            "prompt": "Atmospheric wide shot of 1923 Banaras ghats at dusk, illuminated with countless glowing Diwali oil lamps along stone staircases, evening mist rising from the holy river.",
+            "characters": []
+          },
+          {
+            "prompt": "Medium silhouette shot of a shadowy figure clutching an ornate jewelry casket fleeing through a narrow foggy cobblestone alleyway in old Banaras.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "गंगा व्यू होटल में ठहरी एक महारानी के कमरे से वह नीलम ग़ायब हो गया था। इंस्पेक्टर भैरव ने फ़ौरन रमेश नाम के एक प्लंबर को गिरफ़्तार कर लिया, जो उस दिन कमरे में नल ठीक करने आया था। रमेश रोते हुए कहता रहा, \"मैंने कुछ नहीं किया है!\"",
+        "shots": [
+          {
+            "prompt": "Wide shot of an opulent British-era hotel suite with open ornate dresser drawers, silk tapestries, and luggage, brass lamps casting long dramatic shadows.",
+            "characters": []
+          },
+          {
+            "prompt": "Medium shot of inspector_bhairav gripping young plumber ramesh by the collar in the hotel hallway, inspector_bhairav looking stern and blustery while ramesh weeps in desperation.",
+            "characters": [
+              "inspector_bhairav",
+              "ramesh"
+            ]
+          },
+          {
+            "prompt": "Close-up shot of ramesh's pleading, terrified tear-stained face with grease marks on his cheek, shadows of iron hotel railings falling across him.",
+            "characters": [
+              "ramesh"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "वह दिवाली की रात थी और पूरा बनारस दीयों से जगमगा रहा था। जासूस विक्रम और डॉक्टर सावित्री कमरे में बैठे थे, तभी एक सिपाही अंदर आया। उसके हाथ में एक मोटी सफ़ेद बत्तख़ और एक पुरानी, घिसी हुई टोपी थी।",
+        "shots": [
+          {
+            "prompt": "Cozy interior shot of Vikram's study in Banaras, oil lanterns on wooden tables, brass bookends, festive clay diyas flickering on the windowsill.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Medium shot of constable entering through the wooden doorway, holding a fat white dressed duck by its legs in one hand and a battered dark felt cap in the other.",
+            "characters": [
+              "constable",
+              "vikram",
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Over-the-shoulder shot from behind vikram looking at constable, with savitri seated at the desk adjusting her round spectacles in curiosity.",
+            "characters": [
+              "vikram",
+              "savitri",
+              "constable"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "सिपाही ने बताया कि गली में कुछ बदमाशों ने एक आदमी को घेर लिया था और हाथापाई में वह आदमी बत्तख़ और टोपी छोड़कर भाग गया। सिपाही बोला, \"बाबू जी, त्योहार का दिन है, यह बत्तख़ आप रख लीजिए।\" विक्रम हँसे और उन्होंने वह बत्तख़ सावित्री के बावर्ची को दे दी।",
+        "shots": [
+          {
+            "prompt": "Low angle medium shot of constable animatedly recounting the street scuffle to vikram, gesturing towards the heavy goose-like white duck on the timber table.",
+            "characters": [
+              "constable",
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Medium shot of vikram smiling warmly with amused dry humor, gesturing towards elderly cook standing respectfully at the kitchen doorway.",
+            "characters": [
+              "vikram",
+              "cook"
+            ]
+          },
+          {
+            "prompt": "Close-up shot of cook receiving the plump white duck with a surprised, grateful expression, warm amber lamplight illuminating his apron.",
+            "characters": [
+              "cook"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "विक्रम ने टोपी को रोशनी में घुमाकर देखा और कहा, \"इसका मालिक कभी अमीर था, पर अब ग़रीब है। वह पढ़ा-लिखा विद्वान है और उसकी पत्नी अब उसकी परवाह नहीं करती।\" सावित्री हँस पड़ीं और बोलीं, \"आपने यह सब एक टोपी से जान लिया?\"",
+        "shots": [
+          {
+            "prompt": "Close-up shot of vikram holding the dusty, faded dark felt cap under an oil lamp, examining the lining with razor-sharp observant eyes.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Medium shot of savitri leaning forward against the wooden study table, smiling sceptically with a small notebook in hand.",
+            "characters": [
+              "savitri",
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Macro detail shot of the torn inner silk ribbon and sweat-band of the oversized felt hat, covered in fine grey dust.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "विक्रम ने समझाया, \"यह टोपी बड़ी है, यानी उसका सिर बड़ा है और दिमाग़ भी बड़ा होगा। इसका कपड़ा महँगा है, पर तीन साल पुराना है। इस पर हफ़्तों की धूल जमी है, जिसे किसी ने झाड़ा नहीं है। जिस आदमी की पत्नी उसकी परवाह करती है, उसकी टोपी ऐसी नहीं होती।\"",
+        "shots": [
+          {
+            "prompt": "Over-the-shoulder shot of vikram pointing out the frayed silk edge and faded expensive weave of the cap to savitri.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Close-up shot of savitri listening intently, her initial disbelief shifting into fascinated admiration as she takes notes.",
+            "characters": [
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Medium shot of vikram resting his chin on his brass-topped cane, an intellectual twinkle in his eyes as he explains his logic.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "तभी बावर्ची चीखता हुआ अंदर आया और उसके हाथ में कुछ चमक रहा था। वह बोला, \"बाबू जी, बत्तख़ के पेट में यह मिला है!\" उसकी हथेली पर एक नीला पत्थर था, जो दीये की रोशनी में ऐसे दहक रहा था, जैसे उसके अंदर आग जल रही हो।",
+        "shots": [
+          {
+            "prompt": "Dramatic wide shot of cook bursting through the inner door, wide-eyed in astonishment, kitchen knife still tucked in his belt.",
+            "characters": [
+              "cook",
+              "vikram",
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Extreme close-up shot of an enormous radiant blue sapphire resting on cook's trembling palm, casting vivid azure reflections across the wooden room.",
+            "characters": [
+              "cook"
+            ]
+          },
+          {
+            "prompt": "Medium shot of vikram rising swiftly from his chair, his eyes fixed in utter astonishment at the glowing jewel.",
+            "characters": [
+              "vikram",
+              "savitri",
+              "cook"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "वह वही शापित नीलम था, जिसे देखकर विक्रम उछल पड़े। उन्होंने कहा, \"महारानी का नीलम एक बत्तख़ के पेट में मिला है। अब सवाल यह है, सावित्री, कि यह बत्तख़ आई कहाँ से थी?\"",
+        "shots": [
+          {
+            "prompt": "Medium shot of savitri holding the dazzling blue sapphire in her open palm with the prepared white duck on the table beside her, golden diya lights shimmering around.",
+            "characters": [
+              "savitri",
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Close-up shot of vikram pacing by the bookshelf, tapping his cane thoughtfully against the wooden floorboards in deep deduction.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "अगली सुबह विक्रम ने अख़बार में इश्तहार दिया और टोपी का मालिक उनके पास आ गया। उसका नाम भोला था और वह बिल्कुल वैसा ही ग़रीब विद्वान था, जैसा विक्रम ने बताया था। उसे नीलम के बारे में कुछ पता नहीं था, क्योंकि वह बत्तख़ उसे एक ढाबे के दिवाली क्लब से मिली थी।",
+        "shots": [
+          {
+            "prompt": "Medium shot of elderly scholar bhola sitting nervously on a wooden chair in Vikram's room, holding his restored cap with relief.",
+            "characters": [
+              "bhola",
+              "vikram",
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Close-up shot of bhola's gentle, bewildered face as he speaks honestly, shaking his head with zero inkling of any crime.",
+            "characters": [
+              "bhola"
+            ]
+          },
+          {
+            "prompt": "Over-the-shoulder shot of vikram leaning forward attentively, jotting down the name of the roadside eatery in his pocket diary.",
+            "characters": [
+              "vikram",
+              "bhola"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "ढाबे वाले ने बताया कि उसने वे बत्तख़ें चौक की मुर्ग़ी मंडी में गंगा बाई से ख़रीदी थीं। विक्रम और सावित्री मंडी पहुँचे, जहाँ गंगा बाई का पारा चढ़ा हुआ था। वह बोली, \"आज तुम दूसरे आदमी हो, जो उन बत्तख़ों के बारे में पूछ रहा है!\"",
+        "shots": [
+          {
+            "prompt": "Wide bustling shot of an old Banaras poultry market in the morning, stacked bamboo cages, feathers swirling in dusty sunlight.",
+            "characters": [
+              "vikram",
+              "savitri",
+              "ganga_bai"
+            ]
+          },
+          {
+            "prompt": "Medium shot of ganga_bai standing aggressively behind wicker baskets, hands on her hips, scowling fiercely at vikram and savitri.",
+            "characters": [
+              "ganga_bai",
+              "vikram",
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Close-up shot of ganga_bai snapping sharply, pointing a stern calloused finger into the crowded market lane.",
+            "characters": [
+              "ganga_bai"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "यहाँ एक पल रुककर सोचिए। एक चोरी हुई थी, एक बत्तख़ मिली थी और कोई दूसरा आदमी भी उसी बत्तख़ को ढूँढ़ रहा था। क्या आपने अंदाज़ा लगाया कि नीलम बत्तख़ के पेट तक कैसे पहुँचा और वह दूसरा आदमी कौन था?",
+        "shots": [
+          {
+            "prompt": "Dramatic slow-panning shot across the crowded bazaar, Vikram turning his gaze towards the shifting shadowy crowd.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Close-up shot of savitri thinking intently, glancing around the busy alleyway as suspicion mounts.",
+            "characters": [
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Mysterious low-angle shot showing the nervous silhouette of a man lingering near the market corner, hiding behind a wooden pillar.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "विक्रम ने पूछा, \"वह आदमी कौन था?\" गंगा बाई बोली, \"वह एक पतला सा, घबराया हुआ आदमी था। वह बार-बार पूछ रहा था कि वह बत्तख़ कहाँ गई, जिसकी पूँछ पर काली धारी थी।\" तभी उन दोनों के पीछे से कोई भागने लगा।",
+        "shots": [
+          {
+            "prompt": "Close-up shot of vikram questioning ganga_bai calmly amidst squawking geese and poultry pens.",
+            "characters": [
+              "vikram",
+              "ganga_bai"
+            ]
+          },
+          {
+            "prompt": "Over-the-shoulder shot past ganga_bai showing a lean jittery man in a maroon vest suddenly turning in panic to sprint away.",
+            "characters": [
+              "hariprasad",
+              "ganga_bai",
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Dynamic action shot of hariprasad sprinting down a narrow cobblestone lane between crowded vegetable stalls.",
+            "characters": [
+              "hariprasad"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "विक्रम ने उस आदमी को गली के मोड़ पर पकड़ लिया। वह थर-थर काँप रहा था और बोला, \"मेरा नाम हरिप्रसाद है और मैं गंगा व्यू होटल में काम करता हूँ।\" विक्रम बोले, \"मेरे कमरे में चलो, हम वहीं बात करेंगे।\"",
+        "shots": [
+          {
+            "prompt": "Medium action shot of vikram blocking the alleyway and grabbing hariprasad firmly by the arm with his brass-topped cane raised.",
+            "characters": [
+              "vikram",
+              "hariprasad"
+            ]
+          },
+          {
+            "prompt": "Close-up shot of hariprasad shaking violently in dread, sweat dripping from his temple, eyes bulging in fear.",
+            "characters": [
+              "hariprasad",
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Wide shot of vikram and savitri escorting the subdued, trembling hotel attendant out of the market lane.",
+            "characters": [
+              "vikram",
+              "savitri",
+              "hariprasad"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "कमरे में पहुँचकर विक्रम ने नीलम मेज़ पर रख दिया। उसे देखते ही हरिप्रसाद घुटनों पर गिर पड़ा और रोने लगा। उसने कहा, \"मुझे माफ़ कर दीजिए, बाबू जी, नीलम मैंने ही चुराया था!\"",
+        "shots": [
+          {
+            "prompt": "Dramatic medium shot inside Vikram's study, vikram placing the fiery blue gem on the polished tabletop right in front of hariprasad.",
+            "characters": [
+              "vikram",
+              "hariprasad",
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Low angle shot of hariprasad collapsing onto his knees on the rug, weeping hysterically with folded hands before vikram.",
+            "characters": [
+              "hariprasad",
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "उसने सारी बात बता दी। चोरी के बाद वह डर गया था, क्योंकि पुलिस हर जगह थी। वह अपनी बहन के घर गया, जो बत्तख़ें पालती थी, और वहाँ उसने एक बत्तख़ को पकड़कर नीलम निगलवा दिया। उसने सोचा था कि वह बत्तख़ को घर ले जाकर आराम से नीलम निकाल लेगा।",
+        "shots": [
+          {
+            "prompt": "Flashback style slightly desaturated shot of hariprasad crouching in a muddy rustic backyard coop, nervously forcing a glittering stone down the throat of a white duck.",
+            "characters": [
+              "hariprasad"
+            ]
+          },
+          {
+            "prompt": "Close-up shot of hariprasad weeping in Vikram's present study, recounting his reckless panic with genuine remorse.",
+            "characters": [
+              "hariprasad"
+            ]
+          },
+          {
+            "prompt": "Medium shot of savitri listening with wide shocked eyes from beside the study desk, taking rapid notes in her pad.",
+            "characters": [
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "लेकिन बहन के आँगन में दो बत्तख़ें बिल्कुल एक जैसी थीं और दोनों की पूँछ पर काली धारी थी। हरिप्रसाद ने ग़लत बत्तख़ उठा ली, और जिस बत्तख़ के पेट में नीलम था, वह मंडी में बिक गई।",
+        "shots": [
+          {
+            "prompt": "Flashback medium shot of a rustic courtyard coop with two identical white ducks showing faint black tail-stripes flapping amidst straw baskets.",
+            "characters": []
+          },
+          {
+            "prompt": "Close-up shot of hariprasad burying his face in his hands, despair and foolish regret etched across his posture.",
+            "characters": [
+              "hariprasad"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "प्लंबर रमेश के बारे में पूछने पर हरिप्रसाद ने सिर झुकाकर कहा, \"मैंने ही उसे उस दिन कमरे में भेजा था, ताकि सारा शक उसी पर जाए।\" अब उसकी आवाज़ में सिर्फ़ शर्म बची थी।",
+        "shots": [
+          {
+            "prompt": "Medium shot of vikram looking down at hariprasad with stern moral gravity, hands resting calmly on his walking cane.",
+            "characters": [
+              "vikram",
+              "hariprasad"
+            ]
+          },
+          {
+            "prompt": "Close-up shot of hariprasad hanging his head in utter shame under the dim amber glow of the table lantern.",
+            "characters": [
+              "hariprasad"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "विक्रम बहुत देर तक चुप रहे। फिर वह उठे और उन्होंने दरवाज़ा खोलकर कहा, \"यहाँ से चले जाओ और फिर कभी इस शहर में मत दिखना।\" हरिप्रसाद को अपने कानों पर यक़ीन नहीं हुआ और वह वहाँ से भाग खड़ा हुआ।",
+        "shots": [
+          {
+            "prompt": "Wide shot of vikram opening the heavy wooden door to the dark staircase, gesturing quietly for the prisoner to leave.",
+            "characters": [
+              "vikram",
+              "hariprasad"
+            ]
+          },
+          {
+            "prompt": "Silhouette shot of hariprasad stumbling out into the foggy night staircase, looking back once in disbelief before vanishing.",
+            "characters": [
+              "hariprasad",
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "सावित्री ने हैरानी से पूछा, \"आपने उसे छोड़ दिया?\" विक्रम मुस्कराकर बोले, \"आज दिवाली है, सावित्री, और यह माफ़ी का त्योहार है। नीलम मिल गया है, इसलिए रमेश पर अब कोई मामला नहीं बचेगा। एक बेगुनाह छूट जाएगा और एक डरा हुआ आदमी शायद सुधर जाएगा।\"",
+        "shots": [
+          {
+            "prompt": "Medium shot of savitri standing up, looking at vikram with deep questioning surprise through her round spectacles.",
+            "characters": [
+              "savitri",
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Close-up shot of vikram smiling with quiet compassion, picking up the blue jewel carefully with a silk handkerchief.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Wide shot of the study, peaceful warm candlelight illuminating the room with the jewel wrapped securely on the desk.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "सावित्री ने पूछा, \"और उस श्राप का क्या हुआ?\" विक्रम बोले, \"कोई श्राप नहीं था, बस लालच था। यह मामला एक टोपी की धूल और बत्तख़ की पूँछ की धारी से सुलझा। सच हमेशा छोटी चीज़ों में छिपा होता है।\"",
+        "shots": [
+          {
+            "prompt": "Medium shot of vikram leaning against the window frame, looking at savitri as he delivers his iconic deduction philosophy.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Close-up shot of savitri smiling softly in agreement, closing her medical leather diary.",
+            "characters": [
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "लेकिन एक बात अभी बाक़ी थी। जाने से पहले हरिप्रसाद ने बताया था कि महारानी के कमरे और नीलम की जगह का पता उसे किसी ने दिया था। उसने कहा था, \"वह कोई बड़े आदमी थे, बाबू जी। मैंने उनका चेहरा नहीं देखा, बस उनसे केवड़े की ख़ुशबू आती थी।\"",
+        "shots": [
+          {
+            "prompt": "Flashback silhouette shot of a distinguished gentleman in a lavish achkan handing a folded slip of paper to hariprasad in hotel shadows.",
+            "characters": [
+              "hariprasad"
+            ]
+          },
+          {
+            "prompt": "Macro detail shot of a rich man's gloved hand holding an ivory walking stick handle, faintly surrounded by imaginary fragrant vapour.",
+            "characters": []
+          },
+          {
+            "prompt": "Close-up shot of vikram's relaxed expression freezing instantly into sharp, deadly focus.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "केवड़े का नाम दोबारा सुनकर विक्रम ने चौंककर ऊपर देखा। उन्होंने कुछ नहीं कहा और बस खिड़की के बाहर दिवाली के दीयों को देखते रहे। क्या आपको याद है कि केवड़े की ख़ुशबू इससे पहले कहाँ आई थी? अपना जवाब कमेंट में लिखिए।",
+        "shots": [
+          {
+            "prompt": "Over-the-shoulder shot from behind vikram staring out the high window into the Banaras night sky speckled with Diwali fireworks and floating river lamps.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Close-up shot of vikram's piercing dark eyes reflecting the flickering diya flames outside, calculating an ominous connection.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Moody lingering shot of a single black lotus wax seal lying in deep shadow upon an antique side table next to an extinguished candle.",
+            "characters": []
+          }
+        ]
+      }
+    ],
+    "clips": [
+      {
+        "start_scene": 1,
+        "end_scene": 2,
+        "hook_text": "शापित नीलम चोरी",
+        "title": "कहते हैं नीलम हर किसी को रास नहीं आता... | जासूस विक्रम",
+        "end_question": "क्या ये श्राप सच है?"
+      },
+      {
+        "start_scene": 7,
+        "end_scene": 8,
+        "hook_text": "बत्तख़ के पेट में...!",
+        "title": "दिवाली की बत्तख़ काटी... और अंदर से निकला शापित नीलम | जासूस विक्रम",
+        "end_question": "बत्तख़ के पेट में नीलम कैसे पहुँचा?"
+      },
+      {
+        "start_scene": 10,
+        "end_scene": 12,
+        "hook_text": "एक और आदमी भी पूछ रहा था",
+        "title": "मंडी वाली बोली: तुमसे पहले भी कोई इसी बत्तख़ को ढूँढ़ रहा था | जासूस विक्रम",
+        "end_question": "वो दूसरा आदमी कौन था?"
+      },
+      {
+        "start_scene": 13,
+        "end_scene": 16,
+        "hook_text": "चोरी की अजीब कहानी",
+        "title": "चोर ने कैसे निगलवाया बत्तख़ को नीलम? | जासूस विक्रम",
+        "end_question": "क्या आप चोर की चालाकी समझ पाए?"
+      },
+      {
+        "start_scene": 21,
+        "end_scene": 22,
+        "hook_text": "केवड़े की रहस्यमयी ख़ुशबू",
+        "title": "काले कमल का एक और गुप्त सुराग | जासूस विक्रम",
+        "end_question": "केवड़े की ख़ुशबू वाला वो आदमी कौन है?"
+      }
+    ],
+    "episode": 6,
+    "episode_title": "शापित नीलम"
+  },
+  "active_clips": [
+    0,
+    1,
+    2
+  ],
+  "next_clip": 3,
+  "batch": null
+}

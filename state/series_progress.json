@@ -1,5 +1,5 @@
 {
- "next": 6,
+ "next": 7,
  "done": [
   {
    "n": 1,
@@ -25,6 +25,11 @@
    "n": 5,
    "title": "पाँच काली पंखुड़ियाँ",
    "summary": "In storm-battered 1923 Banaras, Detective Vikram tries to protect a young man who received five dried black lotus petals, the lethal warning of a ruthless syndicate."
+  },
+  {
+   "n": 6,
+   "title": "शापित नीलम",
+   "summary": "On Diwali night in 1923 Banaras, Detective Vikram traces a stolen cursed sapphire hidden inside a dressed duck back to a panicked hotel servant and the scent of kewra."
   }
  ]
 }
