@@ -1,0 +1,596 @@
+{
+  "date": "2026-11-20",
+  "status": "story_ready",
+  "items": {},
+  "story": {
+    "title": "खिड़की में दिखा चेहरा | जासूस विक्रम Ep 7",
+    "description": "1923 बनारस में एक पत्नी ने अफ़ीमख़ाने की खिड़की में अपने पति को चीखते देखा, लेकिन अंदर सिर्फ़ एक डरावना भिखारी बैठा था। जब नदी से पति का कोट निकला, तो क्या सच में कोई क़त्ल हुआ था या सच कुछ और था? जासूस विक्रम और सावित्री की एक अनोखी जांच।\n#JaasoosVikram #HindiMystery #SuspenseKahani #DetectiveThriller #HindiStories\n\nआर्थर कॉनन डॉयल की कहानी \"The Man with the Twisted Lip\" से प्रेरित (public domain). सभी पात्र काल्पनिक हैं।",
+    "tags": [
+      "जासूस विक्रम",
+      "Detective Vikram",
+      "Hindi Mystery Stories",
+      "Hindi Thriller Audio Story",
+      "Suspense Stories Hindi",
+      "1920s Banaras Mystery",
+      "Twisted Lip Adaptation Hindi",
+      "Crime Thriller Hindi",
+      "Kala Kamal Mystery"
+    ],
+    "logline": "In 1923 Banaras, a woman spots her respectable husband screaming from an opium den window before he vanishes, leaving behind a heavily weighted coat in the Ganga and a mysterious scarred beggar in his place.",
+    "thumbnail_text": "खिड़की में दिखा चेहरा",
+    "thumbnail_shot": 2,
+    "thumbnail_prompt": "A woman in a sari looking up in horror at a dim upper window of an old riverside building where a man's face screams, smoke and night fog, deep red accent.",
+    "characters": [
+      {
+        "id": "vikram",
+        "name": "जासूस विक्रम",
+        "look": "Lean Indian man in his mid-30s, sharp intelligent eyes, neatly trimmed black moustache, short side-parted hair, dark navy bandhgala coat over a white kurta, grey wool shawl over one shoulder, black cane with a brass handle, often carries an oil lantern."
+      },
+      {
+        "id": "savitri",
+        "name": "डॉक्टर सावित्री",
+        "look": "Indian woman in her late 20s, intelligent kind face, hair in a low bun, small round spectacles, cotton sari with a dark border, brown leather doctor's bag, small notebook."
+      },
+      {
+        "id": "inspector_bhairav",
+        "name": "इंस्पेक्टर भैरव पांडे",
+        "look": "Heavy-set Indian police inspector in his late 40s, thick curled moustache, 1920s khaki police uniform with a red-and-khaki pagri turban, leather belt, short wooden baton."
+      },
+      {
+        "id": "sushila",
+        "name": "सुशीला सक्सेना",
+        "look": "Indian woman in her late 20s, anxious expression, pale worried face, wearing a simple traditional 1920s Banaras cotton sari with head partially covered, delicate gold nose ring."
+      },
+      {
+        "id": "neeraj",
+        "name": "नीरज सक्सेना",
+        "look": "Respectable Indian businessman in his early 30s, fair complexion, clean-shaven, neatly combed oiled hair, wearing a fine silk kurta and tailored waistcoat."
+      },
+      {
+        "id": "lalu_baba",
+        "name": "लालू बाबा",
+        "look": "Hideous Indian beggar in tattered rags, skin and face smeared with grey ash, wild matted orange hair, grotesque crooked scar pulling his upper lip into a sneer."
+      },
+      {
+        "id": "den_owner",
+        "name": "नाविक अफ़ीमख़ाना मालिक",
+        "look": "Wiry middle-aged Indian boatman and opium den keeper, dark weathered skin, coarse dhoti, dirty sleeveless vest, cold sinister stare."
+      }
+    ],
+    "scenes": [
+      {
+        "narration": "सुशीला एक अनजान गली से गुज़र रही थी, जब उसकी नज़र अचानक ऊपर की ओर उठी। एक पुरानी इमारत की धुंधली खिड़की में उसे अपने पति का चेहरा दिखाई दिया। उसका पति ऐसे चीखा, जैसे किसी ने उसे पीछे से खींच लिया हो, और अगले ही पल वह खिड़की से ग़ायब हो गया।",
+        "shots": [
+          {
+            "prompt": "Low angle tracking shot of sushila walking through a narrow cobblestone lane in 1923 Banaras, looking up in shock towards an old dilapidated brick warehouse, dim twilight, misty atmosphere.",
+            "characters": [
+              "sushila"
+            ]
+          },
+          {
+            "prompt": "Close-up of a grimy upper-story window in an old riverside building, where neeraj appears pressed against the glass screaming in terror, dim oil lamp illumination from behind.",
+            "characters": [
+              "neeraj"
+            ]
+          },
+          {
+            "prompt": "Medium shot of the dusty window suddenly becoming empty as shadowy hands yank neeraj backward into the dark interior, leaving faint smudges on the glass.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "सुशीला सीढ़ियाँ चढ़कर ऊपर भागी, जहाँ 'स्वर्ग लोक' नाम का एक अफ़ीमख़ाना था। ऊपर के कमरे में उसका पति नहीं था, वहाँ बस राख से सना एक गंदा भिखारी बैठा था। अगले दिन नदी से उसके पति का कोट निकला, जिसकी जेबें सिक्कों से भरी हुई थीं, ताकि वह कोट पानी में डूब जाए।",
+        "shots": [
+          {
+            "prompt": "Eye-level shot of sushila bursting through a creaky wooden door into a hazy opium den with heavy smoke, cushions on the floor, and faint red lantern light.",
+            "characters": [
+              "sushila"
+            ]
+          },
+          {
+            "prompt": "Medium shot of lalu_baba sitting cross-legged on a worn rug, covered in grey ash, matted orange hair, an ugly scar twisting his lip, staring blankly ahead.",
+            "characters": [
+              "lalu_baba",
+              "sushila"
+            ]
+          },
+          {
+            "prompt": "Close-up of a wet, dark wool coat being pulled from the murky waters of the Ganga river, its pockets overflowing with heavy copper and silver coins, morning river mist.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "यह कहानी जासूस विक्रम और उनकी साथी डॉक्टर सावित्री के एक बेहद अजीब मामले की है। सुशीला सक्सेना ने रोते हुए विक्रम को सारी बात बताई। उसके पति नीरज एक इज़्ज़तदार व्यापारी थे और उस दिन काम से शहर गए थे। सवाल यह था कि उस गली के अफ़ीमख़ाने में उनका क्या काम था?",
+        "shots": [
+          {
+            "prompt": "Medium shot inside vikram's upper-floor room in Banaras, vikram sitting attentively in his bandhgala coat holding his brass cane, while savitri takes notes in her small notebook.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Over-the-shoulder shot of sushila weeping into the end of her sari, pleading desperately as vikram listens with a sharp, thoughtful expression, warm oil lamp light on wooden walls.",
+            "characters": [
+              "sushila",
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Framed photograph on a small wooden table showing neeraj looking prosperous and respectable in a fine silk kurta, beside a flickering brass diya.",
+            "characters": [
+              "neeraj"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "उस भिखारी को पूरा बनारस लालू बाबा के नाम से जानता था। उसके चेहरे पर राख मली रहती थी, होंठ पर एक टेढ़ा और डरावना निशान था और उसके नारंगी बाल उलझे रहते थे। वह घाट पर बैठता था और ऐसे चुटीले जवाब देता था कि लोग हँसते-हँसते उसके कटोरे में सिक्के डाल जाते थे।",
+        "shots": [
+          {
+            "prompt": "Wide shot of a crowded stone ghat in Banaras, morning sunlight filtering through temple spires, where lalu_baba sits near stone steps surrounded by pilgrims.",
+            "characters": [
+              "lalu_baba"
+            ]
+          },
+          {
+            "prompt": "Close-up of lalu_baba grinning with his twisted scarred lip, eyes glinting with cunning intelligence beneath ash-caked brows and wild ochre locks.",
+            "characters": [
+              "lalu_baba"
+            ]
+          },
+          {
+            "prompt": "Low angle shot of pilgrims tossing copper coins into lalu_baba's battered brass begging bowl, stone steps worn smooth by centuries of footsteps.",
+            "characters": [
+              "lalu_baba"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "इंस्पेक्टर भैरव ने लालू बाबा को क़त्ल के इल्ज़ाम में गिरफ़्तार कर लिया। उन्होंने कहा, \"यही क़ातिल है और इसी ने नीरज बाबू को मारकर नदी में फेंका है!\" खिड़की के पास ख़ून की हल्की बूँदें मिली थीं और लालू बाबा की एक उँगली कटी हुई थी।",
+        "shots": [
+          {
+            "prompt": "Medium shot of inspector_bhairav standing aggressively in his khaki uniform and red turban, pointing an accusing baton toward handcuffed lalu_baba on the riverside street.",
+            "characters": [
+              "inspector_bhairav",
+              "lalu_baba"
+            ]
+          },
+          {
+            "prompt": "Close-up of the wooden windowsill inside the warehouse room, showing three distinct dark dried drops of blood on the dusty sill.",
+            "characters": []
+          },
+          {
+            "prompt": "Detailed close-up of lalu_baba's ash-covered right hand, showing a fresh clean cut across the tip of his index finger, held firmly by a constable.",
+            "characters": [
+              "lalu_baba"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "भैरव ख़ुद उस दोपहर उसी गली में मौजूद थे, और उनका कहना था कि वह बस इत्तफ़ाक़ से वहाँ थे। यह सुनकर विक्रम ने भौंहें उठाईं, लेकिन वह कुछ नहीं बोले। अफ़ीमख़ाने का मालिक एक चुप्पा नाविक था, जो कुछ भी बताने को तैयार नहीं था।",
+        "shots": [
+          {
+            "prompt": "Medium shot of inspector_bhairav gesturing defensively to vikram and savitri in the narrow alley, vikram raising one eyebrow in quiet skepticism.",
+            "characters": [
+              "inspector_bhairav",
+              "vikram",
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Close-up profile of vikram observing inspector_bhairav keenly, lantern light reflecting in his sharp eyes as shadows flicker along the old brick walls.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Medium shot of den_owner standing in the doorway of the warehouse, arms crossed, stern weathered face, refusing to look at the detectives, harsh shadows across his features.",
+            "characters": [
+              "den_owner"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "उसी शाम सुशीला हाथ में एक चिट्ठी लिए दौड़ती हुई आई और बोली, \"यह नीरज की लिखावट है!\" चिट्ठी में बस दो पंक्तियाँ लिखी थीं, \"घबराना मत, मैं ठीक हूँ।\" उस पर लगी डाक की मुहर नीरज के ग़ायब होने के एक दिन बाद की थी।",
+        "shots": [
+          {
+            "prompt": "Medium shot of sushila rushing breathlessly into vikram's candlelit study, holding up an envelope with trembling hands, savitri stepping forward to support her.",
+            "characters": [
+              "sushila",
+              "savitri",
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Extreme close-up of a yellowish paper sheet with two lines of hurried neat Hindi handwriting in blue-black ink, illuminated by candlelight.",
+            "characters": []
+          },
+          {
+            "prompt": "Macro detail shot of the postal ink stamp on the back of the envelope, clearly displaying yesterday's date, stamped well after the disappearance.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "सावित्री ने कहा, \"इसका मतलब है कि नीरज ज़िंदा हैं!\" विक्रम ने चिट्ठी को ध्यान से देखा और बोले, \"या फिर किसी ने उनसे मरने से पहले यह लिखवा लिया था।\" यह सुनकर कमरे में सन्नाटा छा गया और सुशीला की आँखें फिर भर आईं।",
+        "shots": [
+          {
+            "prompt": "Medium close-up of savitri looking relieved and hopeful, turning toward vikram who holds the paper close to a brass oil lamp.",
+            "characters": [
+              "savitri",
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Close-up of vikram's grave face in the flickering lamplight, turning the paper over to inspect the paper fibres and creases with intense focus.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Over-the-shoulder shot of sushila bursting into quiet tears again, sitting on a wooden bench as the dark night outside the window presses in.",
+            "characters": [
+              "sushila",
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "उस रात विक्रम ने कमरे के सारे तकिए और गद्दे ज़मीन पर इकट्ठे किए और उन पर पालथी मारकर बैठ गए। उन्होंने आँखें बंद करके कहा, \"मुझे सोचना है, सावित्री।\" सावित्री सो गईं, और जब वह सुबह उठीं, तब भी विक्रम उसी तरह बैठे हुए थे।",
+        "shots": [
+          {
+            "prompt": "Wide shot of vikram's dimly lit room at night, with a mound of silk cushions and cotton mattresses piled on the floor where vikram sits cross-legged, perfectly motionless.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Close-up of vikram sitting in deep contemplation with closed eyes, hands resting on his knees, a single oil lamp burning low beside him casting long deep shadows.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Wide shot at dawn, pale morning light filtering through wooden louvers onto savitri waking on a daybed, seeing vikram still sitting in the exact same meditative posture.",
+            "characters": [
+              "savitri",
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "अचानक विक्रम की आँखें खुलीं और वह उछलकर खड़े हो गए। उन्होंने कहा, \"मैं बनारस का सबसे बड़ा मूर्ख हूँ, सावित्री!\" फिर उन्होंने अलमारी से एक स्पंज निकाला, उसे पानी में भिगोया और अपने थैले में रख लिया।",
+        "shots": [
+          {
+            "prompt": "Low angle shot of vikram springing to his feet with sudden energy and excitement, eyes wide with brilliant realization, gesturing sharply with his hand.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Close-up of vikram dipping a large bath sponge into a brass water basin, squeezing the excess water out, and carefully slipping it into his canvas shoulder bag.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "यहाँ एक पल रुककर सोचिए। खिड़की में पति का चेहरा दिखा था, लेकिन ऊपर सिर्फ़ एक भिखारी मिला था। नदी से कोट निकला था, और फिर एक मरे हुए आदमी की चिट्ठी आई थी। आपको क्या लगता है कि विक्रम एक गीला स्पंज लेकर कहाँ जा रहे थे?",
+        "shots": [
+          {
+            "prompt": "Montage split frame: the grimy upper window on the left, and the ash-smeared face of lalu_baba on the right, mysterious mood, atmospheric fog.",
+            "characters": [
+              "lalu_baba"
+            ]
+          },
+          {
+            "prompt": "Still close-up of the soaked heavy coat dripping muddy water on the stone steps beside the river, early morning mist rising from the Ganga.",
+            "characters": []
+          },
+          {
+            "prompt": "Medium tracking shot of vikram and savitri striding purposefully through the waking Banaras alleys under golden dawn light, vikram clutching his shoulder bag tightly.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "विक्रम और सावित्री सीधे हवालात पहुँचे, जहाँ बेहद गंदा लालू बाबा अपनी कोठरी में सो रहा था। सावित्री ने ग़ौर किया कि उसके हाथ जितने गंदे थे, उसके नाख़ून उतने ही सफ़ाई से कटे हुए थे। भैरव ने नाक सिकोड़कर कहा, \"इसे नहलाने की ज़रूरत है, विक्रम बाबू।\" विक्रम मुस्कराकर बोले, \"मैं बिल्कुल यही करने आया हूँ।\"",
+        "shots": [
+          {
+            "prompt": "Wide shot inside the colonial police station lockup, iron bars dividing the corridor from a dark cell where lalu_baba lies asleep on a wooden cot.",
+            "characters": [
+              "vikram",
+              "savitri",
+              "inspector_bhairav",
+              "lalu_baba"
+            ]
+          },
+          {
+            "prompt": "Extreme close-up of lalu_baba's resting hand on the coarse blanket: thick grime and ash covering the skin, but the fingernails are perfectly filed and clean.",
+            "characters": [
+              "lalu_baba"
+            ]
+          },
+          {
+            "prompt": "Medium shot of inspector_bhairav holding a handkerchief to his nose in disgust, pointing at the sleeping prisoner while leaning against the iron cell door.",
+            "characters": [
+              "inspector_bhairav",
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Close-up of vikram smiling calmly with quiet confidence, reaching his hand into his leather shoulder bag.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "विक्रम ने कोठरी खोली और सोते हुए भिखारी के चेहरे पर गीला स्पंज रगड़ दिया। उन्होंने स्पंज दो बार फेरा और चेहरे की राख उतरने लगी। होंठ का टेढ़ा निशान पिघलकर बह गया और नारंगी बाल किसी नक़ली टोपी की तरह खिसक गए।",
+        "shots": [
+          {
+            "prompt": "Medium close-up of vikram kneeling beside the cot, pressing the wet sponge firmly against the sleeping beggar's forehead and cheek in a swift motion.",
+            "characters": [
+              "vikram",
+              "lalu_baba"
+            ]
+          },
+          {
+            "prompt": "Over-the-shoulder shot showing thick grey soot and wax melting away beneath the sponge, revealing smooth fair skin underneath.",
+            "characters": [
+              "vikram",
+              "lalu_baba"
+            ]
+          },
+          {
+            "prompt": "Close-up of the fake orange wig slipping off onto the cot, while the grotesque scar made of theatrical wax dissolves cleanly under the wet cloth.",
+            "characters": [
+              "lalu_baba"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "उसके नीचे से एक साफ़, गोरा और इज़्ज़तदार चेहरा निकल आया। भैरव का मुँह खुला का खुला रह गया और वह बोले, \"यह तो नीरज सक्सेना है!\" भिखारी ने आँखें खोलीं और शर्म से अपना चेहरा हाथों में छिपा लिया।",
+        "shots": [
+          {
+            "prompt": "Medium close-up of neeraj's clean respectable face completely revealed, eyes blinking open in sudden dread, inspector_bhairav visible in the background gasping in total shock.",
+            "characters": [
+              "neeraj",
+              "inspector_bhairav"
+            ]
+          },
+          {
+            "prompt": "Close-up of neeraj burying his clean face into his hands, sobbing in utter humiliation on the jail cot, shoulders trembling.",
+            "characters": [
+              "neeraj",
+              "vikram",
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "नीरज ने सारी बात बता दी। बरसों पहले वह एक अख़बार में रिपोर्टर था और एक कहानी के लिए एक दिन भिखारी बनकर घाट पर बैठा था। शाम तक उसने उतना कमा लिया था, जितना वह पूरे हफ़्ते में कमाता था।",
+        "shots": [
+          {
+            "prompt": "Flashback medium shot: young neeraj in simple reporter clothes scribbling notes on a stone ghat stairs, observing beggars and holy men in 1915 Banaras.",
+            "characters": [
+              "neeraj"
+            ]
+          },
+          {
+            "prompt": "Flashback shot: young neeraj sitting disguised on the steps for the first time, watching with amazement as coins pour into his tin cup.",
+            "characters": [
+              "neeraj"
+            ]
+          },
+          {
+            "prompt": "Close-up of neeraj counting a large pile of silver rupees on an old wooden table by candlelight, his face lit with greedy astonishment.",
+            "characters": [
+              "neeraj"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "धीरे-धीरे यह उसकी आदत बन गई। सुबह इज़्ज़तदार नीरज घर से निकलता था, अफ़ीमख़ाने के कमरे में लालू बाबा बन जाता था और शाम को फिर नीरज बनकर घर लौट आता था। शहर का उसका कारोबार बस एक दिखावा था।",
+        "shots": [
+          {
+            "prompt": "Flashback sequence: split view showing neeraj leaving a handsome colonial house dressed in a fine suit on the left, and sitting in the dim warehouse room applying theatrical makeup on the right.",
+            "characters": [
+              "neeraj"
+            ]
+          },
+          {
+            "prompt": "Flashback wide shot of neeraj disguised as the witty beggar laughing and entertaining an amused crowd of wealthy merchants on the riverside steps.",
+            "characters": [
+              "neeraj"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "उस दिन जब सुशीला ने उसे खिड़की में देखा, तो वह घबरा गया। उसने जल्दी से अपना कोट सिक्कों समेत नदी में फेंक दिया और लालू बाबा बन गया। उसकी उँगली खिड़की के शीशे से कटी थी। वह क़ातिल नहीं था, बल्कि वह ख़ुद ही वह मरा हुआ आदमी था।",
+        "shots": [
+          {
+            "prompt": "Flashback dramatic shot: neeraj at the warehouse window freezing in horror as he sees sushila below, his finger slicing against a broken window pane edge.",
+            "characters": [
+              "neeraj"
+            ]
+          },
+          {
+            "prompt": "Flashback rapid movement: neeraj stuffing heavy bags of copper coins into his fine coat pockets and hurling it out the back window into the swirling river current.",
+            "characters": [
+              "neeraj"
+            ]
+          },
+          {
+            "prompt": "Flashback high angle shot: neeraj hurriedly smearing soot and ash onto his face and grabbing his wig seconds before footsteps pound on the wooden stairs.",
+            "characters": [
+              "neeraj"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "विक्रम ने पूछा, \"और वह चिट्ठी किसने भेजी थी?\" नीरज ने जवाब दिया, \"हवालात जाने से पहले मैंने वह चिट्ठी नाविक को दे दी थी, क्योंकि मैं सुशीला को तड़पता हुआ नहीं देख सकता था।\"",
+        "shots": [
+          {
+            "prompt": "Medium shot inside the police cell: vikram leaning calmly on his cane questioning neeraj, while savitri listens with sympathetic eyes.",
+            "characters": [
+              "vikram",
+              "neeraj",
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Flashback close-up: neeraj frantically scribbling the note in the dark corner of the den and secretly pressing it into den_owner's calloused hand with a silver coin.",
+            "characters": [
+              "neeraj",
+              "den_owner"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "विक्रम ने भैरव से कहा, \"यहाँ कोई क़त्ल नहीं हुआ है, इंस्पेक्टर साहब। अगर नीरज वादा करे कि लालू बाबा हमेशा के लिए मर जाएगा, तो यह राज़ इसी कोठरी में रहेगा।\" नीरज ने सिर झुकाकर हामी भर दी।",
+        "shots": [
+          {
+            "prompt": "Medium shot of vikram addressing inspector_bhairav with calm authority, bhairav scratching his turban thoughtfully in front of the open iron cell gate.",
+            "characters": [
+              "vikram",
+              "inspector_bhairav",
+              "neeraj"
+            ]
+          },
+          {
+            "prompt": "Close-up of neeraj nodding vigorously with tearful gratitude, hands folded in supplication toward vikram and inspector_bhairav.",
+            "characters": [
+              "neeraj",
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "विक्रम बोले, \"खिड़की पर ख़ून था, उँगली कटी हुई थी और एक भिखारी के नाख़ून किसी बाबू जैसे साफ़ थे। सच हमेशा छोटी चीज़ों में छिपा होता है।\"",
+        "shots": [
+          {
+            "prompt": "Medium close-up of vikram looking directly ahead, speaking with quiet brilliance, adjusting his grey wool shawl across his bandhgala coat.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Over-the-shoulder shot of savitri smiling in deep admiration as they step out of the police station porch into the bright morning sun.",
+            "characters": [
+              "savitri",
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "जाते-जाते सावित्री की नज़र अफ़ीमख़ाने की उस दीवार पर पड़ी, जिसके पास से वे पहले दिन गुज़रे थे। धुएँ से काली पड़ चुकी उस दीवार पर एक छोटा सा चित्र बना हुआ था। वह चित्र एक काले कमल का था।",
+        "shots": [
+          {
+            "prompt": "Medium shot of savitri pausing on the stone pavement near the riverside warehouse, turning her head back toward a soot-blackened brick wall.",
+            "characters": [
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Extreme close-up of a small, precise emblem painted in deep matte violet-black ink on the weathered mortar: a five-petaled black lotus blooming amidst soot.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "सावित्री को याद आया कि उस दोपहर इसी गली में इंस्पेक्टर भैरव भी इत्तफ़ाक़ से मौजूद थे। उन्होंने विक्रम की तरफ़ देखा, तो विक्रम ने बस इतना कहा, \"हर इत्तफ़ाक़ इत्तफ़ाक़ नहीं होता।\" क्या आपको भी भैरव पर शक है? अपना जवाब कमेंट में लिखिए।",
+        "shots": [
+          {
+            "prompt": "Flashback medium shot: inspector_bhairav standing under the awning of that very alleyway earlier that afternoon, looking sideways with a suspicious expression.",
+            "characters": [
+              "inspector_bhairav"
+            ]
+          },
+          {
+            "prompt": "Medium shot of savitri turning to vikram with uneasy eyes, vikram standing still in the narrow Banaras street, looking thoughtfully into the middle distance.",
+            "characters": [
+              "savitri",
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Atmospheric wide silhouette of vikram and savitri walking down the narrow Banaras lane toward the river ghats under heavy arches, temple bells ringing in the mist.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          }
+        ]
+      }
+    ],
+    "clips": [
+      {
+        "start_scene": 1,
+        "end_scene": 2,
+        "hook_text": "खिड़की में पति का चेहरा",
+        "title": "पत्नी ने अफ़ीमख़ाने की खिड़की में पति को देखा... फिर वो ग़ायब | जासूस विक्रम",
+        "end_question": "वो वहाँ क्या कर रहा था?"
+      },
+      {
+        "start_scene": 7,
+        "end_scene": 8,
+        "hook_text": "मरे हुए आदमी की चिट्ठी",
+        "title": "ग़ायब पति की चिट्ठी आई... उसके जाने के एक दिन बाद की | जासूस विक्रम",
+        "end_question": "क्या वो ज़िंदा है?"
+      },
+      {
+        "start_scene": 10,
+        "end_scene": 12,
+        "hook_text": "एक गीला स्पंज",
+        "title": "जासूस गीला स्पंज लेकर हवालात क्यों पहुँचा? | जासूस विक्रम",
+        "end_question": "स्पंज से क्या निकलेगा?"
+      },
+      {
+        "start_scene": 4,
+        "end_scene": 6,
+        "hook_text": "घाट का अजीब भिखारी",
+        "title": "लालू बाबा और इंस्पेक्टर भैरव का रहस्य | जासूस विक्रम",
+        "end_question": "क्या भैरव का कोई हाथ था?"
+      },
+      {
+        "start_scene": 13,
+        "end_scene": 15,
+        "hook_text": "भिखारी का असली रूप",
+        "title": "राख हटते ही सामने आया रूह कंपाने वाला सच | जासूस विक्रम",
+        "end_question": "क्या आप पहचान पाए थे?"
+      }
+    ],
+    "episode": 7,
+    "episode_title": "खिड़की में दिखा चेहरा"
+  },
+  "active_clips": [
+    0,
+    1,
+    2
+  ],
+  "next_clip": 3,
+  "batch": null
+}
