@@ -1,5 +1,5 @@
 {
- "next": 8,
+ "next": 9,
  "done": [
   {
    "n": 1,
@@ -35,6 +35,11 @@
    "n": 7,
    "title": "खिड़की में दिखा चेहरा",
    "summary": "In 1923 Banaras, a woman spots her respectable husband screaming from an opium den window before he vanishes, leaving behind a heavily weighted coat in the Ganga and a mysterious scarred beggar in his place."
+  },
+  {
+   "n": 8,
+   "title": "झील की चुड़ैल",
+   "summary": "Detective Vikram investigates the mysterious death of a tenant farmer at a misty lake in 1923 Rajputana, exposing a 30-year-old dacoit secret behind a supernatural legend."
   }
  ]
 }
