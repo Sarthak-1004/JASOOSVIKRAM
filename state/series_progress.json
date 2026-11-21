@@ -1,5 +1,5 @@
 {
- "next": 9,
+ "next": 10,
  "done": [
   {
    "n": 1,
@@ -40,6 +40,11 @@
    "n": 8,
    "title": "झील की चुड़ैल",
    "summary": "Detective Vikram investigates the mysterious death of a tenant farmer at a misty lake in 1923 Rajputana, exposing a 30-year-old dacoit secret behind a supernatural legend."
+  },
+  {
+   "n": 9,
+   "title": "कुत्ता क्यों नहीं भौंका?",
+   "summary": "When a champion white racehorse vanishes and its trainer is found dead on the eve of the Lucknow Cup, Detective Vikram realizes the silent guard dog is the key to solving the mystery."
   }
  ]
 }
