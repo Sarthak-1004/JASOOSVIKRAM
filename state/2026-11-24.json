@@ -1,0 +1,565 @@
+{
+  "date": "2026-11-24",
+  "status": "story_ready",
+  "items": {},
+  "story": {
+    "title": "तहखाने का मंत्र | जासूस विक्रम Ep 10",
+    "description": "1923 में लखनऊ की सदियों पुरानी रायज़ादा हवेली से एक मुंशी और नौकरानी अचानक ग़ायब हो जाते हैं। हवेली के एक पुराने बेमतलब से दिखने वाले मंत्र में छिपा था एक ख़ज़ाना और एक ख़ौफ़नाक सच। देखिए कैसे जासूस विक्रम ने एक पुराने पेड़ के ठूँठ और गणित के ज़रिए इस सदियों पुराने रहस्य को सुलझाया।\n\n#JaasoosVikram #HindiKahaniya #ThrillerStories #IndianMystery #SuspenseKahani\n\nआर्थर कॉनन डॉयल की कहानी \"The Musgrave Ritual\" से प्रेरित (public domain). सभी पात्र काल्पनिक हैं।",
+    "tags": [
+      "Jaasoos Vikram",
+      "Hindi Thriller",
+      "Detective Vikram",
+      "Mystery Story Hindi",
+      "Lucknow Haveli",
+      "Musgrave Ritual Hindi",
+      "Suspense Stories"
+    ],
+    "logline": "In 1923 Lucknow, Detective Vikram decrypts an ancient family ritual to uncover a hidden cellar treasure and a tragic crime of passion beneath the Raizada haveli.",
+    "thumbnail_text": "तहखाने का मंत्र",
+    "thumbnail_shot": 39,
+    "thumbnail_prompt": "A lantern-lit stone cellar, two men lifting a heavy stone slab, a frightened woman doctor holding the lantern, a hand reaching out of the darkness below, deep red accent.",
+    "characters": [
+      {
+        "id": "vikram",
+        "name": "जासूस विक्रम",
+        "look": "Lean Indian man in his mid-30s, sharp intelligent eyes, neatly trimmed black moustache, short side-parted hair, dark navy bandhgala coat over a white kurta, grey wool shawl over one shoulder, black cane with a brass handle, often carries an oil lantern."
+      },
+      {
+        "id": "savitri",
+        "name": "डॉक्टर सावित्री",
+        "look": "Indian woman in her late 20s, intelligent kind face, hair in a low bun, small round spectacles, cotton sari with a dark border, brown leather doctor's bag, small notebook."
+      },
+      {
+        "id": "inspector_bhairav",
+        "name": "इंस्पेक्टर भैरव पांडे",
+        "look": "Heavy-set Indian police inspector in his late 40s, thick curled moustache, 1920s khaki police uniform with a red-and-khaki pagri turban, leather belt, short wooden baton."
+      },
+      {
+        "id": "aditya",
+        "name": "कुँवर आदित्य रायज़ादा",
+        "look": "Aristocratic Indian man in his mid-30s, polished appearance, dark silk kurta with a tailored embroidered vest, worried expression, slicked-back black hair."
+      },
+      {
+        "id": "bholanath",
+        "name": "भोलानाथ",
+        "look": "Elderly Indian man in his late 60s, thin frail frame, round wire-rimmed spectacles, simple white dhoti and khadi kurta, shrewd sharp eyes."
+      },
+      {
+        "id": "lajwanti",
+        "name": "लाजवंती",
+        "look": "Young Indian maidservant in her early 20s, simple red cotton sari with pallu over her head, wide emotional eyes, gold nose ring."
+      }
+    ],
+    "scenes": [
+      {
+        "narration": "लखनऊ की रायज़ादा हवेली का पुराना मुंशी भोलानाथ एक रात अचानक ग़ायब हो गया। उसका बिस्तर वैसा ही बिछा था और उसके जूते भी वहीं रखे थे। ऐसा लगता था, जैसे वह हवा में घुल गया हो।",
+        "shots": [
+          {
+            "prompt": "Medium shot of an empty dimly lit room in an old Indian haveli, an untouched neatly made wooden cot with a cotton quilt, leather shoes neatly placed near the bed, atmospheric lantern light.",
+            "characters": []
+          },
+          {
+            "prompt": "Close-up shot of an open old ledger sitting on a wooden desk with a quill pen beside it, dust motes floating in the yellow lantern light.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "दो दिन बाद नौकरानी लाजवंती पागलों की तरह हँसने लगी और फिर वह भी ग़ायब हो गई। झील से एक बोरा निकला, जो जंग लगी धातु और कंकड़ों से भरा था। उस हवेली के तहखाने में एक मंत्र छिपा था और एक लाश भी छिपी थी।",
+        "shots": [
+          {
+            "prompt": "Medium close-up of lajwanti laughing hysterically in a grand hallway of the haveli, shadow casting long across the carved pillars, dramatic lighting.",
+            "characters": [
+              "lajwanti"
+            ]
+          },
+          {
+            "prompt": "Wide view of a murky lake shoreline at dusk, local villagers pulling a heavy wet burlap sack onto muddy ground with ropes.",
+            "characters": []
+          },
+          {
+            "prompt": "Close-up of the opened burlap sack on the mud, revealing rusted metal pieces and dull glass-like stones, wet and muddy texture.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "कुँवर आदित्य रायज़ादा जासूस विक्रम के कॉलेज के पुराने दोस्त थे। उन्होंने विक्रम को लखनऊ बुलाया और डॉक्टर सावित्री भी उनके साथ गईं। आदित्य ने कहा, \"विक्रम, मेरी हवेली में कुछ बहुत ग़लत हो रहा है।\"",
+        "shots": [
+          {
+            "prompt": "Wide shot of a magnificent 1920s Lucknow haveli courtyard, a horse-drawn tonga carriage standing near the grand arched entrance.",
+            "characters": []
+          },
+          {
+            "prompt": "Medium shot inside a grand haveli living room, aditya sitting across from vikram and savitri, gesturing nervously while speaking.",
+            "characters": [
+              "aditya",
+              "vikram",
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "आदित्य ने बताया कि भोलानाथ बरसों से उनका मुंशी था और बेहद चालाक था। कुछ दिन पहले उन्होंने उसे आधी रात को लाइब्रेरी में परिवार के पुराने काग़ज़ात पढ़ते हुए पकड़ा था। इसके बाद आदित्य ने उसे नौकरी से निकाल दिया।",
+        "shots": [
+          {
+            "prompt": "Flashback shot, eye-level angle inside a dark haveli library, bholanath holding a candle up to read yellowed parchment papers at a high wooden desk.",
+            "characters": [
+              "bholanath"
+            ]
+          },
+          {
+            "prompt": "Flashback shot, medium angle, aditya stepping into the library doorway holding an oil lamp, pointing angrily towards bholanath.",
+            "characters": [
+              "aditya",
+              "bholanath"
+            ]
+          },
+          {
+            "prompt": "Close-up shot of yellowed handwritten family documents spread on a carved wooden table under lantern light.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "विक्रम ने पूछा, \"वह कौन सा काग़ज़ पढ़ रहा था?\" आदित्य हँसकर बोले, \"वह बस हमारे परिवार का एक पुराना मंत्र है। हर वारिस को बड़ा होने पर इसे दोहराना पड़ता है। यह एक रस्म है, जिसका कोई मतलब नहीं है।\"",
+        "shots": [
+          {
+            "prompt": "Medium close-up of vikram leaning forward attentively, resting his hands on his brass-handled cane, looking intently at aditya.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Medium close-up of aditya smiling dismissively, holding out a folded piece of ancient paper.",
+            "characters": [
+              "aditya"
+            ]
+          },
+          {
+            "prompt": "Close-up of savitri taking notes in her small leather notebook, looking up with curiosity.",
+            "characters": [
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "आदित्य ने वह मंत्र पढ़कर सुनाया, \"वह किसका था? उसका, जो चला गया। वह किसका होगा? उसका, जो आएगा। सूरज बरगद के ऊपर था और छाया बरगद के नीचे थी। उत्तर में दस क़दम, पूरब में पाँच और दक्षिण में दो क़दम चलो, और फिर नीचे जाओ।\"",
+        "shots": [
+          {
+            "prompt": "Medium shot of aditya reading aloud from an ancient sheet of parchment paper, soft light illuminating his face.",
+            "characters": [
+              "aditya"
+            ]
+          },
+          {
+            "prompt": "Over-the-shoulder shot from behind vikram as he listens focused, analyzing the words being read.",
+            "characters": [
+              "vikram",
+              "aditya"
+            ]
+          },
+          {
+            "prompt": "Macro close-up of Devanagari calligraphy script on vintage yellowed paper.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "विक्रम ने कहा, \"आदित्य, यह कोई रस्म नहीं, बल्कि एक नक़्शा है, और भोलानाथ यह बात समझ गया था।\" आदित्य चौंककर बोले, \"लेकिन वह बरगद तो पचास साल पहले बिजली गिरने से ख़त्म हो गया था। अब बस उसका ठूँठ बचा है।\"",
+        "shots": [
+          {
+            "prompt": "Medium close-up of vikram speaking calmly with a sharp smile, eyes gleaming with insight.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Medium shot of aditya looking shocked, raising a hand in disbelief.",
+            "characters": [
+              "aditya"
+            ]
+          },
+          {
+            "prompt": "Wide shot outside in the haveli garden, showing a massive ancient dead banyan tree stump surrounded by overgrown grass.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "सावित्री ने पूछा, \"तो फिर आप उसकी छाया कैसे नापेंगे?\" विक्रम मुस्कराकर बोले, \"बरगद की ऊँचाई पुराने काग़ज़ात में लिखी होगी और बाक़ी काम सूरज कर देगा।\" आदित्य ने एक पुरानी बही खोली, जिसमें लिखा था कि बरगद पैंसठ फ़ुट ऊँचा था।",
+        "shots": [
+          {
+            "prompt": "Medium close-up of savitri raising her eyebrows in curiosity, holding her spectacles.",
+            "characters": [
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Medium close-up of vikram pointing towards the bright afternoon sky confidently.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Close-up shot of an old leather-bound estate record book, aditya's finger pointing to hand-written text indicating sixty-five feet height.",
+            "characters": [
+              "aditya"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "विक्रम ने ज़मीन में छह फ़ुट की एक छड़ गाड़ दी। उन्होंने कहा, \"मंत्र के मुताबिक़, जब सूरज बरगद की चोटी के ठीक ऊपर हो, उस वक़्त की छाया नापनी है।\" उस घड़ी छड़ की छाया नौ फ़ुट लंबी निकली।",
+        "shots": [
+          {
+            "prompt": "Wide shot of the courtyard lawn, vikram driving a straight wooden measuring rod into the sunlit ground.",
+            "characters": [
+              "vikram",
+              "savitri",
+              "aditya"
+            ]
+          },
+          {
+            "prompt": "Low-angle shot looking up at the bright midday sun directly above the haveli roofline.",
+            "characters": []
+          },
+          {
+            "prompt": "Close-up shot of vikram measuring the shadow cast by the rod on the grass with a long measuring tape.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "विक्रम बोले, \"छह फ़ुट की छड़ की छाया नौ फ़ुट की है, तो पैंसठ फ़ुट के बरगद की छाया साढ़े सत्तानवे फ़ुट की रही होगी।\" उन्होंने ठूँठ से उसी दिशा में फ़ीता खींचा, जो सीधा हवेली की पुरानी दीवार तक पहुँच गया।",
+        "shots": [
+          {
+            "prompt": "Medium shot of vikram calculating using a pencil on a small notepad, savitri and aditya watching closely.",
+            "characters": [
+              "vikram",
+              "savitri",
+              "aditya"
+            ]
+          },
+          {
+            "prompt": "Wide shot of vikram pulling a long measuring tape across the wide lawn starting from the banyan stump toward an old stone wall.",
+            "characters": [
+              "vikram",
+              "aditya"
+            ]
+          },
+          {
+            "prompt": "Close-up shot of the end of the measuring tape touching the base of an ancient stone wall covered in moss.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "यहाँ एक पल रुककर सोचिए। एक पेड़ था, जो अब नहीं है, उसकी छाया थी और गिनती के कुछ क़दम थे। क्या आप यह पहेली ख़ुद सुलझा पाते? अपना जवाब कमेंट में बताइए और देखिए कि यह रास्ता कहाँ ले जाता है।",
+        "shots": [
+          {
+            "prompt": "Medium shot of vikram looking directly at the camera, holding his cane, standing against the background of the ancient haveli.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Wide shot showing the sunlit grounds, the banyan stump, and the line leading to the old haveli wall.",
+            "characters": [
+              "vikram",
+              "savitri",
+              "aditya"
+            ]
+          },
+          {
+            "prompt": "Close-up of savitri looking thoughtfully at the stone wall, pencil pressed against her lip.",
+            "characters": [
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "वहाँ से वे उत्तर में दस क़दम, पूरब में पाँच और दक्षिण में दो क़दम चले। इस तरह वे हवेली के सबसे पुराने हिस्से के एक दरवाज़े पर पहुँच गए, जिसके अंदर सीढ़ियाँ नीचे अँधेरे में उतरती थीं। विक्रम ने धीरे से कहा, \"और अब हमें नीचे जाना है।\"",
+        "shots": [
+          {
+            "prompt": "Medium shot of vikram pacing out steps carefully along the stone courtyard floor, counting marked points.",
+            "characters": [
+              "vikram",
+              "aditya"
+            ]
+          },
+          {
+            "prompt": "Wide shot of a heavy oak door in a secluded shadowy wing of the haveli opening to reveal dark stone steps descending into darkness.",
+            "characters": [
+              "vikram",
+              "savitri",
+              "aditya"
+            ]
+          },
+          {
+            "prompt": "Close-up of vikram lighting a brass oil lantern, warm yellow light illuminating his focused facial expression.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "तहखाना ठंडा था और सीलन से भरा हुआ था। लालटेन की रोशनी में फ़र्श पर पत्थर की एक भारी पटिया दिखी, जिस पर लोहे का कड़ा लगा था। पास ही लकड़ी का एक मोटा टुकड़ा पड़ा था, जैसे किसी ने उसे टेक की तरह इस्तेमाल किया हो।",
+        "shots": [
+          {
+            "prompt": "Wide shot of a dark underground stone cellar with moisture-glistening walls, lantern light flickering.",
+            "characters": [
+              "vikram",
+              "savitri",
+              "aditya"
+            ]
+          },
+          {
+            "prompt": "Low angle shot of a massive square stone flagstone on the floor with a rusty iron ring handle embedded in it.",
+            "characters": []
+          },
+          {
+            "prompt": "Close-up shot of a heavy splintered wooden log prop resting near the stone slab under bright lantern beam.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "इंस्पेक्टर भैरव भी वहाँ आ पहुँचे थे। विक्रम, भैरव और आदित्य ने मिलकर वह पटिया उठाई और सावित्री ने लालटेन नीचे की। अगले ही पल सावित्री की चीख निकल गई, क्योंकि नीचे के गड्ढे से एक हाथ बाहर झाँक रहा था।",
+        "shots": [
+          {
+            "prompt": "Medium shot of inspector_bhairav, aditya, and vikram straining together to lift the heavy stone slab using an iron crowbar.",
+            "characters": [
+              "inspector_bhairav",
+              "aditya",
+              "vikram",
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Close-up shot of savitri lowering the lantern into the dark cavity beneath the lifted stone slab, her eyes widening in horror.",
+            "characters": [
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Dramatic low angle shot looking up from inside the dark pit: a pale lifeless hand visible sticking out from the darkness toward lantern light.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "वह भोलानाथ था और उसके पास लकड़ी का एक ख़ाली संदूक पड़ा था। विक्रम बोले, \"भोलानाथ ने मंत्र सुलझा लिया था, लेकिन यह पटिया अकेले नहीं उठ सकती थी। उसे किसी की मदद चाहिए थी।\"",
+        "shots": [
+          {
+            "prompt": "Medium shot looking down into the pit, revealing bholanath lying motionless beside an open antique wooden chest.",
+            "characters": [
+              "vikram",
+              "inspector_bhairav",
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Medium close-up of vikram looking down into the pit thoughtfully, explaining the scene calmly.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "आदित्य ने धीरे से कहा, \"वह लाजवंती रही होगी। वह भोलानाथ से प्यार करती थी, लेकिन भोलानाथ ने हाल ही में उसे छोड़ दिया था।\" विक्रम ने लकड़ी के उस टुकड़े को देखा, जिस पर किसी के नाख़ूनों के गहरे निशान थे।",
+        "shots": [
+          {
+            "prompt": "Medium close-up of aditya looking pale and dismayed under lantern light.",
+            "characters": [
+              "aditya"
+            ]
+          },
+          {
+            "prompt": "Extreme close-up shot of deep fingernail scratch marks carved into the soft grain of the wooden prop log.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Medium close-up of inspector_bhairav examining the scratch marks with a stern face.",
+            "characters": [
+              "inspector_bhairav"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "विक्रम ने समझाया, \"भोलानाथ नीचे उतरा और ख़ज़ाना ऊपर लाजवंती को थमाता गया। फिर लकड़ी की टेक खिसक गई। वह हादसा था या बदला, यह सिर्फ़ लाजवंती जानती है। पत्थर गिर गया और भोलानाथ नीचे बंद हो गया।\"",
+        "shots": [
+          {
+            "prompt": "Flashback shot, dramatic shadows in the cellar: bholanath passing heavy antique items up to lajwanti standing above the open trapdoor.",
+            "characters": [
+              "bholanath",
+              "lajwanti"
+            ]
+          },
+          {
+            "prompt": "Flashback shot, close-up of the wooden log slipping out from under the heavy stone slab, stone dropping shut into pitch darkness.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "सावित्री ने कहा, \"इसीलिए वह पागलों की तरह हँसी थी। लेकिन ख़ज़ाना कहाँ गया?\" विक्रम ने झील से निकले बोरे को खोला। उसके अंदर जंग लगी, मुड़ी-तुड़ी धातु और काँच जैसे कुछ धुंधले कंकड़ थे।",
+        "shots": [
+          {
+            "prompt": "Medium close-up of savitri looking at vikram with realization and shock.",
+            "characters": [
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Medium shot of vikram untying the wet rope on the burlap sack recovered from the lake, laying it open on a table.",
+            "characters": [
+              "vikram",
+              "aditya",
+              "inspector_bhairav"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "विक्रम ने एक मुड़े हुए टुकड़े को साफ़ किया, तो नीचे से सोना चमक उठा। उन्होंने कहा, \"ये कंकड़ नहीं, आदित्य, बल्कि हीरे और पन्ने हैं। यह टूटा हुआ ताज अवध के पुराने राजाओं का मुकुट है। यह सदियों से तुम्हारे परिवार के पास था और किसी को इसका पता नहीं था।\"",
+        "shots": [
+          {
+            "prompt": "Close-up shot of vikram wiping mud off a tarnished metal piece with his handkerchief, revealing bright shining gold beneath.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Close-up shot of raw unpolished diamonds and emeralds sparkling in the lantern light among pieces of an ancient royal crown.",
+            "characters": []
+          },
+          {
+            "prompt": "Medium shot of aditya gazing at the royal crown in total astonishment.",
+            "characters": [
+              "aditya",
+              "vikram",
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "आदित्य की आँखें भर आईं। विक्रम बोले, \"यह मामला एक रस्म, एक ठूँठ और लकड़ी पर बने नाख़ूनों के निशानों से सुलझा। सच हमेशा छोटी चीज़ों में छिपा होता है।\" लाजवंती का फिर कभी कुछ पता नहीं चला।",
+        "shots": [
+          {
+            "prompt": "Medium shot of aditya placing a hand over his face in gratitude and emotion.",
+            "characters": [
+              "aditya"
+            ]
+          },
+          {
+            "prompt": "Medium close-up of vikram offering a gentle reassuring nod, delivering his signature line calmly.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "रात को विक्रम परिवार के काग़ज़ात पलट रहे थे, तभी उनके हाथ एक नई चिट्ठी लगी। कुछ महीने पहले किसी ने वह हवेली ख़रीदने की बड़ी पेशकश की थी। चिट्ठी के नीचे 'पं. से. स. ट्रस्ट' के दस्तख़त थे।",
+        "shots": [
+          {
+            "prompt": "Medium shot of vikram sitting at a wooden desk late at night, leafing through old haveli documents by lamp light.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Close-up shot of a formal Hindi letter on cream paper, showing an offer to purchase the haveli.",
+            "characters": []
+          },
+          {
+            "prompt": "Macro close-up shot of the signature line at the bottom reading 'पं. से. स. ट्रस्ट' written in violet ink.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "सावित्री ने कहा, \"यह तो वही भली संस्था, पंकज सेवा सदन है।\" विक्रम कुछ देर चुप रहे और फिर बोले, \"अनाथालय चलाने वाली एक संस्था कोई पुरानी हवेली क्यों ख़रीदना चाहेगी, सावित्री? क्या उन्हें पता था कि यहाँ क्या दबा है?\" आपको क्या लगता है? अपना जवाब कमेंट में लिखिए।",
+        "shots": [
+          {
+            "prompt": "Medium shot of savitri standing next to vikram's desk, looking down at the letter in surprised realization.",
+            "characters": [
+              "savitri",
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Medium close-up of vikram staring thoughtfully into the lantern flame, his jaw set in quiet concern.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Close-up of the violet ink signature on the letter as shadow falls across the desk.",
+            "characters": []
+          }
+        ]
+      }
+    ],
+    "clips": [
+      {
+        "start_scene": 5,
+        "end_scene": 6,
+        "hook_text": "पुरखों की पहेली",
+        "title": "सदियों पुराना मंत्र: 'सूरज कहाँ था? बरगद के ऊपर...' | जासूस विक्रम",
+        "end_question": "क्या आप ये पहेली सुलझा सकते हैं? कमेंट करें।"
+      },
+      {
+        "start_scene": 7,
+        "end_scene": 8,
+        "hook_text": "जो पेड़ अब नहीं है",
+        "title": "पचास साल पहले गिरे पेड़ की छाया कैसे नापें? | जासूस विक्रम",
+        "end_question": "पेड़ नहीं, तो छाया कैसे?"
+      },
+      {
+        "start_scene": 12,
+        "end_scene": 14,
+        "hook_text": "तहखाने की पटिया",
+        "title": "पहेली ने तहखाने तक पहुँचाया... और पटिया के नीचे... | जासूस विक्रम",
+        "end_question": "नीचे क्या था?"
+      },
+      {
+        "start_scene": 1,
+        "end_scene": 3,
+        "hook_text": "हवेली का भयानक रहस्य",
+        "title": "रात को अचानक मुंशी हुआ गायब | जासूस विक्रम",
+        "end_question": "लाजवंती कहाँ गायब हुई?"
+      },
+      {
+        "start_scene": 21,
+        "end_scene": 22,
+        "hook_text": "काले कमल का नया सुराग",
+        "title": "पंकज सेवा सदन का असली मकसद क्या है? | जासूस विक्रम",
+        "end_question": "पंकज सेवा सदन का राज़ क्या है?"
+      }
+    ],
+    "episode": 10,
+    "episode_title": "तहखाने का मंत्र"
+  },
+  "active_clips": [
+    0,
+    1,
+    2
+  ],
+  "next_clip": 3,
+  "batch": null
+}

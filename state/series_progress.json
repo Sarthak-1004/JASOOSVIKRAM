@@ -1,5 +1,5 @@
 {
- "next": 10,
+ "next": 11,
  "done": [
   {
    "n": 1,
@@ -45,6 +45,11 @@
    "n": 9,
    "title": "कुत्ता क्यों नहीं भौंका?",
    "summary": "When a champion white racehorse vanishes and its trainer is found dead on the eve of the Lucknow Cup, Detective Vikram realizes the silent guard dog is the key to solving the mystery."
+  },
+  {
+   "n": 10,
+   "title": "तहखाने का मंत्र",
+   "summary": "In 1923 Lucknow, Detective Vikram decrypts an ancient family ritual to uncover a hidden cellar treasure and a tragic crime of passion beneath the Raizada haveli."
   }
  ]
 }
