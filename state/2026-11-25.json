@@ -1,0 +1,587 @@
+{
+  "date": "2026-11-25",
+  "status": "story_ready",
+  "items": {},
+  "story": {
+    "title": "मुट्ठी में फटा कागज़ | जासूस विक्रम Ep 11",
+    "description": "मेरठ में ज़मींदार की हवेली के आँगन में देर रात चली गोली और मिला एक कोचवान का शव। मृतक की बंद मुट्ठी में दबा कागज़ का एक फटा हुआ कोना जासूस विक्रम को किस खौफ़नाक सच तक ले जाएगा?\n\nक्या यह महज़ एक चोरी थी या ज़मींदारी के पीछे छिपी गहरी साज़िश?\n\nकमेंट में बताएं अपनी राय!\n\n#JaasoosVikram #HindiKahaniya #ThrillerStories #HindiMystery #SuspenseKahani\n\nआर्थर कॉनन डॉयल की कहानी \"The Reigate Squire\" से प्रेरित (public domain). सभी पात्र काल्पनिक हैं।",
+    "tags": [
+      "Jaasoos Vikram",
+      "Hindi Stories",
+      "Detective Mystery",
+      "Thriller",
+      "Hindi Audio Story",
+      "Meerut Mystery",
+      "1920s India"
+    ],
+    "logline": "In 1923 Meerut, a murdered coachman dies holding a torn scrap of a note, leading Detective Vikram to uncover a conspiracy between a father and son disguised as a simple burglary.",
+    "thumbnail_text": "मुट्ठी में फटा कागज़",
+    "thumbnail_shot": 2,
+    "thumbnail_prompt": "Close-up of a dead man's clenched fist on a stone courtyard floor holding a torn scrap of paper, lantern light, a zamindar's tall shadow falling across it, deep red accent.",
+    "characters": [
+      {
+        "id": "vikram",
+        "name": "जासूस विक्रम",
+        "look": "Lean Indian man in his mid-30s, sharp intelligent eyes, neatly trimmed black moustache, short side-parted hair, dark navy bandhgala coat over a white kurta, grey wool shawl over one shoulder, black cane with a brass handle, often carries an oil lantern."
+      },
+      {
+        "id": "savitri",
+        "name": "डॉक्टर सावित्री",
+        "look": "Indian woman in her late 20s, intelligent kind face, hair in a low bun, small round spectacles, cotton sari with a dark border, brown leather doctor's bag, small notebook."
+      },
+      {
+        "id": "inspector_bhairav",
+        "name": "इंस्पेक्टर भैरव पांडे",
+        "look": "Heavy-set Indian police inspector in his late 40s, thick curled moustache, 1920s khaki police uniform with a red-and-khaki pagri turban, leather belt, short wooden baton."
+      },
+      {
+        "id": "kailashnath",
+        "name": "कैलाशनाथ कपूर",
+        "look": "Elderly Indian zamindar in his late 60s, sharp eyes, grey hair, wearing a rich dark silk kurta and an embroidered shawl."
+      },
+      {
+        "id": "vikas",
+        "name": "विकास कपूर",
+        "look": "Dashing Indian man in his late 20s, slicked back dark hair, well-groomed moustache, wearing fine 1920s Indian zamindar attire."
+      },
+      {
+        "id": "gulzar",
+        "name": "गुलज़ार",
+        "look": "Middle-aged Indian man, wearing 1920s coachman attire, simple cloth turban and jacket."
+      }
+    ],
+    "scenes": [
+      {
+        "narration": "आधी रात को मेरठ में गोली की आवाज़ गूँज उठी। ज़मींदार कैलाशनाथ कपूर के आँगन में उनका कोचवान गुलज़ार मरा हुआ पड़ा था। उसकी अकड़ी हुई मुट्ठी में एक फटे हुए कागज़ का कोना दबा था।",
+        "shots": [
+          {
+            "prompt": "Night wide shot of an old grand Indian estate courtyard in 1923 Meerut under moonlight. Shadows stretching across stone paved ground, a fallen lantern spilling soft yellow light near a motionless figure.",
+            "characters": []
+          },
+          {
+            "prompt": "Close-up shot of gulzar's clenched fist lying on the damp stone courtyard floor, holding a small torn scrap of paper, lantern light casting deep contrast.",
+            "characters": [
+              "gulzar"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "उस कोने पर बस कुछ टूटे-फूटे शब्द लिखे थे, जिनमें पौने बारह बजे का समय था और यह लिखा था कि शायद कुछ पता चल जाएगा। सवाल यह था कि उस कागज़ का बाक़ी हिस्सा कहाँ गया और एक कोचवान को आधी रात को आँगन में किसने बुलाया था?",
+        "shots": [
+          {
+            "prompt": "Extreme close-up shot of the torn scrap of paper in a palm, highlighted by warm lantern illumination in the dark night.",
+            "characters": []
+          },
+          {
+            "prompt": "Low angle medium shot of kailashnath standing on the veranda looking down into the courtyard with a startled face, moonlight catching his silken attire.",
+            "characters": [
+              "kailashnath"
+            ]
+          },
+          {
+            "prompt": "Over-the-shoulder shot looking from the dimly lit courtyard up toward the shadowy upper balcony of the grand estate.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "उन दिनों जासूस विक्रम बहुत बीमार पड़ गए थे, क्योंकि लगातार काम ने उन्हें तोड़ दिया था। डॉक्टर सावित्री उन्हें ज़बरदस्ती आराम के लिए मेरठ ले आई थीं। उन्हें क्या पता था कि वहाँ आराम की जगह एक क़त्ल उनका इंतज़ार कर रहा था।",
+        "shots": [
+          {
+            "prompt": "Medium shot of vikram resting on a wooden daybed inside a cozy vintage Indian guest room, shawl over shoulders, looking pale yet attentive.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Close-up shot of savitri pouring warm water from a brass jug into a cup, wearing her round spectacles and a dark bordered cotton sari, looking concerned.",
+            "characters": [
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Wide shot of the serene guest room with high ceilings, wooden shutter windows open to green gardens, brass lamps glowing softly.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "ज़मींदार कैलाशनाथ और उनके बेटे विकास, दोनों ने कहा कि उन्होंने एक चोर को भागते हुए देखा था। विकास बोला, \"मैं खिड़की पर खड़ा था, जब चोर ने गुलज़ार पर गोली चलाई और वह खेतों की तरफ़ भाग गया।\"",
+        "shots": [
+          {
+            "prompt": "Medium shot of kailashnath and vikas gesturing animatedly while explaining to savitri and vikram inside a lavishly decorated drawing room.",
+            "characters": [
+              "kailashnath",
+              "vikas",
+              "savitri",
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Close-up shot of vikas talking intensely, slicked hair reflecting oil lamp light, dark eyes wide as he gestures toward an open window.",
+            "characters": [
+              "vikas"
+            ]
+          },
+          {
+            "prompt": "Wide shot showing the window looking out toward dark misty fields beyond the estate courtyard.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "कुछ ही दिन पहले पड़ोस के एक घर में चोरी हुई थी, लेकिन वह चोरी बड़ी अजीब थी। इतनी बड़ी हवेली में से चोर बस धागे का एक गोला, एक पेपरवेट और एक पुराना पंचांग ले गया था, जो बिल्कुल बेकार चीज़ें थीं।",
+        "shots": [
+          {
+            "prompt": "Interior close-up shot of an open wooden desk inside a neighbouring grand study room, showing dust outlines where small objects were taken.",
+            "characters": []
+          },
+          {
+            "prompt": "Detail shot of a ball of twine, a heavy glass paperweight, and an old yellowed almanac arranged on a dark table surface in dramatic lighting.",
+            "characters": []
+          },
+          {
+            "prompt": "Medium shot of vikram sitting in a carved wooden chair, chin resting on his hand, thoughtfully analyzing the strange list of stolen items.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "इंस्पेक्टर भैरव भी किसी सरकारी काम से मेरठ आए हुए थे और जाँच में मदद कर रहे थे। उन्होंने चोरी वाले घर की तलाशी ली और एक पेपरवेट ग़लती से अपनी जेब में रख लिया। विक्रम ने यह देखा, लेकिन वह चुप रहे।",
+        "shots": [
+          {
+            "prompt": "Medium shot of inspector_bhairav in full 1920s khaki uniform, casually slipping a small dark glass paperweight into his jacket pocket during a search.",
+            "characters": [
+              "inspector_bhairav"
+            ]
+          },
+          {
+            "prompt": "Close-up shot of vikram watching quietly from across the room, dark intelligent eyes tracking inspector_bhairav's subtle movement.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Wide shot of the burgled study room with inspector_bhairav dusting for clues while savitri takes notes in her brown notebook.",
+            "characters": [
+              "inspector_bhairav",
+              "savitri",
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "सावित्री ने विक्रम को बिस्तर पर ही रहने को कहा था, लेकिन उन्होंने वह फटा हुआ कागज़ मँगवा लिया और घंटों उसे घूरते रहे। फिर वह बोले, \"सावित्री, इसे एक आदमी ने नहीं लिखा है। इसे दो आदमियों ने मिलकर लिखा है।\"",
+        "shots": [
+          {
+            "prompt": "Medium shot of vikram sitting up in bed, holding the small torn piece of paper near a table lamp, inspecting it with high concentration.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Close-up shot of savitri leaning over vikram's shoulder, looking through her round spectacles at the tiny piece of paper.",
+            "characters": [
+              "savitri",
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Detail shot of the paper fragment under warm lamp light held by vikram's fingers.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "विक्रम ने समझाया, \"देखो, कुछ शब्द किसी कड़क, ताक़तवर और जवान हाथ ने लिखे हैं, जबकि बाक़ी शब्द किसी काँपते हुए बूढ़े हाथ के हैं। दो लोग बारी-बारी से एक-एक शब्द लिख रहे थे, ताकि कोई अकेला न पकड़ा जाए।\"",
+        "shots": [
+          {
+            "prompt": "Close-up shot of vikram's calm, analytical face as he points to specific ink strokes on the torn note.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Macro detail shot showing contrasting penmanship strokes on the paper, alternating firm lines and shaky curves under a magnifying glass.",
+            "characters": []
+          },
+          {
+            "prompt": "Medium shot of savitri listening intently, her expression shifting from confusion to sudden realization.",
+            "characters": [
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "उन्होंने आगे कहा, \"दोनों की लिखावट का ढंग एक जैसा है और दोनों की मात्राएँ एक जैसी घुमावदार हैं। ये दोनों आपस में रिश्तेदार हैं, सावित्री, और शायद बाप और बेटा हैं।\"",
+        "shots": [
+          {
+            "prompt": "Medium shot of vikram leaning back against his pillows, cane resting beside him, speaking in a measured voice.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Close-up shot of savitri thoughtfully writing down vikram's observations into her leather-bound medical notebook.",
+            "characters": [
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "यहाँ एक पल रुककर सोचिए। एक फटा हुआ कागज़ था, जिस पर दो लिखावटें थीं, और एक बाप-बेटा थे, जिन्होंने चोर को भागते हुए देखने का दावा किया था। आप बताइए कि उस कागज़ का बाक़ी हिस्सा कहाँ होगा?",
+        "shots": [
+          {
+            "prompt": "Wide shot of the quiet study room at dusk, warm lamp shadows flickering on high arched doorways.",
+            "characters": []
+          },
+          {
+            "prompt": "Split lighting portrait of kailashnath and vikas standing side by side in high contrast silhouette.",
+            "characters": [
+              "kailashnath",
+              "vikas"
+            ]
+          },
+          {
+            "prompt": "Close-up shot of the paper scrap lying on a dark polished mahogany desk surface.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "अगले दिन वे दोनों कपूर साहब की हवेली पहुँचे, जहाँ विक्रम बहुत सारे सवाल पूछते रहे। फिर अचानक वह लड़खड़ाए और ज़मीन पर गिर पड़े। यह देखकर कमरे में भगदड़ मच गई।",
+        "shots": [
+          {
+            "prompt": "Wide shot of the opulent zamindar living room, vikram walking slowly with his cane surrounded by kailashnath, vikas, and savitri.",
+            "characters": [
+              "vikram",
+              "kailashnath",
+              "vikas",
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Dramatic medium shot of vikram suddenly staggering backward, dropping his cane as his knees buckle toward the Persian carpet floor.",
+            "characters": [
+              "vikram",
+              "kailashnath",
+              "vikas",
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "गिरते-गिरते उन्होंने संतरों से भरी एक मेज़ उलट दी, जिससे संतरे फ़र्श पर लुढ़क गए और पानी का जग टूट गया। सावित्री घबराकर उनकी तरफ़ भागीं। लेकिन जैसे ही वह झुकीं, विक्रम ने उन्हें चुपके से आँख मार दी।",
+        "shots": [
+          {
+            "prompt": "Action shot of a small side table flipping over, bright orange fruits rolling across the floor and a glass pitcher shattering.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Low angle shot of savitri rushing to knee beside vikram on the floor, looking genuinely alarmed.",
+            "characters": [
+              "savitri",
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Close-up shot of vikram lying on the carpet, subtly winking one eye at savitri while everyone else looks away in chaos.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "सब लोग संतरे उठाने में लग गए और उसी बीच विक्रम कमरे से ग़ायब हो गए। कुछ मिनट बाद वह बिल्कुल ठीक हालत में लौटे और बोले, \"माफ़ कीजिए, मुझे बीमारी का दौरा पड़ गया था।\" सावित्री समझ गईं कि वह दौरा नहीं, बल्कि एक नाटक था।",
+        "shots": [
+          {
+            "prompt": "Wide shot showing kailashnath and vikas bent over picking up oranges while the doorway stands empty where vikram was.",
+            "characters": [
+              "kailashnath",
+              "vikas"
+            ]
+          },
+          {
+            "prompt": "Medium shot of vikram walking back into the living room completely unbothered, adjusting his navy bandhgala coat coolly.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Close-up shot of savitri standing with arms crossed, subtle knowing smirk on her face as she watches vikram.",
+            "characters": [
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "फिर विक्रम ने एक बयान लिखा और उसमें जानबूझकर समय ग़लत लिख दिया। बूढ़े कैलाशनाथ ने तुरंत क़लम उठाई और अपने हाथ से उस ग़लती को सुधार दिया। विक्रम ने वह बयान मोड़कर सावधानी से अपनी जेब में रख लिया।",
+        "shots": [
+          {
+            "prompt": "Close-up shot of kailashnath holding a wooden dip pen, hastily crossing out a line on a written statement document.",
+            "characters": [
+              "kailashnath"
+            ]
+          },
+          {
+            "prompt": "Medium shot of vikram taking the paper back from kailashnath with a polite bow and slipping it inside his bandhgala inner pocket.",
+            "characters": [
+              "vikram",
+              "kailashnath"
+            ]
+          },
+          {
+            "prompt": "Over-the-shoulder shot from vikram looking at the handwritten ink strokes on the statement paper.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "रात को विक्रम चुपके से विकास के कमरे में घुसे। उन्होंने अलमारी में टँगे एक रेशमी गाउन की जेब में हाथ डाला। उस जेब से कागज़ का बाक़ी हिस्सा निकल आया।",
+        "shots": [
+          {
+            "prompt": "Night shot of vikram quietly opening a heavy teak wardrobe inside a darkened bedroom, holding a small brass pocket flashlight.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Close-up shot of vikram's hand pulling out the matching larger torn section of paper from the pocket of a silk dressing gown hanging in the wardrobe.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "तभी दरवाज़ा भड़ाक से खुला और बाप-बेटा दोनों अंदर घुस आए। विकास ने विक्रम का गला पकड़ लिया और बूढ़ा कैलाशनाथ उनके हाथ से कागज़ छीनने लगा। विक्रम की साँस अटकने लगी।",
+        "shots": [
+          {
+            "prompt": "Dramatic wide action shot of the bedroom door bursting open, silhouetting vikas and kailashnath in the doorway.",
+            "characters": [
+              "vikas",
+              "kailashnath",
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Close-up action shot of vikas grappling aggressively with vikram in the shadowy room while kailashnath reaches frantically for the paper.",
+            "characters": [
+              "vikas",
+              "kailashnath",
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "सावित्री ने चीखकर इंस्पेक्टर भैरव को बुलाया। भैरव दो सिपाहियों के साथ दौड़ते हुए आए और उन्होंने बाप-बेटे को धर दबोचा। विक्रम ज़मीन पर बैठे अपना गला सहला रहे थे और मुस्कराकर बोले, \"मेरी बीमारी अब ठीक हो गई है, सावित्री।\"",
+        "shots": [
+          {
+            "prompt": "Wide shot of inspector_bhairav and two uniformed British-era police constables barging into the room with batons drawn.",
+            "characters": [
+              "inspector_bhairav",
+              "vikas",
+              "kailashnath"
+            ]
+          },
+          {
+            "prompt": "Medium shot of inspector_bhairav restraining vikas and kailashnath against the wall with firm grip.",
+            "characters": [
+              "inspector_bhairav",
+              "vikas",
+              "kailashnath"
+            ]
+          },
+          {
+            "prompt": "Close-up shot of vikram sitting on the floor rubbing his neck, looking up at savitri with a calm dry smile.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "विक्रम ने सारी बात समझाई, \"पड़ोसी से इनका ज़मीन का मुक़दमा चल रहा है और पड़ोसी के पास ऐसे काग़ज़ात थे, जो इनका दावा झूठा साबित कर देते। पिछली चोरी इन्हीं दोनों ने वे काग़ज़ ढूँढ़ने के लिए की थी। बेकार चीज़ें तो बस दिखावे के लिए उठाई गई थीं।\"",
+        "shots": [
+          {
+            "prompt": "Medium shot of vikram standing in the center of the lit room matching the two torn paper fragments together in his hand.",
+            "characters": [
+              "vikram",
+              "savitri",
+              "inspector_bhairav"
+            ]
+          },
+          {
+            "prompt": "Close-up shot of the two paper edges fitting perfectly together like puzzle pieces.",
+            "characters": []
+          },
+          {
+            "prompt": "Medium shot of kailashnath and vikas looking defeated and pale in police custody.",
+            "characters": [
+              "kailashnath",
+              "vikas"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "उन्होंने कहा, \"गुलज़ार ने उस रात इन्हें देख लिया था और वह इन्हें ब्लैकमेल करने लगा। इसलिए दोनों ने मिलकर यह चिट्ठी लिखी, उसे पौने बारह बजे आँगन में बुलाया और गोली मार दी।\"",
+        "shots": [
+          {
+            "prompt": "Flashback stylized wide shot in cold blue tones showing kailashnath and vikas writing a note together under candlelight at a desk.",
+            "characters": [
+              "kailashnath",
+              "vikas"
+            ]
+          },
+          {
+            "prompt": "Medium shot of vikram pointing calmly at vikas as inspector_bhairav prepares handcuffs.",
+            "characters": [
+              "vikram",
+              "vikas",
+              "inspector_bhairav"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "विक्रम बोले, \"मरते-मरते गुलज़ार ने चिट्ठी छीनने की कोशिश की और उसका एक कोना उसकी मुट्ठी में रह गया। मैंने संतरे गिराकर सबका ध्यान बँटाया और विकास का कमरा देख आया। सच हमेशा छोटी चीज़ों में छिपा होता है।\"",
+        "shots": [
+          {
+            "prompt": "Close-up shot of vikram looking directly forward with a composed expression, uttering his signature phrase.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Medium shot of savitri smiling in relief while holding her doctor's bag, looking proudly at vikram.",
+            "characters": [
+              "savitri",
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Wide shot of the courtroom-like gathering in the parlor as police lead the culprits away.",
+            "characters": [
+              "vikram",
+              "savitri",
+              "inspector_bhairav",
+              "kailashnath",
+              "vikas"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "मुक़दमे के काग़ज़ात में एक नाम बार-बार आता था। वह कपूर परिवार का वकील था, जिसने उन्हें यह चोरी करने की सलाह दी थी। वही आदमी बनारस की एक बड़ी संस्था, पंकज सेवा सदन का क़ानूनी सलाहकार भी था।",
+        "shots": [
+          {
+            "prompt": "Extreme close-up shot of legal documents spread on a table, highlighting stamp seals of Pankaj Seva Sadan in dark ink.",
+            "characters": []
+          },
+          {
+            "prompt": "Medium shot of vikram carefully examining the lawyer's signature on the legal brief under warm lantern light.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Close-up shot of savitri looking at the stamp seal with subtle curiosity.",
+            "characters": [
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "भैरव ने अपनी जेब वाला पेपरवेट हँसते हुए लौटा दिया और कहा कि उन्होंने उसे ग़लती से रख लिया था। विक्रम ने पेपरवेट को उलटकर देखा, तो उसके नीचे एक छोटा सा कमल खुदा हुआ था। क्या भैरव सच में उसे लौटाना भूल गए थे? इस बारे में आपकी क्या राय है?",
+        "shots": [
+          {
+            "prompt": "Medium shot of inspector_bhairav laughing nervously and handing the glass paperweight back to vikram.",
+            "characters": [
+              "inspector_bhairav",
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Extreme close-up shot of the underside of the heavy glass paperweight, revealing a tiny carved black lotus flower symbol.",
+            "characters": []
+          },
+          {
+            "prompt": "Close-up shot of vikram's intense gaze looking up from the paperweight into the distance, mystery surrounding the symbol.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      }
+    ],
+    "clips": [
+      {
+        "start_scene": 1,
+        "end_scene": 2,
+        "hook_text": "मुर्दे की मुट्ठी में पर्ची",
+        "title": "आधी रात की गोली... और मरे हुए कोचवान की मुट्ठी में फटा कागज़ | जासूस विक्रम",
+        "end_question": "बाक़ी कागज़ कहाँ है?"
+      },
+      {
+        "start_scene": 7,
+        "end_scene": 9,
+        "hook_text": "एक कागज़, दो लिखावटें",
+        "title": "एक ही पर्ची, बारी-बारी से दो लोगों ने लिखी | जासूस विक्रम",
+        "end_question": "ये दो लोग कौन थे?"
+      },
+      {
+        "start_scene": 11,
+        "end_scene": 12,
+        "hook_text": "जासूस अचानक गिर पड़ा",
+        "title": "जाँच के बीच विक्रम अचानक गिर पड़े... | जासूस विक्रम",
+        "end_question": "क्या विक्रम सच में बीमार हैं?"
+      },
+      {
+        "start_scene": 14,
+        "end_scene": 16,
+        "hook_text": "आधी रात कमरे में तलाशी",
+        "title": "गाउन की जेब का राज़ | जासूस विक्रम",
+        "end_question": "क्या विक्रम बच पाएंगे?"
+      },
+      {
+        "start_scene": 17,
+        "end_scene": 20,
+        "hook_text": "क़ातिल का पर्दाफ़ाश",
+        "title": "ज़मींदार के घर का सच | जासूस विक्रम",
+        "end_question": "क्या आपको सुराग मिला था?"
+      }
+    ],
+    "episode": 11,
+    "episode_title": "मुट्ठी में फटा कागज़"
+  },
+  "active_clips": [
+    0,
+    1,
+    2
+  ],
+  "next_clip": 3,
+  "batch": null
+}
