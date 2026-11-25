@@ -1,5 +1,5 @@
 {
- "next": 12,
+ "next": 13,
  "done": [
   {
    "n": 1,
@@ -55,6 +55,11 @@
    "n": 11,
    "title": "मुट्ठी में फटा कागज़",
    "summary": "In 1923 Meerut, a murdered coachman dies holding a torn scrap of a note, leading Detective Vikram to uncover a conspiracy between a father and son disguised as a simple burglary."
+  },
+  {
+   "n": 12,
+   "title": "पर्दे पर अजीब पंजे",
+   "summary": "In 1923 Meerut cantonment, a British Indian Army colonel dies of fright in a locked room after seeing an old comrade he betrayed, leaving behind mysterious paw prints on the curtain."
   }
  ]
 }
