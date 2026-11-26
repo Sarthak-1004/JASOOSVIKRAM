@@ -1,5 +1,5 @@
 {
- "next": 13,
+ "next": 14,
  "done": [
   {
    "n": 1,
@@ -60,6 +60,11 @@
    "n": 12,
    "title": "पर्दे पर अजीब पंजे",
    "summary": "In 1923 Meerut cantonment, a British Indian Army colonel dies of fright in a locked room after seeing an old comrade he betrayed, leaving behind mysterious paw prints on the curtain."
+  },
+  {
+   "n": 13,
+   "title": "बँधी आँखों का सफ़र",
+   "summary": "An interpreter is kidnapped to translate for a captive Tibetan merchant, leading Vikram and his brother Raghav to uncover a dangerous syndicate."
   }
  ]
 }

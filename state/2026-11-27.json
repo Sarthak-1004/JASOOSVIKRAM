@@ -1,0 +1,562 @@
+{
+  "date": "2026-11-27",
+  "status": "story_ready",
+  "items": {},
+  "story": {
+    "title": "बँधी आँखों का सफ़र | जासूस विक्रम Ep 13",
+    "description": "एक रात, एक बग्घी और एक बँधा हुआ आदमी। जासूस विक्रम और राघव ने मिलकर कलकत्ता के इस खौफनाक राज से पर्दा उठाया। देखिए जासूस विक्रम का नया रोमांचक एपिसोड। \n\n#JasoosVikram #HindiStories #DetectiveVikram #MysteryStory #SuspenseStories\n\nआर्थर कॉनन डॉयल की कहानी \"The Greek Interpreter\" से प्रेरित (public domain). सभी पात्र काल्पनिक हैं।",
+    "tags": [
+      "JasoosVikram",
+      "DetectiveVikram",
+      "HindiMystery",
+      "SuspenseStory",
+      "AudioStory",
+      "ClassicMystery"
+    ],
+    "logline": "An interpreter is kidnapped to translate for a captive Tibetan merchant, leading Vikram and his brother Raghav to uncover a dangerous syndicate.",
+    "thumbnail_text": "बँधी आँखों का सफ़र",
+    "thumbnail_shot": 2,
+    "thumbnail_prompt": "A blindfolded frightened Indian interpreter in a dark carriage with paper-covered windows, a gloved hand on his shoulder, gas lamp light, deep red accent.",
+    "characters": [
+      {
+        "id": "vikram",
+        "name": "जासूस विक्रम",
+        "look": "Lean Indian man in his mid-30s, sharp intelligent eyes, neatly trimmed black moustache, short side-parted hair, dark navy bandhgala coat over a white kurta, grey wool shawl over one shoulder, black cane with a brass handle, often carries an oil lantern."
+      },
+      {
+        "id": "savitri",
+        "name": "डॉक्टर सावित्री",
+        "look": "Indian woman in her late 28s, intelligent kind face, hair in a low bun, small round spectacles, cotton sari with a dark border, brown leather doctor's bag, small notebook."
+      },
+      {
+        "id": "raghav",
+        "name": "राघव",
+        "look": "Indian man in his mid-40s, heavier build, same sharp eyes as Vikram, grey three-piece tweed suit, pocket watch chain, round black spectacles."
+      },
+      {
+        "id": "haridas",
+        "name": "पंडित हरिदास बोस",
+        "look": "Timid Indian man in his late 50s, thinning grey hair, mild face with wire-rimmed glasses, wearing a simple white dhoti and kurta with a cotton shawl."
+      },
+      {
+        "id": "tenzing",
+        "name": "तेनज़िंग",
+        "look": "Tibetan trader in his 30s, pale and starved, face partially covered with bandages, wearing worn traditional Tibetan wool robes."
+      },
+      {
+        "id": "lahiri",
+        "name": "मिस्टर लाहिड़ी",
+        "look": "Sleek Indian man in his 40s, slicked-back black hair, thin polite mustache, smiling expression hiding cruelty, wearing a well-tailored brown British-era suit."
+      }
+    ],
+    "scenes": [
+      {
+        "narration": "रात के अँधेरे में एक बग्घी कलकत्ता की गलियों से गुज़र रही थी और उसकी खिड़कियों पर कागज़ चिपका हुआ था। अंदर एक डरा हुआ आदमी बैठा था, जिसके कंधे पर दस्ताने वाला एक हाथ रखा था। किसी ने उससे कहा, \"आवाज़ मत करना, पंडित जी।\"",
+        "shots": [
+          {
+            "prompt": "A dark horse-drawn carriage moving through a foggy Calcutta street at night, windows covered with opaque paper. Wide exterior shot, dim gaslight illumination.",
+            "characters": []
+          },
+          {
+            "prompt": "Inside a dark carriage, a frightened Indian man sitting rigidly. Medium close-up, dramatic shadows.",
+            "characters": [
+              "haridas"
+            ]
+          },
+          {
+            "prompt": "A gloved hand resting firmly on the frightened man's shoulder inside the carriage. Close-up, low-key lighting.",
+            "characters": [
+              "haridas"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "वह बग्घी एक सुनसान कोठी के सामने रुकी। अंदर लालटेन की रोशनी में एक आदमी कुर्सी से बँधा हुआ था। वह भूख से सूख चुका था, उसके चेहरे पर पट्टियाँ थीं और मुँह पर कपड़ा चिपका हुआ था, लेकिन उसकी आँखें मदद माँग रही थीं।",
+        "shots": [
+          {
+            "prompt": "An old isolated colonial villa at night under moonlight, a horse carriage parked outside. Medium wide shot, eerie atmosphere.",
+            "characters": []
+          },
+          {
+            "prompt": "A starved man tied to a wooden chair inside a dimly lit room, face wrapped in bandages, mouth taped. Medium shot, lantern light.",
+            "characters": [
+              "tenzing"
+            ]
+          },
+          {
+            "prompt": "Close-up of the captive man's eyes showing intense fear and a silent plea for help. Extreme close-up.",
+            "characters": [
+              "tenzing"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "उस हफ़्ते जासूस विक्रम और डॉक्टर सावित्री कलकत्ता में थे। वहीं सावित्री ने पहली बार विक्रम के बड़े भाई राघव को देखा। वे पार्क स्ट्रीट के एक ऐसे क्लब में मिले, जहाँ बोलना मना था।",
+        "shots": [
+          {
+            "prompt": "Detective Vikram and Dr. Savitri walking along a grand British-era street in Calcutta during the day. Medium shot, period architecture.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "An elegant gentlemen's club interior on Park Street, wood-paneled walls, men reading newspapers in silence. Medium wide shot.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "राघव सरकार के लिए कोई ऐसा काम करते थे, जिसके बारे में कोई नहीं जानता था। उनका शरीर भारी था, आँखों पर गोल काला चश्मा था और उनकी आँखें विक्रम जैसी ही तेज़ थीं। विक्रम ने कहा, \"मेरे भाई मुझसे ज़्यादा होशियार हैं, सावित्री, बस उन्हें कुर्सी से उठना पसंद नहीं है।\"",
+        "shots": [
+          {
+            "prompt": "Raghav sitting in a plush leather armchair, wearing round black spectacles and a tweed suit, looking intently forward. Medium shot, warm sidelight.",
+            "characters": [
+              "raghav"
+            ]
+          },
+          {
+            "prompt": "Dr. Savitri listening intently while taking notes in her small notebook. Close-up, soft focus.",
+            "characters": [
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Vikram speaking quietly with a subtle smile, leaning on his brass-handled cane. Medium close-up.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "राघव ने खिड़की से बाहर एक राहगीर को देखकर कहा, \"वह एक रिटायर्ड फ़ौजी है।\" विक्रम ने जोड़ा, \"और वह दो बच्चों का पिता है।\" राघव मुस्कराकर बोले, \"उसके तीन बच्चे हैं। तीसरा अभी गोद में है, इसीलिए वह खिलौने की दुकान से निकल रहा है।\" सावित्री हैरानी से बस देखती रह गईं।",
+        "shots": [
+          {
+            "prompt": "Raghav and Vikram looking out a large club window towards the bustling street below. Over-the-shoulder shot.",
+            "characters": [
+              "raghav",
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "A pedestrian walking past a toy shop on the Calcutta sidewalk carrying a parcel. Medium shot, daylight.",
+            "characters": []
+          },
+          {
+            "prompt": "Dr. Savitri looking between the two brothers with an expression of astonishment. Close-up.",
+            "characters": [
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "फिर राघव ने उन्हें पंडित हरिदास बोस नाम के एक आदमी से मिलवाया। वह बर्मी और तिब्बती भाषाओं के अनुवादक थे और बड़े डरपोक और सीधे-सादे आदमी थे। उन्होंने कहा, \"कल रात मेरे साथ जो हुआ, वह किसी को बताने की मेरी हिम्मत नहीं हो रही थी।\"",
+        "shots": [
+          {
+            "prompt": "Raghav introducing a nervous, middle-aged Indian man in a simple dhoti to Vikram and Savitri. Medium shot, indoor lighting.",
+            "characters": [
+              "raghav",
+              "haridas",
+              "vikram",
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Pandit Haridas nervously wiping sweat from his forehead with a handkerchief. Close-up.",
+            "characters": [
+              "haridas"
+            ]
+          },
+          {
+            "prompt": "Raghav introducing a nervous, middle-aged Indian man in a simple dhoti to Vikram and Savitri. Medium shot, indoor lighting. Different camera angle and framing from the previous shot.",
+            "characters": [
+              "raghav",
+              "haridas",
+              "vikram",
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "हरिदास ने बताया कि मिस्टर लाहिड़ी नाम का एक मुस्कराता हुआ आदमी उन्हें अनुवाद के काम के लिए ले गया था। बग्घी में उसका एक साथी भी था, जो कुछ बोलता नहीं था। वह बस बीच-बीच में एक अजीब और डरावनी हँसी हँसता था।",
+        "shots": [
+          {
+            "prompt": "A smiling well-dressed man leading a timid translator towards a waiting horse carriage at night. Medium shot, gaslamp glow.",
+            "characters": [
+              "haridas",
+              "lahiri"
+            ]
+          },
+          {
+            "prompt": "Haridas speaking in a hushed, trembling voice inside a study room, recounting his ordeal. Medium shot.",
+            "characters": [
+              "haridas"
+            ]
+          },
+          {
+            "prompt": "Vikram listening with intense focus, his sharp eyes fixed on the speaker. Close-up.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "कोठी में हरिदास को उस बँधे हुए आदमी से सवाल पूछने थे और उसके जवाब तिब्बती में लिखवाने थे। लाहिड़ी उससे बार-बार कहता था कि इन काग़ज़ों पर दस्तख़त करो। बँधा हुआ आदमी हर बार स्लेट पर लिख देता था कि वह दस्तख़त नहीं करेगा।",
+        "shots": [
+          {
+            "prompt": "Haridas standing in a gloomy room holding a notepad, translating while a smiling captor watches. Medium shot, low lighting.",
+            "characters": [
+              "haridas",
+              "lahiri"
+            ]
+          },
+          {
+            "prompt": "A starved captive holding a small wooden slate with written words, shaking his head. Medium close-up.",
+            "characters": [
+              "tenzing"
+            ]
+          },
+          {
+            "prompt": "A close-up of the wooden slate with scrawled Tibetan characters. Object detail shot.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "तब हरिदास ने हिम्मत की और हर सवाल के साथ तिब्बती में अपना एक छोटा सा सवाल जोड़ने लगे, क्योंकि लाहिड़ी तिब्बती नहीं समझता था। उन्होंने पूछा कि तुम कौन हो, तो जवाब आया कि वह तेनज़िंग नाम का एक व्यापारी है। उसने यह भी बताया कि वह तीन हफ़्ते से वहाँ बिना खाने के बंद है।",
+        "shots": [
+          {
+            "prompt": "Haridas whispering quickly in Tibetan while pretending to read from official papers. Medium close-up, tense atmosphere.",
+            "characters": [
+              "haridas"
+            ]
+          },
+          {
+            "prompt": "Tenzing writing a quick response on his slate with trembling fingers. Close-up.",
+            "characters": [
+              "tenzing"
+            ]
+          },
+          {
+            "prompt": "Lahiri standing nearby, looking suspicious but unable to understand the Tibetan dialect. Medium shot.",
+            "characters": [
+              "lahiri"
+            ]
+          },
+          {
+            "prompt": "Haridas's worried face as he reads the secret reply on the slate. Close-up.",
+            "characters": [
+              "haridas"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "हरिदास ने पूछा कि ये लोग क्या चाहते हैं, तो तेनज़िंग ने लिखा कि उन्हें उसकी फ़िरोज़े की खदान के काग़ज़ और उसकी बहन डोलमा चाहिए। तभी दरवाज़ा खुला और हरिदास को फ़ौरन बाहर ले जाया गया। जाते-जाते लाहिड़ी ने धमकी दी, \"अगर तुमने किसी को बताया, तो मैं तुम्हारी ज़ुबान काट दूँगा।\"",
+        "shots": [
+          {
+            "prompt": "Tenzing hastily writing down words on his slate before a door bursts open. Medium shot, dramatic lighting.",
+            "characters": [
+              "tenzing"
+            ]
+          },
+          {
+            "prompt": "Lahiri grabbing Haridas by the arm and shoving him toward the exit with a menacing glare. Medium shot.",
+            "characters": [
+              "haridas",
+              "lahiri"
+            ]
+          },
+          {
+            "prompt": "Haridas looking back in sheer terror as he is pushed out of the room. Close-up.",
+            "characters": [
+              "haridas"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "यहाँ एक पल रुककर सोचिए। एक अनुवादक ने अपने अपहरण करने वालों की नाक के नीचे से सच निकलवा लिया था। अगर आप उसकी जगह होते, तो क्या करते? और अब उस बँधे हुए आदमी का क्या होगा?",
+        "shots": [
+          {
+            "prompt": "Vikram leaning forward over a wooden desk, deep in thought with an oil lamp casting long shadows. Medium close-up.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Dr. Savitri looking concerned as she listens to the unfolding mystery. Medium shot.",
+            "characters": [
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "राघव ने अख़बार में एक इश्तहार दिया कि जो कोई तिब्बती व्यापारी तेनज़िंग या उसकी बहन डोलमा के बारे में जानता हो, वह संपर्क करे। अगले दिन उसका जवाब आ गया। उसमें बेहाला के बाहर एक सुनसान कोठी का पता लिखा था।",
+        "shots": [
+          {
+            "prompt": "Raghav placing a small printed advertisement into a 1920s newspaper on a mahogany table. Close-up, soft light.",
+            "characters": [
+              "raghav"
+            ]
+          },
+          {
+            "prompt": "A hand opening an envelope containing a handwritten note with an address in Behala. Medium close-up.",
+            "characters": []
+          },
+          {
+            "prompt": "Vikram reading the slip of paper carefully under the light of an oil lamp. Medium shot.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "वे तीनों हरिदास को साथ ले जाने के लिए उनके घर पहुँचे, लेकिन दरवाज़ा खुला पड़ा था और कमरा उलट-पलट था। पड़ोसी ने बताया कि कुछ देर पहले एक मुस्कराता हुआ आदमी उन्हें बग्घी में बिठाकर ले गया। वह इश्तहार उन लोगों ने भी पढ़ लिया था।",
+        "shots": [
+          {
+            "prompt": "Vikram, Savitri, and Raghav rushing up the steps to Haridas's modest Calcutta apartment. Medium shot, daytime.",
+            "characters": [
+              "vikram",
+              "savitri",
+              "raghav"
+            ]
+          },
+          {
+            "prompt": "The ransacked interior of Haridas's room, papers scattered on the floor and an open door. Wide angle shot.",
+            "characters": []
+          },
+          {
+            "prompt": "A nervous neighbor pointing down the street while speaking to Vikram. Medium close-up.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "वे घोड़ागाड़ी में बेहाला की तरफ़ भागे, लेकिन तब तक रात हो चुकी थी। कोठी अँधेरी और ख़ाली थी। पर एक बंद कमरे के दरवाज़े के नीचे से कोयले का ज़हरीला धुआँ निकल रहा था।",
+        "shots": [
+          {
+            "prompt": "A horse carriage racing frantically down a dark, tree-lined dirt road toward Behala at night. Wide exterior shot.",
+            "characters": []
+          },
+          {
+            "prompt": "Thick grey smoke curling out from underneath a closed wooden door in a dark hallway. Close-up shot, eerie atmosphere.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "विक्रम ने कंधे की टक्कर से दरवाज़ा तोड़ दिया। अंदर कोयले की अँगीठी धधक रही थी और हरिदास और तेनज़िंग फ़र्श पर बेसुध पड़े थे। सावित्री ने खिड़कियाँ तोड़ीं और वे उन दोनों को बाहर खींच लाए।",
+        "shots": [
+          {
+            "prompt": "Vikram smashing his shoulder against a heavy wooden door, splintering it open. Action medium shot, dramatic lighting.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "A glowing charcoal brazier smoking inside a locked, windowless room with two unconscious men on the floor. Medium shot.",
+            "characters": [
+              "haridas",
+              "tenzing"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "हरिदास की साँसें लौट आईं, लेकिन तीन हफ़्ते की भूख ने तेनज़िंग को पहले ही बहुत कमज़ोर कर दिया था। सावित्री ने उसे बचाने की पूरी कोशिश की। फिर भी उस रात उसकी आँखें हमेशा के लिए बंद हो गईं।",
+        "shots": [
+          {
+            "prompt": "Dr. Savitri kneeling on the floor, frantically checking Haridas's pulse as he coughs. Medium shot, lantern light.",
+            "characters": [
+              "savitri",
+              "haridas"
+            ]
+          },
+          {
+            "prompt": "Haridas opening his eyes weakly and gasping for fresh air. Close-up.",
+            "characters": [
+              "haridas"
+            ]
+          },
+          {
+            "prompt": "Savitri looking sorrowfully down at the lifeless form of Tenzing on the floor. Medium close-up, emotional tone.",
+            "characters": [
+              "savitri",
+              "tenzing"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "लाहिड़ी और उसका साथी डोलमा को लेकर भाग चुके थे। विक्रम बहुत देर तक उस कमरे में खड़े रहे। फिर वह बोले, \"मैं हमेशा एक क़दम पीछे रह जाता हूँ, राघव।\"",
+        "shots": [
+          {
+            "prompt": "An empty, ransacked room in the Behala villa at night, broken furniture and scattered papers. Wide shot, dim lighting.",
+            "characters": []
+          },
+          {
+            "prompt": "Vikram standing silently in the dark room with a grim expression on his face. Medium shot.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "राघव ने अपना चश्मा उतारकर कहा, \"ऐसा इसलिए है, क्योंकि तुम्हारे सामने कोई मामूली अपराधी नहीं है, भाई।\" फिर उन्होंने अपनी जेब से एक पतली सी फ़ाइल निकाली। उस फ़ाइल पर एक काले कमल का निशान बना हुआ था।",
+        "shots": [
+          {
+            "prompt": "Raghav removing his round spectacles and wiping them with a handkerchief while looking at Vikram. Medium close-up.",
+            "characters": [
+              "raghav",
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "A close-up of a dark government file with a distinctive black lotus emblem stamped on the cover. Object detail shot.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "राघव ने बताया, \"सरकार बरसों से इस काले कमल को ढूँढ़ रही है। वह ऊँचे समाज का आदमी है, जिसका चेहरा किसी ने नहीं देखा। वह कभी अपने हाथ से कुछ नहीं करता और लाहिड़ी जैसे लोग बस उसके मोहरे हैं।\"",
+        "shots": [
+          {
+            "prompt": "Raghav holding open the secret file, pointing to handwritten notes inside under a desk lamp. Medium shot.",
+            "characters": [
+              "raghav"
+            ]
+          },
+          {
+            "prompt": "Vikram listening intently, his eyes narrowing as he looks at the mysterious file. Close-up.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Dr. Savitri looking over Raghav's shoulder at the dark documents. Over-the-shoulder shot.",
+            "characters": [
+              "savitri",
+              "raghav"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "विक्रम ने फ़ाइल पढ़ी और बोले, \"उसकी चिट्ठियों, उसके पैसे या उसके मोहरों में वह कहीं न कहीं एक निशान ज़रूर छोड़ेगा, राघव। सच हमेशा छोटी चीज़ों में छिपा होता है, और मैं उसे ढूँढ़ लूँगा।\"",
+        "shots": [
+          {
+            "prompt": "Vikram holding the dark file in his hands, examining the pages by lamplight. Medium shot, focused mood.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Vikram's face determined and resolute as he speaks his signature philosophy. Close-up.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "कुछ हफ़्ते बाद अख़बार में एक छोटी सी ख़बर छपी कि गंगा में एक नाव पर दो आदमी मरे हुए मिले हैं। उनमें से एक मुस्कराता रहता था और दूसरे के बारे में कहा गया कि वह कभी कुछ नहीं बोलता था। उनके साथ कोई लड़की नहीं थी।",
+        "shots": [
+          {
+            "prompt": "A newspaper clipping lying on a wooden table, featuring a small crime column headline. Object detail shot, dim light.",
+            "characters": []
+          },
+          {
+            "prompt": "An empty wooden boat drifting slowly on a misty river at dawn. Wide exterior shot, atmospheric fog.",
+            "characters": []
+          },
+          {
+            "prompt": "Vikram standing by the window of his Banaras room, holding the newspaper clipping. Medium close-up.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "क्या यह डोलमा का बदला था, या काले कमल ने अपने मोहरे साफ़ कर दिए थे? राघव ने बस इतना कहा, \"कमल कभी अपना निशान नहीं छोड़ता।\" आपको क्या लगता है कि उन दोनों को किसने मारा? अपना जवाब कमेंट में लिखिए।",
+        "shots": [
+          {
+            "prompt": "Raghav standing beside Vikram, looking out into the foggy morning mist over the river. Medium shot.",
+            "characters": [
+              "raghav",
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "An oil lamp flickering on a wooden desk next to the mysterious black lotus file. Close-up shot, dramatic shadow play.",
+            "characters": []
+          },
+          {
+            "prompt": "Vikram staring directly toward the camera with an intense, questioning gaze as the scene fades. Close-up.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      }
+    ],
+    "clips": [
+      {
+        "start_scene": 1,
+        "end_scene": 2,
+        "hook_text": "मुँह बँधा, आँखें माँग रही थीं मदद",
+        "title": "आधी रात का अनुवादक... और कुर्सी से बँधा एक भूखा आदमी | जासूस विक्रम",
+        "end_question": "वो क्या कहना चाहता था?"
+      },
+      {
+        "start_scene": 4,
+        "end_scene": 5,
+        "hook_text": "भाई बनाम भाई",
+        "title": "विक्रम से भी तेज़ दिमाग़... उनके अपने बड़े भाई | जासूस विक्रम",
+        "end_question": "किसका अंदाज़ा सही था?"
+      },
+      {
+        "start_scene": 13,
+        "end_scene": 14,
+        "hook_text": "दरवाज़े के नीचे से धुआँ",
+        "title": "सुनसान कोठी, बंद कमरा, और दरवाज़े के नीचे से निकलता धुआँ | जासूस विक्रम",
+        "end_question": "अंदर कौन था?"
+      },
+      {
+        "start_scene": 7,
+        "end_scene": 10,
+        "hook_text": "अपहरणकर्ताओं की नाक के नीचे रची साज़िश",
+        "title": "खौफनाक कोठी का अनुवादक | जासूस विक्रम",
+        "end_question": ""
+      },
+      {
+        "start_scene": 18,
+        "end_scene": 22,
+        "hook_text": "काले कमल का सबसे बड़ा राज़!",
+        "title": "अंधेरे में छिपा असली गुनहगार | जासूस विक्रम",
+        "end_question": ""
+      }
+    ],
+    "episode": 13,
+    "episode_title": "बँधी आँखों का सफ़र"
+  },
+  "active_clips": [
+    0,
+    1,
+    2
+  ],
+  "next_clip": 3,
+  "batch": null
+}
