@@ -1,0 +1,554 @@
+{
+  "date": "2026-11-28",
+  "status": "story_ready",
+  "items": {},
+  "story": {
+    "title": "बीमार के कमरे में कौन? | जासूस विक्रम Ep 14",
+    "description": "कलकत्ता के दफ़्तर से एक गुप्त सरकारी संधि ग़ायब हो जाती है। पीड़ित क्लर्क प्रकाश नौ हफ़्तों तक दिमाग़ी बुख़ार से जूझता है। क्या विक्रम इस असम्भव चोरी और रहस्यमयी हमले के पीछे का सच ढूँढ पाएँगे?\n\n#JasoomVikram #HindiKahaniya #ThrillerStory #DetectiveMystery #HorrorHindi\n\nआर्थर कॉनन डॉयल की कहानी \"The Naval Treaty\" से प्रेरित (public domain). सभी पात्र काल्पनिक हैं।",
+    "tags": [
+      "जासूस विक्रम",
+      "Hindi thriller story",
+      "detective mystery Hindi",
+      "1920s India thriller",
+      "Hindi kahaniya",
+      "Jasoom Vikram episode 14"
+    ],
+    "logline": "Detective Vikram investigates the disappearance of a vital government treaty from a locked Calcutta office, leading to a sickroom break-in in Barrackpore.",
+    "thumbnail_text": "बीमार के कमरे में कौन?",
+    "thumbnail_shot": 16,
+    "thumbnail_prompt": "A pale sick young man in bed staring in terror at a moonlit window where a knife blade slides through the gap, a woman asleep in a chair, deep red accent.",
+    "characters": [
+      {
+        "id": "vikram",
+        "name": "जासूस विक्रम",
+        "look": "Lean Indian man in his mid-30s, sharp intelligent eyes, neatly trimmed black moustache, short side-parted hair, dark navy bandhgala coat over a white kurta, grey wool shawl over one shoulder, black cane with a brass handle, often carries an oil lantern."
+      },
+      {
+        "id": "savitri",
+        "name": "डॉक्टर सावित्री",
+        "look": "Indian woman in her late 20s, intelligent kind face, hair in a low bun, small round spectacles, cotton sari with a dark border, brown leather doctor's bag, small notebook."
+      },
+      {
+        "id": "prakash",
+        "name": "प्रकाश मित्रा",
+        "look": "Young Indian man in his mid-20s, pale and thin face, anxious expression, light cotton kurta, disheveled dark hair."
+      },
+      {
+        "id": "anima",
+        "name": "अनिमा",
+        "look": "Young Indian woman in her early 20s, caring expression, dark border cotton sari, hair tied in a neat long braid."
+      },
+      {
+        "id": "jogesh",
+        "name": "जोगेश",
+        "look": "Handsome Indian man in his late 20s, sharp charming eyes, sly confident smile, wearing a fine silk kurta with tailored vest."
+      }
+    ],
+    "scenes": [
+      {
+        "narration": "कलकत्ता के एक सरकारी दफ़्तर में एक क्लर्क सिर्फ़ दस मिनट के लिए चाय मँगवाने बाहर गया। जब वह लौटा, तो उसकी मेज़ से एक गुप्त संधि के काग़ज़ ग़ायब थे। उसी समय उस ख़ाली कमरे में घंटी बज रही थी।",
+        "shots": [
+          {
+            "prompt": "Wide shot of a grand British-era 1920s government office room in Calcutta with high wooden desks, leather-bound registers, brass oil lamps, and high ceilings.",
+            "characters": []
+          },
+          {
+            "prompt": "Medium shot of an empty desk with an open leather portfolio missing its documents, brass bell on the wall vibrating gently.",
+            "characters": []
+          },
+          {
+            "prompt": "Close-up of a brass wall bell ringing with a pull-string moving in an empty colonial office room, soft gas lamp lighting.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "उस दफ़्तर का एक ही मुख्य दरवाज़ा था, जहाँ एक चपरासी बैठा था, और उसने किसी को अंदर जाते नहीं देखा था। फिर वे काग़ज़ कहाँ गए, और उस ख़ाली कमरे में घंटी किसने बजाई थी?",
+        "shots": [
+          {
+            "prompt": "Medium shot of an elderly peon sitting on a wooden bench outside a massive teak office door holding a brass tray, looking confused.",
+            "characters": []
+          },
+          {
+            "prompt": "Over-the-shoulder shot looking past the peon down a long shadowy grand hallway of the Imperial Secretariat office building.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "उस क्लर्क का नाम प्रकाश मित्रा था और वह कभी डॉक्टर सावित्री का मरीज़ रह चुका था। वह बेहद होशियार था, लेकिन बहुत जल्दी घबरा जाता था। चोरी की उसी रात उसे दिमाग़ी बुख़ार चढ़ गया और वह नौ हफ़्ते तक बिस्तर पर पड़ा रहा।",
+        "shots": [
+          {
+            "prompt": "Medium shot of prakash sitting at a desk with head in his hands, trembling with fear amidst stacks of government papers.",
+            "characters": [
+              "prakash"
+            ]
+          },
+          {
+            "prompt": "Close-up shot of prakash lying ill in a wooden bed, feverish sweat on his pale brow, blankets pulled up.",
+            "characters": [
+              "prakash"
+            ]
+          },
+          {
+            "prompt": "Wide shot of a dim room with vintage wooden furniture in 1923 Barrackpore, rain outside the arched window.",
+            "characters": [
+              "prakash"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "उसकी मंगेतर अनिमा उसे बैरकपुर में अपने घर ले आई और दिन-रात उसकी सेवा करती रही। प्रकाश को उस कमरे में रखा गया, जो पहले अनिमा के भाई जोगेश का था। जोगेश एक बड़ा हँसमुख और मिलनसार नौजवान था।",
+        "shots": [
+          {
+            "prompt": "Medium shot of anima placing a damp cloth on prakash's forehead as he lies sleeping in a bed.",
+            "characters": [
+              "prakash",
+              "anima"
+            ]
+          },
+          {
+            "prompt": "Medium shot of jogesh standing near the wooden doorway smiling warmly, arms crossed, wearing a fine silk kurta.",
+            "characters": [
+              "jogesh"
+            ]
+          },
+          {
+            "prompt": "Wide shot of the elegant old bedroom with tall windows and dark wooden floorboards in a riverside house in Barrackpore.",
+            "characters": [
+              "prakash",
+              "anima",
+              "jogesh"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "होश में आते ही प्रकाश ने सावित्री को चिट्ठी लिखी, \"दीदी, आप विक्रम बाबू को लेकर आइए। अगर वह संधि दुश्मन के हाथ लग गई, तो मेरी नौकरी ही नहीं, देश की इज़्ज़त भी जाएगी, और मेरे मामा सर रमेश चटर्जी की भी।\"",
+        "shots": [
+          {
+            "prompt": "Close-up of a hand writing a letter with an ink fountain pen on cream paper by candlelight.",
+            "characters": [
+              "prakash"
+            ]
+          },
+          {
+            "prompt": "Medium shot of savitri in Banaras holding open a handwritten letter with an anxious expression, sitting near a window.",
+            "characters": [
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Medium shot of vikram listening intently as savitri reads the letter, holding his brass-handled cane.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "जासूस विक्रम और सावित्री बैरकपुर पहुँचे, जहाँ प्रकाश ने काँपती आवाज़ में एक और बात बताई। उसने कहा, \"दो रात पहले आधी रात को मैंने खिड़की पर चाँदनी में एक चाकू की धार देखी। कोई खिड़की की सिटकनी खोलने की कोशिश कर रहा था।\"",
+        "shots": [
+          {
+            "prompt": "Wide shot of vikram and savitri standing inside the bedroom near prakash who sits up in bed speaking with a trembling hand.",
+            "characters": [
+              "vikram",
+              "savitri",
+              "prakash"
+            ]
+          },
+          {
+            "prompt": "Night shot from inside a dimly lit room, close-up of a moonlit window where a steel knife blade slowly slides between the wooden shutters.",
+            "characters": []
+          },
+          {
+            "prompt": "Close-up shot of prakash's terrified expression staring at the moonlit window.",
+            "characters": [
+              "prakash"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "प्रकाश बोला, \"मैं चीखा और वह भाग गया। लेकिन विक्रम बाबू, कोई मुझे क्यों मारना चाहेगा, जबकि मेरे पास तो अब कुछ बचा ही नहीं है?\" विक्रम चुप रहे और खिड़की के बाहर बगीचे को देखते रहे।",
+        "shots": [
+          {
+            "prompt": "Medium shot of vikram standing by the tall bedroom window, looking out into the lush garden with a thoughtful gaze.",
+            "characters": [
+              "vikram",
+              "prakash"
+            ]
+          },
+          {
+            "prompt": "Over-the-shoulder shot looking from vikram's perspective out into the night-shrouded garden with tall trees and a gravel pathway.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "फिर वह बगीचे में गए और एक गुलाब तोड़कर उसे देर तक देखते रहे। उन्होंने कहा, \"कुदरत ने गुलाब को ख़ूबसूरती और ख़ुशबू दी है, जो ज़रूरी नहीं थीं। ये बस उम्मीद की निशानी हैं, प्रकाश, और मुझे तुम्हारे मामले में भी उम्मीद दिखती है।\"",
+        "shots": [
+          {
+            "prompt": "Wide shot of vikram walking gracefully in a lush 1920s garden blooming with red roses under bright daylight.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Close-up shot of vikram holding a fresh red rose in his hand, observing its delicate petals carefully with a gentle smile.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Medium shot of savitri and prakash watching vikram from the veranda with curious expressions.",
+            "characters": [
+              "savitri",
+              "prakash"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "कलकत्ता में विक्रम ने वह दफ़्तर देखा। सीढ़ियों के पास बग़ल का एक छोटा सा दरवाज़ा था, जिसे कोई इस्तेमाल नहीं करता था। विक्रम बोले, \"चोर इसी रास्ते से आया था और घंटी उसने ख़ुद बजाई थी, क्योंकि उसे लगा था कि कमरे में कोई होगा।\"",
+        "shots": [
+          {
+            "prompt": "Wide shot of vikram examining a small wooden side door near an ornate iron staircase in the grand Secretariat building.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Close-up of a dusty brass door handle on the small side door showing clear finger marks in dust.",
+            "characters": []
+          },
+          {
+            "prompt": "Medium shot of vikram pointing at the wall bell wire connected to the side passage, savitri taking notes.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "विक्रम ने आगे कहा, \"इसका मतलब है कि चोर कोई ऐसा आदमी था, जो प्रकाश को जानता था और उससे मिलने आया था। उसने कमरा ख़ाली देखा, मेज़ पर काग़ज़ देखे और लालच में उन्हें उठा लिया।\"",
+        "shots": [
+          {
+            "prompt": "Medium shot of vikram standing in the office room gesturing towards the empty desk while addressing savitri.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Close-up shot of savitri's thoughtful face, adjusting her round spectacles as she processes vikram's words.",
+            "characters": [
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "यहाँ एक पल रुककर सोचिए। चोर प्रकाश से मिलने आया था। नौ हफ़्तों तक प्रकाश का बीमारी वाला कमरा एक पल के लिए भी ख़ाली नहीं हुआ, और फिर खिड़की पर एक चाकू दिखा। सोचिए कि चोर को उसी कमरे में क्यों घुसना था?",
+        "shots": [
+          {
+            "prompt": "Close-up of vikram turning toward the viewer with an intense, questioning expression in warm gas lamp light.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Medium shot of the quiet hallway of the Barrackpore house, shadows stretching across the wooden doors.",
+            "characters": []
+          },
+          {
+            "prompt": "Detail shot of a closed bedroom door with a key left in the keyhole.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "अगले दिन विक्रम ने एक अजीब योजना बनाई। उन्होंने कहा, \"प्रकाश, आज तुम और जोगेश हमारे साथ कलकत्ता चलोगे।\" फिर उन्होंने अनिमा को अलग ले जाकर कहा, \"तुम पूरे दिन इसी कमरे में रहना, और जब रात को सोने जाओ, तो कमरा बाहर से बंद कर देना।\"",
+        "shots": [
+          {
+            "prompt": "Medium shot of vikram speaking quietly to prakash and jogesh on the front porch of the house.",
+            "characters": [
+              "vikram",
+              "prakash",
+              "jogesh"
+            ]
+          },
+          {
+            "prompt": "Medium shot of vikram leaning in to give quiet instructions to anima near the hallway, holding a brass key.",
+            "characters": [
+              "vikram",
+              "anima"
+            ]
+          },
+          {
+            "prompt": "Close-up shot of anima nodding with a serious, determined look on her face.",
+            "characters": [
+              "anima"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "शाम को सब लोग कलकत्ता चले गए, लेकिन विक्रम आधे रास्ते से चुपचाप लौट आए और अँधेरे में बगीचे की झाड़ियों में छिप गए। रात गहरी होती गई और वह ठंड, मच्छरों और सन्नाटे के बीच इंतज़ार करते रहे।",
+        "shots": [
+          {
+            "prompt": "Wide shot of a horse-drawn tonga carriage driving away down a dusty country road at sunset.",
+            "characters": []
+          },
+          {
+            "prompt": "Night shot of vikram crouching stealthily behind dense green bushes in the garden, watching the dark house.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Low-angle shot of the dark house illuminated only by full moonlight, silence hanging in the air.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "रात के दो बजे एक परछाईं बगीचे में आई। उसने चाकू से खिड़की की सिटकनी खोली और अंदर कूद गई। लालटेन की हल्की रोशनी में फ़र्श का एक तख़्ता धीरे से ऊपर उठा।",
+        "shots": [
+          {
+            "prompt": "Night shot silhouette of a man creeping through the dark garden toward the ground-floor bedroom window.",
+            "characters": []
+          },
+          {
+            "prompt": "Close-up shot in low light of a hand lifting a loose wooden floorboard inside the bedroom.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "उस तख़्ते के नीचे से एक लिपटा हुआ बंडल निकला, जो वही गुप्त संधि थी। लालटेन की रोशनी में जो चेहरा दिखा, वह हँसमुख और मिलनसार जोगेश का था।",
+        "shots": [
+          {
+            "prompt": "Medium close-up shot of a hand pulling a wax-cloth wrapped document bundle from under the raised floorboard.",
+            "characters": []
+          },
+          {
+            "prompt": "Close-up shot of jogesh's face illuminated by a small lantern beam, revealing a tense, desperate expression.",
+            "characters": [
+              "jogesh"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "विक्रम खिड़की से अंदर कूदे और जोगेश ने उन पर चाकू घुमाया। दोनों आपस में गुत्थमगुत्था हो गए। विक्रम के हाथ पर खरोंच आई, लेकिन उन्होंने बंडल छीन लिया, और जोगेश खिड़की से कूदकर अँधेरे में भाग गया।",
+        "shots": [
+          {
+            "prompt": "Action wide shot of vikram leaping through the open window frame into the dark room toward jogesh.",
+            "characters": [
+              "vikram",
+              "jogesh"
+            ]
+          },
+          {
+            "prompt": "Medium shot silhouette struggle between vikram and jogesh in the moonlight, a glint of a steel knife blade visible.",
+            "characters": [
+              "vikram",
+              "jogesh"
+            ]
+          },
+          {
+            "prompt": "Medium shot of vikram standing in the room clutching the retrieved document bundle, looking out the open window into the night.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "अगली सुबह कलकत्ता में नाश्ते की मेज़ पर विक्रम ने प्रकाश के सामने चाँदी का एक ढका हुआ बर्तन रखा और कहा, \"खाइए, प्रकाश बाबू।\" प्रकाश ने ढक्कन उठाया, तो अंदर वही गुप्त संधि रखी थी।",
+        "shots": [
+          {
+            "prompt": "Wide shot of a sunlit dining table in a Calcutta bungalow with breakfast spread, vikram placing a silver dome cloche on a plate.",
+            "characters": [
+              "vikram",
+              "prakash",
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Close-up shot of prakash's hands lifting the silver cloche cover to reveal the intact official treaty documents.",
+            "characters": [
+              "prakash"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "प्रकाश ख़ुशी से चीख पड़ा और कुर्सी से उछल गया, जबकि सावित्री हँसते-हँसते रो पड़ीं। विक्रम बोले, \"मुझे माफ़ करना, मुझे थोड़ा नाटक करने का शौक़ है।\"",
+        "shots": [
+          {
+            "prompt": "Medium shot of prakash standing up joyfully with tears of relief, savitri smiling warmly beside him.",
+            "characters": [
+              "prakash",
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Close-up shot of vikram smiling dryly, adjusting his shawl with calm satisfaction.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "विक्रम ने समझाया, \"जोगेश पर भारी कर्ज़ था। उस दिन वह प्रकाश से मिलने दफ़्तर गया, और कमरा ख़ाली मिलने पर उसने काग़ज़ उठाकर अपने कमरे के तख़्ते के नीचे छिपा दिए। लेकिन उसी रात प्रकाश बीमार होकर उसी कमरे में आ गया, और नौ हफ़्तों तक वह कमरा कभी ख़ाली नहीं हुआ।\"",
+        "shots": [
+          {
+            "prompt": "Medium shot of vikram seated at the breakfast table explaining calmly, leaning forward with hands clasped.",
+            "characters": [
+              "vikram",
+              "savitri",
+              "prakash"
+            ]
+          },
+          {
+            "prompt": "Flashback medium shot of jogesh secretly stashing the stolen document bundle under the floorboard in his bedroom.",
+            "characters": [
+              "jogesh"
+            ]
+          },
+          {
+            "prompt": "Flashback medium shot of anima sitting constantly by prakash's sickbed, keeping the room continuously occupied.",
+            "characters": [
+              "prakash",
+              "anima"
+            ]
+          },
+          {
+            "prompt": "Close-up shot of prakash listening with wide eyes, realizing the truth.",
+            "characters": [
+              "prakash"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "उन्होंने कहा, \"इसीलिए खिड़की पर चाकू दिखा था। वह प्रकाश को मारना नहीं, बस अपने छिपाए हुए काग़ज़ निकालना चाहता था। यह मामला बग़ल के दरवाज़े, बजती हुई घंटी और कभी ख़ाली न होने वाले कमरे से सुलझा। सच हमेशा छोटी चीज़ों में छिपा होता है।\"",
+        "shots": [
+          {
+            "prompt": "Medium shot of vikram delivering his signature explanation calmly in the sunlit room.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Close-up shot of vikram holding up his brass cane gently as he states his signature catchphrase.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Wide shot of savitri and prakash nodding in deep admiration at vikram's deduction.",
+            "characters": [
+              "savitri",
+              "prakash"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "जोगेश की अलमारी से एक कार्ड मिला, जिस पर लिखा था कि कमल वाले ख़रीदार से मिलो। उसके नीचे कलकत्ता के एक पिछले दरवाज़े का पता लिखा था। वह दरवाज़ा पंकज सेवा सदन अस्पताल की कलकत्ता शाखा का था।",
+        "shots": [
+          {
+            "prompt": "Close-up shot of a small paper card held in vikram's hand, featuring a black lotus emblem and a handwritten address.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Wide exterior shot of a large brick building with a sign visible above the archway in Calcutta street light.",
+            "characters": []
+          },
+          {
+            "prompt": "Medium shot of the back entrance alleyway of Pankaj Seva Sadan hospital with iron gates.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "विक्रम ने वह कार्ड चुपचाप अपनी जेब में रख लिया। उस भली संस्था का नाम देखकर सावित्री ने पहली बार उनके चेहरे पर एक अजीब सी परेशानी देखी। क्या आपको भी इस संस्था पर शक हो रहा है? अपना जवाब कमेंट में बताइए।",
+        "shots": [
+          {
+            "prompt": "Close-up shot of vikram slipping the card into his bandhgala coat pocket, his face dark with rare concern.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Medium shot of savitri looking closely at vikram's worried expression with quiet suspicion.",
+            "characters": [
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Close-up shot of a black lotus wax seal sitting quietly on a dark wooden table in shadows.",
+            "characters": []
+          }
+        ]
+      }
+    ],
+    "clips": [
+      {
+        "start_scene": 1,
+        "end_scene": 2,
+        "hook_text": "ख़ाली कमरे में बजती घंटी",
+        "title": "दस मिनट में गुप्त संधि ग़ायब... और ख़ाली कमरे में घंटी बजी | जासूस विक्रम",
+        "end_question": "घंटी किसने बजाई?"
+      },
+      {
+        "start_scene": 6,
+        "end_scene": 7,
+        "hook_text": "खिड़की पर चाकू",
+        "title": "आधी रात, बीमार के कमरे की खिड़की पर चाँदनी में चाकू | जासूस विक्रम",
+        "end_question": "कौन था वो?"
+      },
+      {
+        "start_scene": 13,
+        "end_scene": 14,
+        "hook_text": "रात दो बजे का तख़्ता",
+        "title": "रात दो बजे, फ़र्श का तख़्ता धीरे से उठा... | जासूस विक्रम",
+        "end_question": "नीचे क्या था?"
+      },
+      {
+        "start_scene": 16,
+        "end_scene": 18,
+        "hook_text": "अँधेरे में हाथापाई!",
+        "title": "विक्रम और चोर की रात में मुठभेड़ | जासूस विक्रम",
+        "end_question": "क्या सन्धि मिल गई?"
+      },
+      {
+        "start_scene": 21,
+        "end_scene": 22,
+        "hook_text": "कमल का ख़रीदार!",
+        "title": "पंकज सेवा सदन का ख़तरनाक राज़ | जासूस विक्रम",
+        "end_question": "क्या पंकज सेवा सदन सच में गुनहगार है?"
+      }
+    ],
+    "episode": 14,
+    "episode_title": "बीमार के कमरे में कौन?"
+  },
+  "active_clips": [
+    0,
+    1,
+    2
+  ],
+  "next_clip": 3,
+  "batch": null
+}
