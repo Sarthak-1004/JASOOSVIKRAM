@@ -1,0 +1,557 @@
+{
+  "date": "2026-11-29",
+  "status": "story_ready",
+  "items": {},
+  "story": {
+    "title": "नाचते पुतले | जासूस विक्रम Ep 15",
+    "description": "गोरखपुर की एक हवेली में हर सुबह चॉक से नाचते हुए पुतले क्यों बनते थे? क्या यह किसी बच्चे का खेल था या मौत का संदेश? जानिए जासूस विक्रम और डॉक्टर सावित्री कैसे इस ख़तरनाक रहस्य से पर्दा उठाते हैं।\n\n#JasoosVikram #HindiKahaniyan #DetectiveStory #ThrillerKahani #Mystery\n\nआर्थर कॉनन डॉयल की कहानी \"The Adventure of the Dancing Men\" से प्रेरित (public domain). सभी पात्र काल्पनिक हैं।",
+    "tags": [
+      "Jasoos Vikram",
+      "Hindi Horror Story",
+      "Thriller Kahani",
+      "Detective Mysteries Hindi",
+      "Dancing Men Mystery",
+      "Jasoos Kahani"
+    ],
+    "logline": "In 1923 Gorakhpur, chalk drawings of stick-figure dancing men appear on a sugarcane estate's walls, hiding a coded gang message that leads to murder.",
+    "thumbnail_text": "नाचते पुतले",
+    "thumbnail_shot": 3,
+    "thumbnail_prompt": "Rows of chalk stick-figure dancing men drawn on an old whitewashed haveli wall at dawn, a fainting woman in a sari, a lantern, deep red accent.",
+    "characters": [
+      {
+        "id": "vikram",
+        "name": "जासूस विक्रम",
+        "look": "Lean Indian man in his mid-30s, sharp intelligent eyes, neatly trimmed black moustache, short side-parted hair, dark navy bandhgala coat over a white kurta, grey wool shawl over one shoulder, black cane with a brass handle, often carries an oil lantern."
+      },
+      {
+        "id": "savitri",
+        "name": "डॉक्टर सावित्री",
+        "look": "Indian woman in her late 20s, intelligent kind face, hair in a low bun, small round spectacles, cotton sari with a dark border, brown leather doctor's bag, small notebook."
+      },
+      {
+        "id": "hiralal",
+        "name": "ठाकुर हीरालाल कुँवर",
+        "look": "Dignified Indian sugarcane landowner in his late 30s, sharp features, neat thick black moustache, silk waist-coat over a white cotton kurta dhoti, anxious expression."
+      },
+      {
+        "id": "ila",
+        "name": "इला",
+        "look": "Young Indian woman in her mid-20s, graceful Bengali features, dark expressive eyes, hair tied back loosely, pale blue cotton sari with subtle embroidery."
+      },
+      {
+        "id": "bheema",
+        "name": "भीमा सरदार",
+        "look": "Tall and heavily built Indian man in his late 30s, rugged fierce face, thick mustache, intense dark eyes, wearing a dark sleeveless jacket over a coarse kurta."
+      },
+      {
+        "id": "inspector_bhairav",
+        "name": "इंस्पेक्टर भैरव पांडे",
+        "look": "Heavy-set Indian police inspector in his late 40s, thick curled moustache, 1920s khaki police uniform with a red-and-khaki pagri turban, leather belt, short wooden baton."
+      }
+    ],
+    "scenes": [
+      {
+        "narration": "गोरखपुर की उस हवेली की सफ़ेद दीवार पर हर सुबह चॉक से बने छोटे-छोटे पुतले दिखते थे। वे हाथ-पैर फैलाए ऐसे बने होते थे, जैसे नाच रहे हों। उन्हें देखकर हवेली की मालकिन इला हर बार बेहोश हो जाती थी।",
+        "shots": [
+          {
+            "prompt": "Close-up of crude chalk drawings of stick figures with raised arms and bent legs drawn on a white sunlit haveli wall.",
+            "characters": []
+          },
+          {
+            "prompt": "Wide shot of a grand whitewashed Indian haveli courtyard at dawn in 1923 Gorakhpur, morning mist floating near sugarcane fields.",
+            "characters": [
+              "ila"
+            ]
+          },
+          {
+            "prompt": "Medium shot of Ila collapsing in shock, fainting into the arms of a female servant in the dusty courtyard.",
+            "characters": [
+              "ila"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "सवाल यह था कि वह बच्चों का मज़ाक था या कोई संदेश था? हर पुतला दूसरे से अलग था, क्योंकि किसी का हाथ ऊपर था, किसी का पैर मुड़ा हुआ था और किसी के हाथ में झंडा था। दीवार पर नाचता हुआ हर पुतला अपने आप में एक संदेश था।",
+        "shots": [
+          {
+            "prompt": "Extreme close-up of three chalk stick figures, one holding a tiny flag, drawn on rough plaster wall.",
+            "characters": []
+          },
+          {
+            "prompt": "Close-up of another stick figure drawing with curved arms and one leg lifted.",
+            "characters": []
+          },
+          {
+            "prompt": "Medium shot of the whitewashed haveli corridor wall covered in rows of strange chalk stick figures, oil lamps flickering.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "गन्ने के खेतों के मालिक ठाकुर हीरालाल कुँवर एक भले और सीधे आदमी थे। वह उन पुतलों की नक़ल लेकर जासूस विक्रम और डॉक्टर सावित्री के पास आए। उन्होंने कहा, \"मेरी पत्नी डर से मर रही है, विक्रम बाबू, लेकिन वह मुझे कुछ बताती नहीं है।\"",
+        "shots": [
+          {
+            "prompt": "Medium shot of Hiralal sitting anxiously in a dim Banaras room, holding papers with copied stick figure drawings.",
+            "characters": [
+              "hiralal",
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Close-up of Vikram examining the paper with a focused expression under warm lantern light.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Over-the-shoulder shot of Savitri leaning in with concern as Hiralal speaks emotionally.",
+            "characters": [
+              "savitri",
+              "hiralal"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "हीरालाल ने इला से कलकत्ता में शादी की थी। शादी से पहले इला ने उनसे यह वादा लिया था कि वह उसके अतीत के बारे में कभी नहीं पूछेंगे। हीरालाल ने वह वादा निभाया, लेकिन अब वही वादा उन्हें अंदर से खा रहा था।",
+        "shots": [
+          {
+            "prompt": "Medium shot of Hiralal looking back at a memory of Ila in Calcutta during their traditional wedding ceremony.",
+            "characters": [
+              "hiralal",
+              "ila"
+            ]
+          },
+          {
+            "prompt": "Close-up of Ila taking a silent solemn vow, her expression serious and melancholic.",
+            "characters": [
+              "ila"
+            ]
+          },
+          {
+            "prompt": "Medium shot of Hiralal staring into space with a troubled face in Vikram's study room.",
+            "characters": [
+              "hiralal",
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "विक्रम ने काग़ज़ मेज़ पर फैलाए और पूरी रात उन पर झुके रहे। सुबह होते-होते उनकी आँखें चमक रही थीं। उन्होंने कहा, \"यह बच्चों का खेल नहीं है, सावित्री, यह एक गुप्त लिपि है और इसका हर पुतला एक अक्षर है।\"",
+        "shots": [
+          {
+            "prompt": "Wide shot of Vikram surrounded by papers spread across a wooden table late at night, oil lamp casting warm shadows.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Close-up of Vikram writing notes on a pad next to decoded chalk symbols.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Medium shot of early morning light breaking through the window as Vikram stands up with a revelation, looking at Savitri.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "विक्रम ने समझाया, \"जो पुतला सबसे ज़्यादा बार आता है, वह 'अ' होगा, क्योंकि हिंदी में वही सबसे आम है। जिस पुतले के हाथ में झंडा है, वहाँ एक शब्द ख़त्म होता है।\" इसके बाद वह एक-एक अक्षर जोड़ने लगे।",
+        "shots": [
+          {
+            "prompt": "Close-up of Vikram pointing his finger at a specific chalk stick figure carrying a flag on the paper.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Medium shot of Savitri writing Hindi letters on a notepad as Vikram explains the code.",
+            "characters": [
+              "savitri",
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Close-up of the sheet of paper showing stick figures mapped to Hindi letters.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "पहला शब्द 'इला' बना और अगली नक़ल में 'आ जाओ' निकला, यानी कोई इला को अपने पास बुला रहा था। फिर हीरालाल ने एक नई नक़ल भेजी। विक्रम ने उसे पढ़ा और वह कुर्सी से उछल पड़े।",
+        "shots": [
+          {
+            "prompt": "Close-up of Vikram decoding letters on paper forming the words Ila and Aao.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Medium shot of Vikram holding a newly arrived telegram sheet, jumping out of his wooden chair in shock.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "उस नए संदेश में लिखा था कि इला, भगवान के पास जाने को तैयार हो जा। विक्रम चीखे, \"सावित्री, अपना बैग उठाओ, हमें गोरखपुर की पहली गाड़ी पकड़नी है!\" लेकिन पहली गाड़ी अगली सुबह ही मिल सकती थी।",
+        "shots": [
+          {
+            "prompt": "Close-up of the newly decoded message on paper reading a lethal threat against Ila.",
+            "characters": []
+          },
+          {
+            "prompt": "Medium shot of Vikram shouting urgently to Savitri, pointing towards the door.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Wide shot of Banaras railway platform at dusk, a vintage steam train sitting on tracks under glowing lanterns.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "वे दोनों सुबह गोरखपुर स्टेशन पहुँचे। स्टेशन मास्टर ने उन्हें देखते ही पूछा, \"क्या आप ठाकुर साहब की हवेली जा रहे हैं? क्या आपने सुना नहीं कि कल रात वहाँ गोली चली है?\"",
+        "shots": [
+          {
+            "prompt": "Wide shot of a rural train station near Gorakhpur in early morning mist, steam train emitting smoke.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Medium shot of an old station master talking with grave concern to Vikram and Savitri on the platform.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "वे बहुत देर से पहुँचे थे। ठाकुर हीरालाल कुँवर मर चुके थे और इला बुरी तरह घायल और बेहोश थीं। पुलिस का कहना था कि इला ने अपने पति को गोली मारकर ख़ुद को भी मारने की कोशिश की है।",
+        "shots": [
+          {
+            "prompt": "Wide shot of the gloomy sugarcane estate haveli front yard, morning mist hanging low.",
+            "characters": []
+          },
+          {
+            "prompt": "Medium shot of Hiralal lying motionless on the floor inside the room, an overturned chair nearby.",
+            "characters": [
+              "hiralal"
+            ]
+          },
+          {
+            "prompt": "Close-up of Ila lying unconscious on a bed with blood-stained bandages on her shoulder while Savitri examines her.",
+            "characters": [
+              "ila",
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "यहाँ एक पल रुककर सोचिए। अब तक आपने कुछ पुतले और उनके अक्षर देख लिए हैं, इसलिए इस लिपि को आप भी तोड़ सकते हैं। सोचिए कि अगर आप विक्रम होते, तो इसी लिपि से क़ातिल को कैसे पकड़ते?",
+        "shots": [
+          {
+            "prompt": "Close-up of chalk stick figures drawn on the bedside wooden wall near an open window.",
+            "characters": []
+          },
+          {
+            "prompt": "Medium shot of Vikram looking directly towards the camera with a thoughtful expression.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Close-up of Vikram inspecting the chalk drawings on the wall with a magnifying lens.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "विक्रम ने कमरे को ध्यान से देखा और कहा, \"यहाँ एक नहीं, बल्कि दो गोलियाँ चली हैं। खिड़की पर बारूद का निशान है, इसलिए एक गोली बाहर से चली थी।\" बाहर फूलों की क्यारी में एक आदमी के जूतों के गहरे निशान थे।",
+        "shots": [
+          {
+            "prompt": "Medium shot of Vikram inspecting a bullet impact mark on the wooden window frame.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Close-up of gunpowder residue burn marks on the wooden window sill.",
+            "characters": []
+          },
+          {
+            "prompt": "Low angle close-up of deep boot footprints pressed into muddy flowerbeds outside the window.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "हवेली के पास एक फ़ार्म पर कलकत्ता से आया हुआ एक अजनबी ठहरा था। विक्रम ने चॉक उठाई और नाचते पुतलों की लिपि में एक संदेश लिखा। फिर उन्होंने एक लड़के के हाथ वह संदेश उस फ़ार्म पर भिजवा दिया।",
+        "shots": [
+          {
+            "prompt": "Wide shot of a distant rural farm cottage tucked near dense sugarcane fields.",
+            "characters": []
+          },
+          {
+            "prompt": "Medium shot of Vikram using chalk to carefully draw stick figure dancing men on a piece of paper.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Medium shot of a young village boy taking the folded paper note from Vikram.",
+            "characters": [
+              "vikram"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "उस संदेश में बस इतना लिखा था कि तुरंत आओ। वह पुतलों की उसी लिपि में था, जिसे सिर्फ़ इला और वह अजनबी जानते थे। विक्रम बोले, \"वह सोचेगा कि यह इला ने लिखा है, और वह ज़रूर आएगा।\"",
+        "shots": [
+          {
+            "prompt": "Close-up of the paper note showing the decoded stick figure message.",
+            "characters": []
+          },
+          {
+            "prompt": "Medium shot of Bheema receiving the note at a rustic farmhouse room, reading it with intense eyes.",
+            "characters": [
+              "bheema"
+            ]
+          },
+          {
+            "prompt": "Medium shot of Vikram speaking quietly to Savitri inside the shadowy haveli room.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "शाम ढलने लगी और वे अँधेरे कमरे में इंतज़ार करते रहे। तभी फाटक खुला और एक लंबा-चौड़ा आदमी तेज़ क़दमों से अंदर आया। वह भीमा सरदार था, जो कलकत्ता के अपराध की दुनिया का सबसे ख़तरनाक नाम था।",
+        "shots": [
+          {
+            "prompt": "Wide shot of the darkened haveli interior at twilight, shadows stretching across the hall.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Medium shot of Bheema stepping menacingly through the wooden front doorway into the haveli.",
+            "characters": [
+              "bheema"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "जैसे ही उसने दरवाज़ा खोला, स्थानीय इंस्पेक्टर और सिपाहियों ने उसे दबोच लिया। वह दहाड़ा, \"मुझे इला ने बुलाया था!\" विक्रम ने चॉक उसके सामने रखकर कहा, \"नहीं, भीमा, तुम्हें मैंने बुलाया था।\"",
+        "shots": [
+          {
+            "prompt": "Wide shot of Inspector Bhairav and police constables leaping out from shadows to grab Bheema.",
+            "characters": [
+              "bheema",
+              "inspector_bhairav"
+            ]
+          },
+          {
+            "prompt": "Medium shot of Vikram holding up a piece of chalk, looking calmly at Bheema who is held by constables.",
+            "characters": [
+              "vikram",
+              "bheema"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "भीमा ने सब कुछ उगल दिया। इला कलकत्ता के एक गैंग सरदार की बेटी थी। पुतलों वाली वह लिपि उसी गैंग की थी, जिसे उसके पिता ने बनाया था, और भीमा कभी इला का मंगेतर था।",
+        "shots": [
+          {
+            "prompt": "Close-up of Bheema speaking furiously while restrained by police constables.",
+            "characters": [
+              "bheema"
+            ]
+          },
+          {
+            "prompt": "Flashback medium shot of young Ila and Bheema in a dark underworld courtyard in old Calcutta.",
+            "characters": [
+              "ila",
+              "bheema"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "भीमा ने कहा, \"इला उस दुनिया से भागकर यहाँ आ गई थी और मैं उसे वापस ले जाना चाहता था। उस रात उसके पति ने मुझ पर गोली चलाई, तो मैंने भी गोली चला दी। मैं इला को कभी चोट नहीं पहुँचाना चाहता था।\"",
+        "shots": [
+          {
+            "prompt": "Close-up of Bheema shouting emotionally in the dim room.",
+            "characters": [
+              "bheema"
+            ]
+          },
+          {
+            "prompt": "Flashback silhouette shot of gun muzzle flash in the dark bedroom window at night.",
+            "characters": []
+          },
+          {
+            "prompt": "Medium shot of Bheema looking down remorsefully in front of Vikram and Inspector Bhairav.",
+            "characters": [
+              "bheema",
+              "vikram",
+              "inspector_bhairav"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "इला बच गई और होश में आकर उसने बताया कि पति को मरा हुआ देखकर उसने ख़ुद को दोषी मान लिया था। विक्रम बोले, \"यह मामला दो गोलियों, क्यारी में बने जूतों के निशानों और एक ऐसी लिपि से सुलझा, जिसे क़ातिल ख़ुद पढ़ सकता था। सच हमेशा छोटी चीज़ों में छिपा होता है।\"",
+        "shots": [
+          {
+            "prompt": "Medium shot of Ila sitting up in bed, weak and tearful, speaking to Savitri.",
+            "characters": [
+              "ila",
+              "savitri"
+            ]
+          },
+          {
+            "prompt": "Close-up of mud footprint in the garden flowerbed.",
+            "characters": []
+          },
+          {
+            "prompt": "Close-up of two spent bullet casings lying on the floor.",
+            "characters": []
+          },
+          {
+            "prompt": "Medium shot of Vikram standing near the window, addressing everyone calmly.",
+            "characters": [
+              "vikram",
+              "savitri",
+              "ila"
+            ]
+          }
+        ]
+      },
+      {
+        "narration": "भीमा की जेब से गैंग की पूरी लिपि की चाबी मिली। उसके आख़िर में एक ख़ास पुतला था, जो किसी अक्षर का नहीं था। वह कमल का एक फूल था और उसके आगे 'सरदार' लिखा हुआ था।",
+        "shots": [
+          {
+            "prompt": "Close-up of Inspector Bhairav holding a cipher paper pulled from Bheema's pocket.",
+            "characters": [
+              "inspector_bhairav"
+            ]
+          },
+          {
+            "prompt": "Extreme close-up of a unique stick figure drawing that ends in a stylized lotus bloom symbol.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "भीमा ने दाँत पीसकर कहा, \"क्या तुम मुझे पकड़कर ख़ुश हो, जासूस? हमारे ऊपर भी कोई है, जिसे कमल कहते हैं।\" उसकी जेब से उसी लिपि में लिखा एक आख़िरी संदेश भी मिला।",
+        "shots": [
+          {
+            "prompt": "Medium shot of Bheema glaring bitterly at Vikram before being led away in handcuffs.",
+            "characters": [
+              "bheema",
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Close-up of a small folded letter written in violet ink with a black lotus wax seal lying on a wooden table.",
+            "characters": []
+          }
+        ]
+      },
+      {
+        "narration": "विक्रम ने उसे पढ़ा, तो उसमें लिखा था कि पंकज को ख़बर दो। क्या पंकज किसी आदमी का नाम था? विक्रम ने उसी रात बनारस में पंकज नाम के हर बदनाम आदमी की सूची मँगवाई। क्या विक्रम सही दिशा में सोच रहे थे? अपना जवाब कमेंट में लिखिए।",
+        "shots": [
+          {
+            "prompt": "Close-up of Vikram holding and reading the decoded message on paper.",
+            "characters": [
+              "vikram"
+            ]
+          },
+          {
+            "prompt": "Wide shot of Banaras city streets at night, oil lamps glowing in dark alleys.",
+            "characters": []
+          },
+          {
+            "prompt": "Medium shot of Vikram in his Banaras room looking out at the night sky, deep in thought.",
+            "characters": [
+              "vikram",
+              "savitri"
+            ]
+          }
+        ]
+      }
+    ],
+    "clips": [
+      {
+        "start_scene": 1,
+        "end_scene": 2,
+        "hook_text": "दीवार पर नाचते पुतले",
+        "title": "हर सुबह दीवार पर चॉक के पुतले... और हर बार वो बेहोश हो जाती | जासूस विक्रम",
+        "end_question": "इनका मतलब क्या है?"
+      },
+      {
+        "start_scene": 5,
+        "end_scene": 7,
+        "hook_text": "गुप्त लिपि टूटी",
+        "title": "पुतलों की गुप्त लिपि: पहला शब्द निकला 'इला' | जासूस विक्रम",
+        "end_question": "अगला शब्द आप डिकोड कीजिए - कमेंट में लिखिए।"
+      },
+      {
+        "start_scene": 13,
+        "end_scene": 15,
+        "hook_text": "क़ातिल के लिए जाल",
+        "title": "जासूस ने क़ातिल की ही लिपि में उसे बुलावा भेजा... | जासूस विक्रम",
+        "end_question": "क्या क़ातिल जाल में फँसेगा?"
+      },
+      {
+        "start_scene": 15,
+        "end_scene": 16,
+        "hook_text": "दरवाज़े पर काल",
+        "title": "अँधेरे में आया ख़तरनाक अपराधी | जासूस विक्रम",
+        "end_question": "क्या भीमा पकड़ा जाएगा?"
+      },
+      {
+        "start_scene": 20,
+        "end_scene": 22,
+        "hook_text": "काले कमल का नया सुराग",
+        "title": "काले कमल का अगला खौफनाक रहस्य | जासूस विक्रम",
+        "end_question": "काला कमल कौन है? कमेंट में लिखिए।"
+      }
+    ],
+    "episode": 15,
+    "episode_title": "नाचते पुतले"
+  },
+  "active_clips": [
+    0,
+    1,
+    2
+  ],
+  "next_clip": 3,
+  "batch": null
+}

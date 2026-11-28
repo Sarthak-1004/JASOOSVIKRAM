@@ -1,5 +1,5 @@
 {
- "next": 15,
+ "next": 16,
  "done": [
   {
    "n": 1,
@@ -70,6 +70,11 @@
    "n": 14,
    "title": "बीमार के कमरे में कौन?",
    "summary": "Detective Vikram investigates the disappearance of a vital government treaty from a locked Calcutta office, leading to a sickroom break-in in Barrackpore."
+  },
+  {
+   "n": 15,
+   "title": "नाचते पुतले",
+   "summary": "In 1923 Gorakhpur, chalk drawings of stick-figure dancing men appear on a sugarcane estate's walls, hiding a coded gang message that leads to murder."
   }
  ]
 }
